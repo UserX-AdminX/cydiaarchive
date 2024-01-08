@@ -1,10 +1,15 @@
-Package: com.macciti.abootlogopack
-Name: A Boot Logo Pack
-Version: 1.1
+Package: org.thebigboss.sbsandroidlocktoggle
+Name: Androidlock XT SBSettings Toggle
+Version: 1.0.3
 Architecture: iphoneos-arm
-Depends: winterboard
-Description: This is a pack of 25 Boot Logo s that work with Winterboard.
-Maintainer: iC <apt@macciti.com>
-Author: Otis Huff <Killingspree187@yahoo.com>
-Section: Themes (System)
-Depiction: http://www.macciti.com/pages/abootlogopack/index.php
+Description: toggle on/off AndroidLock XT
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sbsandroidlocktoggleDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sbsandroidlocktoggleDp
+Installed-Size: 53
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: rhodysurf <rhodysurf13@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Addons (SBSettings)
+dev: rhodysurf
+Depends: sbsettings
+Icon: file:///var/mobile/Library/SBSettings/Themes/Default/androidlocktoggle/on.png

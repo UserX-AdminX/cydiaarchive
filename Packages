@@ -523,3 +523,48 @@ Section: Themes (System)
 Description: This is a pack of 25 Boot Logo s that work with Winterboard.
 Author: Otis Huff <Killingspree187@yahoo.com>
 Name: A Boot Logo Pack
+
+Package: vn.gsm.androidlockxt
+Version: 3.6k
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader (>= 2.0.3-2), firmware (>= 3.2)
+Maintainer: Cydia.vn <repo@cydia.vn>
+Filename: /vn.gsm.androidlockxt_3.6k_iphoneos-arm.deb
+Size: 3880578
+MD5sum: edd47ed099c289a5b7144c6848c78f9a
+SHA1: c7a57f5f61adeb24510a38608f4e240f2d77d87b
+SHA256: 1386e3e262265c8f3c1d207350efd7df31cdd15cf7f37688746ae6a774819788
+Section: !CydiaVn-Tools
+Description: An Android-like lockscreen where you have to draw the correct pattern to unlock.
+Author: Zmaster <repo@cydia.vn>
+Name: AndroidLock XT
+
+Package: mobi.macciti.apptag
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: iC <>
+Filename: /mobi.macciti.apptag_1.1_iphoneos-arm.deb
+Size: 10278
+MD5sum: 16b9c7a60bf53a575435534c284113ed
+SHA1: 939c30bf5e489d51918ccb8ab876918166721a8a
+SHA256: 7c7d2427d9e6fbd5994f59d7a621a81e209107afce6a6d8fcca1c1c2eca4f093
+Section: Tweaks
+Description: This tweak will allow you to create badges on your iPod Touch or iPhone with no computer! Instructions are located in Settings > AppTag.
+Author: 0njai <>
+Name: AppTag
+
+Package: org.thebigboss.sbsandroidlocktoggle
+Version: 1.0.3
+Architecture: iphoneos-arm
+Depends: sbsettings
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: /org.thebigboss.sbsandroidlocktoggle_1.0.3_iphoneos-arm.deb
+Size: 28304
+MD5sum: ac053e4400bf50a75024a8be018ee8a5
+SHA1: df9784eb1ed06f409891203c55c0902599124f68
+SHA256: c708959129549c917c2dafb5136f6dcb141daf52dedd1c4e682f91e27a895e3f
+Section: Addons (SBSettings)
+Description: toggle on/off AndroidLock XT
+Author: rhodysurf <rhodysurf13@gmail.com>
+Name: Androidlock XT SBSettings Toggle
