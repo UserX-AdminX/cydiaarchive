@@ -673,3 +673,33 @@ Section: System
 Description: BytaFont 2 lets you apply fonts to your iDevice in few taps.
 Author: iPhoneRuler.net <info@iphoneruler.net>
 Name: BytaFont 2
+
+Package: vn.gsm.localiapstore
+Version: 1.4-2
+Architecture: iphoneos-arm
+Depends: gsmicon, firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Maintainer: Cydia.vn <repo@cydia.vn>
+Filename: /vn.gsm.localiapstore_1.4-2_iphoneos-arm.deb
+Size: 70892
+MD5sum: 3f3dc08c728caa9309fe6b788b09872b
+SHA1: b47840b58d30ef20931f7e2902f07f815ee3b0ed
+SHA256: b2065a61ff458b42ddcab87b094d08221b24a837e26059ce54323f866e8ce1e5
+Section: !CydiaVn-Tools
+Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
+Author: anon dev <repo@cydia.vn>
+Name: LocalIAPStore
+
+Package: cydia.net.angelxwind.appsyncunified
+Version: 78.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), firmware (<= 13.5.5), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Filename: /cydia.net.angelxwind.appsyncunified_78.0_iphoneos-arm.deb
+Size: 42210
+MD5sum: 9e324b47dc9dfca5e8d1c104ad46d1ce
+SHA1: e12e8ea3fcfcdee15529bc253ac7d4752919c6f0
+SHA256: 1ab0696d066a92b7fbcafbc63a215e24fc8e450590c20bed79d45aa3d693662f
+Section: Tweaks
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Name: AppSync Unified
