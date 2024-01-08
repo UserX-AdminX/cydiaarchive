@@ -433,3 +433,18 @@ Section: Tweaks
 Description: safe mode safety extension (safe)
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Substrate Safe Mode
+
+Package: cydia
+Version: 1.1.30
+Architecture: iphoneos-arm
+Depends: Pre-debianutils, dpkg (>= 1.14.25-8)
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Filename: /cydia_1.1.30_iphoneos-arm.deb
+Size: 1292624
+MD5sum: bb0cdc40d3abac5b874972ad8a8b70a1
+SHA1: a237e6a09c77e91e1c89d212e53a85e691b0b47a
+SHA256: f80a5228b2bacbd8e2640d96dc1b15a5cf0db681d2ed976cf53f1f5c64a9b184
+Section: Packaging
+Description: graphical iPhone front-end for APT
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Cydia Installer

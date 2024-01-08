@@ -1,14 +1,18 @@
-Package: com.saurik.substrate.safemode
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Substrate Safe Mode
-Description: safe mode safety extension (safe)
-Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
-Depends: mobilesubstrate (>= 0.9.3367+38)
-Architecture: iphoneos-arm
+Package: cydia
+Priority: required
+Section: Packaging
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Priority: optional
-Section: Tweaks
-Conflicts: safe-mode-fixer-ios7
-Replaces: safe-mode-fixer-ios7
-Version: 0.9.6001
-Installed-Size: 156
+Architecture: iphoneos-arm
+Version: 1.1.30
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Depends: apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
+Provides: bigbossbetarepo, cydia-sources
+Description: graphical iPhone front-end for APT
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Tag: purpose::uikit, cydia::essential, role::enduser
+Installed-Size: 7160
