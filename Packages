@@ -478,3 +478,18 @@ Section: System
 Description: Return the WinterBoard app.
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: WinterBoard App
+
+Package: com.codethemed.ifiletheme5455
+Version: 2.0.0
+Architecture: iphoneos-arm
+Depends: winterboard
+Maintainer: ZodTTD <zodttd@zodttd.com>
+Filename: /com.codethemed.ifiletheme5455_2.0.0_iphoneos-arm.deb
+Size: 478602
+MD5sum: 8f853fc1669643b4d2a5ad15dc17c59d
+SHA1: 5c39d9dabcf7cf8e0a412416cff269fceabd958a
+SHA256: 07ebc14f0207d9e3f9b1a86977bf7d6deabe16245523e45177085f8c42126eb9
+Section: Themes (SpringBoard)
+Description: Winterboard theme based of file formats for music, videos, photos, and other file formats. Wallpapers include familiar things about Mac OSX, and including file types from Windows and Mac. Enjoy!
+Author: iPodGuru <jarjarcomedy@yahoo.com>
+Name: iFile Theme
