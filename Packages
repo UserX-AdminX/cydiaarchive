@@ -358,3 +358,18 @@ Section: HYI - Tweaks
 Description: Dynamically enables native tethering
 Author: cirdan & sbingner <repo@hackyouriphone.org>
 Name: TetherMe
+
+Package: org.chronic-dev.animate
+Version: 1.0.1-1
+Architecture: iphoneos-arm
+Depends: preferenceloader
+Maintainer: Bigboss <bigboss@thebigboss.org>
+Filename: /org.chronic-dev.animate_1.0.1-1_iphoneos-arm.deb
+Size: 129030
+MD5sum: 9ff9572a9c35aa4075223115a86341f6
+SHA1: 33ca74b90af9ed2bcad2ca9dd8fcacd257cdac2d
+SHA256: a92728c1ce0602e9c59c5372a2938b7a3475f5d5ebdfce65431136c1613ece34
+Section: System
+Description: Boot Logo Animations for 4.2.1 untether
+Author: Chronic-Dev Inc. <jaywalker@chronic-dev.com>
+Name: animate

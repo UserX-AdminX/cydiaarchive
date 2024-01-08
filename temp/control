@@ -1,13 +1,15 @@
-Package: com.hackyouriphone.tetherme
-Name: TetherMe
-Version: 3.1-1
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), firmware (<< 3.2) | firmware (>= 4.0), preferenceloader (>= 2.2.2), network-cmds
-Conflicts: net.tetherme.apnedit, net.tetherme.preferences
-Replaces: net.tetherme.apnedit, net.tetherme.preferences
+Package: org.chronic-dev.animate
+Depends: preferenceloader
+Name: animate
+Version: 1.0.1-1
+Installed-Size: 188
 Architecture: iphoneos-arm
-Author: cirdan & sbingner <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=tetherme
-Section: HYI - Tweaks
-Description: Dynamically enables native tethering
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=tetherme
-Maintainer: iLeoLion <repo@hackyouriphone.org>
+Description: Boot Logo Animations for 4.2.1 untether
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animateData
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animateData
+Maintainer: Bigboss <bigboss@thebigboss.org>
+Author: Chronic-Dev Inc. <jaywalker@chronic-dev.com>
+Section: System
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: chronic-dev
+
