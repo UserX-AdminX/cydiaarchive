@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "Updating file permissions…"
+chmod -R 777 /{var/mobile/Library/Keyboard,Library}/DisplayRecorder
+chown -R mobile:mobile /{var/mobile/Library/Keyboard,Library}/DisplayRecorder
+rm -rf /var/mobile/Library/Keyboard/DisplayRecorder/.recording.{mov,avi} || true
