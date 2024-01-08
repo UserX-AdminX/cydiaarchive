@@ -418,3 +418,18 @@ Section: Tweaks
 Description: Support library allowing tweaks to communicate with sandboxed processes
 Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
 Name: RocketBootstrap
+
+Package: com.saurik.substrate.safemode
+Version: 0.9.6001
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Filename: /com.saurik.substrate.safemode_0.9.6001_iphoneos-arm.deb
+Size: 13226
+MD5sum: 5e9905d35c71075b2a7f0aed5cd4b1db
+SHA1: 916af06e0c879233ff22d795b04abf8276ff905b
+SHA256: 86515cb9f6832247dbeae8427b996099dc8759bb1ef1d719c293123f2f531ee1
+Section: Tweaks
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
