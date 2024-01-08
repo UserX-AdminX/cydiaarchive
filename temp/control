@@ -1,12 +1,13 @@
-Package: net.angelxwind.mobileterminal-applesdk
-Name: MobileTerminal
-Version: 521-karen-2
-Section: Terminal_Support
-Pre-Depends: firmware (>= 3.2), dpkg (>= 1.14.25-8)
-Depends: bash, coreutils, ncurses, system-cmds
+Package: com.ichitaso.winterboardapp
+Priority: optional
+Section: System
+Maintainer: ichitaso
 Architecture: iphoneos-arm
-Author: Karen/あけみ <karen@akemi.ai>
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Description: A Terminal emulator. This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: SSH into remote boxes, download files, edit configuration files, whatever. 
-Depiction: https://cydia.akemi.ai/?page/net.angelxwind.mobileterminal-applesdk
-Homepage: https://cydia.akemi.ai
+Version: 0.9.3915
+Description: Return the WinterBoard app.
+Name: WinterBoard App
+Depends: winterboard, apt7
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Homepage: http://www.saurik.com/id/9
+Icon: file:///Applications/WinterBoard.app/icon@2x.png
+

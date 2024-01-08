@@ -463,3 +463,18 @@ Section: Terminal_Support
 Description: A Terminal emulator. This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: SSH into remote boxes, download files, edit configuration files, whatever. 
 Author: Karen/あけみ <karen@akemi.ai>
 Name: MobileTerminal
+
+Package: com.ichitaso.winterboardapp
+Version: 0.9.3915
+Architecture: iphoneos-arm
+Depends: winterboard, apt7
+Maintainer: ichitaso
+Filename: /com.ichitaso.winterboardapp_0.9.3915_iphoneos-arm.deb
+Size: 165204
+MD5sum: c0bad8e3066b03c3a6633db1187cdbe6
+SHA1: 065ee7f9e6d23c97dc8859f1c5d132d12a1b8615
+SHA256: aa9a9b02cdfdb0cc161f6928ad3ed13144c85370672c7dc675de767a361ea890
+Section: System
+Description: Return the WinterBoard app.
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: WinterBoard App
