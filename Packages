@@ -613,3 +613,18 @@ Section: System
 Description: Move common toggles directly into springboard where they're always there!
 Author: BigBoss <bigboss@thebigboss.org>
 Name: SBSettings
+
+Package: com.mathieubolard.killbackground
+Version: 1.3.1-7
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 4.0), preferenceloader, applist
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: /killbackground_1.3.1-7.deb
+Size: 71698
+MD5sum: a67106c323ca059b2b8680bd030636cd
+SHA1: b2f7cd9fcf117c24c7d558c35410376219698d0e
+SHA256: c5ad31c11a3af480d4c3e060f9bc296056d08d9e746b493e1cf29a32a7669524
+Section: Tweaks
+Description: kill all background apps from switcher
+Author: Mathieu Bolard (mattlawer) <mattlawer08@gmail.com>
+Name: KillBackground
