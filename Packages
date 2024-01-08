@@ -568,3 +568,18 @@ Section: Addons (SBSettings)
 Description: toggle on/off AndroidLock XT
 Author: rhodysurf <rhodysurf13@gmail.com>
 Name: Androidlock XT SBSettings Toggle
+
+Package: com.blackgeek.geeksn0wsemiuntetherpayload
+Version: 1.0.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 7.1)
+Maintainer: Matteo Piccina <altermatte@gmail.com>
+Filename: /com.blackgeek.geeksn0wsemiuntetherpayload_1.0.0_iphoneos-arm.deb
+Size: 109492
+MD5sum: cca0d9c2f63892d31664668793b51b01
+SHA1: dc77dccc8901ec8fcf9cd3f3fae501391bb123f7
+SHA256: 24fc64e687910e6bc3a975b96045e9a6b52e6b1a01e8c3816179cdd6b835b153
+Section: Jailbreaks
+Description: GeekSn0w Semi Untether Payload. It's for iOS 7.1 !
+Author: BlackGeek <blackgeektutorial@gmail.com>
+Name: GeekSn0w Semi Untether Payload
