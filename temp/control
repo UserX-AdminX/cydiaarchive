@@ -1,10 +1,12 @@
-Homepage: http://yellowsn0w.com/
-Depiction: http://yellowsn0w.com/depiction/index.html
-Package: yellowsn0w
-Name: yellowsn0w
-Version: 0.9.6
+Package: com.myrepospace.bassamkassem.iphonenativeapps
+Section: iPad
+Maintainer: Bassam Kassem <Bassam.Kassem@Me.com>
 Architecture: iphoneos-arm
-Description: An iPhone 3G soft unlock application.
-Maintainer: Dev Team <blog@iphone-dev.org>
-Author: Dev Team <blog@iphone-dev.org>
-Section: Utilities
+Version: 8.2.2
+Depends: mobilesubstrate
+Pre-Depends: firmware (>= 5.1), gsc.ipad, firmware (<< 6.0)
+Conflicts: com.rpetrich.belfry, com.myrepospace.bassamkassem.siriportipad
+Description: Full port of iPhone Native Apps (Weather, Stocks, Clocks, Calculator, Compass and Voice Memos)
+Name: iPhone Native Apps iOS 5.1.x
+Homepage: http://Cydia.BassamKassem.com
+Author: Bassam Kassem <Bassam.Kassem@Me.com>
