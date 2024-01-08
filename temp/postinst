@@ -1,0 +1,4 @@
+#!/bin/bash
+chmod 777 /var/mobile/Library/SBSettings
+chown -R mobile:mobile /var/mobile/Library/SBSettings
+exit 0

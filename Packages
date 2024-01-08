@@ -598,3 +598,18 @@ Section: BeYoIP Apps
 Description: THE App to download/install your IPA!!
 Author: puy0
 Name: install0us
+
+Package: sbsettings
+Version: 6.0.5-1
+Architecture: iphoneos-arm
+Depends: libhide (>= 2.0.6-4), mobilesubstrate, sbsettingstoggles (>= 3.0.5), shell-cmds, firmware (<< 4.0) | libactivator (>= 1.3.2), firmware (<< 5.0) | com.chpwn.weeloader
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: /sbsettings_6.0.5-1.deb
+Size: 2139060
+MD5sum: 89103464ba327fc91234afab4655040f
+SHA1: d14772eeaed7c32999fd45b34d16ada68ff33c07
+SHA256: a8a7c2c403638566d0f670ecce1dff06a04f55fe984eb074a16e275c12aa7581
+Section: System
+Description: Move common toggles directly into springboard where they're always there!
+Author: BigBoss <bigboss@thebigboss.org>
+Name: SBSettings
