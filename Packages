@@ -28,3 +28,18 @@ Section: Tweaks
 Description: Turn your iPad 1 3G into a fully functional phone
 Author: iPhoneIslam <http://siriport.ru/forum/user/1-gdimait/>
 Name: PhoneIt-iPad-5.1.x (Cracked)
+
+Package: ultrasn0w
+Version: 1.2.4
+Architecture: iphoneos-arm
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.3209-1), firmware (<< 5.0) | mobilesubstrate (>= 0.9.3900)
+Maintainer: Dev Team <blog@iphone-dev.org>
+Filename: /ultrasn0w_1.2.4.deb
+Size: 14148
+MD5sum: 21b0b34dfba77e69d9f614dfd59c0d81
+SHA1: 280dec151dc988120bcee6e20059de843a694813
+SHA256: d3a644c1e7a2eeceefd1691d1b0455306f70972f616aeb87c1d395018c27d7bd
+Section: Utilities
+Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
+Author: Dev Team <blog@iphone-dev.org>
+Name: ultrasn0w

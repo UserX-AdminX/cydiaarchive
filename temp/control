@@ -1,13 +1,11 @@
-Author: iPhoneIslam <http://siriport.ru/forum/user/1-gdimait/>
-Maintainer: gdimait <http://siriport.ru/forum/user/1-gdimait/>
-Name: PhoneIt-iPad-5.1.x (Cracked)
-Package: phoneitipda-5.1
-Priority: standard
-Section: Tweaks
-Depends: mobilesubstrate
-Version: 1.0
+Homepage: http://ultrasn0w.com/
+Package: ultrasn0w
+Name: ultrasn0w
+Version: 1.2.4
 Architecture: iphoneos-arm
-Description: Turn your iPad 1 3G into a fully functional phone
-Depiction: http://aptinfo.siriport.ru/repo_files/pages/phoneitipda.html
-homepage: http://siriport.ru
-Sponsor: SiriPort.Ru <http://siriport.ru>
+Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
+Maintainer: Dev Team <blog@iphone-dev.org>
+Author: Dev Team <blog@iphone-dev.org>
+Section: Utilities
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.3209-1), firmware (<< 5.0) | mobilesubstrate (>= 0.9.3900)
+Conflicts: blacksn0w, yellowsn0w, gsc.wildcat
