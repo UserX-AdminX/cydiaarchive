@@ -1,15 +1,15 @@
-Package: org.chronic-dev.animate
-Depends: preferenceloader
-Name: animate
-Version: 1.0.1-1
-Installed-Size: 188
+Package: com.rpetrich.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Name: RocketBootstrap
 Architecture: iphoneos-arm
-Description: Boot Logo Animations for 4.2.1 untether
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animateData
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animateData
-Maintainer: Bigboss <bigboss@thebigboss.org>
-Author: Chronic-Dev Inc. <jaywalker@chronic-dev.com>
-Section: System
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
 Sponsor: thebigboss.org <http://thebigboss.org>
-dev: chronic-dev
-
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.10~beta1
+Installed-Size: 596
