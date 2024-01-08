@@ -359,7 +359,7 @@ Description: Dynamically enables native tethering
 Author: cirdan & sbingner <repo@hackyouriphone.org>
 Name: TetherMe
 
-Package: org.chronic-dev.animate
+Package: org.chronic-dev.animate.original
 Version: 1.0.1-1
 Architecture: iphoneos-arm
 Depends: preferenceloader
