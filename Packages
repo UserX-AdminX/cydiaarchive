@@ -374,7 +374,7 @@ Description: Boot Logo Animations for 4.2.1 untether
 Author: Chronic-Dev Inc. <jaywalker@chronic-dev.com>
 Name: animate
 
-Package: libactivator
+Package: libactivator.original
 Version: 1.9.13~rc6
 Architecture: iphoneos-arm
 Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
@@ -389,7 +389,7 @@ Description: Centralized gestures, button and shortcut management for iOS
 Author: Ryan Petrich <rpetrich+activator@gmail.com>
 Name: Activator
 
-Package: com.a3tweaks.flipswitch
+Package: com.a3tweaks.flipswitch.original
 Version: 1.0.16~rc3
 Architecture: iphoneos-arm
 Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.9) | firmware (<< 7.0)
