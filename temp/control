@@ -1,18 +1,12 @@
-Package: cydia
-Priority: required
-Section: Packaging
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Package: net.angelxwind.mobileterminal-applesdk
+Name: MobileTerminal
+Version: 521-karen-2
+Section: Terminal_Support
+Pre-Depends: firmware (>= 3.2), dpkg (>= 1.14.25-8)
+Depends: bash, coreutils, ncurses, system-cmds
 Architecture: iphoneos-arm
-Version: 1.1.30
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Depends: apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4)
-Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
-Provides: bigbossbetarepo, cydia-sources
-Description: graphical iPhone front-end for APT
-Name: Cydia Installer
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Tag: purpose::uikit, cydia::essential, role::enduser
-Installed-Size: 7160
+Author: Karen/あけみ <karen@akemi.ai>
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Description: A Terminal emulator. This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: SSH into remote boxes, download files, edit configuration files, whatever. 
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.mobileterminal-applesdk
+Homepage: https://cydia.akemi.ai

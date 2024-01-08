@@ -448,3 +448,18 @@ Section: Packaging
 Description: graphical iPhone front-end for APT
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Cydia Installer
+
+Package: net.angelxwind.mobileterminal-applesdk
+Version: 521-karen-2
+Architecture: iphoneos-arm
+Depends: bash, coreutils, ncurses, system-cmds
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Filename: /net.angelxwind.mobileterminal-applesdk.deb
+Size: 248684
+MD5sum: d49b219bfcb8555498b2c2589bc40040
+SHA1: f4d75c8392f9ca835faa01c4d5d609c85ca87ea4
+SHA256: 5e2937aaa67c40511e4d8c1593df5713bbe9efdb1eff486d1cbea8ac6f22e685
+Section: Terminal_Support
+Description: A Terminal emulator. This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: SSH into remote boxes, download files, edit configuration files, whatever. 
+Author: Karen/あけみ <karen@akemi.ai>
+Name: MobileTerminal
