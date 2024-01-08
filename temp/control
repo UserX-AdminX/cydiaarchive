@@ -1,14 +1,10 @@
-Package: uk.invoxiplaygames.tubefixer
-Name: TubeFixer for iOS
+Homepage: http://yellowsn0w.com/
+Depiction: http://yellowsn0w.com/depiction/index.html
+Package: yellowsn0w
+Name: yellowsn0w
+Version: 0.9.6
 Architecture: iphoneos-arm
-Description: Package to fix YouTube on iOS 3-5
-Depends: mobilesubstrate, firmware (>= 3.0), preferenceloader
-Pre-Depends: dpkg (>= 1.13.25-5)
-Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Homepage: http://tubefixer.ovh/
-Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Section: Tweaks
-Depiction: http://cydia.invoxiplaygames.uk/dp/tubefixer.php
-Icon: file:///Library/Application%20Support/uk.invoxiplaygames.tubefixer/tubefixericon.png
-Version: 2.0-194+debug
-Installed-Size: 156
+Description: An iPhone 3G soft unlock application.
+Maintainer: Dev Team <blog@iphone-dev.org>
+Author: Dev Team <blog@iphone-dev.org>
+Section: Utilities
