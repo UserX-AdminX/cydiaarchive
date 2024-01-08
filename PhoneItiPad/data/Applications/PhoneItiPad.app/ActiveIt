@@ -1,0 +1,7 @@
+#!/bin/bash
+	
+	DIR=/Applications/PhoneItiPad.app/Info.plist
+	if [ -f  "$DIR" ] ; then
+	    mv -f "$DIR" "$DIR".bak
+	fi
+	

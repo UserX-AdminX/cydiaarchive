@@ -1,0 +1,27 @@
+#!/bin/sh
+
+echo "Done."
+
+	if [ -f /Applications/PhoneItiPad.app/PhoneItiPad ] ; then
+	  chown root:wheel /Applications/PhoneItiPad.app/PhoneItiPad
+	  chmod +s /Applications/PhoneItiPad.app/PhoneItiPad
+	fi
+	
+	DIR1=/System/Library/Carrier\ Bundles/iPad
+	DIR2=/Applications/PhoneItiPad.app
+	if [ -d  "$DIR1" ] ; then
+	  if [ ! -d "$DIR2"/iPad  ] ; then
+	    mv -f "$DIR1" "$DIR2"
+	  fi
+	fi	
+
+echo ""
+echo "* PhoneIt-iPad Installed Successfully *"
+echo ""
+echo "Done. Reboot your Device. Thanks to gdimait"
+echo ""
+echo "Visit SiriPort.Ru for support"
+echo ""
+echo "Follow me on twitter for updates: @siriport_ru"
+echo ""
+echo "Please (Reboot)"

@@ -1,16 +1,13 @@
-Package: siriport.ru.appsync50plus
-Version: 2.2
+Author: iPhoneIslam <http://siriport.ru/forum/user/1-gdimait/>
+Maintainer: gdimait <http://siriport.ru/forum/user/1-gdimait/>
+Name: PhoneIt-iPad-5.1.x (Cracked)
+Package: phoneitipda-5.1
 Priority: standard
 Section: Tweaks
-Maintainer: SiriPort.Ru <gdimaits777@gmail.com>
-Pre-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: us.hackulo.appsync50
-Replaces: us.hackulo.appsync50
-Provides: appsync
+Depends: mobilesubstrate
+Version: 1.0
 Architecture: iphoneos-arm
-Name: AppSync for iOS 5&6
-Author: Dissident <apps@hackulo.us>
+Description: Turn your iPad 1 3G into a fully functional phone
+Depiction: http://aptinfo.siriport.ru/repo_files/pages/phoneitipda.html
+homepage: http://siriport.ru
 Sponsor: SiriPort.Ru <http://siriport.ru>
-Description: AppSync allows you to sync and install cracked iOS applications. Works for iOS5.x and 6.x
-Depiction: http://repo.siriport.ru/projects/AppSync/
-

@@ -1,6 +1,20 @@
-#!/bin/bash
+#!/bin/sh
 
-echo -en "Removing MobileSubstrate installd hook...\n"
-foo=$(/usr/bin/patchsync remove)
-foo=$(launchctl unload /System/Library/LaunchDaemons/com.apple.mobile.installd.plist) 
-foo=$(launchctl load /System/Library/LaunchDaemons/com.apple.mobile.installd.plist)
+declare -a cydia
+cydia=($CYDIA)
+
+	DIR1=/System/Library/Carrier\ Bundles
+	DIR2=/Applications/PhoneItiPad.app/iPad
+	if [ -d  "$DIR2" ] ; then
+	  if [ ! -d "$DIR1"/iPad  ] ; then
+	    mv -f "$DIR2" "$DIR1"
+	  fi
+	fi	
+	
+if [[ $1 == remove ]]; then	
+	echo "Please REBOOT your device"
+	if [[ ${CYDIA+@} ]]; then
+		eval "echo 'finish:reboot' >&${cydia[0]}"
+	fi
+fi
+	

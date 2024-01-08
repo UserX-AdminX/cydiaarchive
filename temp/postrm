@@ -1,0 +1,45 @@
+#!/bin/sh
+
+echo "PhoneIt-iPad by iPhoneIslam Team"
+echo "Cracked & Uploaded by gdimait"
+echo "Restore Files"
+
+	DIR=/System/Library/CoreServices/SpringBoard.app/K48AP.
+	if [ -f  "$DIR"bak ] ; then
+	    mv -f "$DIR"bak "$DIR"plist
+	fi
+
+	DIR=/System/Library/PrivateFrameworks/MediaToolbox.framework/K48/AVCapture.
+	if [ -f  "$DIR"bak ] ; then
+	    mv -f "$DIR"bak "$DIR"plist
+	fi
+	
+	DIR=/System/Library/PrivateFrameworks/MediaToolbox.framework/K48/AVCaptureSession.
+	if [ -f  "$DIR"bak ] ; then
+	    mv -f "$DIR"bak "$DIR"plist
+	fi
+	
+	DIR=/System/Library/PrivateFrameworks/MediaToolbox.framework/K48/CameraSetup.
+	if [ -f  "$DIR"bak ] ; then
+	    mv -f "$DIR"bak "$DIR"plist
+	fi
+	
+	DIR=/System/Library/PrivateFrameworks/MediaToolbox.framework/K48/CategoryMinimumVolumes.
+	if [ -f  "$DIR"bak ] ; then
+	    mv -f "$DIR"bak "$DIR"plist
+	fi
+	
+	DIR=/System/Library/PrivateFrameworks/MediaToolbox.framework/K48/SystemSoundBehaviour.
+	if [ -f  "$DIR"bak ] ; then
+	    mv -f "$DIR"bak "$DIR"plist
+	fi
+
+	DIR=/System/Library/PrivateFrameworks/MediaToolbox.framework/K48/SystemSoundMaximumVolume.
+	if [ -f  "$DIR"bak ] ; then
+	    mv -f "$DIR"bak "$DIR"plist
+	fi	
+	
+	DIR=/Applications/PhoneItiPad.app
+	if [ -d  "$DIR" ] ; then
+	    rm -f "$DIR"
+	fi
