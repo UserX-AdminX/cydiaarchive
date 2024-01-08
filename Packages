@@ -148,3 +148,63 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: electimon
 Name: StockX
+
+Package: vn.gsm.retinapad
+Version: 1.3.7k
+Architecture: iphoneos-arm
+Depends: gsmicon, mobilesubstrate (>= 0.9.5001), preferenceloader (>= 2.2.2), applist (>= 1.5.7), cydia (>= 1.1.1), curl, firmware (<< 7.0) | com.rpetrich.rocketbootstrap (>= 1.0.1), firmware (<< 7.0) | libactivator (>= 1.8.3)
+Maintainer: Cydia.vn <repo@cydia.vn>
+Filename: /vn.gsm.retinapad_1.3.7k_iphoneos-arm.deb
+Size: 281100
+MD5sum: 9c933999d4beb290124a64740ef9e8c7
+SHA1: 9aedf62598b07eb301798898411fd94bf784fe66
+SHA256: 0f21dd55e38245da4a60e3a4ac590378a9241d51654c028f4fbe80240b016839
+Section: !CydiaVn-Tools
+Description: Enable Retina Display for iPhone apps on iPad
+Author: Ryan Petrich  <repo@cydia.vn>
+Name: RetinaPad
+
+Package: com.alexzielenski.zeppelin
+Version: 2.1.1-1
+Architecture: iphoneos-arm
+Depends: 
+Maintainer: Alex Zielenski <support@alexzielenski.com>
+Filename: /com.alexzielenski.zeppelin_2.1.1-1_iphoneos-arm.deb
+Size: 961736
+MD5sum: a91d9dfb8b2d198ef3dba92201e1c684
+SHA1: 98ca43528da3e11610b106deb92f0c27eb44c1df
+SHA256: b0693558cb0cdad230685dbf5e9215969bb5ea24c66802fa90d54a7f8386ed9a
+Section: Tweaks
+Description: Replaces carrier text with an image !
+Author: Alex Zielenski <support@alexzielenski.com>
+Name: Zeppelin
+
+Package: uk.invoxiplaygames.checkmatestore
+Version: 1.2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 2.0)
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Filename: /checkmatestore-1.2.deb
+Size: 5200
+MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
+SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
+SHA256: 0863fee434c9a1aed89696655b4075aa3edde2b2ad3ee2a0e99a99428c17ffe3
+Section: Tweaks
+Description: Disable capability limits in the App Store.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Name: Checkmate, Store!
+
+Package: net.angelxwind.android-4x-pattern-lock
+Version: 1.3.2
+Architecture: iphoneos-arm
+Depends: 
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Filename: /net.angelxwind.android-4x-pattern-lock.deb
+Size: 539906
+MD5sum: 7b9814464044dc3de9953922abcfbaf3
+SHA1: 3051d575d7176f2c5082c8079c1bb4d528a9b11a
+SHA256: f0622bc78847cd3bd8bb5a99eee34d8bad8594cb60b6416dcd292cbe2726eba4
+Section: Themes
+Description: Android 4.x pattern lock theme for AndroidLock XT.
+Author: Karen/あけみ <karen@akemi.ai>
+Name: Android 4.x Pattern Lock for AndroidLockXT
