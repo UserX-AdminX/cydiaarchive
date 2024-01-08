@@ -1,0 +1,8 @@
+Origin: Reverse Repo X
+Label: Reverse Repo X
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Reverse Repo X - this is a rare exclusive Cydia repository.
