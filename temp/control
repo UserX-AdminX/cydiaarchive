@@ -1,12 +1,10 @@
-Package: vn.gsm.displayrecorder
-Version: 1.3.21k
-Section: !CydiaVn-Apps
-Maintainer: Cydia.vn <repo@cydia.vn>
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), libactivator (>= 1.9.1), gdata-objectivec-client | firmware (>= 7.0), firmware (>= 3), openssl, firmware (<< 9.9), com.rpetrich.rocketbootstrap (>= 1.0.1) | firmware (<< 7.0), com.a3tweaks.flipswitch (>= 1.0.5)
+Package: com.macciti.abootlogopack
+Name: A Boot Logo Pack
+Version: 1.1
 Architecture: iphoneos-arm
-Description: Record the display in real-time, send to camera roll, web interface, ProTapper-style touch circles and Activator integration
-Name: Display Recorder
-Author: Ryan Petrich <repo@cydia.vn>
-Sponsor: Cydia.vn Blog's <http://cydia.vn/>
-Depiction: http://cydia.vn/depic/t971/
-Homepage: http://cydia.vn/
+Depends: winterboard
+Description: This is a pack of 25 Boot Logo s that work with Winterboard.
+Maintainer: iC <apt@macciti.com>
+Author: Otis Huff <Killingspree187@yahoo.com>
+Section: Themes (System)
+Depiction: http://www.macciti.com/pages/abootlogopack/index.php

@@ -508,3 +508,18 @@ Section: !CydiaVn-Apps
 Description: Record the display in real-time, send to camera roll, web interface, ProTapper-style touch circles and Activator integration
 Author: Ryan Petrich <repo@cydia.vn>
 Name: Display Recorder
+
+Package: com.macciti.abootlogopack
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: winterboard
+Maintainer: iC <apt@macciti.com>
+Filename: /com.macciti.abootlogopack_1.1_iphoneos-arm.deb
+Size: 9221784
+MD5sum: 2c2f5967b6700ff83727f7384a8c4d8b
+SHA1: 77147bc0ba40e0d63ef1e779c7dee35e0a7d5d16
+SHA256: cce8742c5d30d47c9d45c5857c96dfabf15a196e0c6b3bb0c505c1ebb1bf290b
+Section: Themes (System)
+Description: This is a pack of 25 Boot Logo s that work with Winterboard.
+Author: Otis Huff <Killingspree187@yahoo.com>
+Name: A Boot Logo Pack
