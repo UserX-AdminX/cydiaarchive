@@ -1,12 +1,10 @@
-Package: com.blackgeek.geeksn0wsemiuntetherpayload
-Version: 1.0.0
-Section: Jailbreaks
-Name: GeekSn0w Semi Untether Payload
-Author: BlackGeek <blackgeektutorial@gmail.com>
-Maintainer: Matteo Piccina <altermatte@gmail.com>
-Sponsor: Beiphone <http://beiphone.it/>
-Icon: file:///usr/share/macthemes/sections/jailbreaks~moma@2x.png
-Depends: firmware (>= 7.1)
+Package: com.beyoip.install0us
+Name: install0us
+Version: 2.5.2.the.end
 Architecture: iphoneos-arm
-Description: GeekSn0w Semi Untether Payload. It's for iOS 7.1 !
-Installed-Size: 111
+Description: THE App to download/install your IPA!!
+Sponsor: Install0us <http://install0us.com>
+Depiction: http://repo.beyouriphone.com/depiction.html
+Maintainer: Ajeje <repo@beyouriphone.com>
+Author: puy0
+Section: BeYoIP Apps
