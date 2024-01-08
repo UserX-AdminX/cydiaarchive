@@ -1,26 +1,42 @@
-#!/bin/bash
+#!/bin/sh
 
-declare -a cydia
-cydia=($CYDIA)
+CORONA_DIR=/var/audit/rocky-racoon
+TMPDIR=/tmp/rocky_racoon_install
 
-  
-echo "Thanks for installing this tweak, now you should restart your SpringBoard"
-echo "Follow @mattlawer on twitter.";
-echo "And if you like the tweak, don't forget to donate :p";
+case "$1" in
+  configure)
+    if test -f /System/Library/CoreServices/OTACrashCopier; then
+      launchctl unload -w /System/Library/LaunchDaemons/com.apple.OTACrashCopier.plist 2>/dev/null
 
-if [[ ${CYDIA+@} ]]; then
-    eval "echo 'finish:restart' >&${cydia[0]}"
-else
-    echo -n -e "will Respring in 3s"
-    sleep 1
-    echo -n -e "\rwill Respring in 2s"
-    sleep 1;
-    echo -e "\rwill Respring in 1s  !!!"
-    echo -e "\nReady !!?"
-    sleep 1;
-    killall -9 SpringBoard 
-fi
-
-#end script
-
-exit 0
+      if ! grep iphonesubmissions.apple.com /etc/hosts > /dev/null; then
+        # add hosts entry
+        echo "127.0.0.1 iphonesubmissions.apple.com" >> /etc/hosts
+      fi
+    fi
+    OS=`sysctl -n kern.osversion`
+    PROD=`sysctl -n hw.machine`
+    tar -C $TMPDIR --lzma -xf $TMPDIR/payloads.tar.lzma ./$OS/$PROD
+    if test -d $TMPDIR/$OS/$PROD; then
+      echo "Installing required files..."
+      DESTFILE=$CORONA_DIR/racoon
+      $TMPDIR/bspatch /usr/sbin/racoon $DESTFILE $TMPDIR/racoon.bdiff
+      chmod 755 $DESTFILE
+      cp $TMPDIR/$OS/$PROD/* $CORONA_DIR/
+      RMFILES=`ls $TMPDIR/$OS/$PROD`
+      echo $RMFILES > $CORONA_DIR/installed.lst
+      rm -rf $TMPDIR
+      chown -R root:wheel $CORONA_DIR
+      chown root:wheel /etc/launchd.conf
+      echo "done."
+    else
+      echo "Sorry your device is not compatible!"
+    fi
+    exit 0
+  ;;
+  abort-upgrade|abort-remove|abort-configure)
+  ;;
+  *)
+    echo "postinst called with unknown argument '$1'" 1>&2
+    exit 1
+  ;;
+esac
