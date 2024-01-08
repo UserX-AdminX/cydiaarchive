@@ -1,12 +1,10 @@
-Package: com.myrepospace.bassamkassem.iphonenativeapps
-Section: iPad
-Maintainer: Bassam Kassem <Bassam.Kassem@Me.com>
-Architecture: iphoneos-arm
-Version: 8.2.2
+Package: com.ixmoe.1pwn.stockx
+Name: StockX
 Depends: mobilesubstrate
-Pre-Depends: firmware (>= 5.1), gsc.ipad, firmware (<< 6.0)
-Conflicts: com.rpetrich.belfry, com.myrepospace.bassamkassem.siriportipad
-Description: Full port of iPhone Native Apps (Weather, Stocks, Clocks, Calculator, Compass and Voice Memos)
-Name: iPhone Native Apps iOS 5.1.x
-Homepage: http://Cydia.BassamKassem.com
-Author: Bassam Kassem <Bassam.Kassem@Me.com>
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: electimon
+Author: electimon
+Section: Tweaks
+Version: 1.0.0-11+debug
+Installed-Size: 120
