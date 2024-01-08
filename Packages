@@ -643,3 +643,18 @@ Section: System
 Description: untethered jailbreak based on pod2g and planetbeing exploits
 Author: Chronic-Dev Team <info@chronic-dev.com>
 Name: Rocky Racoon 5.1.1 Untether
+
+Package: com.ipr.bytafont
+Version: 1.3.1
+Architecture: iphoneos-arm
+Depends: 
+Maintainer: iPhoneRuler.net <info@iphoneruler.net>
+Filename: /com.ipr.bytafont_1.3.1_iphoneos-arm.deb
+Size: 183784
+MD5sum: dc43161303538f0a36a31277b1f9d50e
+SHA1: 894f86c495e34bac40fdf260bf84a3d5f374ebec
+SHA256: 84f38cbe7e9c48a93aa7e64965e386f351976f23f03e010535259374469e4b6b
+Section: System
+Description: BytaFont lets you apply fonts to your iDevice in few taps.
+Author: iPhoneRuler.net <info@iphoneruler.net>
+Name: BytaFont
