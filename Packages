@@ -43,3 +43,18 @@ Section: Utilities
 Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
 Author: Dev Team <blog@iphone-dev.org>
 Name: ultrasn0w
+
+Package: uk.invoxiplaygames.tubefixer
+Version: 2.0-194+debug
+Architecture: iphoneos-arm
+Depends: Pre-dpkg (>= 1.13.25-5)
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Filename: /tubefixer-2.0-194-RC2.deb
+Size: 37966
+MD5sum: 06fd13ff67e75753ea82bd0d73412c54
+SHA1: 648ccc22e75e54544486b9d8284c43181ffc8537
+SHA256: 037ee05458d7e5732cf674898ba25788232b99d23544f2e91fb0ef7acfdd892c
+Section: Tweaks
+Description: Package to fix YouTube on iOS 3-5
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Name: TubeFixer for iOS

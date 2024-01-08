@@ -1,5 +1,9 @@
 #!/bin/bash
-# postrm
+# extrainst
+if [[ $1 == install ]]; then
+        sed -i '/92.222.69.160 gdata.youtube.com/d' /etc/hosts
+        sed -i '/92.222.69.160 www.google.com/d' /etc/hosts
+fi
 function finish() {
 	f="${1}"
 	[[ -z "${f}" || -z "${CYDIA}" ]] && return
