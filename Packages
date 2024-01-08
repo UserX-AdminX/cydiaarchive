@@ -208,3 +208,153 @@ Section: Themes
 Description: Android 4.x pattern lock theme for AndroidLock XT.
 Author: Karen/あけみ <karen@akemi.ai>
 Name: Android 4.x Pattern Lock for AndroidLockXT
+
+Package: com.aoi.storefix
+Version: 1.0-6
+Architecture: iphoneos-arm
+Depends: firmware  (<= 6.1.6)
+Maintainer: aoi_satou
+Filename: /com.aoi.storefix_1.0-6_iphoneos-arm.deb
+Size: 1270
+MD5sum: fb1224b0f97b71a5040606f5fa0b4b37
+SHA1: d4ab9af662df651022afaa6775de04450d787ca7
+SHA256: a7d02f5ca487cff4770ee68eb1409ad48f126dacf77adace7f2b681422bd7829
+Section: System
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Author: aoi_satou
+Name: AppStoreFix
+
+Package: com.exile90.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Filename: /com.exile90.icleanerpro_7.10.0_iphoneos-arm.deb
+Size: 2450460
+MD5sum: 830ebd462d173a9211f5f7c41ce64d1a
+SHA1: 437f5c5097cdab433698b11dab81c3cb8fc82917
+SHA256: 99c90c0f4629d47af1c52772f374eb74828f7cdafc469fcc42af0eea6d417c66
+Section: Utilities
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Name: iCleaner Pro
+
+Package: com.gauravgiri.fontswap
+Version: 2.1.1-1
+Architecture: iphoneos-arm
+Depends: grep, com.gauravgiri.fontswapstarter
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: /fontswap_2.1.1-1.deb
+Size: 1046552
+MD5sum: 79276a6b40738a7428bdaaad61b05ec9
+SHA1: 6883387cbe8ec43e1f595d80ec5a0a80668e7643
+SHA256: fc4e0ceb6e50f669772faa5e92439d1c5d113155f3c91841717cc404ecabd458
+Section: System
+Description: Swap your system fonts!
+Author: Gaurav Giri <gaurav@gauravgiri.com>
+Name: FontSwap
+
+Package: com.gauravgiri.fontswapstarter
+Version: 2.0
+Architecture: iphoneos-arm
+Depends: 
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: /fontswap_starter_pack_2.0.deb
+Size: 6769642
+MD5sum: dc2f5a265c319bf8ed86849757a07700
+SHA1: e2901e7f03d4674cb03aeb0d13561602dcd00fe5
+SHA256: 9ab5a5191a9f2b102523b9e95d473e83ad06310b620a4c76d89ad9c1e5ae1d78
+Section: System
+Description: Font Starter Pack for Font Swap app.
+Author: Gaurav Giri <gauravgiri@gmail.com>
+Name: FontSwap Starter
+
+Package: vn.gsm.dashboard
+Version: 2.0.5
+Architecture: iphoneos-arm
+Depends: gsmicon, mobilesubstrate, libactivator, preferenceloader, com.rpetrich.layersnapshotter
+Maintainer: Cydia.vn <repo@cydia.vn>
+Filename: /vn.gsm.dashboard_2.0.5_iphoneos-arm.deb
+Size: 886938
+MD5sum: 02b7c3a26f64e6387abac09bcfe7c48a
+SHA1: 60fd880b9238e72f33e3dc7da8ad1a6f7bb71de7
+SHA256: 9778cb1da2c463b6d1d931d2e86ed8d696d7adc9f64ba9533454e91db5e09a3b
+Section: !GSMVN-Tools
+Description: Dashboard X is an awesome widgets system for your device!
+Author: cjori
+Name: Dashboard X
+
+Package: vn.gsm.quasar
+Version: 1.3
+Architecture: iphoneos-arm
+Depends: gsmicon, firmware (>= 5.0), mobilesubstrate, preferenceloader, gsc.ipad
+Maintainer: Thieu.Bocap <repo@cydia.vn>
+Filename: /vn.gsm.quasar_1.3_iphoneos-arm.deb
+Size: 66344
+MD5sum: 2ed6877daccdbf2e3e17c4e9efbc46f5
+SHA1: 9ff18fcb32951153b4213950d8c9335762c8cab1
+SHA256: 77f7d9856f88a5fc5dc1fd89cc2d6070ab4c3e39648c6e047b0fa68cac62c076
+Section: !GSMVN-Tools
+Description: multi-app window manager for iPad
+Author: Pedro Franceschi
+Name: Quasar
+
+Package: com.jamied360.ncsettings
+Version: 1.7.1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, preferenceloader
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: /com.jamied360.ncsettings_1.7.1_iphoneos-arm.deb
+Size: 472030
+MD5sum: 8c17029eb872efac412f8e9acb5107d5
+SHA1: 29eb616b6720e9d9a4262722733824c5f0bc8e32
+SHA256: fcc1ba038df84e883dfae64c68ff2d3226f8596a35716f39671e10714c82111e
+Section: Addons (NotificationCenter)
+Description: NCSettings is a sleek Notification Center toggle widget
+Author: JamieD360 <jamied360support@live.co.uk>
+Name: NCSettings
+
+Package: winterboard
+Version: 0.9.3919
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.3225-1), killall, preferenceloader, findutils, net.howett.pincrush (>= 0.0.1-23) | pincrush
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Filename: /winterboard_0.9.3919_iphoneos-arm.deb
+Size: 111104
+MD5sum: 903869bcc23c88eeb71615e833e626af
+SHA1: 569cc3f77a3ca6cd2046a84bc5c3a68fbb2f00ea
+SHA256: 8cd0ad873eacf4c209e4e89e2e1e0ab0ea963f49cd652ef814ed97d2fb157991
+Section: System
+Description: theme manager, used by most themes
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: WinterBoard
+
+Package: com.hackyouriphone.ifile
+Version: 2.2.0-1
+Architecture: iphoneos-arm
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Filename: /com.hackyouriphone.ifile_2.2.0-1_iphoneos-arm.deb
+Size: 9747038
+MD5sum: 289aee1633c592fc93254c667a167481
+SHA1: 9829d4d9cbb2bdd2ba1f3db307a12347fa1ee575
+SHA256: 549ec690ee9d4c808c758e880e50442f01aed065e4b11ea91430ec32f6304c80
+Section: HYI - Tweaks
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Author: Carsten Heinelt <repo@hackyouriphone.org>
+Name: iFile
+
+Package: com.hackyouriphone.tetherme
+Version: 3.1-1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), firmware (<< 3.2) | firmware (>= 4.0), preferenceloader (>= 2.2.2), network-cmds
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Filename: /com.hackyouriphone.tetherme_3.1-1_iphoneos-arm.deb
+Size: 56708
+MD5sum: 620dd6edbf7f5d6f0af25624874446ce
+SHA1: 794e8b9dffc8ed53c66638dbedf035b0fac14c18
+SHA256: 9db4e820d7ab624a0055af33f763ece7c4143bf6ab6e110acee31af9b884ee10
+Section: HYI - Tweaks
+Description: Dynamically enables native tethering
+Author: cirdan & sbingner <repo@hackyouriphone.org>
+Name: TetherMe
