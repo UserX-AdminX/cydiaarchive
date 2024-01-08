@@ -658,3 +658,18 @@ Section: System
 Description: BytaFont lets you apply fonts to your iDevice in few taps.
 Author: iPhoneRuler.net <info@iphoneruler.net>
 Name: BytaFont
+
+Package: com.bytafont.bytafont2
+Version: 2.2
+Architecture: iphoneos-arm
+Depends: firmware (>= 7)
+Maintainer: iPhoneRuler.net <info@iphoneruler.net>
+Filename: /com.bytafont.bytafont2_2.2_iphoneos-arm.deb
+Size: 965452
+MD5sum: 7280e95446d6fceccaa2568e4c16a6f5
+SHA1: 7c8f5eb2031b199d4adb7166db1b26ee0d238ad3
+SHA256: 62cf5403550e6d7247747014b778660c3149c5759d07e28e484e179a7ce755d4
+Section: System
+Description: BytaFont 2 lets you apply fonts to your iDevice in few taps.
+Author: iPhoneRuler.net <info@iphoneruler.net>
+Name: BytaFont 2

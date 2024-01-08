@@ -1,9 +1,10 @@
-Package: com.ipr.bytafont
-Name: BytaFont
-Version: 1.3.1
+Package: com.bytafont.bytafont2
+Depends: firmware (>= 7)
+Name: BytaFont 2
+Version: 2.2
 Architecture: iphoneos-arm
-Description: BytaFont lets you apply fonts to your iDevice in few taps.
-Depiction: http://repo.iphoneruler.net/bytafontdepiction.php
+Description: BytaFont 2 lets you apply fonts to your iDevice in few taps.
+Depiction: http://www.iphoneruler.net/depiction/BytaFont2
 Maintainer: iPhoneRuler.net <info@iphoneruler.net>
 Author: iPhoneRuler.net <info@iphoneruler.net>
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
