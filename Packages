@@ -4,7 +4,7 @@ Version: 2.2
 Architecture: iphoneos-arm
 Depends: Pre-firmware (>= 5.0), mobilesubstrate
 Maintainer: SiriPort.Ru <gdimaits777@gmail.com>
-Filename: /appsync.deb
+Filename: ./debs/appsync.deb
 Size: 4450
 MD5sum: e2100a06acdba24c5bbc01748ebd9087
 SHA1: 7b1a1e67b6c7a915e853e856d65343d8ff29db7f
