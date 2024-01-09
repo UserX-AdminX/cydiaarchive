@@ -1,16 +1,12 @@
-Author: Tom Zickel <openhebrew@gmail.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Name: PreventSleep
-Package: com.openhebrew.preventsleep
-Section: Tweaks
-Depends: mobilesubstrate, sbsettings
-Version: 1.0
+Package: com.modmyi.serioussbsettingshd
+Name: Serious SBSettings HD
+Version: 1.4-1
 Architecture: iphoneos-arm
-Description: Toggle device from entering sleep mode.
-	Works great with SBSchedule as well.
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preventsleepData
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preventsleepData
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: db42
-Installed-Size: 151
-Tag: purpose::extension
+Description: Retina / HD SBSettings theme for SBSettings
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Max Rudberg <max@maxthemes.com>
+Section: Themes (SBSettings)
+Installed-Size: 2694
+Depends: sbsettings
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=serioussbsettingshdData
+dev: maxrudberg

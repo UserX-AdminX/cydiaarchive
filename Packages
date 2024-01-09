@@ -913,3 +913,18 @@ Section: Tweaks
 Description: Toggle device from entering sleep mode.
 Author: Tom Zickel <openhebrew@gmail.com>
 Name: PreventSleep
+
+Package: com.modmyi.serioussbsettingshd
+Version: 1.4-1
+Architecture: iphoneos-arm
+Depends: sbsettings
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/sbs_serioussbsettingshd_v1.4-1.deb
+Size: 2454278
+MD5sum: c63cf912834ca9ce94053caba65a0d95
+SHA1: d56b44e2cc36aeb6b5824cb011debcaeec17afa8
+SHA256: e7def38eedba6bdb7aafa6eaba810953123c7aaa1eb7fd1d737fa34445fb601e
+Section: Themes (SBSettings)
+Description: Retina / HD SBSettings theme for SBSettings
+Author: Max Rudberg <max@maxthemes.com>
+Name: Serious SBSettings HD
