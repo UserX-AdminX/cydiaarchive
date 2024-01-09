@@ -1,15 +1,14 @@
-Package: com.rpetrich.rocketbootstrap
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
-Name: RocketBootstrap
+Package: preferenceloader
+Name: PreferenceLoader
+Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: Support library allowing tweaks to communicate with sandboxed processes
-Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
-Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-Section: Tweaks
-dev: rpetrich
-Tag: purpose::extension, role::developer
-Version: 1.0.10~beta1
-Installed-Size: 596
+Description: load preferences in style
+Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Section: System
+dev: dustinhowett
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Tag: role::hacker, purpose::library
+Version: 2.2.4~beta1
+Installed-Size: 532
