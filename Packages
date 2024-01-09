@@ -1,0 +1,15 @@
+
+Package: siriport.ru.appsync50plus
+Version: 2.2
+Architecture: iphoneos-arm
+Depends: Pre-firmware (>= 5.0), mobilesubstrate
+Maintainer: SiriPort.Ru <gdimaits777@gmail.com>
+Filename: ./debs/appsync.deb
+Size: 4450
+MD5sum: e2100a06acdba24c5bbc01748ebd9087
+SHA1: 7b1a1e67b6c7a915e853e856d65343d8ff29db7f
+SHA256: 581922bcf513d699c16ed0b5482f9e04fafec95384aa830d1d7c262e3ae9512b
+Section: Tweaks
+Description: AppSync allows you to sync and install cracked iOS applications. Works for iOS5.x and 6.x
+Author: Dissident <apps@hackulo.us>
+Name: AppSync for iOS 5&6
