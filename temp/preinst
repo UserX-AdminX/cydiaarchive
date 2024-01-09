@@ -1,6 +1,0 @@
-#!/bin/sh
-#delete the preference file of version 1.0 (if present)
-if [[ $1 == install ]]; then
-    rm -f /var/mobile/Library/Preferences/com.zmaster.AndroidLock.plist
-fi
-exit 0

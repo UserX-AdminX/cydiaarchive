@@ -1,8 +1,0 @@
-#!/bin/sh
-#on uninstall, delete the preferences and symlinks to the iOS specific dylib / bundle
-if [[ $1 == remove ]]; then
-    rm -f /var/mobile/Library/Preferences/com.zmaster.AndroidLock.plist
-    rm -f /Library/MobileSubstrate/DynamicLibraries/AndroidLock.dylib
-    rm -f /Library/PreferenceBundles/AndroidLockSettings.bundle
-fi
-exit 0
