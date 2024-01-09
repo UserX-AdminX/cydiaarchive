@@ -763,3 +763,18 @@ Section: Tweaks
 Description: HTML Widgets on SpringBoard!
 Author: eldwin <eldwin_@hotmail.com>
 Name: iWidgets
+
+Package: iGameGuardian
+Version: 2.0.0
+Architecture: iphoneos-arm
+Depends: 
+Maintainer: Aqua Wu <aqua.wu@gmail.com>
+Filename: /iGameGuardian.2.0.deb
+Size: 171178
+MD5sum: 5121e711f6416748af3db53f7c6788de
+SHA1: 92a0cd7a1caf462a82858d890dfdb2041bf74530
+SHA256: 1026e8e638c4d61cdb3642f6d37cb733fc95a82634ba30ffefafc86cce8b7185
+Section: utils
+Description: iGameGuardian is a game cheating engine for iOS 5.1.
+Author: eldwin <eldwin_@hotmail.com>
+Name: iWidgets

@@ -1,14 +1,9 @@
-Package: com.eldwin.iwidgets
-Name: iWidgets
-Version: 1.3.2
+Package: iGameGuardian
+Version: 2.0.0
+Section: utils
+Priority: optional
+Depends: 
 Architecture: iphoneos-arm
-Author: eldwin <eldwin_@hotmail.com>
-Depends: mobilesubstrate, firmware (>= 4.2.1)
-Conflicts: com.chpwn.infiniboard
-Depiction: http://modmyi.com/info/iwidgets.d.php
-Priority: extra
-Section: Tweaks
-Description: HTML Widgets on SpringBoard!
-Homepage: http://modmyi.com/info/iwidgets.php
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Installed-Size: 300
+Maintainer: Aqua Wu <aqua.wu@gmail.com>
+Description: iGameGuardian is a game cheating engine for iOS 5.1.
