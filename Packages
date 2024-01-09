@@ -585,7 +585,7 @@ Author: BlackGeek <blackgeektutorial@gmail.com>
 Name: GeekSn0w Semi Untether Payload
 
 Package: com.beyoip.install0us
-Version: 2.5.2.the.end
+Version: 2.5.2
 Architecture: iphoneos-arm
 Depends: 
 Maintainer: Ajeje <repo@beyouriphone.com>
@@ -594,7 +594,7 @@ Size: 686802
 MD5sum: 40d49ef6ee09e4abd796ac58530f783c
 SHA1: 4d2f6b1d2538ca5596fc7c3a05c341b289c36cde
 SHA256: 93cab002d15ee71f1063bfc71bd7f6f28730bbea51aacb4d52d92bf2e540239f
-Section: BeYoIP Apps
+Section: IPA
 Description: THE App to download/install your IPA!!
 Author: puy0
 Name: install0us
