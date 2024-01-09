@@ -58,3 +58,18 @@ Section: System
 Description: load preferences in style
 Author: Dustin Howett <cydia.pl@relay.howett.net>
 Name: PreferenceLoader
+
+Package: mobilesubstrate
+Version: 0.9.6301
+Architecture: iphoneos-arm
+Depends: Pre-dpkg (>= 1.14.25-8)
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Filename: ./debs/mobilesubstrate_0.9.6301_iphoneos-arm.deb
+Size: 122342
+MD5sum: f2ca15c08aab522d8b7e842238aa83c6
+SHA1: 02ad8dce33adae8ba256dd5a4cac3bdf0246deec
+SHA256: 8dc91a066f088632409fecf65613831b8d6802e3b799f2dc87563c3ea2ed06ca
+Section: System
+Description: powerful code insertion platform
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Cydia Substrate

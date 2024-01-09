@@ -1,14 +1,15 @@
-Package: preferenceloader
-Name: PreferenceLoader
-Depends: mobilesubstrate
+Package: mobilesubstrate
 Architecture: iphoneos-arm
-Description: load preferences in style
-Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
-Author: Dustin Howett <cydia.pl@relay.howett.net>
+Name: Cydia Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Depends: com.saurik.substrate.safemode
+Pre-Depends: dpkg (>= 1.14.25-8)
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Priority: optional
+Version: 0.9.6301
+Description: powerful code insertion platform
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Section: System
-dev: dustinhowett
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
-Tag: role::hacker, purpose::library
-Version: 2.2.4~beta1
-Installed-Size: 532
