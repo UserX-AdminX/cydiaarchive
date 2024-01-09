@@ -34,7 +34,7 @@ Version: 1.2.4
 Architecture: iphoneos-arm
 Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.3209-1), firmware (<< 5.0) | mobilesubstrate (>= 0.9.3900)
 Maintainer: Dev Team <blog@iphone-dev.org>
-Filename: /ultrasn0w_1.2.4.deb
+Filename: ./debs/ultrasn0w_1.2.4.deb
 Size: 14148
 MD5sum: 21b0b34dfba77e69d9f614dfd59c0d81
 SHA1: 280dec151dc988120bcee6e20059de843a694813
@@ -49,7 +49,7 @@ Version: 2.0-194+debug
 Architecture: iphoneos-arm
 Depends: Pre-dpkg (>= 1.13.25-5)
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Filename: /tubefixer-2.0-194-RC2.deb
+Filename: ./debs/tubefixer-2.0-194-RC2.deb
 Size: 37966
 MD5sum: 06fd13ff67e75753ea82bd0d73412c54
 SHA1: 648ccc22e75e54544486b9d8284c43181ffc8537
@@ -64,7 +64,7 @@ Version: 0.9.6
 Architecture: iphoneos-arm
 Depends: 
 Maintainer: Dev Team <blog@iphone-dev.org>
-Filename: /yellowsn0w_0.9.6.deb
+Filename: ./debs/yellowsn0w_0.9.6.deb
 Size: 6540
 MD5sum: 4be3166cc14bc8a4af40beaf6a5e5115
 SHA1: 7479a46229adfcc0404131894aeb0686fd2f0c2e
@@ -79,7 +79,7 @@ Version: 8.2.2
 Architecture: iphoneos-arm
 Depends: Pre-firmware (>= 5.1), gsc.ipad, firmware (<< 6.0)
 Maintainer: Bassam Kassem <Bassam.Kassem@Me.com>
-Filename: /com.myrepospace.bassamkassem.iphonenativeapps_8.2.2_iphoneos-arm.deb
+Filename: ./debs/com.myrepospace.bassamkassem.iphonenativeapps_8.2.2_iphoneos-arm.deb
 Size: 46550336
 MD5sum: 382bed68d83b0365fac09a03f1372253
 SHA1: fe776c3d8395ca57a0358fe2cf9caeb2d98702a6
@@ -94,7 +94,7 @@ Version: 1.2
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, firmware (>= 5.0)
 Maintainer: iC <apt@macciti.com>
-Filename: /mobi.macciti.assistantdelete_1.2_iphoneos-arm.deb
+Filename: ./debs/mobi.macciti.assistantdelete_1.2_iphoneos-arm.deb
 Size: 1249160
 MD5sum: d5ed5fcf32e7abcb42ee0b856cf728b6
 SHA1: c95b80f77b7483e7f75f06d8f5386981ad5943ce
@@ -109,7 +109,7 @@ Version: 0.9.1
 Architecture: iphoneos-arm
 Depends: mobilesubstrate (>= 0.9.3990), firmware (>= 5.0) 
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: /semitether_0.9.1_iphoneos-arm.deb
+Filename: ./debs/semitether_0.9.1_iphoneos-arm.deb
 Size: 632100
 MD5sum: b15f6bf8a1ceb46ae89e5805929140ba
 SHA1: 59afb3ed0c8119fee7bf9936cf2490211f13bc65
@@ -124,7 +124,7 @@ Version: 1.0.2-10+debug-1+debug
 Architecture: iphoneos-arm
 Depends: mobilesubstrate
 Maintainer: electimon
-Filename: /com.ixmoe.1pwn.weatherx_1.0.2-10+debug-1+debug_iphoneos-arm.deb
+Filename: ./debs/com.ixmoe.1pwn.weatherx_1.0.2-10+debug-1+debug_iphoneos-arm.deb
 Size: 2804
 MD5sum: 175412abd65754f9f805ba1ea552ad28
 SHA1: 4bf16115a28ddd47477dfbc31c47552534acbf41
@@ -139,7 +139,7 @@ Version: 1.0.0-11+debug
 Architecture: iphoneos-arm
 Depends: mobilesubstrate
 Maintainer: electimon
-Filename: /com.ixmoe.1pwn.stockx_1.0.0-11+debug_iphoneos-arm.deb
+Filename: ./debs/com.ixmoe.1pwn.stockx_1.0.0-11+debug_iphoneos-arm.deb
 Size: 2410
 MD5sum: aeab8a3af965b1da0194faacb360bf58
 SHA1: dce7dfc25cb86477fbd18d1e09a1803c96a6a74f
@@ -154,7 +154,7 @@ Version: 1.3.7k
 Architecture: iphoneos-arm
 Depends: gsmicon, mobilesubstrate (>= 0.9.5001), preferenceloader (>= 2.2.2), applist (>= 1.5.7), cydia (>= 1.1.1), curl, firmware (<< 7.0) | com.rpetrich.rocketbootstrap (>= 1.0.1), firmware (<< 7.0) | libactivator (>= 1.8.3)
 Maintainer: Cydia.vn <repo@cydia.vn>
-Filename: /vn.gsm.retinapad_1.3.7k_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.retinapad_1.3.7k_iphoneos-arm.deb
 Size: 281100
 MD5sum: 9c933999d4beb290124a64740ef9e8c7
 SHA1: 9aedf62598b07eb301798898411fd94bf784fe66
@@ -169,7 +169,7 @@ Version: 2.1.1-1
 Architecture: iphoneos-arm
 Depends: 
 Maintainer: Alex Zielenski <support@alexzielenski.com>
-Filename: /com.alexzielenski.zeppelin_2.1.1-1_iphoneos-arm.deb
+Filename: ./debs/com.alexzielenski.zeppelin_2.1.1-1_iphoneos-arm.deb
 Size: 961736
 MD5sum: a91d9dfb8b2d198ef3dba92201e1c684
 SHA1: 98ca43528da3e11610b106deb92f0c27eb44c1df
@@ -184,7 +184,7 @@ Version: 1.2
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, firmware (>= 2.0)
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Filename: /checkmatestore-1.2.deb
+Filename: ./debs/checkmatestore-1.2.deb
 Size: 5200
 MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
 SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
@@ -199,7 +199,7 @@ Version: 1.3.2
 Architecture: iphoneos-arm
 Depends: 
 Maintainer: Karen/あけみ <karen@akemi.ai>
-Filename: /net.angelxwind.android-4x-pattern-lock.deb
+Filename: ./debs/net.angelxwind.android-4x-pattern-lock.deb
 Size: 539906
 MD5sum: 7b9814464044dc3de9953922abcfbaf3
 SHA1: 3051d575d7176f2c5082c8079c1bb4d528a9b11a
@@ -214,7 +214,7 @@ Version: 1.0-6
 Architecture: iphoneos-arm
 Depends: firmware  (<= 6.1.6)
 Maintainer: aoi_satou
-Filename: /com.aoi.storefix_1.0-6_iphoneos-arm.deb
+Filename: ./debs/com.aoi.storefix_1.0-6_iphoneos-arm.deb
 Size: 1270
 MD5sum: fb1224b0f97b71a5040606f5fa0b4b37
 SHA1: d4ab9af662df651022afaa6775de04450d787ca7
@@ -229,7 +229,7 @@ Version: 7.10.0
 Architecture: iphoneos-arm
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Filename: /com.exile90.icleanerpro_7.10.0_iphoneos-arm.deb
+Filename: ./debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm.deb
 Size: 2450460
 MD5sum: 830ebd462d173a9211f5f7c41ce64d1a
 SHA1: 437f5c5097cdab433698b11dab81c3cb8fc82917
@@ -244,7 +244,7 @@ Version: 2.1.1-1
 Architecture: iphoneos-arm
 Depends: grep, com.gauravgiri.fontswapstarter
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: /fontswap_2.1.1-1.deb
+Filename: ./debs/fontswap_2.1.1-1.deb
 Size: 1046552
 MD5sum: 79276a6b40738a7428bdaaad61b05ec9
 SHA1: 6883387cbe8ec43e1f595d80ec5a0a80668e7643
@@ -259,7 +259,7 @@ Version: 2.0
 Architecture: iphoneos-arm
 Depends: 
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: /fontswap_starter_pack_2.0.deb
+Filename: ./debs/fontswap_starter_pack_2.0.deb
 Size: 6769642
 MD5sum: dc2f5a265c319bf8ed86849757a07700
 SHA1: e2901e7f03d4674cb03aeb0d13561602dcd00fe5
@@ -274,7 +274,7 @@ Version: 2.0.5
 Architecture: iphoneos-arm
 Depends: gsmicon, mobilesubstrate, libactivator, preferenceloader, com.rpetrich.layersnapshotter
 Maintainer: Cydia.vn <repo@cydia.vn>
-Filename: /vn.gsm.dashboard_2.0.5_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.dashboard_2.0.5_iphoneos-arm.deb
 Size: 886938
 MD5sum: 02b7c3a26f64e6387abac09bcfe7c48a
 SHA1: 60fd880b9238e72f33e3dc7da8ad1a6f7bb71de7
@@ -289,7 +289,7 @@ Version: 1.3
 Architecture: iphoneos-arm
 Depends: gsmicon, firmware (>= 5.0), mobilesubstrate, preferenceloader, gsc.ipad
 Maintainer: Thieu.Bocap <repo@cydia.vn>
-Filename: /vn.gsm.quasar_1.3_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.quasar_1.3_iphoneos-arm.deb
 Size: 66344
 MD5sum: 2ed6877daccdbf2e3e17c4e9efbc46f5
 SHA1: 9ff18fcb32951153b4213950d8c9335762c8cab1
@@ -304,7 +304,7 @@ Version: 1.7.1
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, preferenceloader
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Filename: /com.jamied360.ncsettings_1.7.1_iphoneos-arm.deb
+Filename: ./debs/com.jamied360.ncsettings_1.7.1_iphoneos-arm.deb
 Size: 472030
 MD5sum: 8c17029eb872efac412f8e9acb5107d5
 SHA1: 29eb616b6720e9d9a4262722733824c5f0bc8e32
@@ -319,7 +319,7 @@ Version: 0.9.3919
 Architecture: iphoneos-arm
 Depends: mobilesubstrate (>= 0.9.3225-1), killall, preferenceloader, findutils, net.howett.pincrush (>= 0.0.1-23) | pincrush
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Filename: /winterboard_0.9.3919_iphoneos-arm.deb
+Filename: ./debs/winterboard_0.9.3919_iphoneos-arm.deb
 Size: 111104
 MD5sum: 903869bcc23c88eeb71615e833e626af
 SHA1: 569cc3f77a3ca6cd2046a84bc5c3a68fbb2f00ea
@@ -334,7 +334,7 @@ Version: 2.2.0-1
 Architecture: iphoneos-arm
 Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
 Maintainer: iLeoLion <repo@hackyouriphone.org>
-Filename: /com.hackyouriphone.ifile_2.2.0-1_iphoneos-arm.deb
+Filename: ./debs/com.hackyouriphone.ifile_2.2.0-1_iphoneos-arm.deb
 Size: 9747038
 MD5sum: 289aee1633c592fc93254c667a167481
 SHA1: 9829d4d9cbb2bdd2ba1f3db307a12347fa1ee575
@@ -349,7 +349,7 @@ Version: 3.1-1
 Architecture: iphoneos-arm
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), firmware (<< 3.2) | firmware (>= 4.0), preferenceloader (>= 2.2.2), network-cmds
 Maintainer: iLeoLion <repo@hackyouriphone.org>
-Filename: /com.hackyouriphone.tetherme_3.1-1_iphoneos-arm.deb
+Filename: ./debs/com.hackyouriphone.tetherme_3.1-1_iphoneos-arm.deb
 Size: 56708
 MD5sum: 620dd6edbf7f5d6f0af25624874446ce
 SHA1: 794e8b9dffc8ed53c66638dbedf035b0fac14c18
@@ -364,7 +364,7 @@ Version: 1.0.1-1
 Architecture: iphoneos-arm
 Depends: preferenceloader
 Maintainer: Bigboss <bigboss@thebigboss.org>
-Filename: /org.chronic-dev.animate_1.0.1-1_iphoneos-arm.deb
+Filename: ./debs/org.chronic-dev.animate_1.0.1-1_iphoneos-arm.deb
 Size: 129030
 MD5sum: 9ff9572a9c35aa4075223115a86341f6
 SHA1: 33ca74b90af9ed2bcad2ca9dd8fcacd257cdac2d
@@ -374,12 +374,12 @@ Description: Boot Logo Animations for 4.2.1 untether
 Author: Chronic-Dev Inc. <jaywalker@chronic-dev.com>
 Name: animate
 
-Package: libactivator.original
+Package: libactivator
 Version: 1.9.13~rc6
 Architecture: iphoneos-arm
 Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
 Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
-Filename: /libactivator_1.9.13~rc6_iphoneos-arm.deb
+Filename: ./debs/libactivator_1.9.13~rc6_iphoneos-arm.deb
 Size: 929288
 MD5sum: edb85ee5c115534b48818d8bb9592152
 SHA1: 31be51e4b89f8e4e39ec1920e945960d3f458d96
@@ -389,12 +389,12 @@ Description: Centralized gestures, button and shortcut management for iOS
 Author: Ryan Petrich <rpetrich+activator@gmail.com>
 Name: Activator
 
-Package: com.a3tweaks.flipswitch.original
+Package: com.a3tweaks.flipswitch
 Version: 1.0.16~rc3
 Architecture: iphoneos-arm
 Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.9) | firmware (<< 7.0)
 Maintainer: rpetrich & a3tweaks <rpetrich+flipswitch@gmail.com>
-Filename: /com.a3tweaks.flipswitch_1.0.16~rc3_iphoneos-arm.deb
+Filename: ./debs/com.a3tweaks.flipswitch_1.0.16~rc3_iphoneos-arm.deb
 Size: 301098
 MD5sum: 6aa1da6c359b385e715cc8a71aa64364
 SHA1: 23618f385d41c2624fc09a60e9f554f3f8faff24
@@ -409,7 +409,7 @@ Version: 1.0.10~beta1
 Architecture: iphoneos-arm
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: /com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm.deb
+Filename: ./debs/com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm.deb
 Size: 38344
 MD5sum: b52417e29631c59cdb267379e71e2a69
 SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
@@ -424,7 +424,7 @@ Version: 0.9.6001
 Architecture: iphoneos-arm
 Depends: mobilesubstrate (>= 0.9.3367+38)
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Filename: /com.saurik.substrate.safemode_0.9.6001_iphoneos-arm.deb
+Filename: ./debs/com.saurik.substrate.safemode_0.9.6001_iphoneos-arm.deb
 Size: 13226
 MD5sum: 5e9905d35c71075b2a7f0aed5cd4b1db
 SHA1: 916af06e0c879233ff22d795b04abf8276ff905b
@@ -439,7 +439,7 @@ Version: 1.1.30
 Architecture: iphoneos-arm
 Depends: Pre-debianutils, dpkg (>= 1.14.25-8)
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Filename: /cydia_1.1.30_iphoneos-arm.deb
+Filename: ./debs/cydia_1.1.30_iphoneos-arm.deb
 Size: 1292624
 MD5sum: bb0cdc40d3abac5b874972ad8a8b70a1
 SHA1: a237e6a09c77e91e1c89d212e53a85e691b0b47a
@@ -454,7 +454,7 @@ Version: 521-karen-2
 Architecture: iphoneos-arm
 Depends: bash, coreutils, ncurses, system-cmds
 Maintainer: Karen/あけみ <karen@akemi.ai>
-Filename: /net.angelxwind.mobileterminal-applesdk.deb
+Filename: ./debs/net.angelxwind.mobileterminal-applesdk.deb
 Size: 248684
 MD5sum: d49b219bfcb8555498b2c2589bc40040
 SHA1: f4d75c8392f9ca835faa01c4d5d609c85ca87ea4
@@ -469,7 +469,7 @@ Version: 0.9.3915
 Architecture: iphoneos-arm
 Depends: winterboard, apt7
 Maintainer: ichitaso
-Filename: /com.ichitaso.winterboardapp_0.9.3915_iphoneos-arm.deb
+Filename: ./debs/com.ichitaso.winterboardapp_0.9.3915_iphoneos-arm.deb
 Size: 165204
 MD5sum: c0bad8e3066b03c3a6633db1187cdbe6
 SHA1: 065ee7f9e6d23c97dc8859f1c5d132d12a1b8615
@@ -484,7 +484,7 @@ Version: 2.0.0
 Architecture: iphoneos-arm
 Depends: winterboard
 Maintainer: ZodTTD <zodttd@zodttd.com>
-Filename: /com.codethemed.ifiletheme5455_2.0.0_iphoneos-arm.deb
+Filename: ./debs/com.codethemed.ifiletheme5455_2.0.0_iphoneos-arm.deb
 Size: 478602
 MD5sum: 8f853fc1669643b4d2a5ad15dc17c59d
 SHA1: 5c39d9dabcf7cf8e0a412416cff269fceabd958a
@@ -499,7 +499,7 @@ Version: 1.3.21k
 Architecture: iphoneos-arm
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), libactivator (>= 1.9.1), gdata-objectivec-client | firmware (>= 7.0), firmware (>= 3), openssl, firmware (<< 9.9), com.rpetrich.rocketbootstrap (>= 1.0.1) | firmware (<< 7.0), com.a3tweaks.flipswitch (>= 1.0.5)
 Maintainer: Cydia.vn <repo@cydia.vn>
-Filename: /vn.gsm.displayrecorder_1.3.21k_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.displayrecorder_1.3.21k_iphoneos-arm.deb
 Size: 913056
 MD5sum: 14b5391af8b1d0f53019984cd1887854
 SHA1: f4a600630fb770b9292d6dac36b3ccb0ce9b86eb
@@ -514,7 +514,7 @@ Version: 1.1
 Architecture: iphoneos-arm
 Depends: winterboard
 Maintainer: iC <apt@macciti.com>
-Filename: /com.macciti.abootlogopack_1.1_iphoneos-arm.deb
+Filename: ./debs/com.macciti.abootlogopack_1.1_iphoneos-arm.deb
 Size: 9221784
 MD5sum: 2c2f5967b6700ff83727f7384a8c4d8b
 SHA1: 77147bc0ba40e0d63ef1e779c7dee35e0a7d5d16
@@ -529,7 +529,7 @@ Version: 3.6k
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, preferenceloader (>= 2.0.3-2), firmware (>= 3.2)
 Maintainer: Cydia.vn <repo@cydia.vn>
-Filename: /vn.gsm.androidlockxt_3.6k_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.androidlockxt_3.6k_iphoneos-arm.deb
 Size: 3880578
 MD5sum: edd47ed099c289a5b7144c6848c78f9a
 SHA1: c7a57f5f61adeb24510a38608f4e240f2d77d87b
@@ -544,7 +544,7 @@ Version: 1.1
 Architecture: iphoneos-arm
 Depends: mobilesubstrate
 Maintainer: iC <>
-Filename: /mobi.macciti.apptag_1.1_iphoneos-arm.deb
+Filename: ./debs/mobi.macciti.apptag_1.1_iphoneos-arm.deb
 Size: 10278
 MD5sum: 16b9c7a60bf53a575435534c284113ed
 SHA1: 939c30bf5e489d51918ccb8ab876918166721a8a
@@ -559,7 +559,7 @@ Version: 1.0.3
 Architecture: iphoneos-arm
 Depends: sbsettings
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: /org.thebigboss.sbsandroidlocktoggle_1.0.3_iphoneos-arm.deb
+Filename: ./debs/org.thebigboss.sbsandroidlocktoggle_1.0.3_iphoneos-arm.deb
 Size: 28304
 MD5sum: ac053e4400bf50a75024a8be018ee8a5
 SHA1: df9784eb1ed06f409891203c55c0902599124f68
@@ -574,7 +574,7 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Depends: firmware (>= 7.1)
 Maintainer: Matteo Piccina <altermatte@gmail.com>
-Filename: /com.blackgeek.geeksn0wsemiuntetherpayload_1.0.0_iphoneos-arm.deb
+Filename: ./debs/com.blackgeek.geeksn0wsemiuntetherpayload_1.0.0_iphoneos-arm.deb
 Size: 109492
 MD5sum: cca0d9c2f63892d31664668793b51b01
 SHA1: dc77dccc8901ec8fcf9cd3f3fae501391bb123f7
@@ -589,7 +589,7 @@ Version: 2.5.2.the.end
 Architecture: iphoneos-arm
 Depends: 
 Maintainer: Ajeje <repo@beyouriphone.com>
-Filename: /com.beyoip.install0us_2.5.2.the.end_iphoneos-arm.deb
+Filename: ./debs/com.beyoip.install0us_2.5.2.the.end_iphoneos-arm.deb
 Size: 686802
 MD5sum: 40d49ef6ee09e4abd796ac58530f783c
 SHA1: 4d2f6b1d2538ca5596fc7c3a05c341b289c36cde
@@ -604,7 +604,7 @@ Version: 6.0.5-1
 Architecture: iphoneos-arm
 Depends: libhide (>= 2.0.6-4), mobilesubstrate, sbsettingstoggles (>= 3.0.5), shell-cmds, firmware (<< 4.0) | libactivator (>= 1.3.2), firmware (<< 5.0) | com.chpwn.weeloader
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: /sbsettings_6.0.5-1.deb
+Filename: ./debs/sbsettings_6.0.5-1.deb
 Size: 2139060
 MD5sum: 89103464ba327fc91234afab4655040f
 SHA1: d14772eeaed7c32999fd45b34d16ada68ff33c07
@@ -619,7 +619,7 @@ Version: 1.3.1-7
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, firmware (>= 4.0), preferenceloader, applist
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: /killbackground_1.3.1-7.deb
+Filename: ./debs/killbackground_1.3.1-7.deb
 Size: 71698
 MD5sum: a67106c323ca059b2b8680bd030636cd
 SHA1: b2f7cd9fcf117c24c7d558c35410376219698d0e
@@ -634,7 +634,7 @@ Version: 1.0-1
 Architecture: iphoneos-arm
 Depends: coreutils-bin, firmware (= 5.1.1), lzma, cy+model.iphone (= 2.1) | cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.iphone (= 4.1) | cy+model.ipod (= 3.1) | cy+model.ipod (= 4.1) | cy+model.ipad (= 1.1) | cy+model.ipad (= 2.1) | cy+model.ipad (= 2.2) | cy+model.ipad (= 2.3) | cy+model.ipad (= 2.4) | cy+model.ipad (= 3.1) | cy+model.ipad (= 3.2) | cy+model.ipad (= 3.3)
 Maintainer: Chronic Dev Team <info@chronic-dev.com>
-Filename: /com.chronic_dev.greenpois0n.rocky_racoon_1.0_1_iphoneos_arm.deb
+Filename: ./debs/com.chronic_dev.greenpois0n.rocky_racoon_1.0_1_iphoneos_arm.deb
 Size: 220790
 MD5sum: bb64c51693b6a827e91c6fd936c4315e
 SHA1: a5999a4b704d2c10107698a290c9b5dc9860f051
@@ -649,7 +649,7 @@ Version: 1.3.1
 Architecture: iphoneos-arm
 Depends: 
 Maintainer: iPhoneRuler.net <info@iphoneruler.net>
-Filename: /com.ipr.bytafont_1.3.1_iphoneos-arm.deb
+Filename: ./debs/com.ipr.bytafont_1.3.1_iphoneos-arm.deb
 Size: 183784
 MD5sum: dc43161303538f0a36a31277b1f9d50e
 SHA1: 894f86c495e34bac40fdf260bf84a3d5f374ebec
@@ -664,7 +664,7 @@ Version: 2.2
 Architecture: iphoneos-arm
 Depends: firmware (>= 7)
 Maintainer: iPhoneRuler.net <info@iphoneruler.net>
-Filename: /com.bytafont.bytafont2_2.2_iphoneos-arm.deb
+Filename: ./debs/com.bytafont.bytafont2_2.2_iphoneos-arm.deb
 Size: 965452
 MD5sum: 7280e95446d6fceccaa2568e4c16a6f5
 SHA1: 7c8f5eb2031b199d4adb7166db1b26ee0d238ad3
@@ -679,7 +679,7 @@ Version: 1.4-2
 Architecture: iphoneos-arm
 Depends: gsmicon, firmware (>= 5.1.1), mobilesubstrate, preferenceloader
 Maintainer: Cydia.vn <repo@cydia.vn>
-Filename: /vn.gsm.localiapstore_1.4-2_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.localiapstore_1.4-2_iphoneos-arm.deb
 Size: 70892
 MD5sum: 3f3dc08c728caa9309fe6b788b09872b
 SHA1: b47840b58d30ef20931f7e2902f07f815ee3b0ed
@@ -694,7 +694,7 @@ Version: 78.0
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.0), firmware (<= 13.5.5), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
 Maintainer: Karen/あけみ <karen@akemi.ai>
-Filename: /cydia.net.angelxwind.appsyncunified_78.0_iphoneos-arm.deb
+Filename: ./debs/cydia.net.angelxwind.appsyncunified_78.0_iphoneos-arm.deb
 Size: 42210
 MD5sum: 9e324b47dc9dfca5e8d1c104ad46d1ce
 SHA1: e12e8ea3fcfcdee15529bc253ac7d4752919c6f0
@@ -709,7 +709,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Depends: winterboard
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Filename: /com.modmyi.ios4macosxleopardtheme_1.0_iphoneos-arm.deb
+Filename: ./debs/com.modmyi.ios4macosxleopardtheme_1.0_iphoneos-arm.deb
 Size: 730950
 MD5sum: 20d6c16e8952ddf127cf9956ea514a2c
 SHA1: 8e2c14abfbaf5da44dbcad04af6ea7d21879de5b
@@ -724,7 +724,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Depends: winterboard
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Filename: /com.modmyi.goldineo_1.0_iphoneos-arm.deb
+Filename: ./debs/com.modmyi.goldineo_1.0_iphoneos-arm.deb
 Size: 3320132
 MD5sum: cb5ba5c7f8e87608ab44cd695b36cd5f
 SHA1: 13717b97fa74d7771178c4b9b95b303e51d3b81b
@@ -739,7 +739,7 @@ Version: 1.1
 Architecture: iphoneos-arm
 Depends: mobilesubstrate
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Filename: /com.modmyi.besttube_1.1_iphoneos-arm.deb
+Filename: ./debs/com.modmyi.besttube_1.1_iphoneos-arm.deb
 Size: 736100
 MD5sum: 3cfd1bca8194bd3cf0d4f39f60b9a0ff
 SHA1: 9c8a9bd0a8e0cadcfb5e893924e50585bf29d207
@@ -754,7 +754,7 @@ Version: 1.3.2
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, firmware (>= 4.2.1)
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Filename: /com.eldwin.iwidgets_1.3.2_iphoneos-arm.deb
+Filename: ./debs/com.eldwin.iwidgets_1.3.2_iphoneos-arm.deb
 Size: 332298
 MD5sum: df1c1a8bb2ce16b2116887a8f7e36013
 SHA1: 9d0ecaf2771d3d1516e5db698c5026cc83ff2e08
@@ -768,13 +768,13 @@ Package: iGameGuardian
 Version: 2.0.0
 Architecture: iphoneos-arm
 Depends: 
-Maintainer: Aqua Wu <aqua.wu@gmail.com>
-Filename: /iGameGuardian.2.0.deb
+Maintainer: Reverse <1@1.1>
+Filename: ./debs/iGameGuardian.2.0.deb
 Size: 171178
 MD5sum: 5121e711f6416748af3db53f7c6788de
 SHA1: 92a0cd7a1caf462a82858d890dfdb2041bf74530
 SHA256: 1026e8e638c4d61cdb3642f6d37cb733fc95a82634ba30ffefafc86cce8b7185
 Section: utils
 Description: iGameGuardian is a game cheating engine for iOS 5.1.
-Author: Aqua Wu <aqua.wu@gmail.com>
+Author: Reverse <1@1.1>
 Name: iGameGuardian
