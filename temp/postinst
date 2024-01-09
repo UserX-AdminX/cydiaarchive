@@ -1,0 +1,37 @@
+#!/bin/sh
+
+echo "Injecting Telephony features !"
+echo ""
+
+rm -r /System/Library/Carrier\ Bundles/iPad
+
+t='test'
+sy="/System/Library"
+
+cd $sy/CoreServices/SpringBoard.app
+plutil -key capabilities -key 3Gvenice -1 *AP.plist | $t
+
+plutil -key capabilities -key any-telephony -1 *AP.plist | $t
+
+plutil -key capabilities -key mms -1 *AP.plist | $t
+
+plutil -key capabilities -key sms -1 *AP.plist | $t
+
+plutil -key capabilities -key telephony -1 *AP.plist | $t
+
+plutil -key capabilities -key venice -1 *AP.plist | $t
+
+plutil -key iconState -dict -key iconLists -key array -string com.apple.mobilephone -arrayadd *AP.plist | $t
+
+plutil -convert xml1 *AP.plist | $t
+
+echo "Installing TELEPHONY system completed successfully"
+
+declare -a cydia
+cydia=($CYDIA)          
+
+if [[ ${CYDIA+@} ]]; then
+     eval "echo 'finish:reboot' >&${cydia[0]}"
+fi
+
+exit 0

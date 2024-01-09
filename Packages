@@ -823,3 +823,18 @@ Section: Development
 Description: Weeeeeeeeeee! Load Wee apps safely.
 Author: joedj <weeloader@joedj.net>
 Name: WeeLoader
+
+Package: com.myrepospace.BassamKassem.telepad
+Version: 2
+Architecture: iphoneos-arm
+Depends: Pre-firmware (>= 5.1), firmware (<< 6.0), gsc.ipad, cy+model.ipad (=1.1)
+Maintainer: Bassam Kassem - [Ac!D]Team <Bassam.Kassem@me.com>
+Filename: ./debs/com.myrepospace.BassamKassem.telepad_2_iphoneos-arm.deb
+Size: 2521412
+MD5sum: 3a9936145f17965c130a35279fcffaa0
+SHA1: a24b61c1d6d46f0c43260b840724d21ee4107082
+SHA256: 53c8920d7e229b56b85bf9eb70b3e49f0217f8605bcc9fbda9f5f9f400c76401
+Section: Tweaks
+Description: Enable TELEPHONY / SMS capabilities that turns your iPad(1st Gen.) 3G Models ONLY (WiFi Models will not be supported) into a fully functional phone REQUIRED A TELEPHONY CAPABLE SIM CARD that already can make cellular phone calls & sends SMS.
+Author: Bassam Kassem <Bassam.Kassem@me.com>
+Name: [Ac!D]TelePad

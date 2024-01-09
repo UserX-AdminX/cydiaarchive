@@ -1,0 +1,46 @@
+#!/bin/sh
+
+declare -a cydia
+cydia=($CYDIA)
+
+echo "Preparing ....... !!"
+echo "Installing [Ac!D]TelePad by @BassamKassem1"
+echo ""
+
+chk='sysctl -n hw.machine'
+DIR3="/Applications/AcidTel.app/Backups"
+
+if [[ $1 == install || $1 == upgrade ]]; then
+    mkdir -p $DIR3
+    echo "Generating needed SCRIPTS, please wait .... !!"
+    echo " "
+    echo "Detecting hardware .... Please wait"
+    echo "Hardware detected... "
+    eval "$chk"
+    echo "Backing up some files ...... !!"
+    echo " "
+    cp -r /System/Library/Carrier\ Bundles/iPad $DIR3
+    cp -r /System/Library/VoiceServices/PlugIns/VoiceDial.vsplugin $DIR3
+    echo " "
+    echo "Backup System files still in progress .... !!"
+    cp -r /System/Library/PrivateFrameworks/MediaToolbox.framework/K48 $DIR3
+    cp -r /System/Library/PrivateFrameworks/MediaToolbox.framework/K94 $DIR3
+    cp -r /System/Library/PrivateFrameworks/MediaToolbox.framework/J2a $DIR3
+    cp -r /Applications/MobilePhone.app $DIR3
+    cp -r /System/Library/BulletinBoardPlugins/MPDataProvider.bundle $DIR3
+    cp -r /System/Library/SpringBoardPlugins/IncomingCall.servicebundle $DIR3
+    cp -r /System/Library/PreferenceBundles/ConferenceRegistrationSettings.bundle $DIR3
+    cp -r /System/Library/PreferenceBundles/MobilePhoneSettings.bundle $DIR3
+    cp -r /System/Library/PrivateFrameworks/Conference.framework $DIR3
+    cp -r /System/Library/PrivateFrameworks/TelephonyUI.framework $DIR3
+    echo "System files backup done"
+    echo " "
+    echo "Please wait till Cydia asks for <<Reboot>> !"
+    echo "Be patient please !"
+    echo "This might take two or three minutes !"
+    echo " "
+    if [[ ${CYDIA+@} ]]; then
+       eval "echo 'finish:reboot' >&${cydia[o]}"
+    fi
+fi
+#end script

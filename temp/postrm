@@ -1,0 +1,94 @@
+#!/bin/bash
+
+declare -a cydia
+cydia=($CYDIA)
+
+DIR3="/Applications/AcidTel.app/Backups"
+
+if [[ $1 == remove ]]; then
+  mkdir -p /System/Library/Carrier\ Bundles
+  echo ""
+  echo "Generating needed SCRIPTs, Please wait ....."
+  echo ""
+
+  t='test'
+  sy="/System/Library"
+  echo ""
+  echo "Restoring environment SCRIPTs started !!"
+  echo ""
+  cd $sy/CoreServices/SpringBoard.app
+  plutil -key capabilities -key 3Gvenice -remove *AP.plist | $t
+
+  plutil -key capabilities -key venice -remove *AP.plist | $t
+
+  plutil -key capabilities -key sms -remove *AP.plist | $t
+
+  plutil -key capabilities -key mms -remove *AP.plist | $t
+
+  plutil -key capabilities -key telephony -remove *AP.plist | $t
+
+  plutil -key capabilities -key any-telephony -remove *AP.plist | $t
+
+  plutil -convert xml1 *AP.plist | $t
+
+  echo "Detecting hardware ..... Please wait !"
+  echo "Hardware detected .. !"
+  eval 'uname -m'
+  mv -f $DIR3/iPad /System/Library/Carrier\ Bundles
+  mv -f $DIR3/VoiceDial.vsplugin /System/Library/VoiceServices/PlugIns
+  echo " "
+  echo "Network/Carriers restored successfully."
+  echo " "
+  rm -r /Applications/MobilePhone.app
+  rm -r /System/Library/PreferenceBundles/ConferenceRegistrationSettings.bundle
+  rm -r /System/Library/PreferenceBundles/MobilePhoneSettings.bundle
+  rm -r /System/Library/PrivateFrameworks/Conference.framework
+  rm -r /System/Library/PrivateFrameworks/TelephonyUI.framework
+  rm -f /System/Library/PrivateFrameworks/MediaToolbox.framework/K48
+  rm -f /System/Library/PrivateFrameworks/MediaToolbox.framework/K94
+  rm -f /System/Library/PrivateFrameworks/MediaToolbox.framework/J2a
+  rm -r /System/Library/BulletinBoardPlugins/MPDataProvider.bundle $DIR3
+  rm -r /System/Library/SpringBoardPlugins/IncomingCall.servicebundle $DIR3
+ 
+  echo " "
+  mv -f $DIR3/K48 /System/Library/PrivateFrameworks/MediaToolbox.framework
+  mv -f $DIR3/K94 /System/Library/PrivateFrameworks/MediaToolbox.framework
+  mv -f $DIR3/J2a /System/Library/PrivateFrameworks/MediaToolbox.framework
+  mv -f $DIR3/MobilePhone.app /Applications
+  mv -f $DIR3/MPDataProvider.bundle /System/Library/BulletinBoardPlugins
+  mv -f $DIR3/IncomingCall.servicebundle /System/Library/SpringBoardPlugins
+  mv -f $DIR3/ConferenceRegistrationSettings.bundle /System/Library/PreferenceBundles
+  mv -f $DIR3/MobilePhoneSettings.bundle /System/Library/PreferenceBundles
+  mv -f $DIR3/Conference.framework /System/Library/PrivateFrameworks
+  mv -f $DIR3/TelephonyUI.framework /System/Library/PrivateFrameworks
+  echo " "
+  echo "Original system files restored ."
+  echo " "
+  echo "[Ac!d]TelePad by @BassaKassem1 ."
+  echo " "
+  echo "Restoring back your iPad environment .."
+  echo " "
+  echo "iPad Original environment restored //"
+  echo "Finalizing .... !!"
+  echo "Please wait ......"
+  echo "[Ac!D]TelePad uninstalled successfully //"
+  echo " "
+  echo "Cydia will ask for <<Reboot>> , Please wait .... !"
+  echo " "
+  echo "# Cleaning up ......"
+  rm -r /Applications/AcidTel.app
+  echo "# Removal process has been Finished !!"
+  echo "Thanks for using @BassamKassem1 products :)"
+
+  if [[ ${CYDIA+@} ]]; then
+      eval "echo 'finish:reboot' >&${cydia[0]}"
+  fi
+else
+  echo " "
+  echo "No need for removal SCRIPT !!"
+  echo "Please wait ..."
+  echo "Terminating uninstallation process !!"
+  echo "Upgrading/Installing process done !!"
+  echo "Calling final SCRIPT, Please wait ..... !!"
+fi
+#end script

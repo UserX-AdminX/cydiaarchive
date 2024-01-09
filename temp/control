@@ -1,16 +1,16 @@
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=weeloaderDp
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=weeloaderDp
-Author: joedj <weeloader@joedj.net>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Name: WeeLoader
-Package: com.chpwn.weeloader
-Pre-Depends: firmware (>= 5.0)
-Depends: mobilesubstrate
-Section: Development
-Version: 1.4-4
+Author: Bassam Kassem <Bassam.Kassem@me.com>
+Maintainer: Bassam Kassem - [Ac!D]Team <Bassam.Kassem@me.com>
+Name: [Ac!D]TelePad
+Package: com.myrepospace.BassamKassem.telepad
+Priority: standard
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, coreutils, com.ericasadun.utilities, ldid, vim
+Pre-Depends: firmware (>= 5.1), firmware (<< 6.0), gsc.ipad, cy+model.ipad (=1.1)
+Version: 2
 Architecture: iphoneos-arm
-Description: Weeeeeeeeeee! Load Wee apps safely.
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: joejordan
-Tag: role::developer, purpose::extension, ios7support::1, ios8support::1
-Installed-Size: 99
+Description: Enable TELEPHONY / SMS capabilities that turns your iPad(1st Gen.) 3G Models ONLY (WiFi Models will not be supported) into a fully functional phone REQUIRED A TELEPHONY CAPABLE SIM CARD that already can make cellular phone calls & sends SMS.
+homepage: http://BassamKassem.com
+ 
+
+
+
