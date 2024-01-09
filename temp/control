@@ -1,16 +1,18 @@
-Name: System Info
-Package: xyz.xninja.systeminfo
-Priority: optional
-Depends: mobilesubstrate, firmware (>= 3.0)
-Version: 2.0.0-1
 Architecture: iphoneos-arm
-Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save shsh, battery info etc
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=systeminfoDp
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=systeminfoDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: ARX8x <arx8@icloud.com>
-Section: Tweaks
-Tag: purpose::extension, compatible::ios10, compatible::ios11
-Installed-Size: 913
-dev: arx8x
+Author: Alleon <andjerk@gmail.com>
+Description: Alleon repo logo
+Installed-Size: 43
+Maintainer: alleon <andjerk@gmail.com>
+Name: Repo Icon
+Package: name.alleon.logorepo
+Priority: optional
+Essential: no
+Section: RepoLogoIcons
+Version: 1.1
+Recommends: cydia
+Sponsor: NewApps.ru <http://www.newapps.ru>
+Depiction: http://www.newapps.ru/depiction/logorepo.html
+
+
+
+

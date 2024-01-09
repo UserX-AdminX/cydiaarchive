@@ -1,3 +1,0 @@
-chmod u+s /usr/bin/iofbres
-chmod u+s /usr/bin/nvnonce
-killall -9 UserEventAgent
