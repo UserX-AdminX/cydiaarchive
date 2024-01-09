@@ -1,15 +1,14 @@
-Package: mobilesubstrate
-Architecture: iphoneos-arm
-Name: Cydia Substrate
+Package: com.saurik.substrate.safemode
 Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/mobilesubstrate/
-Depends: com.saurik.substrate.safemode
-Pre-Depends: dpkg (>= 1.14.25-8)
-Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
-Replaces: cycript (<= 0.9.594)
-Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
-Priority: optional
-Version: 0.9.6301
-Description: powerful code insertion platform
+Name: Substrate Safe Mode
+Description: safe mode safety extension (safe)
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Section: System
+Priority: optional
+Section: Tweaks
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Version: 0.9.6001
+Installed-Size: 156
