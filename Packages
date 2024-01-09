@@ -163,3 +163,33 @@ Section: iPad
 Description: Full port of iPhone Native Apps (Weather, Stocks, Clocks, Calculator, Compass and Voice Memos)
 Author: Bassam Kassem <Bassam.Kassem@Me.com>
 Name: iPhone Native Apps iOS 5.1.x
+
+Package: siriport.ru.appsync50plus
+Version: 2.2
+Architecture: iphoneos-arm
+Depends: Pre-firmware (>= 5.0), mobilesubstrate
+Maintainer: SiriPort.Ru <gdimaits777@gmail.com>
+Filename: ./debs/appsync.deb
+Size: 4450
+MD5sum: e2100a06acdba24c5bbc01748ebd9087
+SHA1: 7b1a1e67b6c7a915e853e856d65343d8ff29db7f
+SHA256: 581922bcf513d699c16ed0b5482f9e04fafec95384aa830d1d7c262e3ae9512b
+Section: Tweaks
+Description: AppSync allows you to sync and install cracked iOS applications. Works for iOS5.x and 6.x
+Author: Dissident <apps@hackulo.us>
+Name: AppSync for iOS 5&6
+
+Package: cydia.net.angelxwind.appsyncunified
+Version: 78.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), firmware (<= 13.5.5), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Filename: ./debs/cydia.net.angelxwind.appsyncunified_78.0_iphoneos-arm.deb
+Size: 42210
+MD5sum: 9e324b47dc9dfca5e8d1c104ad46d1ce
+SHA1: e12e8ea3fcfcdee15529bc253ac7d4752919c6f0
+SHA256: 1ab0696d066a92b7fbcafbc63a215e24fc8e450590c20bed79d45aa3d693662f
+Section: Tweaks
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Name: AppSync Unified
