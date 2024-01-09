@@ -1,0 +1,10 @@
+Package: com.supermamon.oldpackage
+Name: Old Package
+Architecture: iphoneos-arm
+Depends: firmware (<7.0)
+Description: This is a sample old package. Firmware should be lower than 7.0
+Maintainer: Reposi3 <reposithree@gmail.com>
+Author: Reposi3 <reposithree@gmail.com>
+Section: Tweaks
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Version: 1.0.0-1
