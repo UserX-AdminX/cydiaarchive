@@ -898,3 +898,18 @@ Section: RepoLogoIcons
 Description: Alleon repo logo
 Author: Alleon <andjerk@gmail.com>
 Name: Repo Icon
+
+Package: com.openhebrew.preventsleep
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, sbsettings
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debscom.openhebrew.preventsleep_1.0.deb
+Size: 35474
+MD5sum: 19e49328368008b305ecdbf0d81a92cb
+SHA1: 5bff55886987e6971318c4aa22345632b470deca
+SHA256: 740605bf1c89431c626a9b27e9a99e3aaf4f1635696de5b132660e3600f17d50
+Section: Tweaks
+Description: Toggle device from entering sleep mode.
+Author: Tom Zickel <openhebrew@gmail.com>
+Name: PreventSleep
