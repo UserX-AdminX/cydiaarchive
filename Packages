@@ -19,7 +19,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Depends: mobilesubstrate
 Maintainer: gdimait <http://siriport.ru/forum/user/1-gdimait/>
-Filename: /PhoneItiPad.deb
+Filename: ./debs/PhoneItiPad.deb
 Size: 2787082
 MD5sum: dc2a94c1313c0e74a22754a8922857c4
 SHA1: 01d304332e516c11aa5a66890e0efb8a58c368a5
