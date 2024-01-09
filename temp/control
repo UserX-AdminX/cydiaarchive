@@ -1,12 +1,12 @@
-Package: com.modmyi.goldineo
-Name: #Goldineo
-Version: 1.0
+Package: com.modmyi.besttube
+Name: Best Tube
+Version: 1.1
 Architecture: iphoneos-arm
-Author: Thabet99 <alaneed.99@hotmail.com>
-Depends: winterboard
-Depiction: http://modmyi.com/info/goldineo.d.php
-Description: #Goldineo theme.
-Homepage: http://modmyi.com/info/goldineo.php
+Author: ioslinks <kobisn@icloud.com>
+Depends: mobilesubstrate
+Depiction: http://modmyi.com/info/besttube.d.php
+Description: Enjoy your music anytime and anywhere. Search music videos, create playlists, listen while app is in background!
+Homepage: http://modmyi.com/info/besttube.php
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Section: Themes (SpringBoard)
+Section: Applications
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>

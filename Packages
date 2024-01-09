@@ -733,3 +733,18 @@ Section: Themes (SpringBoard)
 Description: #Goldineo theme.
 Author: Thabet99 <alaneed.99@hotmail.com>
 Name: #Goldineo
+
+Package: com.modmyi.besttube
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: /com.modmyi.besttube_1.1_iphoneos-arm.deb
+Size: 736100
+MD5sum: 3cfd1bca8194bd3cf0d4f39f60b9a0ff
+SHA1: 9c8a9bd0a8e0cadcfb5e893924e50585bf29d207
+SHA256: 7b74956477cc2b0f1e6955da8f8c883b08337ae81b34581bec464fc39be6e25c
+Section: Applications
+Description: Enjoy your music anytime and anywhere. Search music videos, create playlists, listen while app is in background!
+Author: ioslinks <kobisn@icloud.com>
+Name: Best Tube
