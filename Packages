@@ -88,3 +88,33 @@ Section: Tweaks
 Description: safe mode safety extension (safe)
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Substrate Safe Mode
+
+Package: com.gauravgiri.fontswap
+Version: 2.1.1-1
+Architecture: iphoneos-arm
+Depends: grep, com.gauravgiri.fontswapstarter
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/fontswap_2.1.1-1.deb
+Size: 1046552
+MD5sum: 79276a6b40738a7428bdaaad61b05ec9
+SHA1: 6883387cbe8ec43e1f595d80ec5a0a80668e7643
+SHA256: fc4e0ceb6e50f669772faa5e92439d1c5d113155f3c91841717cc404ecabd458
+Section: System
+Description: Swap your system fonts!
+Author: Gaurav Giri <gaurav@gauravgiri.com>
+Name: FontSwap
+
+Package: com.gauravgiri.fontswapstarter
+Version: 2.0
+Architecture: iphoneos-arm
+Depends: grep, com.gauravgiri.fontswapstarter
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/fontswap_starter_pack_2.0.deb
+Size: 6769642
+MD5sum: dc2f5a265c319bf8ed86849757a07700
+SHA1: e2901e7f03d4674cb03aeb0d13561602dcd00fe5
+SHA256: 9ab5a5191a9f2b102523b9e95d473e83ad06310b620a4c76d89ad9c1e5ae1d78
+Section: System
+Description: Font Starter Pack for Font Swap app.
+Author: Gaurav Giri <gauravgiri@gmail.com>
+Name: FontSwap Starter
