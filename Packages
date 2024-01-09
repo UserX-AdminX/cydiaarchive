@@ -1,990 +1,1418 @@
-
 Package: siriport.ru.appsync50plus
 Version: 2.2
-Architecture: iphoneos-arm
-Depends: Pre-firmware (>= 5.0), mobilesubstrate
+Priority: standard
+Section: Tweaks
 Maintainer: SiriPort.Ru <gdimaits777@gmail.com>
-Filename: ./debs/appsync.deb
+Pre-Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: us.hackulo.appsync50
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Architecture: iphoneos-arm
+Name: AppSync for iOS 5&6
+Author: Dissident <apps@hackulo.us>
+Sponsor: SiriPort.Ru <http://siriport.ru>
+Description: AppSync allows you to sync and install cracked iOS applications. Works for iOS5.x and 6.x
+Depiction: http://repo.siriport.ru/projects/AppSync/
+
+Filename: debs/appsync.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/siriport.ru.appsync50plus.html
 Size: 4450
 MD5sum: e2100a06acdba24c5bbc01748ebd9087
 SHA1: 7b1a1e67b6c7a915e853e856d65343d8ff29db7f
 SHA256: 581922bcf513d699c16ed0b5482f9e04fafec95384aa830d1d7c262e3ae9512b
-Section: Tweaks
-Description: AppSync allows you to sync and install cracked iOS applications. Works for iOS5.x and 6.x
-Author: Dissident <apps@hackulo.us>
-Name: AppSync for iOS 5&6
-
-Package: phoneitipda-5.1
-Version: 1.0
-Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Maintainer: gdimait <http://siriport.ru/forum/user/1-gdimait/>
-Filename: ./debs/PhoneItiPad.deb
-Size: 2787082
-MD5sum: dc2a94c1313c0e74a22754a8922857c4
-SHA1: 01d304332e516c11aa5a66890e0efb8a58c368a5
-SHA256: 4eaf87aca4980d64024d8143081943663d66a9af871819e3d502523f8fdbd83f
-Section: Tweaks
-Description: Turn your iPad 1 3G into a fully functional phone
-Author: iPhoneIslam <http://siriport.ru/forum/user/1-gdimait/>
-Name: PhoneIt-iPad-5.1.x (Cracked)
-
-Package: ultrasn0w
-Version: 1.2.4
-Architecture: iphoneos-arm
-Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.3209-1), firmware (<< 5.0) | mobilesubstrate (>= 0.9.3900)
-Maintainer: Dev Team <blog@iphone-dev.org>
-Filename: ./debs/ultrasn0w_1.2.4.deb
-Size: 14148
-MD5sum: 21b0b34dfba77e69d9f614dfd59c0d81
-SHA1: 280dec151dc988120bcee6e20059de843a694813
-SHA256: d3a644c1e7a2eeceefd1691d1b0455306f70972f616aeb87c1d395018c27d7bd
-Section: Utilities
-Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
-Author: Dev Team <blog@iphone-dev.org>
-Name: ultrasn0w
-
-Package: uk.invoxiplaygames.tubefixer
-Version: 2.0-194+debug
-Architecture: iphoneos-arm
-Depends: Pre-dpkg (>= 1.13.25-5)
-Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Filename: ./debs/tubefixer-2.0-194-RC2.deb
-Size: 37966
-MD5sum: 06fd13ff67e75753ea82bd0d73412c54
-SHA1: 648ccc22e75e54544486b9d8284c43181ffc8537
-SHA256: 037ee05458d7e5732cf674898ba25788232b99d23544f2e91fb0ef7acfdd892c
-Section: Tweaks
-Description: Package to fix YouTube on iOS 3-5
-Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Name: TubeFixer for iOS
-
-Package: yellowsn0w.dev
-Version: 0.9.6
-Architecture: iphoneos-arm
-Depends: 
-Maintainer: Dev Team <blog@iphone-dev.org>
-Filename: ./debs/yellowsn0w_0.9.6.deb
-Size: 6540
-MD5sum: 4be3166cc14bc8a4af40beaf6a5e5115
-SHA1: 7479a46229adfcc0404131894aeb0686fd2f0c2e
-SHA256: a539d02de4559c8cb65eecd4453faba10ef60465e9b2f5925f24f94177daac23
-Section: Utilities
-Description: An iPhone 3G soft unlock application.
-Author: Dev Team <blog@iphone-dev.org>
-Name: yellowsn0w
-
-Package: com.myrepospace.bassamkassem.iphonenativeapps
-Version: 8.2.2
-Architecture: iphoneos-arm
-Depends: Pre-firmware (>= 5.1), gsc.ipad, firmware (<< 6.0)
-Maintainer: Bassam Kassem <Bassam.Kassem@Me.com>
-Filename: ./debs/com.myrepospace.bassamkassem.iphonenativeapps_8.2.2_iphoneos-arm.deb
-Size: 46550336
-MD5sum: 382bed68d83b0365fac09a03f1372253
-SHA1: fe776c3d8395ca57a0358fe2cf9caeb2d98702a6
-SHA256: 6224052df8d458f22b368f2e6189b78b5fabfbeaa2defd79ec8e4948ceaa24e0
-Section: iPad
-Description: Full port of iPhone Native Apps (Weather, Stocks, Clocks, Calculator, Compass and Voice Memos)
-Author: Bassam Kassem <Bassam.Kassem@Me.com>
-Name: iPhone Native Apps iOS 5.1.x
-
-Package: mobi.macciti.assistantdelete
-Version: 1.2
-Architecture: iphoneos-arm
-Depends: mobilesubstrate, firmware (>= 5.0)
-Maintainer: iC <apt@macciti.com>
-Filename: ./debs/mobi.macciti.assistantdelete_1.2_iphoneos-arm.deb
-Size: 1249160
-MD5sum: d5ed5fcf32e7abcb42ee0b856cf728b6
-SHA1: c95b80f77b7483e7f75f06d8f5386981ad5943ce
-SHA256: 82fe2b93909707de2f0085062d024e96178de573da25456241975c46dfd5eaa7
-Section: Utilities
-Description: Removes 4S keys from your non-supported Siri Devices with a Siri Port installed. Great thanks to Jonathan Seals (@JonathanSeals) and Dylan Laws (@Haif1sch) for all their help and support on my first tweak!
-Author: Zach Wallenta <z8137@me.com>
-Name: AssistantDelete
-
-Package: semitether
-Version: 0.9.1
-Architecture: iphoneos-arm
-Depends: mobilesubstrate (>= 0.9.3990), firmware (>= 5.0) 
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: ./debs/semitether_0.9.1_iphoneos-arm.deb
-Size: 632100
-MD5sum: b15f6bf8a1ceb46ae89e5805929140ba
-SHA1: 59afb3ed0c8119fee7bf9936cf2490211f13bc65
-SHA256: 72d518b4ac44ca7647b0d18fe252a0e82e21e69cacd57f9bbff26bd0655e14b4
-Section: System
-Description: Allow tethered jailbreak to reboot non-jailbroken while on the road
-Author: BigBoss <bigboss@thebigboss.org>
-Name: SemiTether
-
-Package: com.ixmoe.1pwn.weatherx
-Version: 1.0.2-10+debug-1+debug
-Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Maintainer: electimon
-Filename: ./debs/com.ixmoe.1pwn.weatherx_1.0.2-10+debug-1+debug_iphoneos-arm.deb
-Size: 2804
-MD5sum: 175412abd65754f9f805ba1ea552ad28
-SHA1: 4bf16115a28ddd47477dfbc31c47552534acbf41
-SHA256: 8b93367a50722fb26979e1f1244f537540150a881b340bcf30a7f6ec9230e163
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: electimon
-Name: WeatherX
-
-Package: com.ixmoe.1pwn.stockx
-Version: 1.0.0-11+debug
-Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Maintainer: electimon
-Filename: ./debs/com.ixmoe.1pwn.stockx_1.0.0-11+debug_iphoneos-arm.deb
-Size: 2410
-MD5sum: aeab8a3af965b1da0194faacb360bf58
-SHA1: dce7dfc25cb86477fbd18d1e09a1803c96a6a74f
-SHA256: 3a2b66b4eaae65e011e5d484a3c5e30ec36332a595c8f5bf6bdd84d8704e4b80
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: electimon
-Name: StockX
-
-Package: vn.gsm.retinapad
-Version: 1.3.7k
-Architecture: iphoneos-arm
-Depends: gsmicon, mobilesubstrate (>= 0.9.5001), preferenceloader (>= 2.2.2), applist (>= 1.5.7), cydia (>= 1.1.1), curl, firmware (<< 7.0) | com.rpetrich.rocketbootstrap (>= 1.0.1), firmware (<< 7.0) | libactivator (>= 1.8.3)
-Maintainer: Cydia.vn <repo@cydia.vn>
-Filename: ./debs/vn.gsm.retinapad_1.3.7k_iphoneos-arm.deb
-Size: 281100
-MD5sum: 9c933999d4beb290124a64740ef9e8c7
-SHA1: 9aedf62598b07eb301798898411fd94bf784fe66
-SHA256: 0f21dd55e38245da4a60e3a4ac590378a9241d51654c028f4fbe80240b016839
-Section: !CydiaVn-Tools
-Description: Enable Retina Display for iPhone apps on iPad
-Author: Ryan Petrich  <repo@cydia.vn>
-Name: RetinaPad
+SHA521: bd20d966d3dd0c3963118556cceba8accb76a5fa3c127bf062faa3e14a8a2f79a99f203467ee9e20031ab89da1e289da0c6dfa4aadc7d7e3ee1727870baf5b44
 
 Package: uk.invoxiplaygames.checkmatestore
-Version: 1.2
-Architecture: iphoneos-arm
+Name: Checkmate, Store!
 Depends: mobilesubstrate, firmware (>= 2.0)
+Architecture: iphoneos-arm
+Description: Disable capability limits in the App Store.
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Filename: ./debs/checkmatestore-1.2.deb
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Section: Tweaks
+Version: 1.2
+Installed-Size: 164
+Filename: debs/checkmatestore-1.2.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/uk.invoxiplaygames.checkmatestore.html
 Size: 5200
 MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
 SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
 SHA256: 0863fee434c9a1aed89696655b4075aa3edde2b2ad3ee2a0e99a99428c17ffe3
-Section: Tweaks
-Description: Disable capability limits in the App Store.
-Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Name: Checkmate, Store!
-
-Package: net.angelxwind.android-4x-pattern-lock
-Version: 1.3.2
-Architecture: iphoneos-arm
-Depends: 
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Filename: ./debs/net.angelxwind.android-4x-pattern-lock.deb
-Size: 539906
-MD5sum: 7b9814464044dc3de9953922abcfbaf3
-SHA1: 3051d575d7176f2c5082c8079c1bb4d528a9b11a
-SHA256: f0622bc78847cd3bd8bb5a99eee34d8bad8594cb60b6416dcd292cbe2726eba4
-Section: Themes
-Description: Android 4.x pattern lock theme for AndroidLock XT.
-Author: Karen/あけみ <karen@akemi.ai>
-Name: Android 4.x Pattern Lock for AndroidLockXT
-
-Package: com.aoi.storefix
-Version: 1.0-6
-Architecture: iphoneos-arm
-Depends: firmware  (<= 6.1.6)
-Maintainer: aoi_satou
-Filename: ./debs/com.aoi.storefix_1.0-6_iphoneos-arm.deb
-Size: 1270
-MD5sum: fb1224b0f97b71a5040606f5fa0b4b37
-SHA1: d4ab9af662df651022afaa6775de04450d787ca7
-SHA256: a7d02f5ca487cff4770ee68eb1409ad48f126dacf77adace7f2b681422bd7829
-Section: System
-Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
-Author: aoi_satou
-Name: AppStoreFix
-
-Package: com.exile90.icleanerpro
-Version: 7.10.0
-Architecture: iphoneos-arm
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Filename: ./debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm.deb
-Size: 2450460
-MD5sum: 830ebd462d173a9211f5f7c41ce64d1a
-SHA1: 437f5c5097cdab433698b11dab81c3cb8fc82917
-SHA256: 99c90c0f4629d47af1c52772f374eb74828f7cdafc469fcc42af0eea6d417c66
-Section: Utilities
-Description: The first real iOS system cleanup and management utility
-Author: Ivano Bilenchi <support@ib-soft.net>
-Name: iCleaner Pro
-
-Package: com.gauravgiri.fontswap
-Version: 2.1.1-1
-Architecture: iphoneos-arm
-Depends: grep, com.gauravgiri.fontswapstarter
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: ./debs/fontswap_2.1.1-1.deb
-Size: 1046552
-MD5sum: 79276a6b40738a7428bdaaad61b05ec9
-SHA1: 6883387cbe8ec43e1f595d80ec5a0a80668e7643
-SHA256: fc4e0ceb6e50f669772faa5e92439d1c5d113155f3c91841717cc404ecabd458
-Section: System
-Description: Swap your system fonts!
-Author: Gaurav Giri <gaurav@gauravgiri.com>
-Name: FontSwap
-
-Package: com.gauravgiri.fontswapstarter
-Version: 2.0
-Architecture: iphoneos-arm
-Depends: 
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: ./debs/fontswap_starter_pack_2.0.deb
-Size: 6769642
-MD5sum: dc2f5a265c319bf8ed86849757a07700
-SHA1: e2901e7f03d4674cb03aeb0d13561602dcd00fe5
-SHA256: 9ab5a5191a9f2b102523b9e95d473e83ad06310b620a4c76d89ad9c1e5ae1d78
-Section: System
-Description: Font Starter Pack for Font Swap app.
-Author: Gaurav Giri <gauravgiri@gmail.com>
-Name: FontSwap Starter
-
-Package: vn.gsm.dashboard
-Version: 2.0.5
-Architecture: iphoneos-arm
-Depends: gsmicon, mobilesubstrate, libactivator, preferenceloader, com.rpetrich.layersnapshotter
-Maintainer: Cydia.vn <repo@cydia.vn>
-Filename: ./debs/vn.gsm.dashboard_2.0.5_iphoneos-arm.deb
-Size: 886938
-MD5sum: 02b7c3a26f64e6387abac09bcfe7c48a
-SHA1: 60fd880b9238e72f33e3dc7da8ad1a6f7bb71de7
-SHA256: 9778cb1da2c463b6d1d931d2e86ed8d696d7adc9f64ba9533454e91db5e09a3b
-Section: !GSMVN-Tools
-Description: Dashboard X is an awesome widgets system for your device!
-Author: cjori
-Name: Dashboard X
-
-Package: vn.gsm.quasar
-Version: 1.3
-Architecture: iphoneos-arm
-Depends: gsmicon, firmware (>= 5.0), mobilesubstrate, preferenceloader, gsc.ipad
-Maintainer: Thieu.Bocap <repo@cydia.vn>
-Filename: ./debs/vn.gsm.quasar_1.3_iphoneos-arm.deb
-Size: 66344
-MD5sum: 2ed6877daccdbf2e3e17c4e9efbc46f5
-SHA1: 9ff18fcb32951153b4213950d8c9335762c8cab1
-SHA256: 77f7d9856f88a5fc5dc1fd89cc2d6070ab4c3e39648c6e047b0fa68cac62c076
-Section: !GSMVN-Tools
-Description: multi-app window manager for iPad
-Author: Pedro Franceschi
-Name: Quasar
-
-Package: com.jamied360.ncsettings
-Version: 1.7.1
-Architecture: iphoneos-arm
-Depends: firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, preferenceloader
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Filename: ./debs/com.jamied360.ncsettings_1.7.1_iphoneos-arm.deb
-Size: 472030
-MD5sum: 8c17029eb872efac412f8e9acb5107d5
-SHA1: 29eb616b6720e9d9a4262722733824c5f0bc8e32
-SHA256: fcc1ba038df84e883dfae64c68ff2d3226f8596a35716f39671e10714c82111e
-Section: Addons (NotificationCenter)
-Description: NCSettings is a sleek Notification Center toggle widget
-Author: JamieD360 <jamied360support@live.co.uk>
-Name: NCSettings
-
-Package: winterboard
-Version: 0.9.3919
-Architecture: iphoneos-arm
-Depends: mobilesubstrate (>= 0.9.3225-1), killall, preferenceloader, findutils, net.howett.pincrush (>= 0.0.1-23) | pincrush
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Filename: ./debs/winterboard_0.9.3919_iphoneos-arm.deb
-Size: 111104
-MD5sum: 903869bcc23c88eeb71615e833e626af
-SHA1: 569cc3f77a3ca6cd2046a84bc5c3a68fbb2f00ea
-SHA256: 8cd0ad873eacf4c209e4e89e2e1e0ab0ea963f49cd652ef814ed97d2fb157991
-Section: System
-Description: theme manager, used by most themes
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: WinterBoard
-
-Package: com.hackyouriphone.ifile
-Version: 2.2.0-1
-Architecture: iphoneos-arm
-Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
-Maintainer: iLeoLion <repo@hackyouriphone.org>
-Filename: ./debs/com.hackyouriphone.ifile_2.2.0-1_iphoneos-arm.deb
-Size: 9747038
-MD5sum: 289aee1633c592fc93254c667a167481
-SHA1: 9829d4d9cbb2bdd2ba1f3db307a12347fa1ee575
-SHA256: 549ec690ee9d4c808c758e880e50442f01aed065e4b11ea91430ec32f6304c80
-Section: HYI - Tweaks
-Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
-Author: Carsten Heinelt <repo@hackyouriphone.org>
-Name: iFile
-
-Package: com.hackyouriphone.tetherme
-Version: 3.1-1
-Architecture: iphoneos-arm
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), firmware (<< 3.2) | firmware (>= 4.0), preferenceloader (>= 2.2.2), network-cmds
-Maintainer: iLeoLion <repo@hackyouriphone.org>
-Filename: ./debs/com.hackyouriphone.tetherme_3.1-1_iphoneos-arm.deb
-Size: 56708
-MD5sum: 620dd6edbf7f5d6f0af25624874446ce
-SHA1: 794e8b9dffc8ed53c66638dbedf035b0fac14c18
-SHA256: 9db4e820d7ab624a0055af33f763ece7c4143bf6ab6e110acee31af9b884ee10
-Section: HYI - Tweaks
-Description: Dynamically enables native tethering
-Author: cirdan & sbingner <repo@hackyouriphone.org>
-Name: TetherMe
-
-Package: org.chronic-dev.animate.original
-Version: 1.0.1-1
-Architecture: iphoneos-arm
-Depends: preferenceloader
-Maintainer: Bigboss <bigboss@thebigboss.org>
-Filename: ./debs/org.chronic-dev.animate_1.0.1-1_iphoneos-arm.deb
-Size: 129030
-MD5sum: 9ff9572a9c35aa4075223115a86341f6
-SHA1: 33ca74b90af9ed2bcad2ca9dd8fcacd257cdac2d
-SHA256: a92728c1ce0602e9c59c5372a2938b7a3475f5d5ebdfce65431136c1613ece34
-Section: System
-Description: Boot Logo Animations for 4.2.1 untether
-Author: Chronic-Dev Inc. <jaywalker@chronic-dev.com>
-Name: animate
-
-Package: libactivator
-Version: 1.9.13~rc6
-Architecture: iphoneos-arm
-Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
-Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
-Filename: ./debs/libactivator_1.9.13~rc6_iphoneos-arm.deb
-Size: 929288
-MD5sum: edb85ee5c115534b48818d8bb9592152
-SHA1: 31be51e4b89f8e4e39ec1920e945960d3f458d96
-SHA256: 2fcd743e3b3f6e13a5c138c1445cab1d81c66125823f3895e4ef62508e30d8ef
-Section: System
-Description: Centralized gestures, button and shortcut management for iOS
-Author: Ryan Petrich <rpetrich+activator@gmail.com>
-Name: Activator
+SHA521: 7b14fe2b83e232836f85d245797d91e31c28df3510e9e5ccb16909e858869c904f185499e99a111898eacedf5d79e7a9616c35b85589bb342be2cdef6edff4e2
 
 Package: com.a3tweaks.flipswitch
-Version: 1.0.16~rc3
-Architecture: iphoneos-arm
+Name: Flipswitch
 Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.9) | firmware (<< 7.0)
+Conflicts: com.rpetrich.donotdisturbtoggle (<= 1.0-1), com.jerryen.rotationlockflipswitch, com.jakeashacks.realcc (<< 1.0.2)
+Replaces: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift, com.jakeashacks.realcc (<< 1.0.2)
+Provides: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
+Architecture: iphoneos-arm
+Description: Centralized toggle system for iOS
+Homepage: https://rpetri.ch/cydia/flipswitch/beta/
+Depiction: https://rpetri.ch/cydia/flipswitch/beta/
+Author: rpetrich <rpetrich+flipswitch@gmail.com>
 Maintainer: rpetrich & a3tweaks <rpetrich+flipswitch@gmail.com>
-Filename: ./debs/com.a3tweaks.flipswitch_1.0.16~rc3_iphoneos-arm.deb
+Section: System
+Tag: purpose::extension, role::developer
+Icon: file:///Applications/Preferences.app/icon-table.png
+dev: flipswitch
+Version: 1.0.16~rc3
+Installed-Size: 2408
+Filename: debs/com.a3tweaks.flipswitch_1.0.16~rc3_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.a3tweaks.flipswitch.html
 Size: 301098
 MD5sum: 6aa1da6c359b385e715cc8a71aa64364
 SHA1: 23618f385d41c2624fc09a60e9f554f3f8faff24
 SHA256: a13a6928248a41a6b81b1faec9703f4e7af9aedcede5ef11dbd71dbd22fc58ec
+SHA521: 9725656250ca4d39c5811e06bd8d9c354555a971e5c287b591c8f4856f3cd7530493b6be11d37482e8c67c3ae04aabc0e6c2e88cec5a2021cae712c8ce5ca03b
+
+Package: com.alexzielenski.zeppelin
+Version: 2.1.1-1
+Architecture: iphoneos-arm
+Name: Zeppelin
+Maintainer: Alex Zielenski <support@alexzielenski.com>
+Author: Alex Zielenski <support@alexzielenski.com>
+Section: Tweaks
+Description: Replaces carrier text with an image !
+Filename: debs/com.alexzielenski.zeppelin_2.1.1-1_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.alexzielenski.zeppelin.html
+Icon: https://ReverseY111.github.io/cydiaarchive/icons/com.alexzielenski.zeppelin.png
+Size: 961736
+MD5sum: a91d9dfb8b2d198ef3dba92201e1c684
+SHA1: 98ca43528da3e11610b106deb92f0c27eb44c1df
+SHA256: b0693558cb0cdad230685dbf5e9215969bb5ea24c66802fa90d54a7f8386ed9a
+SHA521: cfa081fdb1b62947155bb2a683e4854d01d776569d40163fe11d2c7eb5212456277dd28aa13b791177857632d424aac0acf4c58453079380ad03cc814198b66e
+
+Author: aoi_satou
+Maintainer: aoi_satou
+Name: AppStoreFix
+Package: com.aoi.storefix
+Conflicts:  com.aoi.storefix
+Depends: firmware  (<= 6.1.6)
 Section: System
-Description: Centralized toggle system for iOS
-Author: rpetrich <rpetrich+flipswitch@gmail.com>
-Name: Flipswitch
-
-Package: com.rpetrich.rocketbootstrap
-Version: 1.0.10~beta1
+Version: 1.0-6
 Architecture: iphoneos-arm
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: ./debs/com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm.deb
-Size: 38344
-MD5sum: b52417e29631c59cdb267379e71e2a69
-SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
-SHA256: d06e18eefbfcb40f3e3b215bfbccaf34091fb30b2ccb1e4f6c519aa91d2b7248
-Section: Tweaks
-Description: Support library allowing tweaks to communicate with sandboxed processes
-Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
-Name: RocketBootstrap
-
-Package: com.saurik.substrate.safemode
-Version: 0.9.6001
-Architecture: iphoneos-arm
-Depends: mobilesubstrate (>= 0.9.3367+38)
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Filename: ./debs/com.saurik.substrate.safemode_0.9.6001_iphoneos-arm.deb
-Size: 13226
-MD5sum: 5e9905d35c71075b2a7f0aed5cd4b1db
-SHA1: 916af06e0c879233ff22d795b04abf8276ff905b
-SHA256: 86515cb9f6832247dbeae8427b996099dc8759bb1ef1d719c293123f2f531ee1
-Section: Tweaks
-Description: safe mode safety extension (safe)
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Substrate Safe Mode
-
-Package: cydia
-Version: 1.1.30
-Architecture: iphoneos-arm
-Depends: Pre-debianutils, dpkg (>= 1.14.25-8)
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Filename: ./debs/cydia_1.1.30_iphoneos-arm.deb
-Size: 1292624
-MD5sum: bb0cdc40d3abac5b874972ad8a8b70a1
-SHA1: a237e6a09c77e91e1c89d212e53a85e691b0b47a
-SHA256: f80a5228b2bacbd8e2640d96dc1b15a5cf0db681d2ed976cf53f1f5c64a9b184
-Section: Packaging
-Description: graphical iPhone front-end for APT
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Cydia Installer
-
-Package: net.angelxwind.mobileterminal-applesdk
-Version: 521-karen-2
-Architecture: iphoneos-arm
-Depends: bash, coreutils, ncurses, system-cmds
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Filename: ./debs/net.angelxwind.mobileterminal-applesdk.deb
-Size: 248684
-MD5sum: d49b219bfcb8555498b2c2589bc40040
-SHA1: f4d75c8392f9ca835faa01c4d5d609c85ca87ea4
-SHA256: 5e2937aaa67c40511e4d8c1593df5713bbe9efdb1eff486d1cbea8ac6f22e685
-Section: Terminal_Support
-Description: A Terminal emulator. This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: SSH into remote boxes, download files, edit configuration files, whatever. 
-Author: Karen/あけみ <karen@akemi.ai>
-Name: MobileTerminal
-
-Package: com.ichitaso.winterboardapp
-Version: 0.9.3915
-Architecture: iphoneos-arm
-Depends: winterboard, apt7
-Maintainer: ichitaso
-Filename: ./debs/com.ichitaso.winterboardapp_0.9.3915_iphoneos-arm.deb
-Size: 165204
-MD5sum: c0bad8e3066b03c3a6633db1187cdbe6
-SHA1: 065ee7f9e6d23c97dc8859f1c5d132d12a1b8615
-SHA256: aa9a9b02cdfdb0cc161f6928ad3ed13144c85370672c7dc675de767a361ea890
-Section: System
-Description: Return the WinterBoard app.
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: WinterBoard App
-
-Package: com.codethemed.ifiletheme5455
-Version: 2.0.0
-Architecture: iphoneos-arm
-Depends: winterboard
-Maintainer: ZodTTD <zodttd@zodttd.com>
-Filename: ./debs/com.codethemed.ifiletheme5455_2.0.0_iphoneos-arm.deb
-Size: 478602
-MD5sum: 8f853fc1669643b4d2a5ad15dc17c59d
-SHA1: 5c39d9dabcf7cf8e0a412416cff269fceabd958a
-SHA256: 07ebc14f0207d9e3f9b1a86977bf7d6deabe16245523e45177085f8c42126eb9
-Section: Themes (SpringBoard)
-Description: Winterboard theme based of file formats for music, videos, photos, and other file formats. Wallpapers include familiar things about Mac OSX, and including file types from Windows and Mac. Enjoy!
-Author: iPodGuru <jarjarcomedy@yahoo.com>
-Name: iFile Theme
-
-Package: vn.gsm.displayrecorder
-Version: 1.3.21k
-Architecture: iphoneos-arm
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), libactivator (>= 1.9.1), gdata-objectivec-client | firmware (>= 7.0), firmware (>= 3), openssl, firmware (<< 9.9), com.rpetrich.rocketbootstrap (>= 1.0.1) | firmware (<< 7.0), com.a3tweaks.flipswitch (>= 1.0.5)
-Maintainer: Cydia.vn <repo@cydia.vn>
-Filename: ./debs/vn.gsm.displayrecorder_1.3.21k_iphoneos-arm.deb
-Size: 913056
-MD5sum: 14b5391af8b1d0f53019984cd1887854
-SHA1: f4a600630fb770b9292d6dac36b3ccb0ce9b86eb
-SHA256: 60c380fc5f3fc0253315702935355b95954f8185bcb43bdb77d6cb3a57a2be27
-Section: !CydiaVn-Apps
-Description: Record the display in real-time, send to camera roll, web interface, ProTapper-style touch circles and Activator integration
-Author: Ryan Petrich <repo@cydia.vn>
-Name: Display Recorder
-
-Package: com.macciti.abootlogopack
-Version: 1.1
-Architecture: iphoneos-arm
-Depends: winterboard
-Maintainer: iC <apt@macciti.com>
-Filename: ./debs/com.macciti.abootlogopack_1.1_iphoneos-arm.deb
-Size: 9221784
-MD5sum: 2c2f5967b6700ff83727f7384a8c4d8b
-SHA1: 77147bc0ba40e0d63ef1e779c7dee35e0a7d5d16
-SHA256: cce8742c5d30d47c9d45c5857c96dfabf15a196e0c6b3bb0c505c1ebb1bf290b
-Section: Themes (System)
-Description: This is a pack of 25 Boot Logo s that work with Winterboard.
-Author: Otis Huff <Killingspree187@yahoo.com>
-Name: A Boot Logo Pack
-
-Package: vn.gsm.androidlockxt
-Version: 3.6k
-Architecture: iphoneos-arm
-Depends: mobilesubstrate, preferenceloader (>= 2.0.3-2), firmware (>= 3.2)
-Maintainer: Cydia.vn <repo@cydia.vn>
-Filename: ./debs/vn.gsm.androidlockxt_3.6k_iphoneos-arm.deb
-Size: 3880578
-MD5sum: edd47ed099c289a5b7144c6848c78f9a
-SHA1: c7a57f5f61adeb24510a38608f4e240f2d77d87b
-SHA256: 1386e3e262265c8f3c1d207350efd7df31cdd15cf7f37688746ae6a774819788
-Section: !CydiaVn-Tools
-Description: An Android-like lockscreen where you have to draw the correct pattern to unlock.
-Author: Zmaster <repo@cydia.vn>
-Name: AndroidLock XT
-
-Package: mobi.macciti.apptag
-Version: 1.1
-Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Maintainer: iC <>
-Filename: ./debs/mobi.macciti.apptag_1.1_iphoneos-arm.deb
-Size: 10278
-MD5sum: 16b9c7a60bf53a575435534c284113ed
-SHA1: 939c30bf5e489d51918ccb8ab876918166721a8a
-SHA256: 7c7d2427d9e6fbd5994f59d7a621a81e209107afce6a6d8fcca1c1c2eca4f093
-Section: Tweaks
-Description: This tweak will allow you to create badges on your iPod Touch or iPhone with no computer! Instructions are located in Settings > AppTag.
-Author: 0njai <>
-Name: AppTag
-
-Package: org.thebigboss.sbsandroidlocktoggle
-Version: 1.0.3
-Architecture: iphoneos-arm
-Depends: sbsettings
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: ./debs/org.thebigboss.sbsandroidlocktoggle_1.0.3_iphoneos-arm.deb
-Size: 28304
-MD5sum: ac053e4400bf50a75024a8be018ee8a5
-SHA1: df9784eb1ed06f409891203c55c0902599124f68
-SHA256: c708959129549c917c2dafb5136f6dcb141daf52dedd1c4e682f91e27a895e3f
-Section: Addons (SBSettings)
-Description: toggle on/off AndroidLock XT
-Author: rhodysurf <rhodysurf13@gmail.com>
-Name: Androidlock XT SBSettings Toggle
-
-Package: com.blackgeek.geeksn0wsemiuntetherpayload
-Version: 1.0.0
-Architecture: iphoneos-arm
-Depends: firmware (>= 7.1)
-Maintainer: Matteo Piccina <altermatte@gmail.com>
-Filename: ./debs/com.blackgeek.geeksn0wsemiuntetherpayload_1.0.0_iphoneos-arm.deb
-Size: 109492
-MD5sum: cca0d9c2f63892d31664668793b51b01
-SHA1: dc77dccc8901ec8fcf9cd3f3fae501391bb123f7
-SHA256: 24fc64e687910e6bc3a975b96045e9a6b52e6b1a01e8c3816179cdd6b835b153
-Section: Jailbreaks
-Description: GeekSn0w Semi Untether Payload. It's for iOS 7.1 !
-Author: BlackGeek <blackgeektutorial@gmail.com>
-Name: GeekSn0w Semi Untether Payload
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Depiction: http://aoiblog.jp/appstorefix_history.html
+dev: aoi_satou
+Tag: purpose::extension
+Filename: debs/com.aoi.storefix_1.0-6_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.aoi.storefix.html
+Size: 1270
+MD5sum: fb1224b0f97b71a5040606f5fa0b4b37
+SHA1: d4ab9af662df651022afaa6775de04450d787ca7
+SHA256: a7d02f5ca487cff4770ee68eb1409ad48f126dacf77adace7f2b681422bd7829
+SHA521: da59a9eb59105af3cb0292b56c3df97400939322abe1bf2bedbd9e0019af157e1da57bfe42cd90c9cc710a47f732422c6b768a0480dacea371ab934b1d76f946
 
 Package: com.beyoip.install0us
-Version: 2.5.2
+Name: install0us
+Version: 2.5.2.the.end
 Architecture: iphoneos-arm
-Depends: 
+Description: THE App to download/install your IPA!!
+Sponsor: Install0us <http://install0us.com>
+Depiction: http://repo.beyouriphone.com/depiction.html
 Maintainer: Ajeje <repo@beyouriphone.com>
-Filename: ./debs/com.beyoip.install0us_2.5.2.the.end_iphoneos-arm.deb
+Author: puy0
+Section: BeYoIP Apps
+Filename: debs/com.beyoip.install0us_2.5.2.the.end_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.beyoip.install0us.html
 Size: 686802
 MD5sum: 40d49ef6ee09e4abd796ac58530f783c
 SHA1: 4d2f6b1d2538ca5596fc7c3a05c341b289c36cde
 SHA256: 93cab002d15ee71f1063bfc71bd7f6f28730bbea51aacb4d52d92bf2e540239f
-Section: IPA
-Description: THE App to download/install your IPA!!
-Author: puy0
-Name: install0us
+SHA521: 5eca2b7e9358500661ec48a8407ac8dd7a5b948b1c8f301af2f57a1369affe1e536be069dc5acbcf19ed1d98358ec78ce5849a7111fad0c00543b91f53183e95
 
-Package: sbsettings
-Version: 6.0.5-1
+Package: com.blackgeek.geeksn0wsemiuntetherpayload
+Version: 1.0.0
+Section: Jailbreaks
+Name: GeekSn0w Semi Untether Payload
+Author: BlackGeek <blackgeektutorial@gmail.com>
+Maintainer: Matteo Piccina <altermatte@gmail.com>
+Sponsor: Beiphone <http://beiphone.it/>
+Icon: file:///usr/share/macthemes/sections/jailbreaks~moma@2x.png
+Depends: firmware (>= 7.1)
 Architecture: iphoneos-arm
-Depends: libhide (>= 2.0.6-4), mobilesubstrate, sbsettingstoggles (>= 3.0.5), shell-cmds, firmware (<< 4.0) | libactivator (>= 1.3.2), firmware (<< 5.0) | com.chpwn.weeloader
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: ./debs/sbsettings_6.0.5-1.deb
-Size: 2139060
-MD5sum: 89103464ba327fc91234afab4655040f
-SHA1: d14772eeaed7c32999fd45b34d16ada68ff33c07
-SHA256: a8a7c2c403638566d0f670ecce1dff06a04f55fe984eb074a16e275c12aa7581
-Section: System
-Description: Move common toggles directly into springboard where they're always there!
-Author: BigBoss <bigboss@thebigboss.org>
-Name: SBSettings
-
-Package: com.mathieubolard.killbackground
-Version: 1.3.1-7
-Architecture: iphoneos-arm
-Depends: mobilesubstrate, firmware (>= 4.0), preferenceloader, applist
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: ./debs/killbackground_1.3.1-7.deb
-Size: 71698
-MD5sum: a67106c323ca059b2b8680bd030636cd
-SHA1: b2f7cd9fcf117c24c7d558c35410376219698d0e
-SHA256: c5ad31c11a3af480d4c3e060f9bc296056d08d9e746b493e1cf29a32a7669524
-Section: Tweaks
-Description: kill all background apps from switcher
-Author: Mathieu Bolard (mattlawer) <mattlawer08@gmail.com>
-Name: KillBackground
-
-Package: com.chronic-dev.greenpois0n.rocky-racoon.jb.original
-Version: 1.0-1
-Architecture: iphoneos-arm
-Depends: coreutils-bin, firmware (= 5.1.1), lzma, cy+model.iphone (= 2.1) | cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.iphone (= 4.1) | cy+model.ipod (= 3.1) | cy+model.ipod (= 4.1) | cy+model.ipad (= 1.1) | cy+model.ipad (= 2.1) | cy+model.ipad (= 2.2) | cy+model.ipad (= 2.3) | cy+model.ipad (= 2.4) | cy+model.ipad (= 3.1) | cy+model.ipad (= 3.2) | cy+model.ipad (= 3.3)
-Maintainer: Chronic Dev Team <info@chronic-dev.com>
-Filename: ./debs/com.chronic_dev.greenpois0n.rocky_racoon_1.0_1_iphoneos_arm.deb
-Size: 220790
-MD5sum: bb64c51693b6a827e91c6fd936c4315e
-SHA1: a5999a4b704d2c10107698a290c9b5dc9860f051
-SHA256: e79ebbc519b5bd775bcde4118711e6e3963ce74f3ee63e3a30e59174893e4fa3
-Section: System
-Description: untethered jailbreak based on pod2g and planetbeing exploits
-Author: Chronic-Dev Team <info@chronic-dev.com>
-Name: Rocky Racoon 5.1.1 Untether
-
-Package: com.ipr.bytafont
-Version: 1.3.1
-Architecture: iphoneos-arm
-Depends: 
-Maintainer: iPhoneRuler.net <info@iphoneruler.net>
-Filename: ./debs/com.ipr.bytafont_1.3.1_iphoneos-arm.deb
-Size: 183784
-MD5sum: dc43161303538f0a36a31277b1f9d50e
-SHA1: 894f86c495e34bac40fdf260bf84a3d5f374ebec
-SHA256: 84f38cbe7e9c48a93aa7e64965e386f351976f23f03e010535259374469e4b6b
-Section: System
-Description: BytaFont lets you apply fonts to your iDevice in few taps.
-Author: iPhoneRuler.net <info@iphoneruler.net>
-Name: BytaFont
+Description: GeekSn0w Semi Untether Payload. It's for iOS 7.1 !
+Installed-Size: 111
+Filename: debs/com.blackgeek.geeksn0wsemiuntetherpayload_1.0.0_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.blackgeek.geeksn0wsemiuntetherpayload.html
+Size: 109492
+MD5sum: cca0d9c2f63892d31664668793b51b01
+SHA1: dc77dccc8901ec8fcf9cd3f3fae501391bb123f7
+SHA256: 24fc64e687910e6bc3a975b96045e9a6b52e6b1a01e8c3816179cdd6b835b153
+SHA521: c24b3bcfb6a7836e5c70cf2755b362d672b12e9c2d24048494abc92d3c61b1275963f0566e5cc4ac30d153476ec5a72155e3b9811f017c94c328a5634ba0fe58
 
 Package: com.bytafont.bytafont2
+Depends: firmware (>= 7)
+Name: BytaFont 2
 Version: 2.2
 Architecture: iphoneos-arm
-Depends: firmware (>= 7)
+Description: BytaFont 2 lets you apply fonts to your iDevice in few taps.
+Depiction: http://www.iphoneruler.net/depiction/BytaFont2
 Maintainer: iPhoneRuler.net <info@iphoneruler.net>
-Filename: ./debs/com.bytafont.bytafont2_2.2_iphoneos-arm.deb
+Author: iPhoneRuler.net <info@iphoneruler.net>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Section: System
+
+Filename: debs/com.bytafont.bytafont2_2.2_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.bytafont.bytafont2.html
 Size: 965452
 MD5sum: 7280e95446d6fceccaa2568e4c16a6f5
 SHA1: 7c8f5eb2031b199d4adb7166db1b26ee0d238ad3
 SHA256: 62cf5403550e6d7247747014b778660c3149c5759d07e28e484e179a7ce755d4
-Section: System
-Description: BytaFont 2 lets you apply fonts to your iDevice in few taps.
-Author: iPhoneRuler.net <info@iphoneruler.net>
-Name: BytaFont 2
-
-Package: vn.gsm.localiapstore
-Version: 1.4-2
-Architecture: iphoneos-arm
-Depends: gsmicon, firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Maintainer: Cydia.vn <repo@cydia.vn>
-Filename: ./debs/vn.gsm.localiapstore_1.4-2_iphoneos-arm.deb
-Size: 70892
-MD5sum: 3f3dc08c728caa9309fe6b788b09872b
-SHA1: b47840b58d30ef20931f7e2902f07f815ee3b0ed
-SHA256: b2065a61ff458b42ddcab87b094d08221b24a837e26059ce54323f866e8ce1e5
-Section: !CydiaVn-Tools
-Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
-Author: anon dev <repo@cydia.vn>
-Name: LocalIAPStore
-
-Package: cydia.net.angelxwind.appsyncunified
-Version: 78.0
-Architecture: iphoneos-arm
-Depends: firmware (>= 5.0), firmware (<= 13.5.5), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Filename: ./debs/cydia.net.angelxwind.appsyncunified_78.0_iphoneos-arm.deb
-Size: 42210
-MD5sum: 9e324b47dc9dfca5e8d1c104ad46d1ce
-SHA1: e12e8ea3fcfcdee15529bc253ac7d4752919c6f0
-SHA256: 1ab0696d066a92b7fbcafbc63a215e24fc8e450590c20bed79d45aa3d693662f
-Section: Tweaks
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
-Name: AppSync Unified
-
-Package: com.modmyi.ios4macosxleopardtheme
-Version: 1.0
-Architecture: iphoneos-arm
-Depends: winterboard
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Filename: ./debs/com.modmyi.ios4macosxleopardtheme_1.0_iphoneos-arm.deb
-Size: 730950
-MD5sum: 20d6c16e8952ddf127cf9956ea514a2c
-SHA1: 8e2c14abfbaf5da44dbcad04af6ea7d21879de5b
-SHA256: afaf25a000ffd4da44671b3eb708b04b42dfea789b177b5888ea7d042e7590e5
-Section: Themes (SpringBoard)
-Description: A nice Winterboard theme including icons, wallpapers and more.
-Author: Picu97 <changapalanga@gmail.com>
-Name:  iOS4 Mac OS X Leopard Theme
-
-Package: com.modmyi.goldineo
-Version: 1.0
-Architecture: iphoneos-arm
-Depends: winterboard
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Filename: ./debs/com.modmyi.goldineo_1.0_iphoneos-arm.deb
-Size: 3320132
-MD5sum: cb5ba5c7f8e87608ab44cd695b36cd5f
-SHA1: 13717b97fa74d7771178c4b9b95b303e51d3b81b
-SHA256: c83b5c0afcf5cfe1d57804a1d1560a9afb9d78d81237b3ab769813c2f829c365
-Section: Themes (SpringBoard)
-Description: #Goldineo theme.
-Author: Thabet99 <alaneed.99@hotmail.com>
-Name: #Goldineo
-
-Package: com.modmyi.besttube
-Version: 1.1
-Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Filename: ./debs/com.modmyi.besttube_1.1_iphoneos-arm.deb
-Size: 736100
-MD5sum: 3cfd1bca8194bd3cf0d4f39f60b9a0ff
-SHA1: 9c8a9bd0a8e0cadcfb5e893924e50585bf29d207
-SHA256: 7b74956477cc2b0f1e6955da8f8c883b08337ae81b34581bec464fc39be6e25c
-Section: Applications
-Description: Enjoy your music anytime and anywhere. Search music videos, create playlists, listen while app is in background!
-Author: ioslinks <kobisn@icloud.com>
-Name: Best Tube
-
-Package: com.eldwin.iwidgets
-Version: 1.3.2
-Architecture: iphoneos-arm
-Depends: mobilesubstrate, firmware (>= 4.2.1)
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Filename: ./debs/com.eldwin.iwidgets_1.3.2_iphoneos-arm.deb
-Size: 332298
-MD5sum: df1c1a8bb2ce16b2116887a8f7e36013
-SHA1: 9d0ecaf2771d3d1516e5db698c5026cc83ff2e08
-SHA256: c383674da009bd76d3f4188cf04786a435ac88614400105cb7dc1eb22d46ccb3
-Section: Tweaks
-Description: HTML Widgets on SpringBoard!
-Author: eldwin <eldwin_@hotmail.com>
-Name: iWidgets
-
-Package: iGameGuardian
-Version: 2.0.0
-Architecture: iphoneos-arm
-Depends: 
-Maintainer: Reverse <1@1.1>
-Filename: ./debs/iGameGuardian.2.0.deb
-Size: 171178
-MD5sum: 5121e711f6416748af3db53f7c6788de
-SHA1: 92a0cd7a1caf462a82858d890dfdb2041bf74530
-SHA256: 1026e8e638c4d61cdb3642f6d37cb733fc95a82634ba30ffefafc86cce8b7185
-Section: utils
-Description: iGameGuardian is a game cheating engine for iOS 5.1.
-Author: Reverse <1@1.1>
-Name: iGameGuardian
-
-Package: sbsettingstoggles
-Version: 6.0-2
-Architecture: iphoneos-arm
-Depends: com.modmyi.serioussbsettingshd, com.sbsdefaulthdtheme, firmware (>= 3.2) | sbsettingsdata2
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: ./debs/sbsettings_toggle_pack_6.0-2.deb
-Size: 389812
-MD5sum: 5d800dd6e4ff48b8b981f885cec3e46d
-SHA1: b909b40f19b3eec1bc782c412e62b2528098bdde
-SHA256: 5301504b9ec7fbda478356c3718ba0f4b6b4832698954fe3f73e781dcd6edefc
-Section: SBSettings Addons
-Description: These are the built in toggles for the SBSettings app.
-Author: BigBoss <bigboss@thebigboss.org>
-Name: sbsettingstoggles
-
-Package: libhide
-Version: 2.4.1-1
-Architecture: iphoneos-arm
-Depends: mobilesubstrate (>= 0.9.5000)
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: ./debs/libhide_2.4.1-1.deb
-Size: 31392
-MD5sum: d93247a9e652a1674d7faae387bfc9df
-SHA1: ff568bdf5dad9eeedc3f9ff4412237158f98e136
-SHA256: 6f0aaac83dd0b1261fa91e1cc6b742004da3a531abf725d065b69d69d69df2b5
-Section: Development
-Description: Library to hide icons.
-Author: BigBoss <bigboss@thebigboss.org>
-Name: libhide
-
-Package: com.chpwn.weeloader
-Version: 1.4-4
-Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: ./debs/weeloader_1.4-4.deb
-Size: 14400
-MD5sum: ad3e75d1681f58a7c7677f5b4189cab1
-SHA1: 1228668d35e2925a6e4c5533daa19df40152e304
-SHA256: c8d1f35b386b04ac4f2c988e78f7e6793baae34e95e5124b5ddef8bb545d2195
-Section: Development
-Description: Weeeeeeeeeee! Load Wee apps safely.
-Author: joedj <weeloader@joedj.net>
-Name: WeeLoader
-
-Package: com.myrepospace.BassamKassem.telepad
-Version: 2
-Architecture: iphoneos-arm
-Depends: Pre-firmware (>= 5.1), firmware (<< 6.0), gsc.ipad, cy+model.ipad (=1.1)
-Maintainer: Bassam Kassem - [Ac!D]Team <Bassam.Kassem@me.com>
-Filename: ./debs/com.myrepospace.BassamKassem.telepad_2_iphoneos-arm.deb
-Size: 2521412
-MD5sum: 3a9936145f17965c130a35279fcffaa0
-SHA1: a24b61c1d6d46f0c43260b840724d21ee4107082
-SHA256: 53c8920d7e229b56b85bf9eb70b3e49f0217f8605bcc9fbda9f5f9f400c76401
-Section: Tweaks
-Description: Enable TELEPHONY / SMS capabilities that turns your iPad(1st Gen.) 3G Models ONLY (WiFi Models will not be supported) into a fully functional phone REQUIRED A TELEPHONY CAPABLE SIM CARD that already can make cellular phone calls & sends SMS.
-Author: Bassam Kassem <Bassam.Kassem@me.com>
-Name: [Ac!D]TelePad
+SHA521: de9b2ca1bbbb99a6d627b59f3ccd2fbcd9f27067c6b581316ea4507faec3cc93484950d6667b4dad76dd5da51d7c8ba3dbec0c20a1a644a9fbf2433a5f9e8a37
 
 Package: com.bytafont.bytafonttm
-Version: 1.1.1
+Name: BytaFont Tweak Mode
 Architecture: iphoneos-arm
 Depends: mobilesubstrate
+Depiction: http://repo.bytafont.com/bytafont_tweakmode_depiction
 Maintainer: BytaFont.com <info@bytafont.com>
-Filename: ./debs/com.bytafont.bytafonttm_1.1.1_iphoneos-arm.deb
+Author: BytaFont.com <info@bytafont.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Section: Tweaks
+Description: BytaFont Tweak Mode
+Version: 1.1.1
+Installed-Size: 136
+Filename: debs/com.bytafont.bytafonttm_1.1.1_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.bytafont.bytafonttm.html
 Size: 25130
 MD5sum: f05722ad7c02684a3361b49a3376d7c2
 SHA1: b0c11fa78c7473fd7adf2bc20ec172a09914c345
 SHA256: db7bc247bd28f633a779191a954939b93862a5081e705f99d5040366bc18ea75
-Section: Tweaks
-Description: BytaFont Tweak Mode
-Author: BytaFont.com <info@bytafont.com>
-Name: BytaFont Tweak Mode
-
-Package: net.howett.cydelete
-Version: 2.0.5-1
-Architecture: iphoneos-arm
-Depends: mobilesubstrate, preferenceloader (>= 2.0), apt, bash, grep, coreutils
-Maintainer: Dustin Howett <dustin@howett.net>
-Filename: ./debs/net.howett.cydelete_2.0.5-1_iphoneos-arm.deb
-Size: 35806
-MD5sum: 925939a64a1dddaeae19e23f12f9f217
-SHA1: 24a32ff33836f68e033ab1a616ba1eeb0576cf23
-SHA256: b4eb2902768a2cce7a78dfdcc7e138cecbf83754501900f4dd96efb0dd931530
-Section: Tweaks
-Description: Delete Cydia packages from SpringBoard, just like App Store applications!
-Author: Dustin Howett <dustin@howett.net>
-Name: CyDelete
-
-Package: xyz.xninja.systeminfo
-Version: 2.0.0-1
-Architecture: iphoneos-arm
-Depends: mobilesubstrate, firmware (>= 3.0)
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: ./debs/systeminfo_2.0.0-1.deb
-Size: 178342
-MD5sum: 9be407c44397f32812cf980f0465bd1a
-SHA1: df58950144e61aa24f196a3400b48915ae7f2d25
-SHA256: d80ccf9d58ae643ef2d638d76984adb0f6897229be7ff63ac669c2236c50180d
-Section: Tweaks
-Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save shsh, battery info etc
-Author: ARX8x <arx8@icloud.com>
-Name: System Info
-
-Package: name.alleon.logorepo
-Version: 1.1
-Architecture: iphoneos-arm
-Depends: 
-Maintainer: alleon <andjerk@gmail.com>
-Filename: ./debs/logorepo.deb
-Size: 39662
-MD5sum: 9077922abd8307fafe798b10122070c4
-SHA1: 077f086bd3a25392088ec682b2feb47be928b1fe
-SHA256: 957fab0aa27eda63f13b710db403040ddd92f499fadaf39de9ad9d7578691ea8
-Section: RepoLogoIcons
-Description: Alleon repo logo
-Author: Alleon <andjerk@gmail.com>
-Name: Repo Icon
-
-Package: com.openhebrew.preventsleep
-Version: 1.0
-Architecture: iphoneos-arm
-Depends: mobilesubstrate, sbsettings
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: ./debscom.openhebrew.preventsleep_1.0.deb
-Size: 35474
-MD5sum: 19e49328368008b305ecdbf0d81a92cb
-SHA1: 5bff55886987e6971318c4aa22345632b470deca
-SHA256: 740605bf1c89431c626a9b27e9a99e3aaf4f1635696de5b132660e3600f17d50
-Section: Tweaks
-Description: Toggle device from entering sleep mode.
-Author: Tom Zickel <openhebrew@gmail.com>
-Name: PreventSleep
-
-Package: com.modmyi.serioussbsettingshd
-Version: 1.4-1
-Architecture: iphoneos-arm
-Depends: sbsettings
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: ./debs/sbs_serioussbsettingshd_v1.4-1.deb
-Size: 2454278
-MD5sum: c63cf912834ca9ce94053caba65a0d95
-SHA1: d56b44e2cc36aeb6b5824cb011debcaeec17afa8
-SHA256: e7def38eedba6bdb7aafa6eaba810953123c7aaa1eb7fd1d737fa34445fb601e
-Section: Themes (SBSettings)
-Description: Retina / HD SBSettings theme for SBSettings
-Author: Max Rudberg <max@maxthemes.com>
-Name: Serious SBSettings HD
-
-Package: com.sbsdefaulthdtheme
-Version: 1.2
-Architecture: iphoneos-arm
-Depends: sbsettings
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: ./debs/sbs_default_hd_1.2.deb
-Size: 313608
-MD5sum: 5d4ee6fab4337a327c6d2f824ecf8e04
-SHA1: ab5504b1f95f96a9e7e58cd7e45728dafbf8d29b
-SHA256: 1902c3e5a75997948e019b0acf0720286319971d45969d4798673274e83f173b
-Section: Themes (SBSettings)
-Description: Retina / HD SBSettings default theme for SBSettings
-Author: Jonas Gessner <support@j-gessner.de>
-Name: Default HD SBSettings
-
-Package: com.unthreadedjb.unthredera1n
-Version: 1.0
-Architecture: iphoneos-arm
-Depends: Pre-cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.iphone (= 2.1) | cy+model.ipod (= 4.1) | cy+model.ipod (= 3.1) | cy+model.ipad (= 1.1), firmware (= 4.3.4) | firmware (= 4.3.5) |  firmware (= 5.0) | firmware (= 5.1)
-Maintainer: ichitaso
-Filename: ./debs/com.unthreadedjb.unthredera1n_1.0_iphoneos-arm.deb
-Size: 155366
-MD5sum: d8b325819101a28a7ac1b4de043a19f7
-SHA1: 2223f98388375e8d793feeb4cd63055118d9b2d7
-SHA256: 1928fbc5d180fffe651921d268929f916b02a0ab2b8b0ce53d8b774b218d0122
-Section: System
-Description: iOS 4.3.4 - 5.1 Untethered Jailbreak by @UnthreadedJB for iPhone 3GS / iPhone 4(GSM/CDMA) / iPod Touch(3G/4G) / iPad 1
-Author: UnthreadedJB
-Name: Unthredera1n
+SHA521: 5c88de58cdcbd64cd77c45c7ee48bf5622a0ee696acc7081398c7da5d67ddd231bb8f5c2827de5856152a0d3b89a4b00bac5668d45b3049a79c496f344938c5b
 
 Package: com.cannathea.afc2d-arm64
-Version: 1.1.2-1
-Architecture: iphoneos-arm
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
+Section: System
+Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Architecture: iphoneos-arm
+Author: saurik, Cannathea <csupport@cannathea.com>
+Homepage: https://cannathea.com/
+Depiction: https://cydia.akemi.ai/?page/com.cannathea.afc2d-arm64
 Maintainer: Cannathea <csupport@cannathea.com>
-Filename: /com.cannathea.afc2d-arm64_1.1.2-1_iphoneos-arm.deb
+Tag: purpose::daemon, role::enduser
+Version: 1.1.2-1
+Installed-Size: 408
+Filename: debs/com.cannathea.afc2d-arm64_1.1.2-1_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.cannathea.afc2d-arm64.html
 Size: 19290
 MD5sum: 5cc7bc63508de9e9f2fa334d86df90ca
 SHA1: b6c95383fd3319b9263d2bf9261ff2623754ab5f
 SHA256: f970219a6c8fd8c29a5b51e09d5777285638cc49d63e88386ffe97ea8efcde60
-Section: System
-Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
-Author: saurik, Cannathea <csupport@cannathea.com>
-Name: Apple File Conduit "2" (iOS 11+, arm64)
+SHA521: 6a963ed5ed2a783661954f97dbb0a90bc2b9c58d2d8671cb68cfb696b242e93e42c98eaeaef36d4a9a37723e21286a12bddfad1207f285b0c14ead9a98e7227a
 
-Package: com.geosn0w.iSecureOS
-Version: 1.24
+Package: com.chronic-dev.greenpois0n.rocky-racoon
+Priority: optional
+Section: System
+Maintainer: Chronic Dev Team <info@chronic-dev.com>
 Architecture: iphoneos-arm
-Depends: 
-Maintainer: Reverse <1@email.com>
-Filename: /com.geosn0w.iSecureOS.deb
-Size: 1578832
-MD5sum: 97adede4d0ad54d728e4ea050cbb7b79
-SHA1: fb8db4fa5eb5d6b648a88e86a200ee12f0717c62
-SHA256: f8ce4cd9773fefaccb02765ad918f4f2f2274370b69e44656102cea96a9cd29e
-Section: System
-Description: An iOS Security Application for Jailbroken devices. It does basic checks for repos you shouldn't trust, allows one to change the ROOT and mobile password, and provides general security information about vulnerabilities you may have on your device.
-Author: GeoSn0w
-Name: iSecureOS
+Version: 1.0-1
+Depends: coreutils-bin, firmware (= 5.1.1), lzma, cy+model.iphone (= 2.1) | cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.iphone (= 4.1) | cy+model.ipod (= 3.1) | cy+model.ipod (= 4.1) | cy+model.ipad (= 1.1) | cy+model.ipad (= 2.1) | cy+model.ipad (= 2.2) | cy+model.ipad (= 2.3) | cy+model.ipad (= 2.4) | cy+model.ipad (= 3.1) | cy+model.ipad (= 3.2) | cy+model.ipad (= 3.3)
+Description: untethered jailbreak based on pod2g and planetbeing exploits
+Author: Chronic-Dev Team <info@chronic-dev.com>
+Name: Rocky Racoon 5.1.1 Untether
+Depiction: http://cydia.saurik.com/info/com.chronic-dev.greenpois0n.rocky-racoon/
+Filename: debs/com.chronic_dev.greenpois0n.rocky_racoon_1.0_1_iphoneos_arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.chronic-dev.greenpois0n.rocky-racoon.html
+Size: 220790
+MD5sum: bb64c51693b6a827e91c6fd936c4315e
+SHA1: a5999a4b704d2c10107698a290c9b5dc9860f051
+SHA256: e79ebbc519b5bd775bcde4118711e6e3963ce74f3ee63e3a30e59174893e4fa3
+SHA521: 2f4722ffebb43857f1cf2a371ae6dd3027a9ee1d30cb06cd284731168b14b2c081cb0d16f822c69cc2bda93862c26cfc47589b7d7c991e8b8e4a2c93030c2f05
 
-Package: uk.invoxiplaygames.simalertsuppression
+Package: com.codethemed.ifiletheme5455
+Name: iFile Theme
+Version: 2.0.0
+Architecture: iphoneos-arm
+Description: Winterboard theme based of file formats for music, videos, photos, and other file formats. Wallpapers include familiar things about Mac OSX, and including file types from Windows and Mac. Enjoy!
+Depiction: http://cydia.zodttd.com/repo/cydia/debs20/codethemed/depiction.php?id=com.codethemed.ifiletheme5455
+Homepage: http://www.codethemed.com
+Maintainer: ZodTTD <zodttd@zodttd.com>
+Sponsor: CodeThemed <http://www.codethemed.com/>
+Author: iPodGuru <jarjarcomedy@yahoo.com>
+Section: Themes (SpringBoard)
+Depends: winterboard
+Filename: debs/com.codethemed.ifiletheme5455_2.0.0_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.codethemed.ifiletheme5455.html
+Size: 478602
+MD5sum: 8f853fc1669643b4d2a5ad15dc17c59d
+SHA1: 5c39d9dabcf7cf8e0a412416cff269fceabd958a
+SHA256: 07ebc14f0207d9e3f9b1a86977bf7d6deabe16245523e45177085f8c42126eb9
+SHA521: 82ab6fa36eaa7f9c7b8233087c71edd094dd4012a77924f0c8c18d9c796798962df213f20e5a11e40ff4cf07f497377779d820732f0f10f54b0b0a22fbc99573
+
+Package: com.eldwin.iwidgets
+Name: iWidgets
+Version: 1.3.2
+Architecture: iphoneos-arm
+Author: eldwin <eldwin_@hotmail.com>
+Depends: mobilesubstrate, firmware (>= 4.2.1)
+Conflicts: com.chpwn.infiniboard
+Depiction: http://modmyi.com/info/iwidgets.d.php
+Priority: extra
+Section: Tweaks
+Description: HTML Widgets on SpringBoard!
+Homepage: http://modmyi.com/info/iwidgets.php
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.eldwin.iwidgets_1.3.2_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.eldwin.iwidgets.html
+Size: 332298
+MD5sum: df1c1a8bb2ce16b2116887a8f7e36013
+SHA1: 9d0ecaf2771d3d1516e5db698c5026cc83ff2e08
+SHA256: c383674da009bd76d3f4188cf04786a435ac88614400105cb7dc1eb22d46ccb3
+SHA521: 9000b05abf3edaf8bc2322b3eb78f30e33af365f93aec35041d5079f2c45c28cabb4feb7fcfed204fa956aba26a859629f273fc70395b0458af95458b924b0fd
+
+Package: com.exile90.icleanerpro
+Name: iCleaner Pro
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Version: 7.10.0
+Architecture: iphoneos-arm
+Homepage: http://ib-soft.net/icleaner
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Section: Utilities
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+Filename: debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.exile90.icleanerpro.html
+Size: 2450460
+MD5sum: 830ebd462d173a9211f5f7c41ce64d1a
+SHA1: 437f5c5097cdab433698b11dab81c3cb8fc82917
+SHA256: 99c90c0f4629d47af1c52772f374eb74828f7cdafc469fcc42af0eea6d417c66
+SHA521: a19de8e370ca25295088e7e4426d02f6124f2a957231a6c69dddd7f0cb23f88603f10e4c89c17315cbfa60ce2eddfd1209caa3b222852782b2d036da991a054b
+
+Package: com.hackyouriphone.ifile
+Name: iFile
+Version: 2.2.0-1
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Architecture: iphoneos-arm
+Author: Carsten Heinelt <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ifile
+Section: HYI - Tweaks
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ifile
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Filename: debs/com.hackyouriphone.ifile_2.2.0-1_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.hackyouriphone.ifile.html
+Size: 9747038
+MD5sum: 289aee1633c592fc93254c667a167481
+SHA1: 9829d4d9cbb2bdd2ba1f3db307a12347fa1ee575
+SHA256: 549ec690ee9d4c808c758e880e50442f01aed065e4b11ea91430ec32f6304c80
+SHA521: 54233acb4f1db480f3c5dc89092521bf53f69171ae6e62222e65cfc6c2c12bdd717f6af3634ed75f276a771a422cd769bcadaf49d8442ba0f951b1f640d98e59
+
+Package: com.hackyouriphone.tetherme
+Name: TetherMe
+Version: 3.1-1
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), firmware (<< 3.2) | firmware (>= 4.0), preferenceloader (>= 2.2.2), network-cmds
+Conflicts: net.tetherme.apnedit, net.tetherme.preferences
+Replaces: net.tetherme.apnedit, net.tetherme.preferences
+Architecture: iphoneos-arm
+Author: cirdan & sbingner <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=tetherme
+Section: HYI - Tweaks
+Description: Dynamically enables native tethering
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=tetherme
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Filename: debs/com.hackyouriphone.tetherme_3.1-1_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.hackyouriphone.tetherme.html
+Size: 56708
+MD5sum: 620dd6edbf7f5d6f0af25624874446ce
+SHA1: 794e8b9dffc8ed53c66638dbedf035b0fac14c18
+SHA256: 9db4e820d7ab624a0055af33f763ece7c4143bf6ab6e110acee31af9b884ee10
+SHA521: d6f6c0edf31b1a928e7ee802317cc219d494155b0612a6fd83cc3f7e3b6afef2fd4491ed08c348bdc424ec9efe1101cea0c979072a5e2aa4586c85d420f344e0
+
+Package: com.ichitaso.winterboardapp
+Priority: optional
+Section: System
+Maintainer: ichitaso
+Architecture: iphoneos-arm
+Version: 0.9.3915
+Description: Return the WinterBoard app.
+Name: WinterBoard App
+Depends: winterboard, apt7
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Homepage: http://www.saurik.com/id/9
+Icon: file:///Applications/WinterBoard.app/icon@2x.png
+
+Filename: debs/com.ichitaso.winterboardapp_0.9.3915_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.ichitaso.winterboardapp.html
+Size: 165204
+MD5sum: c0bad8e3066b03c3a6633db1187cdbe6
+SHA1: 065ee7f9e6d23c97dc8859f1c5d132d12a1b8615
+SHA256: aa9a9b02cdfdb0cc161f6928ad3ed13144c85370672c7dc675de767a361ea890
+SHA521: 99f6ff9a22e831455a286059f2d01efe8613d042f0b7752c1f15353b3a3f7327b84b6193cc91648cad19aac2f977c1dfb568374b00949361c4ce8439fa43351b
+
+Package: com.ipr.bytafont
+Name: BytaFont
+Version: 1.3.1
+Architecture: iphoneos-arm
+Description: BytaFont lets you apply fonts to your iDevice in few taps.
+Depiction: http://repo.iphoneruler.net/bytafontdepiction.php
+Maintainer: iPhoneRuler.net <info@iphoneruler.net>
+Author: iPhoneRuler.net <info@iphoneruler.net>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Section: System
+
+Filename: debs/com.ipr.bytafont_1.3.1_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.ipr.bytafont.html
+Size: 183784
+MD5sum: dc43161303538f0a36a31277b1f9d50e
+SHA1: 894f86c495e34bac40fdf260bf84a3d5f374ebec
+SHA256: 84f38cbe7e9c48a93aa7e64965e386f351976f23f03e010535259374469e4b6b
+SHA521: 48326f0a22a7fa9739fb23d2ed7d055d7c0b5a2cf1af8e3c95d4ab73133911cf8ce499a75f4e764b1e1d3ecc074913b3e4f62ac84b728f851b990d9aec719411
+
+Package: com.ixmoe.1pwn.stockx
+Name: StockX
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: electimon
+Author: electimon
+Section: Tweaks
+Version: 1.0.0-11+debug
+Installed-Size: 120
+Filename: debs/com.ixmoe.1pwn.stockx_1.0.0-11+debug_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.ixmoe.1pwn.stockx.html
+Size: 2410
+MD5sum: aeab8a3af965b1da0194faacb360bf58
+SHA1: dce7dfc25cb86477fbd18d1e09a1803c96a6a74f
+SHA256: 3a2b66b4eaae65e011e5d484a3c5e30ec36332a595c8f5bf6bdd84d8704e4b80
+SHA521: a1bf937dd0a664c82c9bb2d576be5b430e0594e417f728d8a968c4b80217a9673227a047e0056c2ed8c9f72a25bad7389b3baebe4cfb8b6b11a9435529a65898
+
+Package: com.ixmoe.1pwn.weatherx
+Name: WeatherX
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: electimon
+Author: electimon
+Section: Tweaks
+Version: 1.0.2-10+debug-1+debug
+Installed-Size: 120
+Filename: debs/com.ixmoe.1pwn.weatherx_1.0.2-10+debug-1+debug_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.ixmoe.1pwn.weatherx.html
+Size: 2804
+MD5sum: 175412abd65754f9f805ba1ea552ad28
+SHA1: 4bf16115a28ddd47477dfbc31c47552534acbf41
+SHA256: 8b93367a50722fb26979e1f1244f537540150a881b340bcf30a7f6ec9230e163
+SHA521: adff1354beb6b1cf56a7d94e9afe55816cdaf65677f640460a1f7dedf47e813578b41e5af583322c4091000c4de0a9d4223e86f77d7c6741bbbc22d96f6ea093
+
+Package: com.jamied360.ncsettings
+Name: NCSettings
+Version: 1.7.1
+Architecture: iphoneos-arm
+Author: JamieD360 <jamied360support@live.co.uk>
+Depends: firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, preferenceloader
+Depiction: http://modmyi.com/info/ncsettings.d.php
+Priority: extra
+Section: Addons (NotificationCenter)
+Description: NCSettings is a sleek Notification Center toggle widget
+Homepage: http://modmyi.com/info/ncsettings.php
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.jamied360.ncsettings_1.7.1_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.jamied360.ncsettings.html
+Size: 472030
+MD5sum: 8c17029eb872efac412f8e9acb5107d5
+SHA1: 29eb616b6720e9d9a4262722733824c5f0bc8e32
+SHA256: fcc1ba038df84e883dfae64c68ff2d3226f8596a35716f39671e10714c82111e
+SHA521: d29359d5e6102f4d90fc0b678841a5041fc32cd101201bd796dfa865d93e543e77d72ad297ec2b941b16a9a201eb0ecb85d8ade72947b324e97b51d328b015dc
+
+Package: com.macciti.abootlogopack
+Name: A Boot Logo Pack
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: winterboard
+Description: This is a pack of 25 Boot Logo s that work with Winterboard.
+Maintainer: iC <apt@macciti.com>
+Author: Otis Huff <Killingspree187@yahoo.com>
+Section: Themes (System)
+Depiction: http://www.macciti.com/pages/abootlogopack/index.php
+Filename: debs/com.macciti.abootlogopack_1.1_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.macciti.abootlogopack.html
+Size: 9221784
+MD5sum: 2c2f5967b6700ff83727f7384a8c4d8b
+SHA1: 77147bc0ba40e0d63ef1e779c7dee35e0a7d5d16
+SHA256: cce8742c5d30d47c9d45c5857c96dfabf15a196e0c6b3bb0c505c1ebb1bf290b
+SHA521: 47730dd82ecadb4496d6a7e2995d0258e461e38fb225590b40bfeaeae40f8202e00be548f69171e8b6575886d8c450506a6906fb872e31ba913c66f012339e29
+
+Package: com.modmyi.besttube
+Name: Best Tube
+Version: 1.1
+Architecture: iphoneos-arm
+Author: ioslinks <kobisn@icloud.com>
+Depends: mobilesubstrate
+Depiction: http://modmyi.com/info/besttube.d.php
+Description: Enjoy your music anytime and anywhere. Search music videos, create playlists, listen while app is in background!
+Homepage: http://modmyi.com/info/besttube.php
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Section: Applications
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.modmyi.besttube_1.1_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.modmyi.besttube.html
+Size: 736100
+MD5sum: 3cfd1bca8194bd3cf0d4f39f60b9a0ff
+SHA1: 9c8a9bd0a8e0cadcfb5e893924e50585bf29d207
+SHA256: 7b74956477cc2b0f1e6955da8f8c883b08337ae81b34581bec464fc39be6e25c
+SHA521: ad0a9f0abf5342bcaba201279d544fbf3817f3fa4bb473c05e2f703b693ad6f11d51f77d733cbd6edec4882fd619452a9145d9cb1ff91037f2460913740cf58d
+
+Package: com.modmyi.goldineo
+Name: #Goldineo
 Version: 1.0
 Architecture: iphoneos-arm
+Author: Thabet99 <alaneed.99@hotmail.com>
+Depends: winterboard
+Depiction: http://modmyi.com/info/goldineo.d.php
+Description: #Goldineo theme.
+Homepage: http://modmyi.com/info/goldineo.php
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Section: Themes (SpringBoard)
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.modmyi.goldineo_1.0_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.modmyi.goldineo.html
+Size: 3320132
+MD5sum: cb5ba5c7f8e87608ab44cd695b36cd5f
+SHA1: 13717b97fa74d7771178c4b9b95b303e51d3b81b
+SHA256: c83b5c0afcf5cfe1d57804a1d1560a9afb9d78d81237b3ab769813c2f829c365
+SHA521: 781bbb9fb68ecb84e95a316ee51465f2a19686dc912b46e8e3badfdcbc35aead19f903d1a80d7f260b61e4863ddb1b0e7907ba0bd1be02c1cc0f609dd9f139be
+
+Package: com.modmyi.ios4macosxleopardtheme
+Name:  iOS4 Mac OS X Leopard Theme
+Version: 1.0
+Architecture: iphoneos-arm
+Author: Picu97 <changapalanga@gmail.com>
+Depends: winterboard
+Depiction: http://modmyi.com/info/ios4macosxleopardtheme.d.php
+Description: A nice Winterboard theme including icons, wallpapers and more.
+Homepage: http://modmyi.com/info/ios4macosxleopardtheme.php
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Section: Themes (SpringBoard)
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.modmyi.ios4macosxleopardtheme_1.0_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.modmyi.ios4macosxleopardtheme.html
+Size: 730950
+MD5sum: 20d6c16e8952ddf127cf9956ea514a2c
+SHA1: 8e2c14abfbaf5da44dbcad04af6ea7d21879de5b
+SHA256: afaf25a000ffd4da44671b3eb708b04b42dfea789b177b5888ea7d042e7590e5
+SHA521: 07b5312e03d18e1f051cbc562a7940a34ad594adb72573cd3647b7549037db7ed5b2805bb7b52a8fc63b675f0a7c3baf72243dffda465d5afa517c2442c250e9
+
+Package: com.myrepospace.bassamkassem.iphonenativeapps
+Section: iPad
+Maintainer: Bassam Kassem <Bassam.Kassem@Me.com>
+Architecture: iphoneos-arm
+Version: 8.2.2
+Depends: mobilesubstrate
+Pre-Depends: firmware (>= 5.1), gsc.ipad, firmware (<< 6.0)
+Conflicts: com.rpetrich.belfry, com.myrepospace.bassamkassem.siriportipad
+Description: Full port of iPhone Native Apps (Weather, Stocks, Clocks, Calculator, Compass and Voice Memos)
+Name: iPhone Native Apps iOS 5.1.x
+Homepage: http://Cydia.BassamKassem.com
+Author: Bassam Kassem <Bassam.Kassem@Me.com>
+Filename: debs/com.myrepospace.bassamkassem.iphonenativeapps_8.2.2_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.myrepospace.bassamkassem.iphonenativeapps.html
+Size: 46550336
+MD5sum: 382bed68d83b0365fac09a03f1372253
+SHA1: fe776c3d8395ca57a0358fe2cf9caeb2d98702a6
+SHA256: 6224052df8d458f22b368f2e6189b78b5fabfbeaa2defd79ec8e4948ceaa24e0
+SHA521: c8ca3d2f579a540a9ed1cdb916bff215ed1719c0f98b3408ca8e99ece412e152cce94faaf142fd78a9b2bf126c155f581253aa79bd4b2d20be8b37edf8f3d2fd
+
+Author: Bassam Kassem <Bassam.Kassem@me.com>
+Maintainer: Bassam Kassem - [Ac!D]Team <Bassam.Kassem@me.com>
+Name: [Ac!D]TelePad
+Package: com.myrepospace.BassamKassem.telepad
+Priority: standard
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, coreutils, com.ericasadun.utilities, ldid, vim
+Pre-Depends: firmware (>= 5.1), firmware (<< 6.0), gsc.ipad, cy+model.ipad (=1.1)
+Version: 2
+Architecture: iphoneos-arm
+Description: Enable TELEPHONY / SMS capabilities that turns your iPad(1st Gen.) 3G Models ONLY (WiFi Models will not be supported) into a fully functional phone REQUIRED A TELEPHONY CAPABLE SIM CARD that already can make cellular phone calls & sends SMS.
+homepage: http://BassamKassem.com
+ 
+
+
+
+Filename: debs/com.myrepospace.BassamKassem.telepad_2_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.myrepospace.BassamKassem.telepad.html
+Size: 2521412
+MD5sum: 3a9936145f17965c130a35279fcffaa0
+SHA1: a24b61c1d6d46f0c43260b840724d21ee4107082
+SHA256: 53c8920d7e229b56b85bf9eb70b3e49f0217f8605bcc9fbda9f5f9f400c76401
+SHA521: 62f9a904e6df207e35a512ea3321317b4fb15bcf4c5a7962349f853eb0177ad92420d6339b0168cef42292733e31f9d831892116c7cb6006b8e14c93d803d0c8
+
+Author: Tom Zickel <openhebrew@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: PreventSleep
+Package: com.openhebrew.preventsleep
+Section: Tweaks
+Depends: mobilesubstrate, sbsettings
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Toggle device from entering sleep mode.
+	Works great with SBSchedule as well.
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preventsleepData
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preventsleepData
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: db42
+Installed-Size: 151
+Tag: purpose::extension
+Filename: debs/com.openhebrew.preventsleep_1.0.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.openhebrew.preventsleep.html
+Size: 35474
+MD5sum: 19e49328368008b305ecdbf0d81a92cb
+SHA1: 5bff55886987e6971318c4aa22345632b470deca
+SHA256: 740605bf1c89431c626a9b27e9a99e3aaf4f1635696de5b132660e3600f17d50
+SHA521: f3405fad6fcf670bf59d0c16af32e023b96b0dd803b912e154ccc33a551190ff4c105ac8811facffc6878531ea8d9865f77c9832d4f2f34b8c204c149e386c22
+
+Package: com.rpetrich.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Name: RocketBootstrap
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.10~beta1
+Installed-Size: 596
+Filename: debs/com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.rpetrich.rocketbootstrap.html
+Size: 38344
+MD5sum: b52417e29631c59cdb267379e71e2a69
+SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
+SHA256: d06e18eefbfcb40f3e3b215bfbccaf34091fb30b2ccb1e4f6c519aa91d2b7248
+SHA521: 42b13ee05ce8766a02c3dc4779752c97a2bd379690c928101cc590a3204af7f322051badf1e810faf4ab2c0520d00abc1df8e4aea86473b2f7b69c213c900d8e
+
+Package: com.saurik.substrate.safemode
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Description: safe mode safety extension (safe)
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Priority: optional
+Section: Tweaks
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Version: 0.9.6001
+Installed-Size: 156
+Filename: debs/com.saurik.substrate.safemode_0.9.6001_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.saurik.substrate.safemode.html
+Size: 13226
+MD5sum: 5e9905d35c71075b2a7f0aed5cd4b1db
+SHA1: 916af06e0c879233ff22d795b04abf8276ff905b
+SHA256: 86515cb9f6832247dbeae8427b996099dc8759bb1ef1d719c293123f2f531ee1
+SHA521: 92c7d126768ef5ccda4ec57d41ef124c0afaee30becbb758063e83bc48381b7d41d91a2a78fa16b6788c41db1773597dcf85f8c50a112216a86df0a2d19ed5b6
+
+Package: com.unthreadedjb.unthredera1n
+Name: Unthredera1n
+Version: 1.0
+Architecture: iphoneos-arm
+Pre-Depends: cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.iphone (= 2.1) | cy+model.ipod (= 4.1) | cy+model.ipod (= 3.1) | cy+model.ipad (= 1.1), firmware (= 4.3.4) | firmware (= 4.3.5) |  firmware (= 5.0) | firmware (= 5.1)
+Description: iOS 4.3.4 - 5.1 Untethered Jailbreak by @UnthreadedJB for iPhone 3GS / iPhone 4(GSM/CDMA) / iPod Touch(3G/4G) / iPad 1
+Conflicts: repo.weiphone.unthredera1n
+Replaces: com.unthreadedjb.unthredera1n
+Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
+Homepage: http://unthreadedjb.com/
+Maintainer: ichitaso
+Author: UnthreadedJB
+Section: System
+Tag: role::enduser
+Priority: standard
+Filename: debs/com.unthreadedjb.unthredera1n_1.0_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.unthreadedjb.unthredera1n.html
+Size: 155366
+MD5sum: d8b325819101a28a7ac1b4de043a19f7
+SHA1: 2223f98388375e8d793feeb4cd63055118d9b2d7
+SHA256: 1928fbc5d180fffe651921d268929f916b02a0ab2b8b0ce53d8b774b218d0122
+SHA521: 9c98953dee98694b6c7f4fce977e3674e486f2017fdb0917dfe9b4cab05ce813898f9beb1695a083ab50acba3d03cbc598bbcf4c0cdd0f5de91eca5d08e0643a
+
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Depends: firmware (>= 5.0), firmware (<= 13.5.5), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Homepage: https://cydia.akemi.ai/
+Provides: appsync
+Replaces: us.hackulo.appsync50
+Package: cydia.net.angelxwind.appsyncunified
+Name: AppSync Unified
+Architecture: iphoneos-arm
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Section: Tweaks
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Version: 78.0
+Installed-Size: 496
+Filename: debs/cydia.net.angelxwind.appsyncunified_78.0_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/cydia.net.angelxwind.appsyncunified.html
+Size: 42210
+MD5sum: 9e324b47dc9dfca5e8d1c104ad46d1ce
+SHA1: e12e8ea3fcfcdee15529bc253ac7d4752919c6f0
+SHA256: 1ab0696d066a92b7fbcafbc63a215e24fc8e450590c20bed79d45aa3d693662f
+SHA521: 591e9c456da62326a0bd6fb06cb0e299b889cd6c1ff9abb4de171437007ea42c975feb6a9712e46d802b637488055b0c69d980f0c1cb3844b92236660a40bb93
+
+Package: cydia
+Priority: required
+Section: Packaging
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.1.30
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Depends: apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
+Provides: bigbossbetarepo, cydia-sources
+Description: graphical iPhone front-end for APT
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Tag: purpose::uikit, cydia::essential, role::enduser
+Installed-Size: 7160
+Filename: debs/cydia_1.1.30_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/cydia.html
+Size: 1292624
+MD5sum: bb0cdc40d3abac5b874972ad8a8b70a1
+SHA1: a237e6a09c77e91e1c89d212e53a85e691b0b47a
+SHA256: f80a5228b2bacbd8e2640d96dc1b15a5cf0db681d2ed976cf53f1f5c64a9b184
+SHA521: 7c21d4c5dba4500b974360335a24cbf7ae779ab0341d8f3262f523a9fc9c729f981c36184b5b3e15a1ce566d72a62fc9ce98089a59e326e2d0a8c7693fa46d81
+
+Package: com.gauravgiri.fontswap
+Version: 2.1.1-1
+Architecture: iphoneos-arm
+Author: Gaurav Giri <gaurav@gauravgiri.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1640
+Section: System
+Description: Swap your system fonts!
+Depends: grep, com.gauravgiri.fontswapstarter
+Icon: file:///Applications/FontSwap.app/Icon.png
+Name: FontSwap
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fontswapData
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fontswapData
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: gauravgiri
+Filename: debs/fontswap_2.1.1-1.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.gauravgiri.fontswap.html
+Size: 1046552
+MD5sum: 79276a6b40738a7428bdaaad61b05ec9
+SHA1: 6883387cbe8ec43e1f595d80ec5a0a80668e7643
+SHA256: fc4e0ceb6e50f669772faa5e92439d1c5d113155f3c91841717cc404ecabd458
+SHA521: 3ff64c63c7165705e7c3e5b85dbd3ed6de430753b253b859c8516f5b27520098ba1d14d0447fe6bd5f667a73ed8677560acbb81469e4ea0e0bcecc969706c10c
+
+Package: com.gauravgiri.fontswapstarter
+Version: 2.0
+Architecture: iphoneos-arm
+Author: Gaurav Giri <gauravgiri@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 14600
+Section: System
+Description: Font Starter Pack for Font Swap app.
+Icon: file:///usr/share/bigboss/icons/bigboss.png
+Name: FontSwap Starter
+Depiction: http://moreinfo.thebigboss.org/moreinfo/FontSwapStarterDp.php
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: gauravgiri
+Tag: role::developer, purpose::library
+Filename: debs/fontswap_starter_pack_2.0.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.gauravgiri.fontswapstarter.html
+Size: 6769642
+MD5sum: dc2f5a265c319bf8ed86849757a07700
+SHA1: e2901e7f03d4674cb03aeb0d13561602dcd00fe5
+SHA256: 9ab5a5191a9f2b102523b9e95d473e83ad06310b620a4c76d89ad9c1e5ae1d78
+SHA521: a21e1f043dbf7e0994fd9b030f7240c111d2a715d565ae62514c5e582267133f7460db8a9f5a7e9fd9442964a014fcc02fc7dd2495ecacba5a8e018271253b93
+
+Package: iGameGuardian
+Version: 2.0.0
+Section: utils
+Priority: optional
+Depends: 
+Architecture: iphoneos-arm
+Installed-Size: 300
+Maintainer: Aqua Wu <aqua.wu@gmail.com>
+Description: iGameGuardian is a game cheating engine for iOS 5.1.
+Filename: debs/iGameGuardian.2.0.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/iGameGuardian.html
+Size: 171178
+MD5sum: 5121e711f6416748af3db53f7c6788de
+SHA1: 92a0cd7a1caf462a82858d890dfdb2041bf74530
+SHA256: 1026e8e638c4d61cdb3642f6d37cb733fc95a82634ba30ffefafc86cce8b7185
+SHA521: 1d8cca29733d3285385eca2ffcb547f7cb5047f5ca63c0ae55ee67fc322b8f36f533ee3cd689b422271b48188dea29e375468a25d6529073c8260728ac951e7c
+
+Name: KillBackground
+Package: com.mathieubolard.killbackground
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 4.0), preferenceloader, applist
+Version: 1.3.1-7
+Architecture: iphoneos-arm
+Description: kill all background apps from switcher
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=killbackgroundData
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=killbackgroundData
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Mathieu Bolard (mattlawer) <mattlawer08@gmail.com>
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 133
+dev: mattlawer
+Icon: file:///Library/PreferenceBundles/KillBackgroundPreferences.bundle/Icon@2x.png
+Filename: debs/killbackground_1.3.1-7.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.mathieubolard.killbackground.html
+Size: 71698
+MD5sum: a67106c323ca059b2b8680bd030636cd
+SHA1: b2f7cd9fcf117c24c7d558c35410376219698d0e
+SHA256: c5ad31c11a3af480d4c3e060f9bc296056d08d9e746b493e1cf29a32a7669524
+SHA521: 59de5dbf540c527770b0752da4dd725da7123a1dade455dff13b086ea6742c89258e72ae947aa995731c54ccbe0bf8f3098783974eb0a124d84b780177e56346
+
+Package: libactivator
+Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
+Name: Activator
+Priority: optional
+Architecture: iphoneos-arm
+Description: Centralized gestures, button and shortcut management for iOS
+Homepage: https://rpetri.ch/cydia/activator/beta/
+Depiction: https://rpetri.ch/cydia/activator/beta/
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Author: Ryan Petrich <rpetrich+activator@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Section: System
+dev: rpetrich
+Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
+Version: 1.9.13~rc6
+Installed-Size: 5060
+Filename: debs/libactivator_1.9.13~rc6_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/libactivator.html
+Size: 929288
+MD5sum: edb85ee5c115534b48818d8bb9592152
+SHA1: 31be51e4b89f8e4e39ec1920e945960d3f458d96
+SHA256: 2fcd743e3b3f6e13a5c138c1445cab1d81c66125823f3895e4ef62508e30d8ef
+SHA521: c2e3c58b7651d461241a0acddaef103c10b460f755f62c0d64c90915209eb11eb6151b0842944aa86dbd4a8193e6806aed5bc3dacd7287acb18fb6473811434b
+
+Package: libhide
+Name: libhide
+Version: 2.4.1-1
+Architecture: iphoneos-arm
+Description: Library to hide icons.
+http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libhideDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libhideDp
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: BigBoss <bigboss@thebigboss.org>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Development
+dev: bigboss
+Tag: role::developer, purpose::library
+Depends: mobilesubstrate (>= 0.9.5000)
+Installed-Size: 232
+Filename: debs/libhide_2.4.1-1.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/libhide.html
+Size: 31392
+MD5sum: d93247a9e652a1674d7faae387bfc9df
+SHA1: ff568bdf5dad9eeedc3f9ff4412237158f98e136
+SHA256: 6f0aaac83dd0b1261fa91e1cc6b742004da3a531abf725d065b69d69d69df2b5
+SHA521: a56d84428020c76b4cdd9dbfd52580d6595ce31da37254ae16f9095766aa9ba3c105d651a5be43cc3cb47b20c383125e92dab5de0359bf1903435b71aa5b5a3c
+
+Architecture: iphoneos-arm
+Author: Alleon <andjerk@gmail.com>
+Description: Alleon repo logo
+Installed-Size: 43
+Maintainer: alleon <andjerk@gmail.com>
+Name: Repo Icon
+Package: name.alleon.logorepo
+Priority: optional
+Essential: no
+Section: App
+Version: 1.1
+Recommends: cydia
+Sponsor: NewApps.ru <http://www.newapps.ru>
+Depiction: http://www.newapps.ru/depiction/logorepo.html
+
+
+
+
+Filename: debs/logorepo.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/name.alleon.logorepo.html
+Size: 39662
+MD5sum: 9077922abd8307fafe798b10122070c4
+SHA1: 077f086bd3a25392088ec682b2feb47be928b1fe
+SHA256: 957fab0aa27eda63f13b710db403040ddd92f499fadaf39de9ad9d7578691ea8
+SHA521: b4f42679868e3b494ebe757cf0b9adb3b0ebe257c5f1c9eaa54d88d86d2b1a351a9feb255472519e8604272b3b9111def2af1dd68e0879b14f253b5a4196be3d
+
+Package: mobi.macciti.apptag
+Name: AppTag
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Description: This tweak will allow you to create badges on your iPod Touch or iPhone with no computer! Instructions are located in Settings > AppTag.
+Depiction: http://www.macciti.com/pages/apptag/index.php
+Maintainer: iC <>
+Author: 0njai <>
+Section: Tweaks
+Version: 1.1
+Sponsor: MacCiti <http://www.cydia.macciti.com/pages/sponsor.php>
+Filename: debs/mobi.macciti.apptag_1.1_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/mobi.macciti.apptag.html
+Size: 10278
+MD5sum: 16b9c7a60bf53a575435534c284113ed
+SHA1: 939c30bf5e489d51918ccb8ab876918166721a8a
+SHA256: 7c7d2427d9e6fbd5994f59d7a621a81e209107afce6a6d8fcca1c1c2eca4f093
+SHA521: 91bac40d809535571455cbe66e09a68d06b5ffbf544aa030d02d616f00c15bd4306908830b0addb7c52d3c7b1686201fe1bbeca22d0391bf23f02b0b921fcb37
+
+Package: mobi.macciti.assistantdelete
+Name: AssistantDelete
+Version: 1.2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 5.0)
+Description: Removes 4S keys from your non-supported Siri Devices with a Siri Port installed. Great thanks to Jonathan Seals (@JonathanSeals) and Dylan Laws (@Haif1sch) for all their help and support on my first tweak!
+Maintainer: iC <apt@macciti.com>
+Author: Zach Wallenta <z8137@me.com>
+Sponsor: MacCiti <http://cydia.macciti.com/pages/sponsor.php>
+Section: Utilities
+Depiction: http://www.macciti.com/pages/assistantdelete/index.php
+Filename: debs/mobi.macciti.assistantdelete_1.2_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/mobi.macciti.assistantdelete.html
+Size: 1249160
+MD5sum: d5ed5fcf32e7abcb42ee0b856cf728b6
+SHA1: c95b80f77b7483e7f75f06d8f5386981ad5943ce
+SHA256: 82fe2b93909707de2f0085062d024e96178de573da25456241975c46dfd5eaa7
+SHA521: 5dfc20a7a6617afcb219d54e9a98fe93f1dc665e2f173fbdcb16c299e9d10be33333107b1c33875e9875e48a61e0dbd6678ead9e84521c32ff5176f6bd4dd6df
+
+Architecture: iphoneos-arm
+Author: Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.android-4x-pattern-lock
+Description: Android 4.x pattern lock theme for AndroidLock XT.
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Name: Android 4.x Pattern Lock for AndroidLockXT
+Conflicts: net.angelxwind.ics-jb-alxt-theme
+Replaces: net.angelxwind.ics-jb-alxt-theme
+Package: net.angelxwind.android-4x-pattern-lock
+Section: Themes
+Version: 1.3.2
+Homepage: https://cydia.akemi.ai/
+Filename: debs/net.angelxwind.android-4x-pattern-lock.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/net.angelxwind.android-4x-pattern-lock.html
+Size: 539906
+MD5sum: 7b9814464044dc3de9953922abcfbaf3
+SHA1: 3051d575d7176f2c5082c8079c1bb4d528a9b11a
+SHA256: f0622bc78847cd3bd8bb5a99eee34d8bad8594cb60b6416dcd292cbe2726eba4
+SHA521: 9d0684a3b9bf8380392d9e0b653f4a57973c6ccb436032ef191cff99ad5c57c5f64604d3642e1cfc08db3604c4fb3f911be6abbfbf8e8d266700b321bfb7b3b8
+
+Package: net.angelxwind.mobileterminal-applesdk
+Name: MobileTerminal
+Version: 521-karen-2
+Section: Terminal_Support
+Pre-Depends: firmware (>= 3.2), dpkg (>= 1.14.25-8)
+Depends: bash, coreutils, ncurses, system-cmds
+Architecture: iphoneos-arm
+Author: Karen/あけみ <karen@akemi.ai>
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Description: A Terminal emulator. This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: SSH into remote boxes, download files, edit configuration files, whatever. 
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.mobileterminal-applesdk
+Homepage: https://cydia.akemi.ai
+Filename: debs/net.angelxwind.mobileterminal-applesdk.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/net.angelxwind.mobileterminal-applesdk.html
+Size: 248684
+MD5sum: d49b219bfcb8555498b2c2589bc40040
+SHA1: f4d75c8392f9ca835faa01c4d5d609c85ca87ea4
+SHA256: 5e2937aaa67c40511e4d8c1593df5713bbe9efdb1eff486d1cbea8ac6f22e685
+SHA521: 4085d1a7b150dfa0319ad73664907158b9979ec8fc192c34333d7dc16a2ce82e2ff50bad02472df06a7fb71d4bf3367b553e32f9a4361e06432ab3a670f831af
+
+Package: net.howett.cydelete
+Name: CyDelete
+Depends: mobilesubstrate, preferenceloader (>= 2.0), apt, bash, grep, coreutils
+Conflicts: com.sosiphone.cydeletefr
+Version: 2.0.5-1
+Architecture: iphoneos-arm
+Description: Delete Cydia packages from SpringBoard, just like App Store applications!
+Maintainer: Dustin Howett <dustin@howett.net>
+Author: Dustin Howett <dustin@howett.net>
+Section: Tweaks
+Depiction: http://moreinfo.thebigboss.org/moreinfo/cydeleteDp.php
+Homepage: http://howett.net/cydia/depict/cydelete.html
+dev: dustinhowett
+Sponsor: thebigboss.org <http://thebigboss.org>
+Tag: purpose::extension, role::enduser
+Installed-Size: 220
+Filename: debs/net.howett.cydelete_2.0.5-1_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/net.howett.cydelete.html
+Size: 35806
+MD5sum: 925939a64a1dddaeae19e23f12f9f217
+SHA1: 24a32ff33836f68e033ab1a616ba1eeb0576cf23
+SHA256: b4eb2902768a2cce7a78dfdcc7e138cecbf83754501900f4dd96efb0dd931530
+SHA521: cd7c7041db02cff532cdfaa871fbffec247ce389df5132bffa60bf90f72b1905c6ebf89e9a177fe6bd602c103e4dce0d79c6a29d2820abaae83202b6bc2d59ab
+
+Package: org.chronic-dev.animate
+Depends: preferenceloader
+Name: animate
+Version: 1.0.1-1
+Installed-Size: 188
+Architecture: iphoneos-arm
+Description: Boot Logo Animations for 4.2.1 untether
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animateData
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animateData
+Maintainer: Bigboss <bigboss@thebigboss.org>
+Author: Chronic-Dev Inc. <jaywalker@chronic-dev.com>
+Section: System
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: chronic-dev
+
+Filename: debs/org.chronic-dev.animate_1.0.1-1_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/org.chronic-dev.animate.html
+Size: 129030
+MD5sum: 9ff9572a9c35aa4075223115a86341f6
+SHA1: 33ca74b90af9ed2bcad2ca9dd8fcacd257cdac2d
+SHA256: a92728c1ce0602e9c59c5372a2938b7a3475f5d5ebdfce65431136c1613ece34
+SHA521: e9eaafc751cea132cd3b03d002f94a9732dd4197136f4b78e49233bc49293a01e99f67846b688d3e32bd4d56b77f744c3f329260c8d00e3dc2ff26b18278ec95
+
+Package: org.thebigboss.sbsandroidlocktoggle
+Name: Androidlock XT SBSettings Toggle
+Version: 1.0.3
+Architecture: iphoneos-arm
+Description: toggle on/off AndroidLock XT
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sbsandroidlocktoggleDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sbsandroidlocktoggleDp
+Installed-Size: 53
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: rhodysurf <rhodysurf13@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Addons (SBSettings)
+dev: rhodysurf
+Depends: sbsettings
+Icon: file:///var/mobile/Library/SBSettings/Themes/Default/androidlocktoggle/on.png
+Filename: debs/org.thebigboss.sbsandroidlocktoggle_1.0.3_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/org.thebigboss.sbsandroidlocktoggle.html
+Size: 28304
+MD5sum: ac053e4400bf50a75024a8be018ee8a5
+SHA1: df9784eb1ed06f409891203c55c0902599124f68
+SHA256: c708959129549c917c2dafb5136f6dcb141daf52dedd1c4e682f91e27a895e3f
+SHA521: 1b32301de4e9f0bfba6d0587e444edab18ae6b0095590d8efae59dac4a6d81d19e142015ca361bd7f81bbc9f2279c7b8528fdd114e4306290d44a31cedc0d3e1
+
+Author: iPhoneIslam <http://siriport.ru/forum/user/1-gdimait/>
+Maintainer: gdimait <http://siriport.ru/forum/user/1-gdimait/>
+Name: PhoneIt-iPad-5.1.x (Cracked)
+Package: phoneitipda-5.1
+Priority: standard
+Section: Tweaks
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Turn your iPad 1 3G into a fully functional phone
+Depiction: http://aptinfo.siriport.ru/repo_files/pages/phoneitipda.html
+homepage: http://siriport.ru
+Sponsor: SiriPort.Ru <http://siriport.ru>
+Filename: debs/PhoneItiPad.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/phoneitipda-5.1.html
+Size: 2787082
+MD5sum: dc2a94c1313c0e74a22754a8922857c4
+SHA1: 01d304332e516c11aa5a66890e0efb8a58c368a5
+SHA256: 4eaf87aca4980d64024d8143081943663d66a9af871819e3d502523f8fdbd83f
+SHA521: fe27894cc40517ba720f4ecc6a93ee7d670542aca2f9a1a9e42b782acf94133f739d0f589f112ad94a76d6bf62a9296600877525348c88c4916885b9bc83fc2d
+
+Package: sbsettings
+Version: 6.0.5-1
+Architecture: iphoneos-arm
+Author: BigBoss <bigboss@thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1953
+Section: System
+Depends: libhide (>= 2.0.6-4), mobilesubstrate, sbsettingstoggles (>= 3.0.5), shell-cmds, firmware (<< 4.0) | libactivator (>= 1.3.2), firmware (<< 5.0) | com.chpwn.weeloader
+Description: Move common toggles directly into springboard where they're always there!
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=SBSettingsDpData
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=SBSettingsDpData
+Name: SBSettings
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: bigboss
+conflicts: com.ripdev.hood, hk.org.iphone.respring, net.ispazio.SwapMode
+replaces: com.ripdev.hood, hk.org.iphone.respring
+Filename: debs/sbsettings_6.0.5-1.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/sbsettings.html
+Size: 2139060
+MD5sum: 89103464ba327fc91234afab4655040f
+SHA1: d14772eeaed7c32999fd45b34d16ada68ff33c07
+SHA256: a8a7c2c403638566d0f670ecce1dff06a04f55fe984eb074a16e275c12aa7581
+SHA521: fd9efa6d45ecc77426b5679fbadd91312d776f10e4ff1e33659e90b6f6bdc4b8c51398ca45d1e777458f0790b2df4490ec721506ff315e2c9779c9bce336264d
+
+Package: sbsettingstoggles
+Version: 6.0-2
+Architecture: iphoneos-arm
+Author: BigBoss <bigboss@thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 822
+Section: SBSettings Addons
+Depends: com.modmyi.serioussbsettingshd, com.sbsdefaulthdtheme, firmware (>= 3.2) | sbsettingsdata2
+replaces: sbsettingstoggles1, sbsettingsfastnotes, sbsettingsprocesses, sbslocationservices, sbsettingsdata, com.yllier.mdatatoggle, sbsettings (<= 3.0.6b3)
+conflicts: sbsettingstoggles1, sbsettingsfastnotes, sbsettingsprocesses, sbslocationservices, sbsettingsdata, com.yllier.mdatatoggle
+Description: These are the built in toggles for the SBSettings app.
+Homepage: http://moreinfo.thebigboss.org/moreinfo/SBSettings.php
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sbsettingstoggles
+Name: sbsettingstoggles
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: bigboss
+Tag: role::developer purpose::library
+Filename: debs/sbsettings_toggle_pack_6.0-2.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/sbsettingstoggles.html
+Size: 389812
+MD5sum: 5d800dd6e4ff48b8b981f885cec3e46d
+SHA1: b909b40f19b3eec1bc782c412e62b2528098bdde
+SHA256: 5301504b9ec7fbda478356c3718ba0f4b6b4832698954fe3f73e781dcd6edefc
+SHA521: 313fc490bf13505e41ad3294a258d9852ec2d210c53425cbf0c4f87d177f3674ea4889e0b909b51f83124eb9e918804102d04a42973838abb6b65b8b088eb301
+
+Package: com.sbsdefaulthdtheme
+Name: Default HD SBSettings
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Retina / HD SBSettings default theme for SBSettings
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Jonas Gessner <support@j-gessner.de>
+Section: Themes (SBSettings)
+Installed-Size: 2694
+Depends: sbsettings
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sbsdefaulthdthemeData
+dev: maxner
+Filename: debs/sbs_default_hd_1.2.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.sbsdefaulthdtheme.html
+Size: 313608
+MD5sum: 5d4ee6fab4337a327c6d2f824ecf8e04
+SHA1: ab5504b1f95f96a9e7e58cd7e45728dafbf8d29b
+SHA256: 1902c3e5a75997948e019b0acf0720286319971d45969d4798673274e83f173b
+SHA521: 33fbb0051639d8ddaf3116d756f8513820e6c6c9b86439f21a6c9eee5eeda2c5975deb4b654dab33adad8acf0ea113ec927ff21aa4493b2d4e11e0eae871191b
+
+Package: com.modmyi.serioussbsettingshd
+Name: Serious SBSettings HD
+Version: 1.4-1
+Architecture: iphoneos-arm
+Description: Retina / HD SBSettings theme for SBSettings
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Max Rudberg <max@maxthemes.com>
+Section: Themes (SBSettings)
+Installed-Size: 2694
+Depends: sbsettings
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=serioussbsettingshdData
+dev: maxrudberg
+Filename: debs/sbs_serioussbsettingshd_v1.4-1.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.modmyi.serioussbsettingshd.html
+Size: 2454278
+MD5sum: c63cf912834ca9ce94053caba65a0d95
+SHA1: d56b44e2cc36aeb6b5824cb011debcaeec17afa8
+SHA256: e7def38eedba6bdb7aafa6eaba810953123c7aaa1eb7fd1d737fa34445fb601e
+SHA521: e10daf23b40b2e53f8c2e6929413bb6f8aed8a59d7a8d10d22b8268ec87a810dd2ef0197b7be76ad83ccc6195eccb44e20eeb29b47a5ac718775cd334ec27dff
+
+Package: semitether
+Version: 0.9.1
+Architecture: iphoneos-arm
+Author: BigBoss <bigboss@thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 100
+Section: System
+Depends: mobilesubstrate (>= 0.9.3990), firmware (>= 5.0) 
+Description: Allow tethered jailbreak to reboot non-jailbroken while on the road
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=semitetherDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=semitetherDp
+Name: SemiTether
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: bigboss
+Conflicts: us.hackulo.appsync50plus (<< 2.1), com.xsellize.appsync50plus
+Filename: debs/semitether_0.9.1_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/semitether.html
+Size: 632100
+MD5sum: b15f6bf8a1ceb46ae89e5805929140ba
+SHA1: 59afb3ed0c8119fee7bf9936cf2490211f13bc65
+SHA256: 72d518b4ac44ca7647b0d18fe252a0e82e21e69cacd57f9bbff26bd0655e14b4
+SHA521: a3943c11652839528084578ba9355713a6eaaca1f2c12635844994f42a92910a5da008db7bec0a0a244b23c9b406aff7f1440aa9a280f3b0f9439a2db6755117
+
+Package: uk.invoxiplaygames.simalertsuppression
+Name: SIM Alert Suppression
 Depends: mobilesubstrate, firmware (>=5.0)
+Conflicts: uk.invoxiplaygames.letmestealinpeace
+Architecture: iphoneos-arm
+Description: Removes SIM-related alerts from SpringBoard
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Filename: ./debs/simalertsuppression-1.0.deb
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Section: Tweaks
+Depiction: http://cydia.invoxiplaygames.uk/dp/simalertsuppression.php
+SileoDepiction: https://cydia.invoxiplaygames.uk/dp/simalertsuppression.json
+Version: 1.0
+Installed-Size: 132
+Filename: debs/simalertsuppression-1.0.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/uk.invoxiplaygames.simalertsuppression.html
 Size: 2810
 MD5sum: 93cd24e6c82108068e54435453587ac4
 SHA1: 9eff439f4635d83fffbd9565ca926612d08f2bf9
 SHA256: 4f6fb6fc8743d1f1902513fcda5ba96c3cb189a4fe550b735262e268e78baab4
+SHA521: 22678b4eacf5e65a25c1dfb81a0621865536f7519a77f36ee7a3942518f2942740e3496d7324769bdc9b222da0468005ca8845aaceb6c8c773b7bfa31e2edfe5
+
+Name: System Info
+Package: xyz.xninja.systeminfo
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 3.0)
+Version: 2.0.0-1
+Architecture: iphoneos-arm
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save shsh, battery info etc
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=systeminfoDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=systeminfoDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: ARX8x <arx8@icloud.com>
 Section: Tweaks
-Description: Removes SIM-related alerts from SpringBoard
+Tag: purpose::extension, compatible::ios10, compatible::ios11
+Installed-Size: 913
+dev: arx8x
+Filename: debs/systeminfo_2.0.0-1.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/xyz.xninja.systeminfo.html
+Size: 178342
+MD5sum: 9be407c44397f32812cf980f0465bd1a
+SHA1: df58950144e61aa24f196a3400b48915ae7f2d25
+SHA256: d80ccf9d58ae643ef2d638d76984adb0f6897229be7ff63ac669c2236c50180d
+SHA521: 13b19a95fcb6e33cfd96de993c88bd501ec4d88ffce978dfdfe477f064f5e23583cc75b3a20fd34588e53802e63c477bad0c05f93f82b5408480670405f24a1e
+
+Package: uk.invoxiplaygames.tubefixer
+Name: TubeFixer for iOS
+Architecture: iphoneos-arm
+Description: Package to fix YouTube on iOS 3-5
+Depends: mobilesubstrate, firmware (>= 3.0), preferenceloader
+Pre-Depends: dpkg (>= 1.13.25-5)
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Homepage: http://tubefixer.ovh/
 Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
-Name: SIM Alert Suppression
+Section: Tweaks
+Depiction: http://cydia.invoxiplaygames.uk/dp/tubefixer.php
+Icon: file:///Library/Application%20Support/uk.invoxiplaygames.tubefixer/tubefixericon.png
+Version: 2.0-194+debug
+Installed-Size: 156
+Filename: debs/tubefixer-2.0-194-RC2.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/uk.invoxiplaygames.tubefixer.html
+Size: 37966
+MD5sum: 06fd13ff67e75753ea82bd0d73412c54
+SHA1: 648ccc22e75e54544486b9d8284c43181ffc8537
+SHA256: 037ee05458d7e5732cf674898ba25788232b99d23544f2e91fb0ef7acfdd892c
+SHA521: 86e2f6228c8341dda2b273d8eb60af24a0c2d2da50eb61b2199ff1a276f2c71259e5931784c331d1c07b87f1e623a5b56b466c1cd153a1ad485d0b0fbf243dbf
+
+Homepage: http://ultrasn0w.com/
+Package: ultrasn0w
+Name: ultrasn0w
+Version: 1.2.4
+Architecture: iphoneos-arm
+Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
+Maintainer: Dev Team <blog@iphone-dev.org>
+Author: Dev Team <blog@iphone-dev.org>
+Section: Utilities
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.3209-1), firmware (<< 5.0) | mobilesubstrate (>= 0.9.3900)
+Conflicts: blacksn0w, yellowsn0w, gsc.wildcat
+Filename: debs/ultrasn0w_1.2.4.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/ultrasn0w.html
+Size: 14148
+MD5sum: 21b0b34dfba77e69d9f614dfd59c0d81
+SHA1: 280dec151dc988120bcee6e20059de843a694813
+SHA256: d3a644c1e7a2eeceefd1691d1b0455306f70972f616aeb87c1d395018c27d7bd
+SHA521: f46130d472af44098dacdf78bb7b2831bd7ab84edee489d02e73689af45a2fe3caf52d139f8e146bac31f5b71357f6f9cf1d1a96d7cdcc503e85dfffb4edb9d0
+
+Package: vn.gsm.androidlockxt
+Version: 3.6k
+Section: !CydiaVn-Tools
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: mobilesubstrate, preferenceloader (>= 2.0.3-2), firmware (>= 3.2)
+Conflicts: com.intelliborn.intelliscreen, cydialer, com.zmaster.androidlock
+Architecture: iphoneos-arm
+Description: An Android-like lockscreen where you have to draw the correct pattern to unlock.
+Name: AndroidLock XT
+Author: Zmaster <repo@cydia.vn>
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.vn/depic/t54/
+Homepage: http://cydia.vn/
+Filename: debs/vn.gsm.androidlockxt_3.6k_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/vn.gsm.androidlockxt.html
+Size: 3880578
+MD5sum: edd47ed099c289a5b7144c6848c78f9a
+SHA1: c7a57f5f61adeb24510a38608f4e240f2d77d87b
+SHA256: 1386e3e262265c8f3c1d207350efd7df31cdd15cf7f37688746ae6a774819788
+SHA521: 8c6c6990f39d5d57e9ba9b53a50c34e35df30e0e42b84b608b8619538207f729cc1ed7fda2af1cbb641c022993bf2b11071440c7214e1a23a3b857dc3fa9425f
+
+Package: vn.gsm.dashboard
+Version: 2.0.5
+Section: !GSMVN-Tools
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: gsmicon, mobilesubstrate, libactivator, preferenceloader, com.rpetrich.layersnapshotter
+Architecture: iphoneos-arm
+Description: Dashboard X is an awesome widgets system for your device!
+Name: Dashboard X
+Author: cjori
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t2746/
+Homepage: http://cydia.vn/>
+Icon: file:///Library/PreferenceBundles/Dashboard.bundle/Dashboard@2x.png
+Filename: debs/vn.gsm.dashboard_2.0.5_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/vn.gsm.dashboard.html
+Size: 886938
+MD5sum: 02b7c3a26f64e6387abac09bcfe7c48a
+SHA1: 60fd880b9238e72f33e3dc7da8ad1a6f7bb71de7
+SHA256: 9778cb1da2c463b6d1d931d2e86ed8d696d7adc9f64ba9533454e91db5e09a3b
+SHA521: 4896bcbe2ac4cff50164d0d59ea5edf90aa37cc66cf5ba122e02c25b32245282629518f0d10866309c4cf237d35971bc3604ee721266a5250c5a70975ba4c378
+
+Package: vn.gsm.displayrecorder
+Version: 1.3.21k
+Section: !CydiaVn-Apps
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), libactivator (>= 1.9.1), gdata-objectivec-client | firmware (>= 7.0), firmware (>= 3), openssl, firmware (<< 9.9), com.rpetrich.rocketbootstrap (>= 1.0.1) | firmware (<< 7.0), com.a3tweaks.flipswitch (>= 1.0.5)
+Architecture: iphoneos-arm
+Description: Record the display in real-time, send to camera roll, web interface, ProTapper-style touch circles and Activator integration
+Name: Display Recorder
+Author: Ryan Petrich <repo@cydia.vn>
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.vn/depic/t971/
+Homepage: http://cydia.vn/
+Filename: debs/vn.gsm.displayrecorder_1.3.21k_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/vn.gsm.displayrecorder.html
+Size: 913056
+MD5sum: 14b5391af8b1d0f53019984cd1887854
+SHA1: f4a600630fb770b9292d6dac36b3ccb0ce9b86eb
+SHA256: 60c380fc5f3fc0253315702935355b95954f8185bcb43bdb77d6cb3a57a2be27
+SHA521: d509fc995e45ade3936af7544e3c59832fedb4a6290ca50660cba345fd5b0171be15c80e746a3bea798c06d75ccedf57bf417d9b594f2573cfb7b4678eb78dd4
+
+Package: vn.gsm.localiapstore
+Version: 1.4-2
+Priority: optional
+Section: !CydiaVn-Tools
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: gsmicon, firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Conflicts: anondev.LocalIAPStore
+Architecture: iphoneos-arm
+Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
+Name: LocalIAPStore
+Author: anon dev <repo@cydia.vn>
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.vn/depic/t3534/
+Homepage: http://cydia.vn/
+Filename: debs/vn.gsm.localiapstore_1.4-2_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/vn.gsm.localiapstore.html
+Size: 70892
+MD5sum: 3f3dc08c728caa9309fe6b788b09872b
+SHA1: b47840b58d30ef20931f7e2902f07f815ee3b0ed
+SHA256: b2065a61ff458b42ddcab87b094d08221b24a837e26059ce54323f866e8ce1e5
+SHA521: cc969089bf96f1e273605c0d8b1e4226595703449ecfaf842b791050e7c4af83e0c1b798b739817ba8eac97e8f94f3093ff82e43555df7e0d2ad0d1f63cf8f40
+
+Package: vn.gsm.quasar
+Version: 1.3
+Section: !GSMVN-Tools
+Maintainer: Thieu.Bocap <repo@cydia.vn>
+Depends: gsmicon, firmware (>= 5.0), mobilesubstrate, preferenceloader, gsc.ipad
+Architecture: iphoneos-arm
+Installed-Size: 117
+Description: multi-app window manager for iPad
+Name: Quasar
+Author: Pedro Franceschi
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t2709/
+Homepage: http://cydia.vn/
+Icon: file:///Library/PreferenceBundles/QuasarSettings.bundle/QuasarSettings_icon@2x.png
+Filename: debs/vn.gsm.quasar_1.3_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/vn.gsm.quasar.html
+Size: 66344
+MD5sum: 2ed6877daccdbf2e3e17c4e9efbc46f5
+SHA1: 9ff18fcb32951153b4213950d8c9335762c8cab1
+SHA256: 77f7d9856f88a5fc5dc1fd89cc2d6070ab4c3e39648c6e047b0fa68cac62c076
+SHA521: 55e703ac2691a66d2e970b902b73169c5b317b5102d0ded27413a60c8fb0e0023f581b1dd71a5179fc66daa3de723e225c2087eaea759c4e59b61d8b6d674cac
+
+Package: vn.gsm.retinapad
+Version: 1.3.7k
+Section: !CydiaVn-Tools
+Maintainer: Cydia.vn <repo@cydia.vn>
+Pre-Depends: firmware (>= 4.2), vn.gsm.utils (>= 0.0.1-38), cy+model.ipad | gsc.ipad | gsc.wildcat
+Depends: gsmicon, mobilesubstrate (>= 0.9.5001), preferenceloader (>= 2.2.2), applist (>= 1.5.7), cydia (>= 1.1.1), curl, firmware (<< 7.0) | com.rpetrich.rocketbootstrap (>= 1.0.1), firmware (<< 7.0) | libactivator (>= 1.8.3)
+Architecture: iphoneos-arm
+Installed-Size: 760
+Description: Enable Retina Display for iPhone apps on iPad
+Name: RetinaPad
+Author: Ryan Petrich  <repo@cydia.vn>
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t976/
+Homepage: http://cydia.vn/
+Icon: file:///Library/RetinaPad/RetinaPadCydia.png
+Filename: debs/vn.gsm.retinapad_1.3.7k_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/vn.gsm.retinapad.html
+Size: 281100
+MD5sum: 9c933999d4beb290124a64740ef9e8c7
+SHA1: 9aedf62598b07eb301798898411fd94bf784fe66
+SHA256: 0f21dd55e38245da4a60e3a4ac590378a9241d51654c028f4fbe80240b016839
+SHA521: ec347d0a02222a551e203cc493582c7c5674df2bfc8eb8aa452ce5867168db5fe89b04e1f7e99ccc832c1940e3d93364275d29d57f12202b40dfd73f75d06203
+
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=weeloaderDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=weeloaderDp
+Author: joedj <weeloader@joedj.net>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: WeeLoader
+Package: com.chpwn.weeloader
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate
+Section: Development
+Version: 1.4-4
+Architecture: iphoneos-arm
+Description: Weeeeeeeeeee! Load Wee apps safely.
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: joejordan
+Tag: role::developer, purpose::extension, ios7support::1, ios8support::1
+Installed-Size: 99
+Filename: debs/weeloader_1.4-4.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/com.chpwn.weeloader.html
+Size: 14400
+MD5sum: ad3e75d1681f58a7c7677f5b4189cab1
+SHA1: 1228668d35e2925a6e4c5533daa19df40152e304
+SHA256: c8d1f35b386b04ac4f2c988e78f7e6793baae34e95e5124b5ddef8bb545d2195
+SHA521: 94dc05c4d7028902885a327778fbac7ca11ccb53585d6670c971b7d42baf9d839184717749d7c82f0a04a3f1ad96e6bff670c1118a97147523f4e197db034eab
+
+Package: winterboard
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0.9.3919
+Description: theme manager, used by most themes
+Name: WinterBoard
+Pre-Depends: dpkg (>= 1.13.25-5)
+Depends: mobilesubstrate (>= 0.9.3225-1), killall, preferenceloader, findutils, net.howett.pincrush (>= 0.0.1-23) | pincrush
+Breaks: jp.ashikase.folderenhancer (<< 1.6.0.2-1)
+Provides: theme-manager
+Conflicts: com.modmyifone.winterboardicon, winterboardsettings, themesettings, com.iphonerepocenter.transparentdockfor3xtheme
+Replaces: com.modmyifone.winterboardicon, winterboardsettings, themesettings, com.iphonerepocenter.transparentdockfor3xtheme
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/winterboard/
+Homepage: http://www.saurik.com/id/9
+Filename: debs/winterboard_0.9.3919_iphoneos-arm.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/winterboard.html
+Size: 111104
+MD5sum: 903869bcc23c88eeb71615e833e626af
+SHA1: 569cc3f77a3ca6cd2046a84bc5c3a68fbb2f00ea
+SHA256: 8cd0ad873eacf4c209e4e89e2e1e0ab0ea963f49cd652ef814ed97d2fb157991
+SHA521: c027d676e2e5526d2ff431fecf4243b2d9041f0c654bda377f7585571dd406ff1ed97590fc8d3ec47cfab92dc527f48f3906b14b9552e3b9a3db3142c52dadc3
+
+Homepage: http://yellowsn0w.com/
+Depiction: http://yellowsn0w.com/depiction/index.html
+Package: yellowsn0w
+Name: yellowsn0w
+Version: 0.9.6
+Architecture: iphoneos-arm
+Description: An iPhone 3G soft unlock application.
+Maintainer: Dev Team <blog@iphone-dev.org>
+Author: Dev Team <blog@iphone-dev.org>
+Section: Utilities
+Filename: debs/yellowsn0w_0.9.6.deb
+Depiction: https://ReverseY111.github.io/cydiaarchive/depictions/yellowsn0w.html
+Size: 6540
+MD5sum: 4be3166cc14bc8a4af40beaf6a5e5115
+SHA1: 7479a46229adfcc0404131894aeb0686fd2f0c2e
+SHA256: a539d02de4559c8cb65eecd4453faba10ef60465e9b2f5925f24f94177daac23
+SHA521: 460e2b0c7460c0fe77e40bd16c37842fe785cf49711a6cf75b2ee4229d3c4737f74617b543e3239764e769956df7bcdb8830f4239c290c5500cc0bd9f4347329
+
