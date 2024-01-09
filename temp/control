@@ -1,12 +1,16 @@
-Package: com.bytafont.bytafonttm
-Name: BytaFont Tweak Mode
+Package: net.howett.cydelete
+Name: CyDelete
+Depends: mobilesubstrate, preferenceloader (>= 2.0), apt, bash, grep, coreutils
+Conflicts: com.sosiphone.cydeletefr
+Version: 2.0.5-1
 Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Depiction: http://repo.bytafont.com/bytafont_tweakmode_depiction
-Maintainer: BytaFont.com <info@bytafont.com>
-Author: BytaFont.com <info@bytafont.com>
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Description: Delete Cydia packages from SpringBoard, just like App Store applications!
+Maintainer: Dustin Howett <dustin@howett.net>
+Author: Dustin Howett <dustin@howett.net>
 Section: Tweaks
-Description: BytaFont Tweak Mode
-Version: 1.1.1
-Installed-Size: 136
+Depiction: http://moreinfo.thebigboss.org/moreinfo/cydeleteDp.php
+Homepage: http://howett.net/cydia/depict/cydelete.html
+dev: dustinhowett
+Sponsor: thebigboss.org <http://thebigboss.org>
+Tag: purpose::extension, role::enduser
+Installed-Size: 220

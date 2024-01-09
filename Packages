@@ -853,3 +853,18 @@ Section: Tweaks
 Description: BytaFont Tweak Mode
 Author: BytaFont.com <info@bytafont.com>
 Name: BytaFont Tweak Mode
+
+Package: net.howett.cydelete
+Version: 2.0.5-1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader (>= 2.0), apt, bash, grep, coreutils
+Maintainer: Dustin Howett <dustin@howett.net>
+Filename: ./debs/net.howett.cydelete_2.0.5-1_iphoneos-arm.deb
+Size: 35806
+MD5sum: 925939a64a1dddaeae19e23f12f9f217
+SHA1: 24a32ff33836f68e033ab1a616ba1eeb0576cf23
+SHA256: b4eb2902768a2cce7a78dfdcc7e138cecbf83754501900f4dd96efb0dd931530
+Section: Tweaks
+Description: Delete Cydia packages from SpringBoard, just like App Store applications!
+Author: Dustin Howett <dustin@howett.net>
+Name: CyDelete
