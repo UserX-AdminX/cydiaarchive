@@ -1,0 +1,15 @@
+
+Package: libactivator
+Version: 1.9.13~rc6
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Filename: ./debs/libactivator_1.9.13~rc6_iphoneos-arm.deb
+Size: 929288
+MD5sum: edb85ee5c115534b48818d8bb9592152
+SHA1: 31be51e4b89f8e4e39ec1920e945960d3f458d96
+SHA256: 2fcd743e3b3f6e13a5c138c1445cab1d81c66125823f3895e4ef62508e30d8ef
+Section: System
+Description: Centralized gestures, button and shortcut management for iOS
+Author: Ryan Petrich <rpetrich+activator@gmail.com>
+Name: Activator

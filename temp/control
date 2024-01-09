@@ -1,10 +1,18 @@
-Package: com.supermamon.newpackage
-Name: New Package
+Package: libactivator
+Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
+Name: Activator
+Priority: optional
 Architecture: iphoneos-arm
-Depends: firmware (>7.0), mobilesubstrate
-Description: This is a sample new package. Firmware should be greater than 7.0
-Maintainer: Reposi3 <reposithree@gmail.com>
-Author: Reposi3 <reposithree@gmail.com>
-Section: Tweaks
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
-Version: 2.0.0-1
+Description: Centralized gestures, button and shortcut management for iOS
+Homepage: https://rpetri.ch/cydia/activator/beta/
+Depiction: https://rpetri.ch/cydia/activator/beta/
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Author: Ryan Petrich <rpetrich+activator@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Section: System
+dev: rpetrich
+Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
+Version: 1.9.13~rc6
+Installed-Size: 5060
