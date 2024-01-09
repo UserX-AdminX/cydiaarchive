@@ -928,3 +928,18 @@ Section: Themes (SBSettings)
 Description: Retina / HD SBSettings theme for SBSettings
 Author: Max Rudberg <max@maxthemes.com>
 Name: Serious SBSettings HD
+
+Package: com.sbsdefaulthdtheme
+Version: 1.2
+Architecture: iphoneos-arm
+Depends: sbsettings
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/sbs_default_hd_1.2.deb
+Size: 313608
+MD5sum: 5d4ee6fab4337a327c6d2f824ecf8e04
+SHA1: ab5504b1f95f96a9e7e58cd7e45728dafbf8d29b
+SHA256: 1902c3e5a75997948e019b0acf0720286319971d45969d4798673274e83f173b
+Section: Themes (SBSettings)
+Description: Retina / HD SBSettings default theme for SBSettings
+Author: Jonas Gessner <support@j-gessner.de>
+Name: Default HD SBSettings
