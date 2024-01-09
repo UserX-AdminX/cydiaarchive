@@ -1,14 +1,16 @@
-Package: com.gauravgiri.fontswapstarter
-Version: 2.0
+Author: Bassam Kassem <Bassam.Kassem@me.com>
+Maintainer: Bassam Kassem - [Ac!D]Team <Bassam.Kassem@me.com>
+Name: [Ac!D]TelePad
+Package: com.myrepospace.BassamKassem.telepad
+Priority: standard
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, coreutils, com.ericasadun.utilities, ldid, vim
+Pre-Depends: firmware (>= 5.1), firmware (<< 6.0), gsc.ipad, cy+model.ipad (=1.1)
+Version: 2
 Architecture: iphoneos-arm
-Author: Gaurav Giri <gauravgiri@gmail.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 14600
-Section: System
-Description: Font Starter Pack for Font Swap app.
-Icon: file:///usr/share/bigboss/icons/bigboss.png
-Name: FontSwap Starter
-Depiction: http://moreinfo.thebigboss.org/moreinfo/FontSwapStarterDp.php
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: gauravgiri
-Tag: role::developer, purpose::library
+Description: Enable TELEPHONY / SMS capabilities that turns your iPad(1st Gen.) 3G Models ONLY (WiFi Models will not be supported) into a fully functional phone REQUIRED A TELEPHONY CAPABLE SIM CARD that already can make cellular phone calls & sends SMS.
+homepage: http://BassamKassem.com
+ 
+
+
+
