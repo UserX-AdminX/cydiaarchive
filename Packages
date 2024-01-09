@@ -778,3 +778,48 @@ Section: utils
 Description: iGameGuardian is a game cheating engine for iOS 5.1.
 Author: Reverse <1@1.1>
 Name: iGameGuardian
+
+Package: sbsettingstoggles
+Version: 6.0-2
+Architecture: iphoneos-arm
+Depends: com.modmyi.serioussbsettingshd, com.sbsdefaulthdtheme, firmware (>= 3.2) | sbsettingsdata2
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/sbsettings_toggle_pack_6.0-2.deb
+Size: 389812
+MD5sum: 5d800dd6e4ff48b8b981f885cec3e46d
+SHA1: b909b40f19b3eec1bc782c412e62b2528098bdde
+SHA256: 5301504b9ec7fbda478356c3718ba0f4b6b4832698954fe3f73e781dcd6edefc
+Section: SBSettings Addons
+Description: These are the built in toggles for the SBSettings app.
+Author: BigBoss <bigboss@thebigboss.org>
+Name: sbsettingstoggles
+
+Package: libhide
+Version: 2.4.1-1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.5000)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/libhide_2.4.1-1.deb
+Size: 31392
+MD5sum: d93247a9e652a1674d7faae387bfc9df
+SHA1: ff568bdf5dad9eeedc3f9ff4412237158f98e136
+SHA256: 6f0aaac83dd0b1261fa91e1cc6b742004da3a531abf725d065b69d69d69df2b5
+Section: Development
+Description: Library to hide icons.
+Author: BigBoss <bigboss@thebigboss.org>
+Name: libhide
+
+Package: com.chpwn.weeloader
+Version: 1.4-4
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/weeloader_1.4-4.deb
+Size: 14400
+MD5sum: ad3e75d1681f58a7c7677f5b4189cab1
+SHA1: 1228668d35e2925a6e4c5533daa19df40152e304
+SHA256: c8d1f35b386b04ac4f2c988e78f7e6793baae34e95e5124b5ddef8bb545d2195
+Section: Development
+Description: Weeeeeeeeeee! Load Wee apps safely.
+Author: joedj <weeloader@joedj.net>
+Name: WeeLoader

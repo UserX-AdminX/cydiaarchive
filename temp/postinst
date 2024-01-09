@@ -1,6 +1,0 @@
-#!/bin/bash
-dir=$(dirname "$0")
-chown root:wheel /Applications/iGameGuardian.app/gg_daemon
-chmod 6755 /Applications/iGameGuardian.app/gg_daemon
-
-cp /Applications/iGameGuardian.app/gg_daemon.plist /System/Library/LaunchDaemons/
