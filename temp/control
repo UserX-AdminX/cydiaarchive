@@ -1,14 +1,13 @@
-Package: com.geosn0w.iSecureOS
-Name: iSecureOS
-Version: 1.24
+Package: uk.invoxiplaygames.simalertsuppression
+Name: SIM Alert Suppression
+Depends: mobilesubstrate, firmware (>=5.0)
+Conflicts: uk.invoxiplaygames.letmestealinpeace
 Architecture: iphoneos-arm
-Depends: 
-Description: An iOS Security Application for Jailbroken devices. It does basic checks for repos you shouldn't trust, allows one to change the ROOT and mobile password, and provides general security information about vulnerabilities you may have on your device.
-Homepage: 1
-Maintainer: Reverse <1@email.com>
-Author: GeoSn0w
-Sponsor: Zero <sponsor's webpage>
-Section: System
-Filename: ./debs/com.geosn0w.iSecureOS
-Size: 1578832
-MD5sum: 97ADEDE4D0AD54D728E4EA050CBB7B79
+Description: Removes SIM-related alerts from SpringBoard
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Section: Tweaks
+Depiction: http://cydia.invoxiplaygames.uk/dp/simalertsuppression.php
+SileoDepiction: https://cydia.invoxiplaygames.uk/dp/simalertsuppression.json
+Version: 1.0
+Installed-Size: 132
