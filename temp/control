@@ -1,12 +1,14 @@
-Package: com.modmyi.besttube
-Name: Best Tube
-Version: 1.1
+Package: com.eldwin.iwidgets
+Name: iWidgets
+Version: 1.3.2
 Architecture: iphoneos-arm
-Author: ioslinks <kobisn@icloud.com>
-Depends: mobilesubstrate
-Depiction: http://modmyi.com/info/besttube.d.php
-Description: Enjoy your music anytime and anywhere. Search music videos, create playlists, listen while app is in background!
-Homepage: http://modmyi.com/info/besttube.php
+Author: eldwin <eldwin_@hotmail.com>
+Depends: mobilesubstrate, firmware (>= 4.2.1)
+Conflicts: com.chpwn.infiniboard
+Depiction: http://modmyi.com/info/iwidgets.d.php
+Priority: extra
+Section: Tweaks
+Description: HTML Widgets on SpringBoard!
+Homepage: http://modmyi.com/info/iwidgets.php
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Section: Applications
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>

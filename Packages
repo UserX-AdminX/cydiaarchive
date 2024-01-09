@@ -748,3 +748,18 @@ Section: Applications
 Description: Enjoy your music anytime and anywhere. Search music videos, create playlists, listen while app is in background!
 Author: ioslinks <kobisn@icloud.com>
 Name: Best Tube
+
+Package: com.eldwin.iwidgets
+Version: 1.3.2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 4.2.1)
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: /com.eldwin.iwidgets_1.3.2_iphoneos-arm.deb
+Size: 332298
+MD5sum: df1c1a8bb2ce16b2116887a8f7e36013
+SHA1: 9d0ecaf2771d3d1516e5db698c5026cc83ff2e08
+SHA256: c383674da009bd76d3f4188cf04786a435ac88614400105cb7dc1eb22d46ccb3
+Section: Tweaks
+Description: HTML Widgets on SpringBoard!
+Author: eldwin <eldwin_@hotmail.com>
+Name: iWidgets
