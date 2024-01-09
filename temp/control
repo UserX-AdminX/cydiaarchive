@@ -1,16 +1,16 @@
-Package: net.howett.cydelete
-Name: CyDelete
-Depends: mobilesubstrate, preferenceloader (>= 2.0), apt, bash, grep, coreutils
-Conflicts: com.sosiphone.cydeletefr
-Version: 2.0.5-1
+Name: System Info
+Package: xyz.xninja.systeminfo
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 3.0)
+Version: 2.0.0-1
 Architecture: iphoneos-arm
-Description: Delete Cydia packages from SpringBoard, just like App Store applications!
-Maintainer: Dustin Howett <dustin@howett.net>
-Author: Dustin Howett <dustin@howett.net>
-Section: Tweaks
-Depiction: http://moreinfo.thebigboss.org/moreinfo/cydeleteDp.php
-Homepage: http://howett.net/cydia/depict/cydelete.html
-dev: dustinhowett
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save shsh, battery info etc
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=systeminfoDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=systeminfoDp
 Sponsor: thebigboss.org <http://thebigboss.org>
-Tag: purpose::extension, role::enduser
-Installed-Size: 220
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: ARX8x <arx8@icloud.com>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios10, compatible::ios11
+Installed-Size: 913
+dev: arx8x

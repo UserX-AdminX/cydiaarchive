@@ -868,3 +868,18 @@ Section: Tweaks
 Description: Delete Cydia packages from SpringBoard, just like App Store applications!
 Author: Dustin Howett <dustin@howett.net>
 Name: CyDelete
+
+Package: xyz.xninja.systeminfo
+Version: 2.0.0-1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 3.0)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/systeminfo_2.0.0-1.deb
+Size: 178342
+MD5sum: 9be407c44397f32812cf980f0465bd1a
+SHA1: df58950144e61aa24f196a3400b48915ae7f2d25
+SHA256: d80ccf9d58ae643ef2d638d76984adb0f6897229be7ff63ac669c2236c50180d
+Section: Tweaks
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save shsh, battery info etc
+Author: ARX8x <arx8@icloud.com>
+Name: System Info
