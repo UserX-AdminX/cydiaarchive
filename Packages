@@ -718,3 +718,18 @@ Section: Themes (SpringBoard)
 Description: A nice Winterboard theme including icons, wallpapers and more.
 Author: Picu97 <changapalanga@gmail.com>
 Name:  iOS4 Mac OS X Leopard Theme
+
+Package: com.modmyi.goldineo
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: winterboard
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: /com.modmyi.goldineo_1.0_iphoneos-arm.deb
+Size: 3320132
+MD5sum: cb5ba5c7f8e87608ab44cd695b36cd5f
+SHA1: 13717b97fa74d7771178c4b9b95b303e51d3b81b
+SHA256: c83b5c0afcf5cfe1d57804a1d1560a9afb9d78d81237b3ab769813c2f829c365
+Section: Themes (SpringBoard)
+Description: #Goldineo theme.
+Author: Thabet99 <alaneed.99@hotmail.com>
+Name: #Goldineo

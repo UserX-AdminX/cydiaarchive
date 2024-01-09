@@ -1,12 +1,12 @@
-Package: com.modmyi.ios4macosxleopardtheme
-Name:  iOS4 Mac OS X Leopard Theme
+Package: com.modmyi.goldineo
+Name: #Goldineo
 Version: 1.0
 Architecture: iphoneos-arm
-Author: Picu97 <changapalanga@gmail.com>
+Author: Thabet99 <alaneed.99@hotmail.com>
 Depends: winterboard
-Depiction: http://modmyi.com/info/ios4macosxleopardtheme.d.php
-Description: A nice Winterboard theme including icons, wallpapers and more.
-Homepage: http://modmyi.com/info/ios4macosxleopardtheme.php
+Depiction: http://modmyi.com/info/goldineo.d.php
+Description: #Goldineo theme.
+Homepage: http://modmyi.com/info/goldineo.php
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Section: Themes (SpringBoard)
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
