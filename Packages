@@ -223,3 +223,18 @@ Section: Utilities
 Description: The first real iOS system cleanup and management utility
 Author: Ivano Bilenchi <support@ib-soft.net>
 Name: iCleaner Pro
+
+Package: grep
+Version: 2.5.4-3
+Architecture: iphoneos-arm
+Depends: Pre-dpkg (>= 1.14.25-8)
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Filename: ./debs/grep_2.5.4-3_iphoneos-arm.deb
+Size: 84338
+MD5sum: 86ddda55ae578835d06cc4cab576374a
+SHA1: b5a3c43558a9470db33f7794cf94ec10c0883a6b
+SHA256: d518772e85b0c2438371913de18678b60fc8c5f999aa3e16ed639b05245cf618
+Section: Utilities
+Description: searches files for regular expressions
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: grep
