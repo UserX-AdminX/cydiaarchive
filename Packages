@@ -59,7 +59,7 @@ Description: Package to fix YouTube on iOS 3-5
 Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Name: TubeFixer for iOS
 
-Package: yellowsn0w
+Package: yellowsn0w.dev
 Version: 0.9.6
 Architecture: iphoneos-arm
 Depends: 
