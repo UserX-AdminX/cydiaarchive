@@ -958,3 +958,33 @@ Section: System
 Description: iOS 4.3.4 - 5.1 Untethered Jailbreak by @UnthreadedJB for iPhone 3GS / iPhone 4(GSM/CDMA) / iPod Touch(3G/4G) / iPad 1
 Author: UnthreadedJB
 Name: Unthredera1n
+
+Package: com.cannathea.afc2d-arm64
+Version: 1.1.2-1
+Architecture: iphoneos-arm
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Maintainer: Cannathea <csupport@cannathea.com>
+Filename: /com.cannathea.afc2d-arm64_1.1.2-1_iphoneos-arm.deb
+Size: 19290
+MD5sum: 5cc7bc63508de9e9f2fa334d86df90ca
+SHA1: b6c95383fd3319b9263d2bf9261ff2623754ab5f
+SHA256: f970219a6c8fd8c29a5b51e09d5777285638cc49d63e88386ffe97ea8efcde60
+Section: System
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
+Author: saurik, Cannathea <csupport@cannathea.com>
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+
+Package: com.geosn0w.iSecureOS
+Version: 1.24
+Architecture: iphoneos-arm
+Depends: 
+Maintainer: Reverse <1@email.com>
+Filename: /com.geosn0w.iSecureOS.deb
+Size: 1578832
+MD5sum: 97adede4d0ad54d728e4ea050cbb7b79
+SHA1: fb8db4fa5eb5d6b648a88e86a200ee12f0717c62
+SHA256: f8ce4cd9773fefaccb02765ad918f4f2f2274370b69e44656102cea96a9cd29e
+Section: System
+Description: An iOS Security Application for Jailbroken devices. It does basic checks for repos you shouldn't trust, allows one to change the ROOT and mobile password, and provides general security information about vulnerabilities you may have on your device.
+Author: GeoSn0w
+Name: iSecureOS
