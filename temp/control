@@ -1,16 +1,13 @@
-Package: siriport.ru.appsync50plus
-Version: 2.2
-Priority: standard
-Section: Tweaks
-Maintainer: SiriPort.Ru <gdimaits777@gmail.com>
-Pre-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: us.hackulo.appsync50
-Replaces: us.hackulo.appsync50
-Provides: appsync
+Package: vn.gsm.androidlockxt
+Version: 3.6k
+Section: !CydiaVn-Tools
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: mobilesubstrate, preferenceloader (>= 2.0.3-2), firmware (>= 3.2)
+Conflicts: com.intelliborn.intelliscreen, cydialer, com.zmaster.androidlock
 Architecture: iphoneos-arm
-Name: AppSync for iOS 5&6
-Author: Dissident <apps@hackulo.us>
-Sponsor: SiriPort.Ru <http://siriport.ru>
-Description: AppSync allows you to sync and install cracked iOS applications. Works for iOS5.x and 6.x
-Depiction: http://repo.siriport.ru/projects/AppSync/
-
+Description: An Android-like lockscreen where you have to draw the correct pattern to unlock.
+Name: AndroidLock XT
+Author: Zmaster <repo@cydia.vn>
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.vn/depic/t54/
+Homepage: http://cydia.vn/

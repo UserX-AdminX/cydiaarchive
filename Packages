@@ -13,3 +13,18 @@ Section: Tweaks
 Description: AppSync allows you to sync and install cracked iOS applications. Works for iOS5.x and 6.x
 Author: Dissident <apps@hackulo.us>
 Name: AppSync for iOS 5&6
+
+Package: vn.gsm.androidlockxt
+Version: 3.6k
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader (>= 2.0.3-2), firmware (>= 3.2)
+Maintainer: Cydia.vn <repo@cydia.vn>
+Filename: ./debs/vn.gsm.androidlockxt_3.6k_iphoneos-arm.deb
+Size: 3880578
+MD5sum: edd47ed099c289a5b7144c6848c78f9a
+SHA1: c7a57f5f61adeb24510a38608f4e240f2d77d87b
+SHA256: 1386e3e262265c8f3c1d207350efd7df31cdd15cf7f37688746ae6a774819788
+Section: !CydiaVn-Tools
+Description: An Android-like lockscreen where you have to draw the correct pattern to unlock.
+Author: Zmaster <repo@cydia.vn>
+Name: AndroidLock XT
