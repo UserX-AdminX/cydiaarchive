@@ -1,13 +1,10 @@
 #!/bin/sh
-mkdir -p /var/mobile/Library/Caches
-chmod 777 /var/mobile/Library/Caches
-chown mobile /var/mobile/Library/Caches
-touch /var/mobile/Library/Caches/libactivator.plist
-chmod 666 /var/mobile/Library/Caches/libactivator.plist
-chown mobile /var/mobile/Library/Caches/libactivator.plist
-rm -f /Library/MobileSubstrate/DynamicLibraries/Activator.disabled
-( launchctl stop com.apple.mobilegestalt.xpc 2> /dev/null && launchctl start com.apple.mobilegestalt.xpc ) || true
-( launchctl stop com.apple.wcd 2> /dev/null && launchctl start com.apple.wcd 2> /dev/null ) || true
-killall siriactionsd 2> /dev/null
-killall wcd 2> /dev/null
-exec activator postinst
+chown root:wheel /Library/LaunchDaemons/com.rpetrich.rocketbootstrapd.plist
+launchctl load /Library/LaunchDaemons/com.rpetrich.rocketbootstrapd.plist || true
+launchctl stop com.apple.ReportCrash.SimulateCrash || true
+launchctl stop com.apple.tccd || true
+mv /System/Library/LaunchDaemons{BAK,}/com.apple.ReportCrash.SimulateCrash.plist 2> /dev/null || true
+launchctl load /System/Library/LaunchDaemons/com.apple.ReportCrash.SimulateCrash.plist 2> /dev/null || true
+launchctl load /System/Library/LaunchDaemons/com.apple.tccd.plist 2> /dev/null || true
+chown root:wheel /usr/libexec/_rocketd_reenable
+chmod +s /usr/libexec/_rocketd_reenable
