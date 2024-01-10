@@ -1,15 +1,12 @@
-Package: com.sinfuliphone.tetherme
-Section: SiNfuL iPhone
-Maintainer: SiNfuL iPhone <whatever@gmail.com>
+Author: iPodHacks142 <ipodhacks142@hotmail.co.uk>
+Name: Camera.app (For iPod Touch 2G and 3G)
+Description: Adds the camera app to your springboard.
+Section: Tweaks
+Version: 1.0
+Package: com.iphonemodding.cameraapp
+Depiction: http://apt.iphonemodding.com/d/cameraapp/cameraapp.php
 Architecture: iphoneos-arm
-Version: 2.3-9
-Replaces: net.tetherme.tetherme, net.tetherme.apnedit, net.tetherme.preferences
-Depends: mobilesubstrate (>= 0.9.3367+6), preferenceloader
-Pre-Depends: firmware (>= 3.0), firmware (<< 3.2) | firmware (>= 4.0)
-Conflicts: net.tetherme.tetherme, net.tetherme.apnedit, net.tetherme.preferences, sbsettings-tether
-Size: 22060
-Description: Dynamically enables native tethering.
-Name: TetherMe Cracked
-Icon: file:///Library/PreferenceBundles/TetherMe.bundle/TetherMe@2x.png
-Homepage: http://www.sinfuliphone.com/
-Depiction: http://www.sinfuliphonerepo.com/depiction/tetherme.html
+Depends: winterboard
+Homepage: http://www.iphonemodding.com
+Maintainer: maXimus <maximus@iphonemodding.com>
+Sponsor: iPhoneModding <http://www.iphonemodding.com>

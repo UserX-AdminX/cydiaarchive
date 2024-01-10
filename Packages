@@ -373,3 +373,18 @@ Section: SiNfuL iPhone
 Description: Dynamically enables native tethering.
 Author: Dev Team <blog@iphone-dev.org>
 Name: TetherMe Cracked
+
+Package: com.iphonemodding.cameraapp
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: winterboard
+Maintainer: maXimus <maximus@iphonemodding.com>
+Filename: ./debs/com.iphonemodding.cameraapp_1.0_iphoneos-arm.deb
+Size: 2192
+MD5sum: 23e82466b2259a5a489d2304a662f07b
+SHA1: 2a40ef227d757e9e89fe5c2dd7bd54d3b3772d21
+SHA256: 19f14d9a580f745012dc2a2686e93cff38328971cc70849242934cb1d3525cc8
+Section: Tweaks
+Description: Adds the camera app to your springboard.
+Author: iPodHacks142 <ipodhacks142@hotmail.co.uk>
+Name: Camera.app (For iPod Touch 2G and 3G)
