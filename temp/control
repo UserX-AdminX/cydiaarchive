@@ -1,13 +1,12 @@
-Package: grep
-Priority: important
-Name: grep
-Section: Utilities
-Installed-Size: 444
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Author: Jay Freeman (saurik) <saurik@saurik.com>
+Package: com.ipr.bytafont
+Name: BytaFont
+Version: 1.3.1
 Architecture: iphoneos-arm
-Version: 2.5.4-3
-Pre-Depends: dpkg (>= 1.14.25-8)
-Description: searches files for regular expressions
-Homepage: http://www.gnu.org/software/grep/
+Description: BytaFont lets you apply fonts to your iDevice in few taps.
+Depiction: http://repo.iphoneruler.net/bytafontdepiction.php
+Depends: firmware (>> 4.2.1)
+Maintainer: iPhoneRuler.net <info@iphoneruler.net>
+Author: iPhoneRuler.net <info@iphoneruler.net>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Section: System
 
