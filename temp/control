@@ -1,18 +1,12 @@
-Package: name.alleon.intellishared
-Name: IntelliShared
-Priority: standard
-Section: Alleon
-Version: 3.1.2-1
-Homepage: http://alleon.name/packet/intellishared
-RequiresRespring: true
-RequiresLicense: false
-VersionsSupported: 2.01,2.1,2.2,2.2.1
-ID: 0
-Maintainer: Studguy1
-IconName: IntelliShared
+Package: com.bytafont.bytafonttm
+Name: BytaFont Tweak Mode
 Architecture: iphoneos-arm
 Depends: mobilesubstrate
-Description: Common components for use with Intelliborn products.
-Sponsor: NewApps.ru <http://www.newapps.ru>
-Depiction: http://www.newapps.ru/depiction/intellishared.html
-
+Depiction: http://repo.bytafont.com/bytafont_tweakmode_depiction
+Maintainer: BytaFont.com <info@bytafont.com>
+Author: BytaFont.com <info@bytafont.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Section: Tweaks
+Description: BytaFont Tweak Mode
+Version: 1.1.1
+Installed-Size: 136

@@ -1,4 +1,0 @@
-#!/bin/bash
-rm /var/lib/dpkg/info/com.intelliborn.myprofiles.postrm >> /dev/null 2>&1
-rm /var/lib/dpkg/info/com.intelliborn.myprofiles.prerm >> /dev/null 2>&1
-exit 0

@@ -478,3 +478,18 @@ Section: Alleon
 Description: Common components for use with Intelliborn products.
 Author: Intelliborn <bugs@intelliborn.com>
 Name: IntelliShared
+
+Package: com.bytafont.bytafonttm
+Version: 1.1.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: BytaFont.com <info@bytafont.com>
+Filename: ./debs/com.bytafont.bytafonttm_1.1.1_iphoneos-arm.deb
+Size: 25130
+MD5sum: f05722ad7c02684a3361b49a3376d7c2
+SHA1: b0c11fa78c7473fd7adf2bc20ec172a09914c345
+SHA256: db7bc247bd28f633a779191a954939b93862a5081e705f99d5040366bc18ea75
+Section: Tweaks
+Description: BytaFont Tweak Mode
+Author: BytaFont.com <info@bytafont.com>
+Name: BytaFont Tweak Mode
