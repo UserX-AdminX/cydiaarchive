@@ -1,12 +1,11 @@
-Package: us.hackulo.security
-Name: Hackulous Security
-Version: 1.2.1
-Priority: standard
-Depends: com.hackulo.us.sourcegui, coreutils, openssl, curl, sed
+Homepage: http://yellowsn0w.com/
+Depiction: http://yellowsn0w.com/depiction/index.html
+Package: yellowsn0w
+Name: yellowsn0w
+Version: 0.9.6
 Architecture: iphoneos-arm
-Section: Hackulo.us
-Maintainer: Genius Blog <admin@hackulo.us>
-Author: Kyek <hackulous_security@hackulo.us>
-Description: Protects you and your device from malicious websites 
-Sponsor: Hackulo.us <http://hackulo.us>
-Depiction: http://hackulo.us/depict/security
+Depends: mobilesubstrate
+Description: An iPhone 3G soft unlock application.
+Maintainer: Dev Team <blog@iphone-dev.org>
+Author: Dev Team <blog@iphone-dev.org>
+Section: Utilities
