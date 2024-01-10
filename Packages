@@ -313,3 +313,18 @@ Section: Hackulo.us
 Description: Hackulo.us Source GUI adds the source icons
 Author: Genius Blog <admin@hackulo.us>
 Name: Source GUI
+
+Package: us.hackulo.security
+Version: 1.2.1
+Architecture: iphoneos-arm
+Depends: com.hackulo.us.sourcegui, coreutils, openssl, curl, sed
+Maintainer: Genius Blog <admin@hackulo.us>
+Filename: ./debs/us.hackulo.security_1.2.1_iphoneos-arm.deb
+Size: 2784
+MD5sum: df221ff7bb2f4baf1503b9693b1ca298
+SHA1: 1f588f64db3c9e2599350f7a25856ed03eee22a0
+SHA256: df6a4bd2e8a06608de72d6b0a4ce7a620def7b0104c361123f878b1031528d90
+Section: Hackulo.us
+Description: Protects you and your device from malicious websites 
+Author: Kyek <hackulous_security@hackulo.us>
+Name: Hackulous Security

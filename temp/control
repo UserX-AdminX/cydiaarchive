@@ -1,14 +1,12 @@
-Package: com.hackulo.us.sourcegui
-Name: Source GUI
-Version: 1.2
+Package: us.hackulo.security
+Name: Hackulous Security
+Version: 1.2.1
 Priority: standard
+Depends: com.hackulo.us.sourcegui, coreutils, openssl, curl, sed
 Architecture: iphoneos-arm
-Depends: 
 Section: Hackulo.us
-Maintainer: Genius Blog <admin@hackulo.us
-Author: Genius Blog <admin@hackulo.us>
-Description: Hackulo.us Source GUI adds the source icons
+Maintainer: Genius Blog <admin@hackulo.us>
+Author: Kyek <hackulous_security@hackulo.us>
+Description: Protects you and your device from malicious websites 
 Sponsor: Hackulo.us <http://hackulo.us>
-Depiction: http://hackulo.us/depict/sourcegui
-
-
+Depiction: http://hackulo.us/depict/security
