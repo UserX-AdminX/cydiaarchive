@@ -1,12 +1,11 @@
-Author: iPodHacks142 <ipodhacks142@hotmail.co.uk>
-Name: Camera.app (For iPod Touch 2G and 3G)
-Description: Adds the camera app to your springboard.
-Section: Tweaks
-Version: 1.0
-Package: com.iphonemodding.cameraapp
-Depiction: http://apt.iphonemodding.com/d/cameraapp/cameraapp.php
+Package: com.beyoip.install0us
+Name: install0us
+Version: 2.5.2.the.end
 Architecture: iphoneos-arm
-Depends: winterboard
-Homepage: http://www.iphonemodding.com
-Maintainer: maXimus <maximus@iphonemodding.com>
-Sponsor: iPhoneModding <http://www.iphonemodding.com>
+Depends: mobilesubstrate
+Description: THE App to download/install your IPA!!
+Sponsor: Install0us <http://install0us.com>
+Depiction: http://repo.beyouriphone.com/depiction.html
+Maintainer: Ajeje <repo@beyouriphone.com>
+Author: puy0
+Section: BeYoIP Apps
