@@ -1,19 +1,16 @@
+Package: name.alleon.carrierlogo421
+Name: Carrier Logo for iOS 4.2.1
+Version: 1.0
 Architecture: iphoneos-arm
-Depends: 
-Author: Alleon <andjerk@gmail.com>
-Description: Alleon repo logo
-Installed-Size: 43
+Description: Логотипы российских операторов сотовой связи.
 Maintainer: alleon <andjerk@gmail.com>
-Name: Repo Icon
-Package: name.alleon.logorepo
+Author: Alleon
+Section: Alleon
+Depends: name.alleon.logorepo
+Installed-Size: 80
 Priority: optional
 Essential: no
-Section: RepoIcon
-Version: 1.1
-Recommends: cydia
+Homepage: http://alleon.name/packet/carrierlogo421/
 Sponsor: NewApps.ru <http://www.newapps.ru>
-Depiction: http://www.newapps.ru/depiction/logorepo.html
-
-
-
-
+Pre-Depends: firmware (>= 4.2)
+Depiction: http://www.newapps.ru/depiction/carrierlogo421.html

@@ -433,3 +433,18 @@ Section: Alleon
 Description: Alleon repo logo
 Author: Alleon <andjerk@gmail.com>
 Name: Repo Icon
+
+Package: name.alleon.carrierlogo421
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: Pre-firmware (>= 4.2)
+Maintainer: alleon <andjerk@gmail.com>
+Filename: ./debs/carrierlogo421.deb
+Size: 27674
+MD5sum: ca97b952de2c9ffadb17755e5da5c204
+SHA1: e8b3701792ef4d68d94cf885fba26baf682dc015
+SHA256: acdac963b7bc7daa6020a81b660430d3660879240729f8ae43541f60812656b3
+Section: Alleon
+Description: Логотипы российских операторов сотовой связи.
+Author: Alleon
+Name: Carrier Logo for iOS 4.2.1
