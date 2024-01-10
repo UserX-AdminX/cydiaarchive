@@ -418,3 +418,18 @@ Section: BeYoIP Apps
 Description: THE App to download/install your IPA!!
 Author: puy0
 Name: install0us
+
+Package: name.alleon.logorepo
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: 
+Maintainer: alleon <andjerk@gmail.com>
+Filename: ./debs/logorepo.deb
+Size: 39662
+MD5sum: 9077922abd8307fafe798b10122070c4
+SHA1: 077f086bd3a25392088ec682b2feb47be928b1fe
+SHA256: 957fab0aa27eda63f13b710db403040ddd92f499fadaf39de9ad9d7578691ea8
+Section: RepoIcon
+Description: Alleon repo logo
+Author: Alleon <andjerk@gmail.com>
+Name: Repo Icon

@@ -1,11 +1,19 @@
-Package: com.beyoip.install0us
-Name: install0us
-Version: 2.5.2.the.end
 Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Description: THE App to download/install your IPA!!
-Sponsor: Install0us <http://install0us.com>
-Depiction: http://repo.beyouriphone.com/depiction.html
-Maintainer: Ajeje <repo@beyouriphone.com>
-Author: puy0
-Section: BeYoIP Apps
+Depends: 
+Author: Alleon <andjerk@gmail.com>
+Description: Alleon repo logo
+Installed-Size: 43
+Maintainer: alleon <andjerk@gmail.com>
+Name: Repo Icon
+Package: name.alleon.logorepo
+Priority: optional
+Essential: no
+Section: RepoIcon
+Version: 1.1
+Recommends: cydia
+Sponsor: NewApps.ru <http://www.newapps.ru>
+Depiction: http://www.newapps.ru/depiction/logorepo.html
+
+
+
+
