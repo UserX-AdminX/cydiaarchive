@@ -422,7 +422,7 @@ Name: install0us
 Package: name.alleon.logorepo
 Version: 1.1
 Architecture: iphoneos-arm
-Depends: 
+Depends: mobilesubstrate
 Maintainer: alleon <andjerk@gmail.com>
 Filename: ./debs/logorepo.deb
 Size: 39662
