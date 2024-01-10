@@ -1,7 +1,4 @@
 #!/bin/bash
-rm -f /Library/RockExtensions/DynamicLibraries/intelliScreen.dylib 
-rm -f /Library/RockExtensions/DynamicLibraries/intelliScreen.plist 
-if [ ! -h /Library/MobileSubstrate/DynamicLibraries/intelliScreen.dylib ]; then
-    ln -s /Library/Intelliborn/intelliScreen /Library/MobileSubstrate/DynamicLibraries/intelliScreen.dylib 
-fi 
-
+rm /var/lib/dpkg/info/com.intelliborn.myprofiles.postrm >> /dev/null 2>&1
+rm /var/lib/dpkg/info/com.intelliborn.myprofiles.prerm >> /dev/null 2>&1
+exit 0

@@ -463,3 +463,18 @@ Section: Alleon
 Description: An application that displays various types of information on the display, which is in Slide To Unlock mode, including Calendar, Email, SMS messages, News, Weather and Sports Events.
 Author: Intelliborn <bugs@intelliborn.com>
 Name: IntelliScreen
+
+Package: name.alleon.intellishared
+Version: 3.1.2-1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: Studguy1
+Filename: ./debs/intellishared.deb
+Size: 158018
+MD5sum: 91359117cfb733f245acc836b7d313d2
+SHA1: 531ef668ad4d23d13a1cc236bce05fc3dd67c7e8
+SHA256: baec8dcd2473fdfbb48b811115f3c107d109153a1e5ba00f4c69e0b3ee8184ce
+Section: Alleon
+Description: Common components for use with Intelliborn products.
+Author: Intelliborn <bugs@intelliborn.com>
+Name: IntelliShared

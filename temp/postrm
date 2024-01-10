@@ -1,4 +1,0 @@
-#!/bin/bash
-rm -f /Library/MobileSubstrate/DynamicLibraries/intelliScreen.dylib
-rm -f /Library/MobileSubstrate/DynamicLibraries/intelliScreen.plist
-

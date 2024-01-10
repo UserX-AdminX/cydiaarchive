@@ -1,18 +1,18 @@
-Package: name.alleon.intelliscreen
-Name: IntelliScreen
-Depends: openssl,mobilesubstrate,name.alleon.intellishared (>= 2.91.1)
-Version: 11:2.95.4.1
-Essential: no
-Maintainer: Alleon <andjerk@gmail.com>
-Homepage: http://alleon.name/packet/intelliscreen
-Author: Intelliborn <bugs@intelliborn.com>
+Package: name.alleon.intellishared
+Name: IntelliShared
 Priority: standard
 Section: Alleon
+Version: 3.1.2-1
+Homepage: http://alleon.name/packet/intellishared
+RequiresRespring: true
+RequiresLicense: false
 VersionsSupported: 2.01,2.1,2.2,2.2.1
-Support: http://support.intelliborn.com
-IconName: IntelliScreen
+ID: 0
+Maintainer: Studguy1
+IconName: IntelliShared
 Architecture: iphoneos-arm
-Description: An application that displays various types of information on the display, which is in Slide To Unlock mode, including Calendar, Email, SMS messages, News, Weather and Sports Events.
+Depends: mobilesubstrate
+Description: Common components for use with Intelliborn products.
 Sponsor: NewApps.ru <http://www.newapps.ru>
-Depiction: http://www.newapps.ru/depiction/intelliscreen.html
+Depiction: http://www.newapps.ru/depiction/intellishared.html
 
