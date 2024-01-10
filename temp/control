@@ -1,9 +1,14 @@
-Package: com.alexzielenski.zeppelin
-Version: 2.1.1-1
+Package: com.hackulo.us.installous
+Name: Installous 5
+Version: 5.0.3-1
+Priority: standard
+Pre-Depends: firmware (>= 4.0)
+Depends: us.hackulo.resources, appsync, com.hackulo.us.sourcegui, com.chpwn.weeloader (>= 1.1) | firmware (<< 5.0)
 Architecture: iphoneos-arm
-Depends: firmware (>= 4.2), mobilesubstrate, preferenceloader.
-Name: Zeppelin
-Maintainer: Alex Zielenski <support@alexzielenski.com>
-Author: Alex Zielenski <support@alexzielenski.com>
-Section: Tweaks
-Description: Replaces carrier text with an image !
+Section: Hackulo.us
+Maintainer: Dissident <apps@hackulo.us>
+Author: docmorelli <apps@hackulo.us>
+Description: Installous is the perfect app to install your IPAs
+Sponsor: Hackulo.us <http://hackulo.us>
+Depiction: http://hackulo.us/depict/installous5/
+

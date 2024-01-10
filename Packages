@@ -268,3 +268,18 @@ Section: Tweaks
 Description: Replaces carrier text with an image !
 Author: Alex Zielenski <support@alexzielenski.com>
 Name: Zeppelin
+
+Package: com.hackulo.us.installous
+Version: 5.0.3-1
+Architecture: iphoneos-arm
+Depends: us.hackulo.resources, appsync, com.hackulo.us.sourcegui, com.chpwn.weeloader (>= 1.1) | firmware (<< 5.0)
+Maintainer: Dissident <apps@hackulo.us>
+Filename: ./debs/com.hackulo.us.installous_5.0.3-1_iphoneos-arm.deb
+Size: 5326030
+MD5sum: 42e48c376dcedbefd0c5bc6876310e45
+SHA1: 14cc8f1ffb1e625bb57020f764f4e518b6d709f5
+SHA256: 4baf768abe97799850d5e5ffb53e9cd052ea5d413d7441f0cd57b4b1ae4dcf32
+Section: Hackulo.us
+Description: Installous is the perfect app to install your IPAs
+Author: docmorelli <apps@hackulo.us>
+Name: Installous 5

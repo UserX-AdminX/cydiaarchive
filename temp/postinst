@@ -1,23 +1,14 @@
 #!/bin/bash
 
-# Move Zeppelin logos to /var/stash on the data partition
-echo "Stashing Logos..."
+echo "Removing old webplugins"
+rm -rf /System/Library/Internet\ Plug-Ins/Installous.webplugin/
 
-if [ ! -L "/Library/Zeppelin" ]; then
-    /usr/libexec/cydia/move.sh /Library/Zeppelin
-fi
+echo "Updating Installous permissions"
+chmod 0777 /Applications/Installous.app/Installous
+chown mobile:mobile /Applications/Installous.app/Installous
+chown root:wheel /Applications/Installous.app/clutch_crack_binary
+chmod 4777 /Applications/Installous.app/clutch_crack_binary
 
-if [ -d /Library/Zeppelin ]; then
-	echo "Repairing permissions for themes..."
-	chown -R mobile:mobile /Library/Zeppelin
-	chmod -R 755 /Library/Zeppelin
-	echo "Done"
-fi
-
-if [ -f /var/mobile/Library/Preferences/com.alexzielenski.zeppelin.plist ]; then
-	echo "Repairing permissions for preferences..."
-	chmod 755 /var/mobile/Library/Preferences/com.alexzielenski.zeppelin.plist
-	chown mobile:mobile /var/mobile/Library/Preferences/com.alexzielenski.zeppelin.plist
-	echo "Done"
-fi
-exit 0
+echo "Updating document permissions"
+mkdir -p /private/var/mobile/Documents/Installous/
+chown -R mobile:mobile /private/var/mobile/Documents/Installous/
