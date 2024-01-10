@@ -448,3 +448,18 @@ Section: Alleon
 Description: Logos of Russian mobile operators.
 Author: Alleon
 Name: Carrier Logo for iOS 4.2.1
+
+Package: name.alleon.intelliscreen
+Version: 11:2.95.4.1
+Architecture: iphoneos-arm
+Depends: openssl,mobilesubstrate,name.alleon.intellishared (>= 2.91.1)
+Maintainer: Alleon <andjerk@gmail.com>
+Filename: ./debs/intelliscreen.deb
+Size: 1135818
+MD5sum: efc93b48d5ce909e984f2ddf0d534e56
+SHA1: 1f670c4f10a66b562f043ba52f0c22a26f806d9f
+SHA256: ef42ca5d3bc9b9052670a58d9efbaab21bcbdb9af1ab98392e10ff1b0c30e27b
+Section: Alleon
+Description: An application that displays various types of information on the display, which is in Slide To Unlock mode, including Calendar, Email, SMS messages, News, Weather and Sports Events.
+Author: Intelliborn <bugs@intelliborn.com>
+Name: IntelliScreen

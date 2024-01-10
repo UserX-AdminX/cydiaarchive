@@ -1,12 +1,4 @@
 #!/bin/bash
+rm -f /Library/MobileSubstrate/DynamicLibraries/intelliScreen.dylib
+rm -f /Library/MobileSubstrate/DynamicLibraries/intelliScreen.plist
 
-declare -a cydia
-cydia=($CYDIA)
-
-if [[ $1 == remove ]]; then
-  echo "Remove all installed carrier bundle"
-  if [[ ${CYDIA+@} ]]; then
-      eval "echo 'finish:reboot' >&${cydia[0]}"
-  fi
-fi
-#end scrip
