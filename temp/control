@@ -1,14 +1,14 @@
-Package: com.hackulo.us.installous
-Name: Installous 5
-Version: 5.0.3-1
+Package: com.hackulo.us.sourcegui
+Name: Source GUI
+Version: 1.2
 Priority: standard
-Pre-Depends: firmware (>= 4.0)
-Depends: us.hackulo.resources, appsync, com.hackulo.us.sourcegui, com.chpwn.weeloader (>= 1.1) | firmware (<< 5.0)
 Architecture: iphoneos-arm
+Depends: 
 Section: Hackulo.us
-Maintainer: Dissident <apps@hackulo.us>
-Author: docmorelli <apps@hackulo.us>
-Description: Installous is the perfect app to install your IPAs
+Maintainer: Genius Blog <admin@hackulo.us
+Author: Genius Blog <admin@hackulo.us>
+Description: Hackulo.us Source GUI adds the source icons
 Sponsor: Hackulo.us <http://hackulo.us>
-Depiction: http://hackulo.us/depict/installous5/
+Depiction: http://hackulo.us/depict/sourcegui
+
 

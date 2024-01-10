@@ -283,3 +283,33 @@ Section: Hackulo.us
 Description: Installous is the perfect app to install your IPAs
 Author: docmorelli <apps@hackulo.us>
 Name: Installous 5
+
+Package: us.hackulo.resources
+Version: 1.4
+Architecture: iphoneos-arm
+Depends: 
+Maintainer: Dissident <apps@hackulo.us>
+Filename: ./debs/us.hackulo.resources_1.4_iphoneos-arm.deb
+Size: 1162
+MD5sum: c7b03d949aff15822dea1239bc271394
+SHA1: bbcdb7943b181212719837be09d2534352907565
+SHA256: d05733e58b914fa1a56db8cb6d42762933fa359d0ad000f3c7844d5dccd5a498
+Section: Hackulo.us
+Description: Hackulous resource files for Installous.
+Author: docmorelli <apps@hackulo.us>
+Name: Hackulous Resources
+
+Package: com.hackulo.us.sourcegui
+Version: 1.2
+Architecture: iphoneos-arm
+Depends: 
+Maintainer: Genius Blog <admin@hackulo.us
+Filename: ./debs/com.hackulo.us.sourcegui_1.2_iphoneos-arm.deb
+Size: 8518
+MD5sum: c60b66d9fc23710ddb5a149a535951fd
+SHA1: 66c7a0233dcdae976c169b483e790a7e92bb1de3
+SHA256: ab54749833ed2e9c16754a3fdf692e94004b3495ab7a08d11c2085e6e21130fb
+Section: Hackulo.us
+Description: Hackulo.us Source GUI adds the source icons
+Author: Genius Blog <admin@hackulo.us>
+Name: Source GUI
