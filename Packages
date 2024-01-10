@@ -362,7 +362,7 @@ Name: yellowsn0w
 Package: com.sinfuliphone.tetherme
 Version: 2.3-9
 Architecture: iphoneos-arm
-Depends: Pre-firmware (>= 3.0), firmware (<< 3.2) | firmware (>= 4.0)
+Depends: Firmware (<< 3.2) | firmware (>= 4.0)
 Maintainer: SiNfuL iPhone <whatever@gmail.com>
 Filename: ./debs/com.sinfuliphone.tetherme_2.3-9_iphoneos-arm.deb
 Size: 17924
