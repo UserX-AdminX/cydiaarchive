@@ -1,0 +1,22 @@
+#!/bin/bash
+
+chown root:wheel /Applications/iFile.app/iFile
+chown root:wheel /Applications/iFile.app/iFile_
+chown root:wheel /Applications/iFile.app/iFile2
+chown root:wheel /Applications/iFile.app/iFile3
+chown root:wheel /Applications/iFile.app/iFile4
+
+chmod 755 /Applications/iFile.app/iFile
+chmod 4755 /Applications/iFile.app/iFile_
+chmod 4755 /Applications/iFile.app/iFile2
+chmod 4755 /Applications/iFile.app/iFile3
+chmod 4755 /Applications/iFile.app/iFile4
+
+echo "RESPRING YOUR DEVICE AFTER INSTALLING IFILE!!!"
+echo "RESPRING YOUR DEVICE AFTER INSTALLING IFILE!!!"
+echo "RESPRING YOUR DEVICE AFTER INSTALLING IFILE!!!"
+echo " "
+echo "Cracked by Fabius"
+echo " "
+echo "Hosted by SiriPort.Ru"
+exit 0
