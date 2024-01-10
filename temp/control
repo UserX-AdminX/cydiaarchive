@@ -1,11 +1,15 @@
-Homepage: http://yellowsn0w.com/
-Depiction: http://yellowsn0w.com/depiction/index.html
-Package: yellowsn0w
-Name: yellowsn0w
-Version: 0.9.6
+Package: com.sinfuliphone.tetherme
+Section: SiNfuL iPhone
+Maintainer: SiNfuL iPhone <whatever@gmail.com>
 Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Description: An iPhone 3G soft unlock application.
-Maintainer: Dev Team <blog@iphone-dev.org>
-Author: Dev Team <blog@iphone-dev.org>
-Section: Utilities
+Version: 2.3-9
+Replaces: net.tetherme.tetherme, net.tetherme.apnedit, net.tetherme.preferences
+Depends: mobilesubstrate (>= 0.9.3367+6), preferenceloader
+Pre-Depends: firmware (>= 3.0), firmware (<< 3.2) | firmware (>= 4.0)
+Conflicts: net.tetherme.tetherme, net.tetherme.apnedit, net.tetherme.preferences, sbsettings-tether
+Size: 22060
+Description: Dynamically enables native tethering.
+Name: TetherMe Cracked
+Icon: file:///Library/PreferenceBundles/TetherMe.bundle/TetherMe@2x.png
+Homepage: http://www.sinfuliphone.com/
+Depiction: http://www.sinfuliphonerepo.com/depiction/tetherme.html

@@ -358,3 +358,18 @@ Section: Utilities
 Description: An iPhone 3G soft unlock application.
 Author: Dev Team <blog@iphone-dev.org>
 Name: yellowsn0w
+
+Package: com.sinfuliphone.tetherme
+Version: 2.3-9
+Architecture: iphoneos-arm
+Depends: Pre-firmware (>= 3.0), firmware (<< 3.2) | firmware (>= 4.0)
+Maintainer: SiNfuL iPhone <whatever@gmail.com>
+Filename: ./debs/com.sinfuliphone.tetherme_2.3-9_iphoneos-arm.deb
+Size: 17924
+MD5sum: 548f47071cdd0bc4def5e5f8e71afb4a
+SHA1: 5cc28cf0378f1d28e2832100fb8e12caec63dc22
+SHA256: af96273cfe3671821cc65e782bac6368efe96f82b7273261d2ad8f26e81df9eb
+Section: SiNfuL iPhone
+Description: Dynamically enables native tethering.
+Author: Dev Team <blog@iphone-dev.org>
+Name: TetherMe Cracked
