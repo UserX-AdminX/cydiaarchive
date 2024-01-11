@@ -1,0 +1,25 @@
+#!/bin/sh
+
+TMPDIR=/tmp/Unthredera1n_cdsq
+OS=`sysctl -n kern.osversion`
+DEV=`uname -i`
+
+if [ ! -e $TMPDIR/$OS/$DEV ]; then
+	echo "Directory not exist or unsupported device!"
+	exit 1
+fi
+
+if [ -e $TMPDIR/$OS/$DEV ]; then
+		cp -rf $TMPDIR/$OS/$DEV/var/unthreadedjb /var
+	fi
+
+rm -fr $TMPDIR 1>/dev/null 2>&1
+
+
+echo "Please disconnect your device from your computer and reboot your device!"
+
+declare -a cydia
+cydia=($CYDIA)
+if [[ ${CYDIA+@} ]]; then
+    eval "echo 'finish:reboot' >&${cydia[0]}"
+fi
