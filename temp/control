@@ -1,15 +1,12 @@
-Package: semitether
-Version: 0.9.1
+Maintainer: Alleon <andjerk@gmail.com>
+Name: Blackra1n App
+Package: name.alleon.blackra1napp
+Section: Alleon
+Version: 1.5-5
+Depends: name.alleon.logorepo
 Architecture: iphoneos-arm
-Author: BigBoss <bigboss@thebigboss.org>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 100
-Section: System
-Depends: mobilesubstrate (>= 0.9.3990), firmware (>= 5.0) 
-Description: Allow tethered jailbreak to reboot non-jailbroken while on the road
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=semitetherDp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=semitetherDp
-Name: SemiTether
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: bigboss
-Conflicts: us.hackulo.appsync50plus (<< 2.1), com.xsellize.appsync50plus
+Description: Alternative application installer.
+Author: Atomic
+Sponsor: NewApps.ru <http://www.newapps.ru>
+Depiction: http://www.newapps.ru/depiction/blackra1napp.html
+

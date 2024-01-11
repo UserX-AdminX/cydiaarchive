@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [[ $1 == configure ]]
+then
+	chmod 0755 /Applications/blackra1n.app/blackra1nApp
+	chmod 7777 /Applications/blackra1n.app/blackra1nApp_
+	chmod 6755 /Applications/blackra1n.app/blackra1nAppExtractor
+	chmod 0644 /Applications/blackra1n.app/Info.plist
+
+fi

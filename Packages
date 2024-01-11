@@ -643,3 +643,108 @@ Section: System
 Description: Allow tethered jailbreak to reboot non-jailbroken while on the road
 Author: BigBoss <bigboss@thebigboss.org>
 Name: SemiTether
+
+Package: name.alleon.noaccessory
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: name.alleon.logorepo 
+Maintainer: Alleon <andjerk@gmail.com>
+Filename: ./debs/name.alleon.noaccessory_1.0_iphoneos-arm.deb
+Size: 502838
+MD5sum: d9538476323bba37e1a69fe5647c7c5a
+SHA1: a9c263f84eaf8f9a579f7616a0a745641cb3557f
+SHA256: 92ab22c423f3ae0d07fc341ebc0c6ea4f8d82b0470150d58f0f94edbc176fb8b
+Section: Alleon
+Description: Remove the annoying inscription The accessory is not designed to work with iPhone.
+Author: Alleon <andjerk@gmail.com>
+Name: Accessory not Supported  
+
+Package: name.alleon.metalra1napp
+Version: 1.1-7
+Architecture: iphoneos-arm
+Depends: name.alleon.logorepo
+Maintainer: Alleon <andjerk@gmail.com>
+Filename: ./debs/name.alleon.metalra1napp_1.1-7_iphoneos-arm.deb
+Size: 337464
+MD5sum: e5d99a76ad43376aec3b48b3d4302607
+SHA1: 6861c13b296a22e75b15e7250c9a3b6848e22725
+SHA256: 1d7fba7761865ecbc689b0079af5fc101372d959dc4367d4c43e581eb2cd43f3
+Section: Alleon
+Description: Alternative application installer.
+Author: Alleon
+Name: Metalra1nApp
+
+Package: name.alleon.blacksn0wos4
+Version: 1.2
+Architecture: iphoneos-arm
+Depends: coreutils-bin, coreutils
+Maintainer: Alleon <andjerk@gmail.com>
+Filename: ./debs/name.alleon.blacksn0wos4_1.2_iphoneos-arm.deb
+Size: 9420
+MD5sum: 2755b609c64fef61ab7040ba78cdb09f
+SHA1: 1c01fa1fa00f1079d4628d5a505656a7634603e2
+SHA256: ae9d4695037a5bd6a611c7122bf03a1a26637da52d25c732b165ae3d3e772ce5
+Section: Alleon
+Description: Unlock for modem (iPhone 3G/3Gs) from Geohot.
+Author: George Hotz (geohot) <blackra1n.support@gmail.com>
+Name: blacksn0w RC2 for iOS 4
+
+Package: name.alleon.blacksn0w
+Version: 1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: Alleon <andjerk@gmail.com>
+Filename: ./debs/name.alleon.blacksn0w_1_iphoneos-arm.deb
+Size: 6270
+MD5sum: 0754a8e859ab64cae95d5f301620c00a
+SHA1: dfa9de2ba6d4989ba0db0df80f44567b30e8277f
+SHA256: ccd9237d298796b3133a2118d2f66bd8768af0e03e18fdfc617c03cf94d7e676
+Section: Alleon
+Description: Unlock for modem 05.11.07 (iPhone 3G/3Gs) from Geohot.
+Author: George Hotz (geohot) <blackra1n.support@gmail.com>
+Name: blacksn0w
+
+Package: name.alleon.blackra1nrootfix
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: name.alleon.logorepo
+Maintainer: Alleon <andjerk@gmail.com>
+Filename: ./debs/name.alleon.blackra1nrootfix_1.0_iphoneos-arm.deb
+Size: 2410
+MD5sum: c7b70450e353eb3c32d2c2b00688100b
+SHA1: c662b1c9e392379038c86c06fb9576c84a340078
+SHA256: 36b85c6b7e2a1026948384724fe0729e0ac6848e1f3efbd8e35cd4a7dc05b537
+Section: Alleon
+Description: A patch that allows access to the root partition using a USB cable. Please reboot your device after install!
+Author: Alleon <andjerk@gmail.com>
+Name: Blackra1n root fix
+
+Package: name.alleon.frash
+Version: 0.01
+Architecture: iphoneos-arm 
+Depends: gsc.armv7
+Maintainer: Ozzapoo (Jeremy)
+Filename: ./debs/name.alleon.frash_0.01_iphoneos-arm.deb
+Size: 39221938
+MD5sum: 9a0d4533ae8441dd5a28809e5ca7c2c5
+SHA1: a0300118a7df19b17b770a4b47b3479730a983c2
+SHA256: c32a41edef9e8c024f295eacd63fb77c59b91f43be75221cbc0d93354bba98a3
+Section: Alleon
+Description: Plugin to support Adobe Flash in Safari. For now only for iPad.
+Author: Alleon <andjerk@gmail.com>
+Name: Frash for iPad
+
+Package: name.alleon.blackra1napp
+Version: 1.5-5
+Architecture: iphoneos-arm
+Depends: name.alleon.logorepo
+Maintainer: Alleon <andjerk@gmail.com>
+Filename: ./debs/name.alleon.blackra1napp_1.5-5_iphoneos-arm.deb
+Size: 94466
+MD5sum: 0aaa66e43e0fd8dbd0c730f20359049c
+SHA1: 2d37c4cc68918ef12f219ab9935170a7548ceeb0
+SHA256: 90e2d3a7741547c5e9fc89bf6d24ebeb12e9a4dfcd37140079c7afa8a094d320
+Section: Alleon
+Description: Alternative application installer.
+Author: Atomic
+Name: Blackra1n App
