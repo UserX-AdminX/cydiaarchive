@@ -144,7 +144,7 @@ Size: 2521412
 MD5sum: 3a9936145f17965c130a35279fcffaa0
 SHA1: a24b61c1d6d46f0c43260b840724d21ee4107082
 SHA256: 53c8920d7e229b56b85bf9eb70b3e49f0217f8605bcc9fbda9f5f9f400c76401
-Section: Tweaks
+Section: Bassam Kassem
 Description: Enable TELEPHONY / SMS capabilities that turns your iPad(1st Gen.) 3G Models ONLY (WiFi Models will not be supported) into a fully functional phone REQUIRED A TELEPHONY CAPABLE SIM CARD that already can make cellular phone calls & sends SMS.
 Author: Bassam Kassem <Bassam.Kassem@me.com>
 Name: [Ac!D]TelePad
@@ -159,7 +159,7 @@ Size: 46550336
 MD5sum: 382bed68d83b0365fac09a03f1372253
 SHA1: fe776c3d8395ca57a0358fe2cf9caeb2d98702a6
 SHA256: 6224052df8d458f22b368f2e6189b78b5fabfbeaa2defd79ec8e4948ceaa24e0
-Section: iPad
+Section: Bassam Kassem
 Description: Full port of iPhone Native Apps (Weather, Stocks, Clocks, Calculator, Compass and Voice Memos)
 Author: Bassam Kassem <Bassam.Kassem@Me.com>
 Name: iPhone Native Apps iOS 5.1.x
