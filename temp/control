@@ -1,12 +1,13 @@
-Maintainer: Alleon <andjerk@gmail.com>
-Name: Blackra1n App
-Package: name.alleon.blackra1napp
+Package: name.alleon.spire511
+Name: Spire 5.1.1
 Section: Alleon
-Version: 1.5-5
-Depends: name.alleon.logorepo
+Description: Spire is a legal port of Siri for iPad, iPhone 4, iPod touch and iPhone 3GS with iOS 5.1.1 installed.
+Version: 1.0b2
+Pre-Depends: firmware (>= 5.1.1), firmware (<< 5.1.2)
+Conflicts: gsc.ipad, semitether, com.iphonerepocenter.enablemtgesturestheme, com.brbortscheller.homewallpaperkiller, com.brbortscheller.speedbooster, com.iphonerepocenter.disablemultitasking4xtheme, com.modmyi.ipadvoicecontrolenabler, com.modmyi.multitaskingdisabler, com.modmyi.windows7bluepad3as, com.modmyi.windows7bluepadas
+Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Description: Alternative application installer.
-Author: Atomic
+Author: maximize
+Maintainer: Alleon <andjerk@gmail.com>
 Sponsor: NewApps.ru <http://www.newapps.ru>
-Depiction: http://www.newapps.ru/depiction/blackra1napp.html
-
+Depiction: http://www.newapps.ru/depiction/spire511.html

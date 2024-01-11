@@ -748,3 +748,18 @@ Section: Alleon
 Description: Alternative application installer.
 Author: Atomic
 Name: Blackra1n App
+
+Package: name.alleon.spire511
+Version: 1.0b2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Alleon <andjerk@gmail.com>
+Filename: ./debs/name.alleon.spire511_1.0b2_iphoneos-arm.deb
+Size: 99593458
+MD5sum: de307c5c93c0cda17d4c1835215098ab
+SHA1: c24e98d27946c638fa9c8f52cebdffeb5fc6a50e
+SHA256: db128d931ef65408cdaa6ea62d5d8679a85c7c7d5fd2d6f4d6ffbbbe264c9102
+Section: Alleon
+Description: Spire is a legal port of Siri for iPad, iPhone 4, iPod touch and iPhone 3GS with iOS 5.1.1 installed.
+Author: maximize
+Name: Spire 5.1.1

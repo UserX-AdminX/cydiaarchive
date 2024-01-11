@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "..................."
+echo "Start uninstalling Spire for iOS 5.1.1"
+echo "..................."
