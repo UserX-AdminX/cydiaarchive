@@ -1,0 +1,3 @@
+#!/bin/bash
+/bin/launchctl unload -w /Library/LaunchDaemons/com.jft.pn.plist &> /dev/null
+exit 0

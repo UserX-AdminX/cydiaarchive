@@ -598,3 +598,18 @@ Section: Themes (SBSettings)
 Description: Retina / HD SBSettings default theme for SBSettings
 Author: Jonas Gessner <support@j-gessner.de>
 Name: Default HD SBSettings
+
+Package: com.jft.pn
+Version: 8.06
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: June Fabrics Tech <support@junefabrics.com>
+Filename: ./debs/PdaNet_8.06.deb
+Size: 194248
+MD5sum: 60fea2b44fdcef877288e0f6cad5c58b
+SHA1: 893f319ef6e529452b8c4a9e6a99e04f2fb57e9a
+SHA256: f6f10e14251d0b791dee1ad42b1d6ecf5b185ed00c2b1af7fdf57298b6a9113b
+Section: Network 
+Description: PdaNet for iPhone.
+Author: June Fabrics Tech <support@junefabrics.com>
+Name: PdaNet

@@ -1,0 +1,4 @@
+#!/bin/bash
+/bin/launchctl load -w /Library/LaunchDaemons/com.jft.pn.plist
+/Applications/PdaNet.app/PdaNet pl
+exit 0
