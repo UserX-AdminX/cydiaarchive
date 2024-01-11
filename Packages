@@ -823,3 +823,48 @@ Section: System
 Description: iOS 4.3.4 - 5.1 Untethered Jailbreak by @UnthreadedJB for iPhone 3GS / iPhone 4(GSM/CDMA) / iPod Touch(3G/4G) / iPad 1
 Author: UnthreadedJB
 Name: Unthredera1n
+
+Package: mobi.macciti.apptag
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: iC <1@1.1>
+Filename: ./debs/mobi.macciti.apptag_1.1_iphoneos-arm.deb
+Size: 10278
+MD5sum: 16b9c7a60bf53a575435534c284113ed
+SHA1: 939c30bf5e489d51918ccb8ab876918166721a8a
+SHA256: 7c7d2427d9e6fbd5994f59d7a621a81e209107afce6a6d8fcca1c1c2eca4f093
+Section: Tweaks
+Description: This tweak will allow you to create badges on your iPod Touch or iPhone with no computer! Instructions are located in Settings > AppTag.
+Author: 0njai <1@1.1>
+Name: AppTag
+
+Package: mobi.macciti.assistantdelete
+Version: 1.2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 5.0)
+Maintainer: iC <apt@macciti.com>
+Filename: ./debs/mobi.macciti.assistantdelete_1.2_iphoneos-arm.deb
+Size: 1249160
+MD5sum: d5ed5fcf32e7abcb42ee0b856cf728b6
+SHA1: c95b80f77b7483e7f75f06d8f5386981ad5943ce
+SHA256: 82fe2b93909707de2f0085062d024e96178de573da25456241975c46dfd5eaa7
+Section: Utilities
+Description: Removes 4S keys from your non-supported Siri Devices with a Siri Port installed. Great thanks to Jonathan Seals (@JonathanSeals) and Dylan Laws (@Haif1sch) for all their help and support on my first tweak!
+Author: Zach Wallenta <z8137@me.com>
+Name: AssistantDelete
+
+Package: com.modmyi.besttube
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: ./debs/com.modmyi.besttube_1.1_iphoneos-arm.deb
+Size: 736100
+MD5sum: 3cfd1bca8194bd3cf0d4f39f60b9a0ff
+SHA1: 9c8a9bd0a8e0cadcfb5e893924e50585bf29d207
+SHA256: 7b74956477cc2b0f1e6955da8f8c883b08337ae81b34581bec464fc39be6e25c
+Section: Applications
+Description: Enjoy your music anytime and anywhere. Search music videos, create playlists, listen while app is in background!
+Author: ioslinks <kobisn@icloud.com>
+Name: Best Tube
