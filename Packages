@@ -613,3 +613,33 @@ Section: Network
 Description: PdaNet for iPhone.
 Author: June Fabrics Tech <support@junefabrics.com>
 Name: PdaNet
+
+Package: com.aoi.storefix
+Version: 1.0-6
+Architecture: iphoneos-arm
+Depends: firmware  (<= 6.1.6)
+Maintainer: aoi_satou
+Filename: ./debs/com.aoi.storefix_1.0-6_iphoneos-arm.deb
+Size: 1270
+MD5sum: fb1224b0f97b71a5040606f5fa0b4b37
+SHA1: d4ab9af662df651022afaa6775de04450d787ca7
+SHA256: a7d02f5ca487cff4770ee68eb1409ad48f126dacf77adace7f2b681422bd7829
+Section: System
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Author: aoi_satou
+Name: AppStoreFix
+
+Package: semitether
+Version: 0.9.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.3990), firmware (>= 5.0) 
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/semitether_0.9.1_iphoneos-arm.deb
+Size: 632100
+MD5sum: b15f6bf8a1ceb46ae89e5805929140ba
+SHA1: 59afb3ed0c8119fee7bf9936cf2490211f13bc65
+SHA256: 72d518b4ac44ca7647b0d18fe252a0e82e21e69cacd57f9bbff26bd0655e14b4
+Section: System
+Description: Allow tethered jailbreak to reboot non-jailbroken while on the road
+Author: BigBoss <bigboss@thebigboss.org>
+Name: SemiTether

@@ -1,11 +1,15 @@
-Package: com.jft.pn
-Name: PdaNet
-Version: 8.06
+Package: semitether
+Version: 0.9.1
 Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Description: PdaNet for iPhone.
-Homepage: http://junefabrics.com/iphone
-Maintainer: June Fabrics Tech <support@junefabrics.com>
-Author: June Fabrics Tech <support@junefabrics.com>
-Section: Network 
-Conflicts: sbsettingspdanet
+Author: BigBoss <bigboss@thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 100
+Section: System
+Depends: mobilesubstrate (>= 0.9.3990), firmware (>= 5.0) 
+Description: Allow tethered jailbreak to reboot non-jailbroken while on the road
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=semitetherDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=semitetherDp
+Name: SemiTether
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: bigboss
+Conflicts: us.hackulo.appsync50plus (<< 2.1), com.xsellize.appsync50plus
