@@ -763,3 +763,18 @@ Section: Alleon
 Description: Spire is a legal port of Siri for iPad, iPhone 4, iPod touch and iPhone 3GS with iOS 5.1.1 installed.
 Author: maximize
 Name: Spire 5.1.1
+
+Package: gsmicon
+Version: 4.0-2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: Cydia.vn <repo@cydia.vn>
+Filename: ./debs/gsmicon_4.0-2_iphoneos-arm.deb
+Size: 30822
+MD5sum: eac0c7f9ecb379d939e4dd7343d5f99b
+SHA1: 501e32ee74c2dba866cbc2ddc46570d9a7f4849f
+SHA256: f465a792e91cf6f75257f71594972d2f41133d635c46a41d9429b1571b839440
+Section: !CydiaVn-Tools
+Description: Icon cho Cydia.vn source!
+Author: Cydia.vn <repo@cydia.vn>
+Name: Cydia.vn Icon

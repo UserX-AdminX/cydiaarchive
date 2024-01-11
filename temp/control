@@ -1,13 +1,14 @@
-Package: name.alleon.spire511
-Name: Spire 5.1.1
-Section: Alleon
-Description: Spire is a legal port of Siri for iPad, iPhone 4, iPod touch and iPhone 3GS with iOS 5.1.1 installed.
-Version: 1.0b2
-Pre-Depends: firmware (>= 5.1.1), firmware (<< 5.1.2)
-Conflicts: gsc.ipad, semitether, com.iphonerepocenter.enablemtgesturestheme, com.brbortscheller.homewallpaperkiller, com.brbortscheller.speedbooster, com.iphonerepocenter.disablemultitasking4xtheme, com.modmyi.ipadvoicecontrolenabler, com.modmyi.multitaskingdisabler, com.modmyi.windows7bluepad3as, com.modmyi.windows7bluepadas
-Depends: mobilesubstrate, preferenceloader
+Package: gsmicon
+Version: 4.0-2
+Essential: yes
+Priority: required
+Section: !CydiaVn-Tools
+Maintainer: Cydia.vn <repo@cydia.vn>
 Architecture: iphoneos-arm
-Author: maximize
-Maintainer: Alleon <andjerk@gmail.com>
-Sponsor: NewApps.ru <http://www.newapps.ru>
-Depiction: http://www.newapps.ru/depiction/spire511.html
+Depends: mobilesubstrate
+Description: Icon cho Cydia.vn source!
+Name: Cydia.vn Icon
+Author: Cydia.vn <repo@cydia.vn>
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t96/
+Homepage: http://cydia.vn/
