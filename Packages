@@ -778,3 +778,33 @@ Section: !CydiaVn-Tools
 Description: Icon cho Cydia.vn source!
 Author: Cydia.vn <repo@cydia.vn>
 Name: Cydia.vn Icon
+
+Package: uk.invoxiplaygames.checkmatestore
+Version: 1.2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 2.0)
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Filename: ./debs/checkmatestore-1.2.deb
+Size: 5200
+MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
+SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
+SHA256: 0863fee434c9a1aed89696655b4075aa3edde2b2ad3ee2a0e99a99428c17ffe3
+Section: Tweaks
+Description: Disable capability limits in the App Store.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Name: Checkmate, Store!
+
+Package: uk.invoxiplaygames.tubefixer
+Version: 2.0-194+debug
+Architecture: iphoneos-arm
+Depends: Pre-dpkg (>= 1.13.25-5)
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Filename: ./debs/tubefixer-2.0-194-RC2.deb
+Size: 37966
+MD5sum: 06fd13ff67e75753ea82bd0d73412c54
+SHA1: 648ccc22e75e54544486b9d8284c43181ffc8537
+SHA256: 037ee05458d7e5732cf674898ba25788232b99d23544f2e91fb0ef7acfdd892c
+Section: Tweaks
+Description: Package to fix YouTube on iOS 3-5
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Name: TubeFixer for iOS

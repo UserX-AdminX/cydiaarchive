@@ -1,14 +1,14 @@
-Package: gsmicon
-Version: 4.0-2
-Essential: yes
-Priority: required
-Section: !CydiaVn-Tools
-Maintainer: Cydia.vn <repo@cydia.vn>
+Package: uk.invoxiplaygames.tubefixer
+Name: TubeFixer for iOS
 Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Description: Icon cho Cydia.vn source!
-Name: Cydia.vn Icon
-Author: Cydia.vn <repo@cydia.vn>
-Sponsor: Cydia.vn Blog's <http://cydia.vn/>
-Depiction: http://cydia.gsm.vn/t96/
-Homepage: http://cydia.vn/
+Description: Package to fix YouTube on iOS 3-5
+Depends: mobilesubstrate, firmware (>= 3.0), preferenceloader
+Pre-Depends: dpkg (>= 1.13.25-5)
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Homepage: http://tubefixer.ovh/
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Section: Tweaks
+Depiction: http://cydia.invoxiplaygames.uk/dp/tubefixer.php
+Icon: file:///Library/Application%20Support/uk.invoxiplaygames.tubefixer/tubefixericon.png
+Version: 2.0-194+debug
+Installed-Size: 156

@@ -1,0 +1,15 @@
+#!/bin/bash
+# extrainst
+if [[ $1 == install ]]; then
+        sed -i '/92.222.69.160 gdata.youtube.com/d' /etc/hosts
+        sed -i '/92.222.69.160 www.google.com/d' /etc/hosts
+fi
+function finish() {
+	f="${1}"
+	[[ -z "${f}" || -z "${CYDIA}" ]] && return
+	cydia=(${CYDIA})
+	[[ ${cydia[1]} -eq 1 ]] || return
+	echo "finish:${f}" >&${cydia[0]}
+}
+finish restart
+exit 0
