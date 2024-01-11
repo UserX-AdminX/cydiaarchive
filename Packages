@@ -339,7 +339,7 @@ Size: 14148
 MD5sum: 21b0b34dfba77e69d9f614dfd59c0d81
 SHA1: 280dec151dc988120bcee6e20059de843a694813
 SHA256: d3a644c1e7a2eeceefd1691d1b0455306f70972f616aeb87c1d395018c27d7bd
-Section: Utilities
+Section: Dev Team
 Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
 Author: Dev Team <blog@iphone-dev.org>
 Name: ultrasn0w
@@ -354,7 +354,7 @@ Size: 6540
 MD5sum: 4be3166cc14bc8a4af40beaf6a5e5115
 SHA1: 7479a46229adfcc0404131894aeb0686fd2f0c2e
 SHA256: a539d02de4559c8cb65eecd4453faba10ef60465e9b2f5925f24f94177daac23
-Section: Utilities
+Section: Dev Team
 Description: An iPhone 3G soft unlock application.
 Author: Dev Team <blog@iphone-dev.org>
 Name: yellowsn0w
