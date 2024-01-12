@@ -1,10 +1,16 @@
-Package: com.ixmoe.1pwn.stockx
-Name: StockX
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
-Maintainer: electimon
-Author: electimon
+Author: Tom Zickel <openhebrew@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: PreventSleep
+Package: com.openhebrew.preventsleep
 Section: Tweaks
-Version: 1.0.0-11+debug
-Installed-Size: 120
+Depends: mobilesubstrate, sbsettings
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Toggle device from entering sleep mode.
+	Works great with SBSchedule as well.
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preventsleepData
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preventsleepData
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: db42
+Installed-Size: 151
+Tag: purpose::extension

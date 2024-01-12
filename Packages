@@ -988,3 +988,33 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: electimon
 Name: StockX
+
+Package: com.bytafont.bytafont2
+Version: 2.2
+Architecture: iphoneos-arm
+Depends: firmware (>= 7)
+Maintainer: iPhoneRuler.net <info@iphoneruler.net>
+Filename: ./debs/com.bytafont.bytafont2_2.2_iphoneos-arm.deb
+Size: 965452
+MD5sum: 7280e95446d6fceccaa2568e4c16a6f5
+SHA1: 7c8f5eb2031b199d4adb7166db1b26ee0d238ad3
+SHA256: 62cf5403550e6d7247747014b778660c3149c5759d07e28e484e179a7ce755d4
+Section: System
+Description: BytaFont 2 lets you apply fonts to your iDevice in few taps.
+Author: iPhoneRuler.net <info@iphoneruler.net>
+Name: BytaFont 2
+
+Package: com.openhebrew.preventsleep
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, sbsettings
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/com.openhebrew.preventsleep_1.0.deb
+Size: 35474
+MD5sum: 19e49328368008b305ecdbf0d81a92cb
+SHA1: 5bff55886987e6971318c4aa22345632b470deca
+SHA256: 740605bf1c89431c626a9b27e9a99e3aaf4f1635696de5b132660e3600f17d50
+Section: Tweaks
+Description: Toggle device from entering sleep mode.
+Author: Tom Zickel <openhebrew@gmail.com>
+Name: PreventSleep
