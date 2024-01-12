@@ -1,16 +1,12 @@
-Author: Tom Zickel <openhebrew@gmail.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Name: PreventSleep
-Package: com.openhebrew.preventsleep
-Section: Tweaks
-Depends: mobilesubstrate, sbsettings
-Version: 1.0
+Package: uk.invoxiplaygames.discordclassic
+Name: Discord Classic
+Version: 0.8.5
 Architecture: iphoneos-arm
-Description: Toggle device from entering sleep mode.
-	Works great with SBSchedule as well.
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preventsleepData
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preventsleepData
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: db42
-Installed-Size: 151
-Tag: purpose::extension
+Depends: mobilesubstrate
+Description: Discord client for iOS 5 & 6 by Trevir
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Author: Trevir <triveri@outlook.com>
+Section: Social
+Depends: firmware (>=5.0)
+Depiction: http://cydia.invoxiplaygames.uk/dp/classicdiscord.php
+Icon: file:///Applications/Discord.app/Icon@2x.png

@@ -1018,3 +1018,33 @@ Section: Tweaks
 Description: Toggle device from entering sleep mode.
 Author: Tom Zickel <openhebrew@gmail.com>
 Name: PreventSleep
+
+Package: net.limneos.randomiconsflip
+Version: 0.3-20
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 4.0)
+Maintainer: Elias Limneos
+Filename: ./debs/net.limneos.randomiconsflip_0.3-20_iphoneos-arm.deb
+Size: 222244
+MD5sum: 720429957f52fbcf93819bf35f099429
+SHA1: d1ff73c005c80195a4c1c794c347164fac3af8ff
+SHA256: 8167375e101d20de99570f75385ff7cd6c61173895af8b53696e5cdf9eba97c9
+Section: Tweaks
+Description: Randomly Flips SB Icons
+Author: Elias Limneos
+Name: Random Icon Flip
+
+Package: uk.invoxiplaygames.discordclassic
+Version: 0.8.5
+Architecture: iphoneos-arm
+Depends: firmware (>=5.0)
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Filename: ./debs/discordclassic-0.8.5.deb
+Size: 819392
+MD5sum: a0c2471c860114d3d7d76ba7e1b7e61b
+SHA1: 9dc57ee4d8153fb90f03f08e5f0cbbb7aee8e2b4
+SHA256: 26d3e7b7f46286439774f358b0958e3eaaf53808a640fa06db9fdf7ba8a44bcc
+Section: Social
+Description: Discord client for iOS 5 & 6 by Trevir
+Author: Trevir <triveri@outlook.com>
+Name: Discord Classic
