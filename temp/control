@@ -1,17 +1,10 @@
-Package: bitesms
-Priority: optional
-Section: Messaging
-dev: bitesms
-Installed-Size: 11456
-Maintainer: biteSMS <help@bitesms.com>
-Author: biteSMS <help@bitesms.com>
-Pre-Depends: dpkg (>= 1.13.25-5)
-Depends: mobilesubstrate (>= 0.9.2587-1)
+Package: com.ixmoe.1pwn.stockx
+Name: StockX
+Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Version: 8.3
-Name: biteSMS
-Homepage: http://www.bitesms.com/changelog
-Icon: file:///Applications/biteSMS.app/icon.png
-Depiction: http://bitesms.com/campaign/biteSMSDepiction
-Description: Frustrated with the built-in Messages app? Want more features? Wish it was much quicker to compose or reply to messages? Then biteSMS is for you, with lots of extra features like Quick Reply, Quick Compose, Scheduled Messages, Auto-Forward, Auto-Retry, Passcode Lock, Privacy, Delivery Reports, Contact Pics, Easy Pick Smileys, Templates, Signatures and much more!<br><br>Simply use biteSMS as a complete souped-up replacement to the built-in Messages application on iPhone devices.
-
+Description: An awesome MobileSubstrate tweak!
+Maintainer: electimon
+Author: electimon
+Section: Tweaks
+Version: 1.0.0-11+debug
+Installed-Size: 120

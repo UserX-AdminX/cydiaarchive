@@ -958,3 +958,33 @@ Section: Messaging
 Description: Frustrated with the built-in Messages app? Want more features? Wish it was much quicker to compose or reply to messages? Then biteSMS is for you, with lots of extra features like Quick Reply, Quick Compose, Scheduled Messages, Auto-Forward, Auto-Retry, Passcode Lock, Privacy, Delivery Reports, Contact Pics, Easy Pick Smileys, Templates, Signatures and much more!<br><br>Simply use biteSMS as a complete souped-up replacement to the built-in Messages application on iPhone devices.
 Author: biteSMS <help@bitesms.com>
 Name: biteSMS
+
+Package: com.ixmoe.1pwn.weatherx
+Version: 1.0.2-10+debug-1+debug
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: electimon
+Filename: ./debs/com.ixmoe.1pwn.weatherx_1.0.2-10+debug-1+debug_iphoneos-arm.deb
+Size: 2804
+MD5sum: 175412abd65754f9f805ba1ea552ad28
+SHA1: 4bf16115a28ddd47477dfbc31c47552534acbf41
+SHA256: 8b93367a50722fb26979e1f1244f537540150a881b340bcf30a7f6ec9230e163
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: electimon
+Name: WeatherX
+
+Package: com.ixmoe.1pwn.stockx
+Version: 1.0.0-11+debug
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: electimon
+Filename: ./debs/com.ixmoe.1pwn.stockx_1.0.0-11+debug_iphoneos-arm.deb
+Size: 2410
+MD5sum: aeab8a3af965b1da0194faacb360bf58
+SHA1: dce7dfc25cb86477fbd18d1e09a1803c96a6a74f
+SHA256: 3a2b66b4eaae65e011e5d484a3c5e30ec36332a595c8f5bf6bdd84d8704e4b80
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: electimon
+Name: StockX
