@@ -943,3 +943,18 @@ Section: Themes (SpringBoard)
 Description: Winterboard theme based of file formats for music, videos, photos, and other file formats. Wallpapers include familiar things about Mac OSX, and including file types from Windows and Mac. Enjoy!
 Author: iPodGuru <jarjarcomedy@yahoo.com>
 Name: iFile Theme
+
+Package: bitesms
+Version: 8.3
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.2587-1)
+Maintainer: biteSMS <help@bitesms.com>
+Filename: ./debs/bitesms_8.3.deb
+Size: 7432492
+MD5sum: 2d638ef504cb5105d53f58fea732e2be
+SHA1: 2140f6b456683a59f69cb25514343e9ead2d63ec
+SHA256: 0320c42e8194a31c3ebff8199e1fb2e0ffde6df762906be00b44960df2431ccd
+Section: Messaging
+Description: Frustrated with the built-in Messages app? Want more features? Wish it was much quicker to compose or reply to messages? Then biteSMS is for you, with lots of extra features like Quick Reply, Quick Compose, Scheduled Messages, Auto-Forward, Auto-Retry, Passcode Lock, Privacy, Delivery Reports, Contact Pics, Easy Pick Smileys, Templates, Signatures and much more!<br><br>Simply use biteSMS as a complete souped-up replacement to the built-in Messages application on iPhone devices.
+Author: biteSMS <help@bitesms.com>
+Name: biteSMS
