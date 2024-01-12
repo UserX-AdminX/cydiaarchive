@@ -868,3 +868,78 @@ Section: Applications
 Description: Enjoy your music anytime and anywhere. Search music videos, create playlists, listen while app is in background!
 Author: ioslinks <kobisn@icloud.com>
 Name: Best Tube
+
+Package: com.mathieubolard.killbackground
+Version: 1.3.1-7
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 4.0), preferenceloader, applist
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/killbackground_1.3.1-7.deb
+Size: 71698
+MD5sum: a67106c323ca059b2b8680bd030636cd
+SHA1: b2f7cd9fcf117c24c7d558c35410376219698d0e
+SHA256: c5ad31c11a3af480d4c3e060f9bc296056d08d9e746b493e1cf29a32a7669524
+Section: Tweaks
+Description: kill all background apps from switcher
+Author: Mathieu Bolard (mattlawer) <mattlawer08@gmail.com>
+Name: KillBackground
+
+Package: net.angelxwind.mobileterminal-applesdk
+Version: 521-karen-2
+Architecture: iphoneos-arm
+Depends: bash, coreutils, ncurses, system-cmds
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Filename: ./debs/net.angelxwind.mobileterminal-applesdk.deb
+Size: 248684
+MD5sum: d49b219bfcb8555498b2c2589bc40040
+SHA1: f4d75c8392f9ca835faa01c4d5d609c85ca87ea4
+SHA256: 5e2937aaa67c40511e4d8c1593df5713bbe9efdb1eff486d1cbea8ac6f22e685
+Section: Terminal_Support
+Description: A Terminal emulator. This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: SSH into remote boxes, download files, edit configuration files, whatever. 
+Author: Karen/あけみ <karen@akemi.ai>
+Name: MobileTerminal
+
+Package: vn.gsm.dashboard
+Version: 2.0.5
+Architecture: iphoneos-arm
+Depends: gsmicon, mobilesubstrate, libactivator, preferenceloader, com.rpetrich.layersnapshotter
+Maintainer: Cydia.vn <repo@cydia.vn>
+Filename: ./debs/vn.gsm.dashboard_2.0.5_iphoneos-arm.deb
+Size: 886938
+MD5sum: 02b7c3a26f64e6387abac09bcfe7c48a
+SHA1: 60fd880b9238e72f33e3dc7da8ad1a6f7bb71de7
+SHA256: 9778cb1da2c463b6d1d931d2e86ed8d696d7adc9f64ba9533454e91db5e09a3b
+Section: !GSMVN-Tools
+Description: Dashboard X is an awesome widgets system for your device!
+Author: cjori
+Name: Dashboard X
+
+Package: vn.gsm.quasar
+Version: 1.3
+Architecture: iphoneos-arm
+Depends: gsmicon, firmware (>= 5.0), mobilesubstrate, preferenceloader, gsc.ipad
+Maintainer: Thieu.Bocap <repo@cydia.vn>
+Filename: ./debs/vn.gsm.quasar_1.3_iphoneos-arm.deb
+Size: 66344
+MD5sum: 2ed6877daccdbf2e3e17c4e9efbc46f5
+SHA1: 9ff18fcb32951153b4213950d8c9335762c8cab1
+SHA256: 77f7d9856f88a5fc5dc1fd89cc2d6070ab4c3e39648c6e047b0fa68cac62c076
+Section: !GSMVN-Tools
+Description: multi-app window manager for iPad
+Author: Pedro Franceschi
+Name: Quasar
+
+Package: com.codethemed.ifiletheme5455
+Version: 2.0.0
+Architecture: iphoneos-arm
+Depends: winterboard
+Maintainer: ZodTTD <zodttd@zodttd.com>
+Filename: ./debs/com.codethemed.ifiletheme5455_2.0.0_iphoneos-arm.deb
+Size: 478602
+MD5sum: 8f853fc1669643b4d2a5ad15dc17c59d
+SHA1: 5c39d9dabcf7cf8e0a412416cff269fceabd958a
+SHA256: 07ebc14f0207d9e3f9b1a86977bf7d6deabe16245523e45177085f8c42126eb9
+Section: Themes (SpringBoard)
+Description: Winterboard theme based of file formats for music, videos, photos, and other file formats. Wallpapers include familiar things about Mac OSX, and including file types from Windows and Mac. Enjoy!
+Author: iPodGuru <jarjarcomedy@yahoo.com>
+Name: iFile Theme

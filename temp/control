@@ -1,12 +1,12 @@
-Package: com.modmyi.besttube
-Name: Best Tube
-Version: 1.1
+Package: com.codethemed.ifiletheme5455
+Name: iFile Theme
+Version: 2.0.0
 Architecture: iphoneos-arm
-Author: ioslinks <kobisn@icloud.com>
-Depends: mobilesubstrate
-Depiction: http://modmyi.com/info/besttube.d.php
-Description: Enjoy your music anytime and anywhere. Search music videos, create playlists, listen while app is in background!
-Homepage: http://modmyi.com/info/besttube.php
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Section: Applications
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Description: Winterboard theme based of file formats for music, videos, photos, and other file formats. Wallpapers include familiar things about Mac OSX, and including file types from Windows and Mac. Enjoy!
+Depiction: http://cydia.zodttd.com/repo/cydia/debs20/codethemed/depiction.php?id=com.codethemed.ifiletheme5455
+Homepage: http://www.codethemed.com
+Maintainer: ZodTTD <zodttd@zodttd.com>
+Sponsor: CodeThemed <http://www.codethemed.com/>
+Author: iPodGuru <jarjarcomedy@yahoo.com>
+Section: Themes (SpringBoard)
+Depends: winterboard
