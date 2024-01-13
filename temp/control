@@ -1,13 +1,11 @@
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=imattev5themeDp
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=imattev5themeDp
-Author: Pierre-Andre Leclair <myicommunity@gmail.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Name: iMatte v5 Main Theme
-Package: com.myicommunity.imattev5.hd
-Depends: firmware (>= 5.0), winterboard
-Section: Themes (Complete)
-Installed-Size: 57122
-Version: 5.4
+Package: com.hackyouriphone.hyizeppelinlogo
+Name: HackYouriPhone Zeppeling Logo
+Version: 1.0
 Architecture: iphoneos-arm
-Description: iMatte v5 HD - The Apotheose
-dev: myicommunity
+Depends: mobilesubstrate, zeppelin
+Author: iDevid <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=hyizeppelinlogo
+Section: HYI
+Description: This is official HackYouriPhone logo for Zeppelin.
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=hyizeppelinlogo
+Maintainer: iDevid <repo@hackyouriphone.org>

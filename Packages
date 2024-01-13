@@ -1288,3 +1288,33 @@ Section: Themes (Complete)
 Description: iMatte v5 HD - The Apotheose
 Author: Pierre-Andre Leclair <myicommunity@gmail.com>
 Name: iMatte v5 Main Theme
+
+Package: com.hackyouriphone.IconRepo
+Version: 8.0.4
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: iDevid <repo@hackyouriphone.org>
+Filename: ./debs/com.hackyouriphone.iconrepo_8.0.4_iphoneos-arm.deb
+Size: 161614
+MD5sum: 8ac7f7ff0f0f0899097f8001abf06675
+SHA1: 51f4e76bc22b585e71796fcc42a8814c12cb6371
+SHA256: 7615a99b1d1bbd5012332db1a8c2fabcbb828d1fdad5b055bfde633b0c481eac
+Section: HYI
+Description: Officials HYI Repo Icons
+Author: HackYouriPhone <repo@hackyouriphone.org>
+Name: HYI Repo Icons
+
+Package: com.hackyouriphone.hyizeppelinlogo
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, zeppelin
+Maintainer: iDevid <repo@hackyouriphone.org>
+Filename: ./debs/com.hackyouriphone.hyizeppelinlogo_1.0_iphoneos-arm.deb
+Size: 3820
+MD5sum: ce4a32e01d7afbe62224f012f6a44531
+SHA1: fb5745dd368f79fbae62eaed6495e9f7870aa01a
+SHA256: b52dac19e2c910a3d5d3071443e29aa1703be0d898cf10babca70f720b42f8ce
+Section: HYI
+Description: This is official HackYouriPhone logo for Zeppelin.
+Author: iDevid <repo@hackyouriphone.org>
+Name: HackYouriPhone Zeppeling Logo
