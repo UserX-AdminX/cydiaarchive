@@ -1243,3 +1243,18 @@ Section: Utilities
 Description: MyWi 8 - All New Tethering on iPhones + iPad for iOS 8.0! Create a WiFi HotSpot with a press of a finger! Wherever you are - you can connect your laptop or other mobile device to your iPhone easily!  You can also use MyWi 8.0 to enable USB and Bluetooth Tethering!
 Author: phoenix3200 <phoenix3200.dev@gmail.com>
 Name: MyWi 9.0 (iOS 9 Library)
+
+Package: us.hackulo.appsync50plus
+Version: 2.2
+Architecture: iphoneos-arm
+Depends: Pre-firmware (>= 5.0), mobilesubstrate
+Maintainer: Dissident <apps@hackulo.us>
+Filename: /us.hackulo.appsync50plus_2.2_iphoneos-arm.deb
+Size: 4560
+MD5sum: 83c0bdc03ec6d9159adcfe589384b467
+SHA1: e01e69f8dbbe87206c6c7e27a7a1701a0f10224f
+SHA256: 0581c5f2f963783cbee7da43ad2d43efc0c9f3e6421cabab67f396cc70f50494
+Section: Hackulo.us
+Description: Patch for testing applications installed using a *.ipa file (iOS >5.0)
+Author: Dissident <apps@hackulo.us>
+Name: AppSync for iOS 5.0+
