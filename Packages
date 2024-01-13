@@ -1183,3 +1183,48 @@ Section: Development
 Description: Statusbar icon support for 4.0+
 Author: phoenix3200 <phoenix3200.dev@gmail.com>
 Name: libstatusbar
+
+Package: com.intelliborn.mywi6
+Version: 6.00.14
+Architecture: iphoneos-arm
+Depends: firmware (>= 6.0), firmware (< 7), mobilesubstrate, libstatusbar, com.mywi4 (>= 6.00.14)
+Maintainer: Support Above
+Filename: ./debs/com.intelliborn.mywi6_6.00.14_iphoneos-arm.deb
+Size: 858712
+MD5sum: ecaa6909bb3202f2a802d2d593b11c73
+SHA1: d0885f65c3c8a7d75266e1ac79509b5f8ce44dba
+SHA256: b66e2f48fa0092125d31706b2d360c433ddd918975491168e09da781a70899b2
+Section: Utilities
+Description: MyWi 6 - All New Tethering on iPhones + iPad for iOS 6.0! Create a WiFi HotSpot with a press of a finger! Wherever you are - you can connect your laptop or other mobile device to your iPhone easily!  You can also use MyWi 6.0 to enable USB and Bluetooth Tethering!
+Author: phoenix3200 <phoenix3200.dev@gmail.com>
+Name: MyWi 6.0 (iOS 6 Library)
+
+Package: com.intelliborn.mywi7
+Version: 7.06.01
+Architecture: iphoneos-arm
+Depends: firmware (>= 7.0), firmware (< 8), mobilesubstrate, libstatusbar, com.mywi4 (>= 7.06.01)
+Maintainer: Support Above
+Filename: ./debs/com.intelliborn.mywi7_7.06.01_iphoneos-arm.deb
+Size: 872502
+MD5sum: e17e1757f41233fde7467396644571d3
+SHA1: d215020ed8c0b97d0ad4c83787c27c34bf0934bb
+SHA256: 8cd72aee6537d135fa55641aff44aa37a0a7f3ce1e81d9ba3ea7766828cbec8f
+Section: Utilities
+Description: MyWi 7 - All New Tethering on iPhones + iPad for iOS 7.0! Create a WiFi HotSpot with a press of a finger! Wherever you are - you can connect your laptop or other mobile device to your iPhone easily!  You can also use MyWi 6.0 to enable USB and Bluetooth Tethering!
+Author: phoenix3200 <phoenix3200.dev@gmail.com>
+Name: MyWi 7.0 (iOS 7 Library)
+
+Package: com.intelliborn.mywi8
+Version: 8.03.02
+Architecture: iphoneos-arm
+Depends: firmware (>= 8.0), firmware (<< 9), mobilesubstrate, com.mywi4 (>= 8.03.02)
+Maintainer: Support Above
+Filename: ./debs/com.intelliborn.mywi8_8.03.02_iphoneos-arm.deb
+Size: 1135396
+MD5sum: 5431f1a352840b34114d26af5bdc93c3
+SHA1: 0b055cfc60b890a9fa9c75e0e9a786b2f3e60e18
+SHA256: 170bb93d15e447da6a2ac11dd3e4aa2ed5acf5e721a40cb3e62b38e60f368812
+Section: Utilities
+Description: MyWi 8 - All New Tethering on iPhones + iPad for iOS 8.0! Create a WiFi HotSpot with a press of a finger! Wherever you are - you can connect your laptop or other mobile device to your iPhone easily!  You can also use MyWi 8.0 to enable USB and Bluetooth Tethering!
+Author: phoenix3200 <phoenix3200.dev@gmail.com>
+Name: MyWi 8.0 (iOS 8 Library)

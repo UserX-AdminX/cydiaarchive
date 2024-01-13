@@ -1,14 +1,27 @@
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libstatusbarData
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libstatusbarData
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: phoenix3200 <phoenix3200.dev@gmail.com>
-Name: libstatusbar
-Package: libstatusbar
-Section: Development
-Installed-Size: 184
-Version: 1:0.9.9.0-1
+Package: com.intelliborn.mywi8
+Name: MyWi 8.0 (iOS 8 Library)
+Version: 8.03.02
 Architecture: iphoneos-arm
-Description: Statusbar icon support for 4.0+
-Depends: mobilesubstrate,  firmware (>= 4.0), firmware (<< 7.0) | com.rpetrich.rocketbootstrap
-dev: phoenix
-Tag: purpose::extension, role::developer
+Section: Utilities
+Depends: firmware (>= 8.0), firmware (<< 9), mobilesubstrate, com.mywi4 (>= 8.03.02)
+Maintainer: Support Above
+Tag: cydia::commercial
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Depiction: http://depictions.intelliborn.com/mywi4.php
+Icon: file:///Applications/MyWi.app/Icon@2x.png
+Support: http://support.intelliborn.com
+Homepage: http://support.intelliborn.com
+Description: MyWi 8 - All New Tethering on iPhones + iPad for iOS 8.0! Create a WiFi HotSpot with a press of a finger! Wherever you are - you can connect your laptop or other mobile device to your iPhone easily!  You can also use MyWi 8.0 to enable USB and Bluetooth Tethering!
+ Completely redesigned with improved performance, improved battery life, and more options!
+ Features:
+ - Create WiFi Hotspot to connect mutiple laptops or mobile devices to share your iPhone''s internet connection
+ - 40 bit and 104 bit WEP Security to prevent others from accessing your WiFi Tethering HotSpot
+ - Ability to enable USB and Bluetooth Tethering on your iPhone as well
+ - Uses less battery and much faster then PdaNet due to native routing
+ - Broadcasts the Network Name (SSID) - no need to fuss with creating an adhoc network on your laptop
+ - Enable iPhone USB tethering - even on firmware 3.1!
+ - Shows up and down bandwith usage
+ - Allow viewing of active users
+ - Select network for device and users
+ - Select WiFi transmit power to increase battery performance!
+ - Indicates on with optional status bar icon or blue tethering bar
