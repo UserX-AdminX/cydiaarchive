@@ -1363,3 +1363,33 @@ Section: Applications
 Description: Myriam is an iOS App containing various vulnerabilities for you to discover and exploit. The application offers a few challenges for those of you who wanna become the next iOS hackers. Ranging from In-App Data modification to App Activation Bypass and Jailbreak Detection, to Touch ID Bypass, Myriam combines some great challenges for beginners with a nice intuitive design. Don't get me wrong, I am a beginner myself trying to learn, so this application is what I will be using in the first place, because it is easier to build such an app in Objective-C than to take it to bits in Hopper or IDA :) I hope you'll find it useful!
 Author: GeoSn0w <office.chilloutmusic@gmail.com>
 Name: Myriam Security Challenges
+
+Package: com.bytafonttm.notoserif
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: com.bytafont.bytafonttm
+Maintainer: BytaFont.com <info@bytafont.com>
+Filename: ./debs/com.bytafonttm.notoserif_1.0_iphoneos-arm.deb
+Size: 828012
+MD5sum: cb68f97abca5448e4da5406e5ac0f535
+SHA1: 781cb7a6ae8cdd57d82c17b2093417c065ac7cbe
+SHA256: f6e0321a05e5d098506c1e773cd26af336c0e1e3f7fd31a900304064121eb4d4
+Section: Fonts (BytaFont Tweak Mode)
+Description: Tweak Mode font by BytaFont.com
+Author: BytaFont.com <info@bytafont.com>
+Name: Noto Serif Font
+
+Package: com.bytafonttm.oxygen
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: com.bytafont.bytafonttm
+Maintainer: BytaFont.com <info@bytafont.com>
+Filename: ./debs/com.bytafonttm.oxygen_1.0_iphoneos-arm.deb
+Size: 192830
+MD5sum: 2ce3de929907a6be220d44119cd5b1b6
+SHA1: 1cd144a9befa672d70b2503294f0b80db4a8bf5f
+SHA256: 89a7c696b7303abfba301f8604f7cb3bb9fab554fcacd47d0a38d4d1e35b5892
+Section: Fonts (BytaFont Tweak Mode)
+Description: Tweak Mode font by BytaFont.com
+Author: BytaFont.com <info@bytafont.com>
+Name: Oxygen Font
