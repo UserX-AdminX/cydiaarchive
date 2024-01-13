@@ -1034,7 +1034,7 @@ Description: Randomly Flips SB Icons
 Author: Elias Limneos
 Name: Random Icon Flip
 
-Package: uk.invoxiplaygames.discordclassic
+Package: trevir.discord
 Version: 0.8.5
 Architecture: iphoneos-arm
 Depends: firmware (>=5.0)
@@ -1048,3 +1048,48 @@ Section: Social
 Description: Discord client for iOS 5 & 6 by Trevir
 Author: Trevir <triveri@outlook.com>
 Name: Discord Classic
+
+Package: com.w00tylab.ncquickdismiss
+Version: 2.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 5.0), preferenceloader
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/ncquickdismiss_2.0.deb
+Size: 40752
+MD5sum: 3920eb34f8ae7de4c9fc9a367d674c87
+SHA1: 521889553b9b280bf7ba4845214632b05c8aaf92
+SHA256: f07816526b48908aff8ed65bf2589ba8a3aaa84415c7faa7d04465ade7382cc2
+Section: Tweaks
+Description: dismiss NotificationCenter banners easily
+Author: moeseth <cydia@wootylab.com>
+Name: NCQuickDismiss
+
+Package: net.howett.cydelete
+Version: 2.0.5-1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader (>= 2.0), apt, bash, grep, coreutils
+Maintainer: Dustin Howett <dustin@howett.net>
+Filename: ./debs/net.howett.cydelete_2.0.5-1_iphoneos-arm.deb
+Size: 35806
+MD5sum: 925939a64a1dddaeae19e23f12f9f217
+SHA1: 24a32ff33836f68e033ab1a616ba1eeb0576cf23
+SHA256: b4eb2902768a2cce7a78dfdcc7e138cecbf83754501900f4dd96efb0dd931530
+Section: Tweaks
+Description: Delete Cydia packages from SpringBoard, just like App Store applications!
+Author: Dustin Howett <dustin@howett.net>
+Name: CyDelete
+
+Package: com.jamied360.ncsettings
+Version: 1.7.1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, preferenceloader
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: ./debs/com.jamied360.ncsettings_1.7.1_iphoneos-arm.deb
+Size: 472030
+MD5sum: 8c17029eb872efac412f8e9acb5107d5
+SHA1: 29eb616b6720e9d9a4262722733824c5f0bc8e32
+SHA256: fcc1ba038df84e883dfae64c68ff2d3226f8596a35716f39671e10714c82111e
+Section: Addons (NotificationCenter)
+Description: NCSettings is a sleek Notification Center toggle widget
+Author: JamieD360 <jamied360support@live.co.uk>
+Name: NCSettings

@@ -1,12 +1,13 @@
-Package: uk.invoxiplaygames.discordclassic
-Name: Discord Classic
-Version: 0.8.5
+Package: com.jamied360.ncsettings
+Name: NCSettings
+Version: 1.7.1
 Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Description: Discord client for iOS 5 & 6 by Trevir
-Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
-Author: Trevir <triveri@outlook.com>
-Section: Social
-Depends: firmware (>=5.0)
-Depiction: http://cydia.invoxiplaygames.uk/dp/classicdiscord.php
-Icon: file:///Applications/Discord.app/Icon@2x.png
+Author: JamieD360 <jamied360support@live.co.uk>
+Depends: firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, preferenceloader
+Depiction: http://modmyi.com/info/ncsettings.d.php
+Priority: extra
+Section: Addons (NotificationCenter)
+Description: NCSettings is a sleek Notification Center toggle widget
+Homepage: http://modmyi.com/info/ncsettings.php
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
