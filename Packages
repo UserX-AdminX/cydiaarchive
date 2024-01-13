@@ -1468,3 +1468,18 @@ Section: Tweaks
 Description: A powerful iOS 5.0 Notification Center Widget.
 Author: Manuel Gebele
 Name: BBSettings
+
+Package: org.thebigboss.mybalance
+Version: 1.2.0-9
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), preferenceloader, com.saurik.substrate.safemode, com.chpwn.weeloader
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/mybalance_v1.2.0-9.deb
+Size: 159628
+MD5sum: 889c743e5f9e7bd636a34aaf1a1f48a8
+SHA1: 8b290e212efea29d9c5e97a3b64d1ca8c48eeb28
+SHA256: b73a96cb2f4de9cafa9ace29d06db95e7e72c51c4fbdd531bb378459c9734ea9
+Section: Addons (NotificationCenter)
+Description: USSD balance/usage widget for Notification Center
+Author: VladMax Soft <vladmaxsoft@gmail.com>
+Name: My Balance
