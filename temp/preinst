@@ -1,32 +1,4 @@
-#!/bin/bash
-x=`cat /etc/hosts`
-y="
-
-
-127.0.0.1 Zeusmos
-::1		Zeusmos 
-fe80::1%%lo0	Zeusmos
-
-"
-
-if [ -d "/var/mobile/Documents" ]; then
-    mkdir /var/mobile/Documents > /dev/null 2>&1
-fi
-
-chmod 777 /var/mobile/Documents
-
-if [ -d "/var/mobile/Documents/SysData" ]; then
-    mkdir /var/mobile/Documents/SysData > /dev/null 2>&1
-fi
-
-chmod 777 /var/mobile/Documents/Zeusmos > /dev/null 2>&1
-
-if [ "$(echo "$x" | egrep 'Zeusmos')" ]
-then
-	echo "Configuration Complete"
-else
-	echo "$y" >> /etc/hosts
-	echo "Configuration Complete"
-fi         
+#!/bin/sh
+echo -e "Thank you for your support.\n\nI offer this free to you, because I'm confident enough that if you like it and use it, you will recognize the efforts that went into creating such a project, and if you can, offer me a little coffee!(so to say, a little donation would do ;)\n\n--------------------------------------------\nby Pierre-Andre Leclair\ntwitter: @myicommunity\nPaypal: iconseils@gmail.com\n\nDon't forget to share it with everyone you know, and everywhere you go!"
 
 exit 0

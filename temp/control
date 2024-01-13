@@ -1,14 +1,13 @@
-Package: com.uhelios.zeusmos
-Section: Zeusmos
-Maintainer: uhelios <hello@zeusmos.com>
-Author: uhelios <hello@zeusmos.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=imattev5fontsDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=imattev5fontsDp
+Author: Pierre-Andre Leclair <myicommunity@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: iMatte v5 Fonts
+Package: com.myicommunity.imattev5.hd.fonts
+Depends: firmware (>= 5.0), com.ipr.bytafont
+Section: Fonts
+Installed-Size: 16342
+Version: 5.2
 Architecture: iphoneos-arm
-Version: 3.0.8
-Depends: us.hackulo.appsync50plus
-Pre-Depends: firmware (>= 5.0)
-Size: 7449034
-Description: An intuitive utility that codesigns iOS apps right on your device with or without a jailbreak!
-Website: http://zeusmos.com
-Name: Zeusmos
-Sponsor: uhelios <http://uhelios.com>
-Icon: file:///Applications/Zeusmos.app/icon.png
+Description: Fonts for iMatte v5 HD. 
+dev: myicommunity

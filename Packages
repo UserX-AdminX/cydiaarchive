@@ -1258,3 +1258,18 @@ Section: Zeusmos
 Description: An intuitive utility that codesigns iOS apps right on your device with or without a jailbreak!
 Author: uhelios <hello@zeusmos.com>
 Name: Zeusmos
+
+Package: com.myicommunity.imattev5.hd.fonts
+Version: 5.2
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), com.ipr.bytafont
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/imattev5fonts_5.2.deb
+Size: 6633434
+MD5sum: 7ad8eb0704c763df828ea6c04e7d632d
+SHA1: 457bee5736f3a50d3170797bd27e9630654961ab
+SHA256: 555b75c70e6846d953c494542105748c5c34f49098102f8920c5690b60d4a9d9
+Section: Fonts
+Description: Fonts for iMatte v5 HD. 
+Author: Pierre-Andre Leclair <myicommunity@gmail.com>
+Name: iMatte v5 Fonts
