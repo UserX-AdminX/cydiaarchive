@@ -1,13 +1,31 @@
-Package: com.p13development.hex
-Name: H.E.X.
-Version: 1.1
-Size: 7503026
+Package: com.intelliborn.mywi5
+Name: MyWi 5.5 (iOS 5 Library)
+Version: 5.51.1
 Architecture: iphoneos-arm
-Homepage: http://apt.appdb.ru/html/hex.htm
-Depiction: http://apt.appdb.ru/html/hex.htm
-Maintainer: Mikanoshi <punkass@inbox.ru>
-Author: p13development <no@email.here>
-Sponsor: God <http://www.appdb.ru/>
-Icon: file:///Applications/HEX.app/icon_small_fl.png
-Description: An exciting, colorful Action-Puzzle Game
-Section: Games
+Section: Utilities
+Depends: firmware (>= 5.0), firmware (<< 6.0), mobilesubstrate, libstatusbar, com.mywi4 (>= 5.51.1)
+Conflicts: com.intelliborn.intellishared
+Maintainer: Support Above
+Tag: cydia::commercial
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Depiction: http://depictions.intelliborn.com/mywi4.php
+Support: http://support.intelliborn.com
+Homepage: http://support.intelliborn.com
+Description: MyWi 5 - All New Tethering on iPhones + iPad for iOS 4.0! Includes support for 3.1+ and all iPhones (including 2G/3G/3GS) and iPad! Create a WiFi HotSpot with a press of a finger! Wherever you are - you can connect your laptop or other mobile device to your iPhone easily!  You can also use MyWi 4.0 to enable USB Tethering on 3.1!
+ Completely redesigned with improved performance, improved battery life, and more options!
+ Features:
+ - Create WiFi Hotspot to connect mutiple laptops or mobile devices to share your iPhone''s internet connection
+ - 40 bit and 104 bit WEP Security to prevent others from accessing your WiFi Tethering HotSpot
+ - Ability to enable USB and Bluetooth Tethering on your iPhone as well
+ - Uses less battery and much faster then PdaNet due to native routing
+ - Broadcasts the Network Name (SSID) - no need to fuss with creating an adhoc network on your laptop
+ - Enable iPhone USB tethering - even on firmware 3.1!
+ - Shows up and down bandwith usage
+ - Allow viewing of active users
+ - Select network for device and users
+ - Select WiFi transmit power to increase battery performance!
+ - Indicates on with optional status bar icon or blue tethering bar
+ 
+ Please Note: MyWi 3.x users will have to pay for upgrade. Everyone has a 10-Day Free Trial
+ Please check with your Carrier/Contract for any applicable/required tethering fees.
+Breaks: com.chronic-dev.greenpois0n.corona (<< 1.0-6) 

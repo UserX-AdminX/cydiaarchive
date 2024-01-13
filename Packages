@@ -1138,3 +1138,33 @@ Section: Games
 Description: An exciting, colorful Action-Puzzle Game
 Author: p13development <no@email.here>
 Name: H.E.X.
+
+Package: com.mywi4
+Version: 9.01.04
+Architecture: iphoneos-arm
+Depends: openssl, mobilesubstrate (>= 0.9.3367-1), com.intelliborn.mywi9 (>=9.01.04) | com.intelliborn.mywi8 | com.intelliborn.mywi4 | com.intelliborn.mywi5 | com.intelliborn.mywi6 | com.intelliborn.mywi7
+Maintainer: Support Above
+Filename: ./debs/com.mywi4_9.01.04_iphoneos-arm.deb
+Size: 1562
+MD5sum: 4af2d76994e320ef16d1cf192e21c3d6
+SHA1: 6867f50d3e0701185a4568dd32c1e7a5b822d460
+SHA256: 24f72a49fa910a83ef4b45dcac5b7a7a6a38575a1853ef260251492af37c63b4
+Section: System
+Description:  MyWi 8 - All New Tethering on iPhones + iPad for iOS 8.0! Includes support for 3.1+ and all iPhones (including 2G/3G/3GS) and iPad! Create a WiFi HotSpot with a press of a finger! Wherever you are - you can connect your laptop or other mobile device to your iPhone easily!  You can also use MyWi 4.0 to enable USB Tethering on 3.1!
+Author: p13development <no@email.here>
+Name: MyWi 9
+
+Package: com.intelliborn.mywi5
+Version: 5.51.1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), firmware (<< 6.0), mobilesubstrate, libstatusbar, com.mywi4 (>= 5.51.1)
+Maintainer: Support Above
+Filename: ./debs/com.intelliborn.mywi5_5.51.1_iphoneos-arm.deb
+Size: 769472
+MD5sum: 719b5c3416594a3b52da94ef2843d258
+SHA1: b16c9b0a9cea04ce970308ae909c74d2e6f4ee9c
+SHA256: ef4e17a40c27a0ecb2693de4e9b33074b33977d4f1b9da3e19d8b17369f373e5
+Section: Utilities
+Description: MyWi 5 - All New Tethering on iPhones + iPad for iOS 4.0! Includes support for 3.1+ and all iPhones (including 2G/3G/3GS) and iPad! Create a WiFi HotSpot with a press of a finger! Wherever you are - you can connect your laptop or other mobile device to your iPhone easily!  You can also use MyWi 4.0 to enable USB Tethering on 3.1!
+Author: p13development <no@email.here>
+Name: MyWi 5.5 (iOS 5 Library)
