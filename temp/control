@@ -1,12 +1,12 @@
-Package: com.dpearson.nonotcharging
-Name: No "Not Charging""
+Package: com.modmyi.myriamsecuritychallenges
+Name: Myriam Security Challenges
 Version: 1.0
 Architecture: iphoneos-arm
-Author: dpearson <dpearson26@gmail.com>
+Author: GeoSn0w <office.chilloutmusic@gmail.com>
 Depends: mobilesubstrate
-Depiction: http://modmyi.com/info/noquotnotchargingquot.d.php
-Description: Disables the "Not Charging" text displayed when an iPad is connected to an older computer or unofficial charger.
-Homepage: http://modmyi.com/info/noquotnotchargingquot.php
+Depiction: http://modmyi.com/info/myriamsecuritychallenges.d.php
+Description: Myriam is an iOS App containing various vulnerabilities for you to discover and exploit. The application offers a few challenges for those of you who wanna become the next iOS hackers. Ranging from In-App Data modification to App Activation Bypass and Jailbreak Detection, to Touch ID Bypass, Myriam combines some great challenges for beginners with a nice intuitive design. Don't get me wrong, I am a beginner myself trying to learn, so this application is what I will be using in the first place, because it is easier to build such an app in Objective-C than to take it to bits in Hopper or IDA :) I hope you'll find it useful!
+Homepage: http://modmyi.com/info/myriamsecuritychallenges.php
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Section: Tweaks
+Section: Applications
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>

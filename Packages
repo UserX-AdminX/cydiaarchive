@@ -1348,3 +1348,18 @@ Section: Tweaks
 Description: Disables the "Not Charging" text displayed when an iPad is connected to an older computer or unofficial charger.
 Author: dpearson <dpearson26@gmail.com>
 Name: No "Not Charging""
+
+Package: com.modmyi.myriamsecuritychallenges
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: ./debs/com.modmyi.myriamsecuritychallenges_1.0_iphoneos-arm.deb
+Size: 4951112
+MD5sum: cd726dec47bf41f0f3ac296f29a9b8e8
+SHA1: 0ae19f470f87fad4ab944680059ada7ed6f1fd17
+SHA256: ee7c54f64057a012461d5a9e4ad08a4067e96b7127497fe33f4de50312c43096
+Section: Applications
+Description: Myriam is an iOS App containing various vulnerabilities for you to discover and exploit. The application offers a few challenges for those of you who wanna become the next iOS hackers. Ranging from In-App Data modification to App Activation Bypass and Jailbreak Detection, to Touch ID Bypass, Myriam combines some great challenges for beginners with a nice intuitive design. Don't get me wrong, I am a beginner myself trying to learn, so this application is what I will be using in the first place, because it is easier to build such an app in Objective-C than to take it to bits in Hopper or IDA :) I hope you'll find it useful!
+Author: GeoSn0w <office.chilloutmusic@gmail.com>
+Name: Myriam Security Challenges
