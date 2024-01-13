@@ -1453,3 +1453,18 @@ Section: Tweaks
 Description: Extensible Toggle Platform
 Author: nothing2hide
 Name: UISettings-iOS5
+
+Package: com.myrepospace.ios5beta.bbsettings
+Version: 2.1-13
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: Manuel Gebele
+Filename: ./debs/BBSettings_2_1_13.deb
+Size: 485922
+MD5sum: c1968e865d6329be87fe2391a90d8963
+SHA1: 34bb6129e1fbbb1d91c5ebb55f4d1466242660bd
+SHA256: 63997f41facfd1986af7f6c48a2d172ee813b9aab6ccd73ab039c6277ad9883a
+Section: Tweaks
+Description: A powerful iOS 5.0 Notification Center Widget.
+Author: Manuel Gebele
+Name: BBSettings

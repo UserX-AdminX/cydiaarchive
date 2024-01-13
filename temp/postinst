@@ -1,8 +1,0 @@
-#!/bin/sh
-echo "===== setting up ======"
-echo stopping uisettingsdaemon
-/bin/launchctl unload  /System/Library/LaunchDaemons/com.qwertyoruiop.uisettingsd.plist || :
-echo starting eet
-/bin/launchctl load  /System/Library/LaunchDaemons/com.qwertyoruiop.uisettingsd.plist
-echo "=====    enjoy   ======"
-:
