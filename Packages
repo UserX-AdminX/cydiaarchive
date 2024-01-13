@@ -1228,3 +1228,18 @@ Section: Utilities
 Description: MyWi 8 - All New Tethering on iPhones + iPad for iOS 8.0! Create a WiFi HotSpot with a press of a finger! Wherever you are - you can connect your laptop or other mobile device to your iPhone easily!  You can also use MyWi 8.0 to enable USB and Bluetooth Tethering!
 Author: phoenix3200 <phoenix3200.dev@gmail.com>
 Name: MyWi 8.0 (iOS 8 Library)
+
+Package: com.intelliborn.mywi9
+Version: 9.01.04
+Architecture: iphoneos-arm
+Depends: firmware (>= 9.0), firmware (<< 10), mobilesubstrate, com.mywi4 (>= 9.01.04)
+Maintainer: Support Above
+Filename: ./debs/com.intelliborn.mywi9_9.01.04_iphoneos-arm.deb
+Size: 1103356
+MD5sum: 5735f84e99b77fb55442d2b767f72b8d
+SHA1: 0f1994b1f007e8beecde300d0a8db4fe926b8276
+SHA256: f1e217fe59c32a11db57ddb14cb6a4c2c55022b1eb4b1451f389dc3e8cda4c29
+Section: Utilities
+Description: MyWi 8 - All New Tethering on iPhones + iPad for iOS 8.0! Create a WiFi HotSpot with a press of a finger! Wherever you are - you can connect your laptop or other mobile device to your iPhone easily!  You can also use MyWi 8.0 to enable USB and Bluetooth Tethering!
+Author: phoenix3200 <phoenix3200.dev@gmail.com>
+Name: MyWi 9.0 (iOS 9 Library)

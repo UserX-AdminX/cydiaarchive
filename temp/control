@@ -1,9 +1,9 @@
-Package: com.intelliborn.mywi8
-Name: MyWi 8.0 (iOS 8 Library)
-Version: 8.03.02
+Package: com.intelliborn.mywi9
+Name: MyWi 9.0 (iOS 9 Library)
+Version: 9.01.04
 Architecture: iphoneos-arm
 Section: Utilities
-Depends: firmware (>= 8.0), firmware (<< 9), mobilesubstrate, com.mywi4 (>= 8.03.02)
+Depends: firmware (>= 9.0), firmware (<< 10), mobilesubstrate, com.mywi4 (>= 9.01.04)
 Maintainer: Support Above
 Tag: cydia::commercial
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
