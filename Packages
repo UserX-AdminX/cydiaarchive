@@ -1273,3 +1273,18 @@ Section: Fonts
 Description: Fonts for iMatte v5 HD. 
 Author: Pierre-Andre Leclair <myicommunity@gmail.com>
 Name: iMatte v5 Fonts
+
+Package: com.myicommunity.imattev5.hd
+Version: 5.4
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), winterboard
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/com.myicommunity.imattev5.hd_5.4_iphoneos-arm.deb
+Size: 44000208
+MD5sum: caddb1cb1eb21e272c93badc4947a5a6
+SHA1: 021ba9a6d92c2a0c6784753bce2c365fdfced600
+SHA256: 741d774d49f207f3320043eace83284c33d77d859141014af37bfe092e2c7346
+Section: Themes (Complete)
+Description: iMatte v5 HD - The Apotheose
+Author: Pierre-Andre Leclair <myicommunity@gmail.com>
+Name: iMatte v5 Main Theme
