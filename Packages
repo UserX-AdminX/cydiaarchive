@@ -1168,3 +1168,18 @@ Section: Utilities
 Description: MyWi 5 - All New Tethering on iPhones + iPad for iOS 4.0! Includes support for 3.1+ and all iPhones (including 2G/3G/3GS) and iPad! Create a WiFi HotSpot with a press of a finger! Wherever you are - you can connect your laptop or other mobile device to your iPhone easily!  You can also use MyWi 4.0 to enable USB Tethering on 3.1!
 Author: p13development <no@email.here>
 Name: MyWi 5.5 (iOS 5 Library)
+
+Package: libstatusbar
+Version: 1:0.9.9.0-1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate,  firmware (>= 4.0), firmware (<< 7.0) | com.rpetrich.rocketbootstrap
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/libstatusbar_0.9.9.0-1.deb
+Size: 46086
+MD5sum: ad93d1e34442b08a564c90995e9ea240
+SHA1: b1ed9c47a6dd244fcfc5c2616a5a19f52d9972a2
+SHA256: dc3ca97270ef20adfb426a218b9df57104312806ca7d5b4282b1b426c5741ccc
+Section: Development
+Description: Statusbar icon support for 4.0+
+Author: phoenix3200 <phoenix3200.dev@gmail.com>
+Name: libstatusbar

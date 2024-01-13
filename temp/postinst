@@ -1,3 +1,0 @@
-#!/bin/sh
-/Applications/MyWi.app/MyWi_ install
-killall BTServer
