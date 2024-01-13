@@ -1,0 +1,32 @@
+#!/bin/bash
+x=`cat /etc/hosts`
+y="
+
+
+127.0.0.1 Zeusmos
+::1		Zeusmos 
+fe80::1%%lo0	Zeusmos
+
+"
+
+if [ -d "/var/mobile/Documents" ]; then
+    mkdir /var/mobile/Documents > /dev/null 2>&1
+fi
+
+chmod 777 /var/mobile/Documents
+
+if [ -d "/var/mobile/Documents/SysData" ]; then
+    mkdir /var/mobile/Documents/SysData > /dev/null 2>&1
+fi
+
+chmod 777 /var/mobile/Documents/Zeusmos > /dev/null 2>&1
+
+if [ "$(echo "$x" | egrep 'Zeusmos')" ]
+then
+	echo "Configuration Complete"
+else
+	echo "$y" >> /etc/hosts
+	echo "Configuration Complete"
+fi         
+
+exit 0

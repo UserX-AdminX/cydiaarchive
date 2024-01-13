@@ -1,0 +1,14 @@
+Package: com.uhelios.zeusmos
+Section: Zeusmos
+Maintainer: uhelios <hello@zeusmos.com>
+Author: uhelios <hello@zeusmos.com>
+Architecture: iphoneos-arm
+Version: 3.0.8
+Depends: us.hackulo.appsync50plus
+Pre-Depends: firmware (>= 5.0)
+Size: 7449034
+Description: An intuitive utility that codesigns iOS apps right on your device with or without a jailbreak!
+Website: http://zeusmos.com
+Name: Zeusmos
+Sponsor: uhelios <http://uhelios.com>
+Icon: file:///Applications/Zeusmos.app/icon.png

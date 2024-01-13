@@ -1243,3 +1243,18 @@ Section: Hackulo.us
 Description: Patch for testing applications installed using a *.ipa file (iOS >5.0)
 Author: Dissident <apps@hackulo.us>
 Name: AppSync for iOS 5.0+
+
+Package: com.uhelios.zeusmos
+Version: 3.0.8
+Architecture: iphoneos-arm
+Depends: Pre-firmware (>= 5.0)
+Maintainer: uhelios <hello@zeusmos.com>
+Filename: ./debs/com.uhelios.zeusmos_3.0.8_iphoneos-arm.deb
+Size: 7440900
+MD5sum: ac9609c901d3aaf15e51c64227fcf698
+SHA1: fe63a16b6da84b75929789331b0f7016b746b727
+SHA256: 65af88ee8e0da61211b9c3e09ac85df389339947b47749b9f300ff682f87ae65
+Section: Zeusmos
+Description: An intuitive utility that codesigns iOS apps right on your device with or without a jailbreak!
+Author: uhelios <hello@zeusmos.com>
+Name: Zeusmos
