@@ -1318,3 +1318,18 @@ Section: HYI
 Description: This is official HackYouriPhone logo for Zeppelin.
 Author: iDevid <repo@hackyouriphone.org>
 Name: HackYouriPhone Zeppeling Logo
+
+Package: net.tetherme.tetherme
+Version: 3.1.3-3
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), firmware (<< 3.2) | firmware (>= 4.0), preferenceloader (>= 2.2.2), network-cmds, firmware (<< 8.0)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/net.tetherme.tetherme_3.1.3-3_iphoneos-arm.deb
+Size: 79026
+MD5sum: 3de4e89c0b598bcc1e42dab40732adb3
+SHA1: 888305ab783efd69fedaad5442a6715f1656635f
+SHA256: 26c21ab00815bf3f6e0179a541316feed9a638980c2a9eb06ac8c870be44a892
+Section: Networking
+Description: Dynamically enables native tethering
+Author: cirdan & sbingner <support@tetherme.net>
+Name: TetherMe (iOS 4 - 7)

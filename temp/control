@@ -1,11 +1,15 @@
-Package: com.hackyouriphone.hyizeppelinlogo
-Name: HackYouriPhone Zeppeling Logo
-Version: 1.0
+Package: net.tetherme.tetherme
+Name: TetherMe (iOS 4 - 7)
+Version: 3.1.3-3
 Architecture: iphoneos-arm
-Depends: mobilesubstrate, zeppelin
-Author: iDevid <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=hyizeppelinlogo
-Section: HYI
-Description: This is official HackYouriPhone logo for Zeppelin.
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=hyizeppelinlogo
-Maintainer: iDevid <repo@hackyouriphone.org>
+Description: Dynamically enables native tethering
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tethermeData
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tethermeData
+Installed-Size: 717
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: cirdan & sbingner <support@tetherme.net>
+Section: Networking
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), firmware (<< 3.2) | firmware (>= 4.0), preferenceloader (>= 2.2.2), network-cmds, firmware (<< 8.0)
+Replaces: net.tetherme.apnedit, net.tetherme.preferences, net.tetherme.tetherme8
+Conflicts: net.tetherme.apnedit, net.tetherme.preferences, net.tetherme.tetherme8
+Icon: file:///Library/PreferenceBundles/TetherMe.bundle/TetherMe@2x.png
