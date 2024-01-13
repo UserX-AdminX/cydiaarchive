@@ -1,13 +1,16 @@
-Package: vn.gsm.orbit2
-Version: 2.1
+Name: iLEX R.A.T.
+Version: 1.10-125
+Installed-Size: 2000
+Description: Restore iDevice Back To Stock. Revive, Speed Up, Clean Up Your iDevice. Remove All Cydia Apps & Tweaks & Dependencies At Once! Cydia Repair! Backup & Restore All Cydia Apps & Tweaks & Dependencies (DEB).
+Depends: gsmicon, apt7, sed, coreutils, coreutils-bin, openssl, openssh, gawk, zip, unzip
+Package: vn.gsm.rat-eng
+Section: iLEX
+Architecture: iphoneos-arm
+Author: iLEX 
 Section: !GSMVN-Tools
 Maintainer: Cydia.vn <repo@cydia.vn>
-Depends: gsmicon, mobilesubstrate, preferenceloader, libactivator, firmware (>= 4.2)
-Conflicts: com.steventroughtonsmith.orbit, vn.gsm.orbit
-Installed-Size: 2867
-Description: Instantly switch between pages on your home screen.
-Name: Orbit for iOS 4, 5, 6+
-Author: Steven Troughton-Smith
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
-Depiction: http://cydia.gsm.vn/t1410/
+Depiction: http://cydia.gsm.vn/t4364/
 Homepage: http://cydia.vn/
+Conflicts: com.myrepospace.iLEX.rat-eng, com.myrepospace.iLEXiNFO.ilexrestore, vn.gsm.ilexrestore
+

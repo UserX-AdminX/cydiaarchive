@@ -1498,3 +1498,18 @@ Section: !GSMVN-Tools
 Description: instantly switch between pages on homescreen
 Author: Steven Troughton-Smith
 Name: Orbit for iOS 4, 5, 6+
+
+Package: vn.gsm.rat-eng
+Version: 1.10-125
+Architecture: iphoneos-arm
+Depends: gsmicon, apt7, sed, coreutils, coreutils-bin, openssl, openssh, gawk, zip, unzip
+Maintainer: Cydia.vn <repo@cydia.vn>
+Filename: ./debs/rat-eng_1.10-125.deb
+Size: 2009498
+MD5sum: 111a5da0da5729b94855dda5c2d42f51
+SHA1: f5990414795bf112e25675b9642ef428b9b5abd0
+SHA256: b85accc6238b1a8511754d623389acf690f0fc1a1c6233f9b3ce8cff1dff5812
+Section: !GSMVN-Tools
+Description: Restore iDevice Back To Stock. Revive, Speed Up, Clean Up Your iDevice. Remove All Cydia Apps & Tweaks & Dependencies At Once! Cydia Repair! Backup & Restore All Cydia Apps & Tweaks & Dependencies (DEB).
+Author: iLEX 
+Name: iLEX R.A.T.
