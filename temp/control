@@ -1,12 +1,10 @@
-Package: com.modmyi.pwnapplerespringlogo
-Name: Pwn Apple Respring Logo
-Version: 1.0
+Package: com.myrepospace.ios5beta.uisettings5
+Name: UISettings-iOS5
+Version: 6.0-196
 Architecture: iphoneos-arm
-Author: burcbuluklu <burcbuluklu@gmail.com>
-Depends: winterboard
-Depiction: http://modmyi.com/info/pwnapplerespringlogo.d.php
-Description: Pwn Apple Respring Logo
-Homepage: http://modmyi.com/info/pwnapplerespringlogo.php
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Section: Themes (SpringBoard)
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Description: Extensible Toggle Platform
+Maintainer: nothing2hide
+Author: nothing2hide
+Section: Tweaks
+Depends: mobilesubstrate
+Installed-Size: 524

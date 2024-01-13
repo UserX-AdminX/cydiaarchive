@@ -1438,3 +1438,18 @@ Section: Themes (SpringBoard)
 Description: Pwn Apple Respring Logo
 Author: burcbuluklu <burcbuluklu@gmail.com>
 Name: Pwn Apple Respring Logo
+
+Package: com.myrepospace.ios5beta.uisettings5
+Version: 6.0-196
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: nothing2hide
+Filename: ./debs/UISettings_6_0_196.deb
+Size: 360048
+MD5sum: d46d0f857ee258afa324d724beb56415
+SHA1: 72cdaf931351c48fa362d47e7af08e7a75930a3d
+SHA256: 68ec1963b4bcb86f0911c0fec5a759b6232843f7474b338813967afecace8d91
+Section: Tweaks
+Description: Extensible Toggle Platform
+Author: nothing2hide
+Name: UISettings-iOS5
