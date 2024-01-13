@@ -1393,3 +1393,48 @@ Section: Fonts (BytaFont Tweak Mode)
 Description: Tweak Mode font by BytaFont.com
 Author: BytaFont.com <info@bytafont.com>
 Name: Oxygen Font
+
+Package: com.skywebproductions.wifi2me
+Version: 3.0
+Architecture: iphoneos-arm
+Depends: Pre-firmware (>= 4.2)
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: ./debs/com.skywebproductions.wifi2me_3.0_iphoneos-arm.deb
+Size: 3345664
+MD5sum: 3e455be7b7a14cb14e6bc4178abd5c13
+SHA1: 4846dfd523b1e68d0cb4b5b19dd8b2cc4be4febb
+SHA256: 8ab1fb4d709d1c1eabfc3ae3baa4bc9d840a6019057edb666f6e49f33f29676d
+Section: Utilities
+Description: Check the security of your wireless network in seconds.
+Author: skyweb07 <skyweb09@hotmail.es>
+Name: WiFi2Me
+
+Package: com.modmyi.autoclashbotios
+Version: 3.1.8
+Architecture: iphoneos-arm
+Depends: mobilesubstrate,me.autotouch.autotouch.ios8
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: ./debs/com.modmyi.autoclashbotios_3.1.8_iphoneos-arm.deb
+Size: 108174
+MD5sum: ecb284fd52be831479f188f5bda01a72
+SHA1: d6e587804ab994fabef1391214314be877faf8f6
+SHA256: 432e20804d5024b3af0768822e66ac9d7aff669d6edf57416e49e5032a8b9147
+Section: Applications (Addons)
+Description: AutoClashBotiOS will train troops, search for 'dead' bases to attack and deploy your army including any Clan Castle Troops and heroes.
+Author: Harky <autoclashbotios@hotmail.com>
+Name: AutoClashBotiOS
+
+Package: com.modmyi.pwnapplerespringlogo
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: winterboard
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: ./debs/com.modmyi.pwnapplerespringlogo_1.0_iphoneos-arm.deb
+Size: 455524
+MD5sum: 2d8915d650dd21ac1bda11952c24a879
+SHA1: 8cac1ea73a2ca0c0cf79639b5f02c0e979706206
+SHA256: 334f9ea48e6ad279645123ee48f78621814140e00077cadb54f4302e6be44d4a
+Section: Themes (SpringBoard)
+Description: Pwn Apple Respring Logo
+Author: burcbuluklu <burcbuluklu@gmail.com>
+Name: Pwn Apple Respring Logo

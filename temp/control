@@ -1,12 +1,12 @@
-Package: com.bytafonttm.oxygen
-Name: Oxygen Font
+Package: com.modmyi.pwnapplerespringlogo
+Name: Pwn Apple Respring Logo
 Version: 1.0
 Architecture: iphoneos-arm
-Depends: com.bytafont.bytafonttm
-Depiction: http://repo.bytafont.com/font/bftm/805
-Maintainer: BytaFont.com <info@bytafont.com>
-Author: BytaFont.com <info@bytafont.com>
+Author: burcbuluklu <burcbuluklu@gmail.com>
+Depends: winterboard
+Depiction: http://modmyi.com/info/pwnapplerespringlogo.d.php
+Description: Pwn Apple Respring Logo
+Homepage: http://modmyi.com/info/pwnapplerespringlogo.php
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Section: Themes (SpringBoard)
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
-Section: Fonts (BytaFont Tweak Mode)
-Description: Tweak Mode font by BytaFont.com
-
