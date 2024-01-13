@@ -1,13 +1,14 @@
-Package: org.thebigboss.mybalance
-Depends: firmware (>= 5.0), preferenceloader, com.saurik.substrate.safemode, com.chpwn.weeloader
-Name: My Balance
-Version: 1.2.0-9
+Package: vn.gsm.orbit2
+Conflicts: com.steventroughtonsmith.orbit
+Name: Orbit for iOS 4, 5, 6+
+Version: 2.1
 Architecture: iphoneos-arm
-Description: USSD balance/usage widget for Notification Center
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mybalanceDp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mybalanceDp
-Installed-Size: 598
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: VladMax Soft <vladmaxsoft@gmail.com>
-Section: Addons (NotificationCenter)
-Icon: file:///Library/PreferenceBundles/MyBalancePrefBundle.bundle/MyBalancePrefBundle@2x.png
+Description: instantly switch between pages on homescreen
+Homepage: http://cydia.vn/
+Depiction: http://cydia.gsm.vn/t1410/
+Installed-Size: 3367
+Maintainer: Cydia.vn <repo@cydia.vn>
+Author: Steven Troughton-Smith
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Section: !GSMVN-Tools
+Depends: gsmicon, mobilesubstrate, preferenceloader, libactivator, firmware (>= 4.2)

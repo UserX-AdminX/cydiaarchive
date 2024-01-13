@@ -1,0 +1,13 @@
+Package: vn.gsm.orbit2
+Version: 2.1
+Section: !GSMVN-Tools
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: gsmicon, mobilesubstrate, preferenceloader, libactivator, firmware (>= 4.2)
+Conflicts: com.steventroughtonsmith.orbit, vn.gsm.orbit
+Installed-Size: 2867
+Description: Instantly switch between pages on your home screen.
+Name: Orbit for iOS 4, 5, 6+
+Author: Steven Troughton-Smith
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t1410/
+Homepage: http://cydia.vn/

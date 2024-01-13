@@ -1483,3 +1483,18 @@ Section: Addons (NotificationCenter)
 Description: USSD balance/usage widget for Notification Center
 Author: VladMax Soft <vladmaxsoft@gmail.com>
 Name: My Balance
+
+Package: vn.gsm.orbit2
+Version: 2.1
+Architecture: iphoneos-arm
+Depends: gsmicon, mobilesubstrate, preferenceloader, libactivator, firmware (>= 4.2)
+Maintainer: Cydia.vn <repo@cydia.vn>
+Filename: ./debs/vn.gsm.orbit2_2.1_iphoneos-arm.deb
+Size: 3231806
+MD5sum: 2d45dbe8f78b590ae27e9bd0cd09efde
+SHA1: 0c48c8f73f71afc40da233450871e0bc5a854ded
+SHA256: 1b67cdf6564698f2fb792b9ae7c0e35c1d69ba914460158c73072e21845a5bf3
+Section: !GSMVN-Tools
+Description: instantly switch between pages on homescreen
+Author: Steven Troughton-Smith
+Name: Orbit for iOS 4, 5, 6+
