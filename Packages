@@ -1093,3 +1093,48 @@ Section: Addons (NotificationCenter)
 Description: NCSettings is a sleek Notification Center toggle widget
 Author: JamieD360 <jamied360support@live.co.uk>
 Name: NCSettings
+
+Package: org.mtmdev.YewTube
+Version: 1.0.1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), appsync
+Maintainer: Electimon <electimon@gmail.com>
+Filename: ./debs/org.mtmdev.yewtube_1.0.1_iphoneos-arm.deb
+Size: 180100
+MD5sum: 91d09c8e3134fdbfb3a9c948243e78e2
+SHA1: 042c068488d86338863dfb41ad992eb201203755
+SHA256: 7e96fdd3d2ef88642ae779fbe923bca394eb3d9f6ed0546e266b589647dfc58e
+Section: Internet
+Description: A YouTube client made in Objective-C utilizing the power of Invidious.
+Author: Electimon <electimon@gmail.com>
+Name: YewTube
+
+Package: com.digitalchocolate.iwall
+Version: 1.1.5
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: Mikanoshi <punkass@inbox.ru>
+Filename: ./debs/com.digitalchocolate.iwall_1.1.5_iphoneos-arm.deb
+Size: 9987472
+MD5sum: 91a88a27a62ce9c987c4089a608e489f
+SHA1: 4a8c3c3c3f3ee699a417dfe68649034de1bb8099
+SHA256: 617deddeac65de54946de09ab144e791899e3fbcbedabb96d9c9fed16608ece2
+Section: Games
+Description: Revolutionary 3D brick breaking game
+Author: Digital Chocolate <no@email.here>
+Name: Brick Breaker 3D
+
+Package: com.p13development.hex
+Version: 1.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: Mikanoshi <punkass@inbox.ru>
+Filename: ./debs/com.p13development.hex_1.1_iphoneos-arm.deb
+Size: 7016460
+MD5sum: 29031519be9f1195892f02f46303ee49
+SHA1: 23fa017b79496c5b6534ba578143705850ef81ea
+SHA256: 6b079c0c0d40b57d80db65a15bf16d0adce2995ca3cf4a70c3cb4d5b0898df32
+Section: Games
+Description: An exciting, colorful Action-Puzzle Game
+Author: p13development <no@email.here>
+Name: H.E.X.

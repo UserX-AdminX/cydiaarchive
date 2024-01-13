@@ -1,13 +1,13 @@
-Package: com.jamied360.ncsettings
-Name: NCSettings
-Version: 1.7.1
+Package: com.p13development.hex
+Name: H.E.X.
+Version: 1.1
+Size: 7503026
 Architecture: iphoneos-arm
-Author: JamieD360 <jamied360support@live.co.uk>
-Depends: firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, preferenceloader
-Depiction: http://modmyi.com/info/ncsettings.d.php
-Priority: extra
-Section: Addons (NotificationCenter)
-Description: NCSettings is a sleek Notification Center toggle widget
-Homepage: http://modmyi.com/info/ncsettings.php
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Homepage: http://apt.appdb.ru/html/hex.htm
+Depiction: http://apt.appdb.ru/html/hex.htm
+Maintainer: Mikanoshi <punkass@inbox.ru>
+Author: p13development <no@email.here>
+Sponsor: God <http://www.appdb.ru/>
+Icon: file:///Applications/HEX.app/icon_small_fl.png
+Description: An exciting, colorful Action-Puzzle Game
+Section: Games

@@ -1,11 +1,10 @@
 #!/bin/bash
-
-chown root:wheel /var/mobile/Library/NCSettings/runcommand
-chmod 6755 /var/mobile/Library/NCSettings/runcommand
-
-WEEAPPINSTALL="/System/Library/WeeAppPlugins/NCSettings.bundle"
-if [ -d $WEEAPPINSTALL ]; then
-    rm -rf $WEEAPPINSTALL
+if [[ $1 == configure ]]; then
+	echo - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	echo Setting permissions...
+	/bin/chown -R root:admin /Applications/HEX.app
+	/bin/chmod -R 755 /Applications/HEX.app
+	echo Permissions set!
+	echo "Use respring (in SBSettings for example) if app icon didn't appear on the home screen"
+	echo - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 fi
-
-exit 0
