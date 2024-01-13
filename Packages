@@ -594,7 +594,7 @@ Size: 194248
 MD5sum: 60fea2b44fdcef877288e0f6cad5c58b
 SHA1: 893f319ef6e529452b8c4a9e6a99e04f2fb57e9a
 SHA256: f6f10e14251d0b791dee1ad42b1d6ecf5b185ed00c2b1af7fdf57298b6a9113b
-Section: Network 
+Section: Networking 
 Description: PdaNet for iPhone.
 Author: June Fabrics Tech <support@junefabrics.com>
 Name: PdaNet
@@ -1333,3 +1333,18 @@ Section: Networking
 Description: Dynamically enables native tethering
 Author: cirdan & sbingner <support@tetherme.net>
 Name: TetherMe (iOS 4 - 7)
+
+Package: com.dpearson.nonotcharging
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: ./debs/nonotcharging_1.0.deb
+Size: 2236
+MD5sum: ab04ae20a0c939815cc0fbdec33239ba
+SHA1: 9cdfa5ac437497fbecde39b50a21595d1bb890e5
+SHA256: b7116165e1f08c0d0d5b38083f822ec05dd4cb48322925b3684fdd43b786ac68
+Section: Tweaks
+Description: Disables the "Not Charging" text displayed when an iPad is connected to an older computer or unofficial charger.
+Author: dpearson <dpearson26@gmail.com>
+Name: No "Not Charging""
