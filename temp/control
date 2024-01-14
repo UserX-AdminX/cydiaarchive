@@ -1,15 +1,12 @@
-Package: pwntunes
-Name: PwnTunes
-Version: 1.4.0.8
 Architecture: iphoneos-arm
-Icon: file:///Applications/PwnTunes.app/Icon.png
-Description: Drag&Drop Music Import without iTunes... - like USBStick,PictureFileLibraryImportExportSyncStoreShareTransferMP3ID3DCIMPhotosVideosSongsSupportsiFileMewSeekCelesteReplacesSwapTunesMP3PlayeriPodNoCrack
-Homepage: http://www.pwntunes.net/
-Depiction: http://www.pwntunes.net/cydia/pwntunes/
-Depends: mobilesubstrate (>= 0.9.3993), firmware (>= 3.0), shell-cmds, preferenceloader
-Maintainer: SpiritOfLogic <support@pwntunes.net>
-Author: SpiritOfLogic <support@pwntunes.net>
-Sponsor: thebigboss.org <http://bigboss@thebigboss.org/>
-Section: Tweaks
-dev: spiritoflogic
-Tag: purpose::extension, purpose::commercial, cydia::commercial, role::enduser
+Author: CocoaNuts <celeste@cocoanuts.co>
+Depends: mobilesubstrate, ch.ringwald.btstack (>= 0.3-1170), libactivator
+Depiction: http://modmyi.com/info/celeste.d.php
+Description: Bluetooth file sharing for iOS!
+Installed-Size: 568
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Name: Celeste Bluetooth File Sharing
+Package: co.cocoanuts.celeste
+Priority: optional
+Section: Networking
+Version: 1.1-1

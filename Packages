@@ -1543,3 +1543,18 @@ Section: Tweaks
 Description: Drag&Drop Music Import without iTunes... - like USBStick,PictureFileLibraryImportExportSyncStoreShareTransferMP3ID3DCIMPhotosVideosSongsSupportsiFileMewSeekCelesteReplacesSwapTunesMP3PlayeriPodNoCrack
 Author: SpiritOfLogic <support@pwntunes.net>
 Name: PwnTunes
+
+Package: co.cocoanuts.celeste
+Version: 1.1-1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, ch.ringwald.btstack (>= 0.3-1170), libactivator
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: ./debs/co.cocoanuts.celeste.deb
+Size: 296054
+MD5sum: 04b02aa2a2c978dad8b24e04553826f4
+SHA1: 0108725d23beb1da1faf17f3748ede9a8019cbde
+SHA256: 9959273987c4b01bdf77cb62c2acb75d01ff88c7561fa5257a12993acb88f469
+Section: Networking
+Description: Bluetooth file sharing for iOS!
+Author: CocoaNuts <celeste@cocoanuts.co>
+Name: Celeste Bluetooth File Sharing
