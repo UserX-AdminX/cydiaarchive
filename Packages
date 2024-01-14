@@ -1562,7 +1562,7 @@ Name: Celeste Bluetooth File Sharing
 Package: ch.ringwald.btstack
 Version: 1.1-1
 Architecture: iphoneos-arm
-Depends: ch.ringwald.springboardaccess (>= 0.3), preferenceloader (>= 2.2.2), firmware (>= 3.0)
+Depends: ch.ringwald.springboardaccess (>= 0.3), preferenceloader (>= 2.2.2), firmware (>= 3.0), ldid
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Filename: ./debs/btstack_1.1-1.deb
 Size: 160462
