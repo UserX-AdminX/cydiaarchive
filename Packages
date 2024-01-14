@@ -1633,3 +1633,18 @@ Section: Navigation
 Description: GPS Driver based on BTstack Bluetooth Stack - It supports standard SPP GPS receivers.
 Author: Matthias Ringwald <tickets@btstack.uservoice.com>
 Name: BTstack GPS
+
+Package: com.bytafont.bytafont3
+Version: 3.5
+Architecture: iphoneos-arm
+Depends: firmware (>= 11), unzip, mobilesubstrate
+Maintainer: Mikasa <nami_san@outlook.com>
+Filename: ./debs/com.bytafont.bytafont3_3.5_iphoneos-arm.deb
+Size: 779640
+MD5sum: ce5fc79edb29efd057568d7a10e5beb5
+SHA1: 64aef98f883279c93c1611eabc29d03ab44af72a
+SHA256: d9dd82962695ce0fa427d6586b86ca44f643c7de90a028992cd4d2892afdd0c5
+Section: System
+Description: BytaFont 3 lets you apply fonts to your iDevice in few taps.
+Author: BytaFont.com <info@bytafont.com>
+Name: BytaFont 3
