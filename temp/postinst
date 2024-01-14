@@ -1,7 +1,0 @@
-#!/bin/sh
-/bin/chown root:wheel /Library/LaunchDaemons/co.cocoanuts.celested.plist
-/bin/launchctl load /Library/LaunchDaemons/co.cocoanuts.celested.plist 2&> /dev/null
-
-/bin/mkdir -p /var/mobile/Received
-/bin/chown -R mobile:mobile /var/mobile/Received
-exit 0

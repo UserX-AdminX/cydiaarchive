@@ -1558,3 +1558,33 @@ Section: Networking
 Description: Bluetooth file sharing for iOS!
 Author: CocoaNuts <celeste@cocoanuts.co>
 Name: Celeste Bluetooth File Sharing
+
+Package: ch.ringwald.btstack
+Version: 1.1-1
+Architecture: iphoneos-arm
+Depends: ch.ringwald.springboardaccess (>= 0.3), preferenceloader (>= 2.2.2), firmware (>= 3.0)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/btstack_1.1-1.deb
+Size: 160462
+MD5sum: e037b302e5a9912c752fc57192e8df48
+SHA1: fb08e3f7b398f93a12f563c2b488df7b4c287480
+SHA256: 2f2f03f3e36047167c18cdf6d6c62dc8affc6b7b2237719ce592a5311b833c5b
+Section: Development
+Description: Portable User-Space Bluetooth Stack
+Author: Matthias Ringwald <tickets@btstack.uservoice.com>
+Name: BTstack
+
+Package: ch.ringwald.springboardaccess
+Version: 0.3-5
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.5000), firmware (<< 4.0) | libstatusbar (>= 0.9.7)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/springboardaccess_0.3-5.deb
+Size: 7362
+MD5sum: 9e00d67febe4d41661115b57b19de6e5
+SHA1: 5d22a3148adb03e9bd1f54f751eed86b45d6e171
+SHA256: 6d838fd2bd43b4553e2206aae7690f08086db7d4e3c12bceb83ebadc42a1c943
+Section: Development
+Description: Controls status bar icons from daemons
+Author: Matthias Ringwald <iphone@ringwald.ch>
+Name: SpringBoardAccess
