@@ -1618,3 +1618,18 @@ Section: Multimedia
 Description: iPod import &more
 Author: Youssef Francis <support+gremlin@cocoanuts.co>
 Name: Gremlin Plugin Pack
+
+Package: ch.ringwald.gps
+Version: 2.1-1
+Architecture: iphoneos-arm
+Depends: ch.ringwald.btstack (>= 1.0-3), mobilesubstrate, firmware (>= 3.0), com.rpetrich.rocketbootstrap
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/btstackgps_2.1-1.deb
+Size: 201768
+MD5sum: 696efe7fd626569d3ec7b5cd559cc28b
+SHA1: e1049a7271dfb3172b5a0ad6d7936bdde519e092
+SHA256: d46218696b2ec3aea5598eed5badc1e12aa348fd67d9a48421f0ecf5a9c5653d
+Section: Navigation
+Description: GPS Driver based on BTstack Bluetooth Stack - It supports standard SPP GPS receivers.
+Author: Matthias Ringwald <tickets@btstack.uservoice.com>
+Name: BTstack GPS

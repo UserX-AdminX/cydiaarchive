@@ -1,20 +1,17 @@
-Package: co.cocoanuts.gremlinplugins
-Name: Gremlin Plugin Pack
-Pre-Depends: firmware (>= 4.2)
-Depends: co.cocoanuts.gremlin (>= 3.0)
-Version: 1.6-1
-Architecture: iphoneos-arm
-Description: iPod import &more
-   This plugin pack contains import plugins for
-   Music, Videos, Podcasts, Photos, Movies, TV-Shows,
-   Ringtones, PDFs and other Documents. Requires
-   Gremlin 3.0
-Homepage: http://yfrancis.com/gremlin
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gremlinData
+Homepage: http://www.ringwald.ch/cydia/gps/
+Depiction: http://www.ringwald.ch/cydia/gps/
+Author: Matthias Ringwald <tickets@btstack.uservoice.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: BTstack GPS
+Package: ch.ringwald.gps
+Depends: ch.ringwald.btstack (>= 1.0-3), mobilesubstrate, firmware (>= 3.0), com.rpetrich.rocketbootstrap
+Conflicts: com.xwaves.gpsserial
+Section: Navigation
+Installed-Size: 478
+Version: 2.1-1
+Architecture: iphoneos-arm
+Description: GPS Driver based on BTstack Bluetooth Stack - It supports standard SPP GPS receivers.
 Sponsor: thebigboss.org <http://thebigboss.org>
-Author: Youssef Francis <support+gremlin@cocoanuts.co>
-dev: francis
-Section: Multimedia
-Priority: optional
-Installed-Size: 136
+dev: mringwald
+Tag: cydia::commercial, purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9
+Icon: file:///Applications/GPS.app/Icon.png
