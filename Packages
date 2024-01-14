@@ -1528,3 +1528,18 @@ Section: System
 Description: A USB app to add mass storage feature to your iPhone / iPod Touch / iPad like usb flash drive key.
 Author: roqy
 Name: roqyUSB
+
+Package: pwntunes
+Version: 1.4.0.8
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.3993), firmware (>= 3.0), shell-cmds, preferenceloader
+Maintainer: SpiritOfLogic <support@pwntunes.net>
+Filename: ./debs/pwntunes_1.4.0.8.deb
+Size: 549360
+MD5sum: e0aab0e87ea67adf4f1e39399ad85165
+SHA1: 984e81f80440cf23e18da186ed6c2fff4845f45f
+SHA256: 65b89aa32c831f63aea54aefa40bb723de263c2ad0da33e9abc06ff268f8b9b7
+Section: Tweaks
+Description: Drag&Drop Music Import without iTunes... - like USBStick,PictureFileLibraryImportExportSyncStoreShareTransferMP3ID3DCIMPhotosVideosSongsSupportsiFileMewSeekCelesteReplacesSwapTunesMP3PlayeriPodNoCrack
+Author: SpiritOfLogic <support@pwntunes.net>
+Name: PwnTunes
