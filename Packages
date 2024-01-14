@@ -1519,7 +1519,7 @@ Version: 1.0.1-1
 Architecture: iphoneos-arm
 Depends: firmware (>= 4.2.1), openssl
 Maintainer: ModMyi
-Filename: ./debs/com.roqy.roqyusb_1.0.1-1_iphoneos-arm_fabius.deb
+Filename: ./debs/com.roqy.roqyusb_1.0.1-1_iphoneos-arm.deb
 Size: 5431
 MD5sum: 5373491864c7028b860b5c894021fb9b
 SHA1: 74028ae850e6acaa175901a7552021cb900f2398
