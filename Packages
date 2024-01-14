@@ -1588,3 +1588,33 @@ Section: Development
 Description: Controls status bar icons from daemons
 Author: Matthias Ringwald <iphone@ringwald.ch>
 Name: SpringBoardAccess
+
+Package: co.cocoanuts.gremlin
+Version: 3.0.2-1
+Architecture: iphoneos-arm
+Depends: co.cocoanuts.gremlinplugins
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/co.cocoanuts.gremlin_3.0.2-1_iphoneos-arm.deb
+Size: 33470
+MD5sum: 12590f28ae7dece5f3b23dcb11b1b51c
+SHA1: c049e252ef0d17c86a8364f25d32699cb8473153
+SHA256: 28cfdc48d9acc4cb7038f7d853c89f971ba0bb9f4cc1116591fce8d46c7e9f45
+Section: Multimedia
+Description: Media import framework for iOS.
+Author: Youssef Francis <support+gremlin@cocoanuts.co>
+Name: Gremlin Framework
+
+Package: co.cocoanuts.gremlinplugins
+Version: 1.6-1
+Architecture: iphoneos-arm
+Depends: co.cocoanuts.gremlin (>= 3.0)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/gremlinplugins_1.6-1.deb
+Size: 25814
+MD5sum: 6413cabcd6ddb3470d092fdeffc27437
+SHA1: 8832043ff8181c5db05652abff25b27fecd875e8
+SHA256: 3cd6eeab61e676e333d9c61b39200f82bf334616ea05239b0a7b21d9d185d93f
+Section: Multimedia
+Description: iPod import &more
+Author: Youssef Francis <support+gremlin@cocoanuts.co>
+Name: Gremlin Plugin Pack
