@@ -1648,3 +1648,33 @@ Section: System
 Description: BytaFont 3 lets you apply fonts to your iDevice in few taps.
 Author: BytaFont.com <info@bytafont.com>
 Name: BytaFont 3
+
+Package: actionmenu
+Version: 1.4.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3), preferenceloader (>= 2.2.2), cydia (>= 1.1.1), com.rpetrich.rocketbootstrap (>= 1.0.3) | firmware (<< 7.0)
+Maintainer: Mikasa <nami_san@outlook.com>
+Filename: ./debs/actionmenu_1.4.1_iphoneos-arm.deb
+Size: 293946
+MD5sum: 810b538c5685fa615e2bab0031f9c8d3
+SHA1: 6797a9c54b0b5d6b2c491c431de384fc31184533
+SHA256: b5c8f512868eadcc1363bcbfcec5a361422669f51f129b607a2065967fb8f64c
+Section: System
+Description: Adds actions to the action menu
+Author: Ryan Petrich <rpetrich@gmail.com>
+Name: Action Menu
+
+Package: org.chronic-dev.animate
+Version: 1.0.1-1
+Architecture: iphoneos-arm
+Depends: preferenceloader
+Maintainer: Bigboss <bigboss@thebigboss.org>
+Filename: ./debs/org.chronic-dev.animate_1.0.1-1_iphoneos-arm.deb
+Size: 129030
+MD5sum: 9ff9572a9c35aa4075223115a86341f6
+SHA1: 33ca74b90af9ed2bcad2ca9dd8fcacd257cdac2d
+SHA256: a92728c1ce0602e9c59c5372a2938b7a3475f5d5ebdfce65431136c1613ece34
+Section: System
+Description: Boot Logo Animations for 4.2.1 untether
+Author: Chronic-Dev Inc. <jaywalker@chronic-dev.com>
+Name: animate

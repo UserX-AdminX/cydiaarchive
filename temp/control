@@ -1,10 +1,15 @@
-Package: com.bytafont.bytafont3
-Depends: firmware (>= 11), unzip, mobilesubstrate
-Name: BytaFont 3
-Version: 3.5
+Package: org.chronic-dev.animate
+Depends: preferenceloader
+Name: animate
+Version: 1.0.1-1
+Installed-Size: 188
 Architecture: iphoneos-arm
-Description: BytaFont 3 lets you apply fonts to your iDevice in few taps.
-Depiction: http://repo.bytafont.com/bytafont_depiction
-Maintainer: Mikasa <nami_san@outlook.com>
-Author: BytaFont.com <info@bytafont.com>
+Description: Boot Logo Animations for 4.2.1 untether
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animateData
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animateData
+Maintainer: Bigboss <bigboss@thebigboss.org>
+Author: Chronic-Dev Inc. <jaywalker@chronic-dev.com>
 Section: System
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: chronic-dev
+
