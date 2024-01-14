@@ -1,15 +1,10 @@
-Name: iLEX R.A.T.
-Version: 1.10-125
-Installed-Size: 2000
-Description: Restore iDevice Back To Stock. Revive, Speed Up, Clean Up Your iDevice. Remove All Cydia Apps & Tweaks & Dependencies At Once! Cydia Repair! Backup & Restore All Cydia Apps & Tweaks & Dependencies (DEB).
-Depends: gsmicon, apt7, sed, coreutils, coreutils-bin, openssl, openssh, gawk, zip, unzip
-Package: vn.gsm.rat-eng
+Package: com.roqy.roqyusb
+Version: 1.0.1-1
 Architecture: iphoneos-arm
-Author: iLEX 
-Section: !GSMVN-Tools
-Maintainer: Cydia.vn <repo@cydia.vn>
-Sponsor: Cydia.vn Blog's <http://cydia.vn/>
-Depiction: http://cydia.gsm.vn/t4364/
-Homepage: http://cydia.vn/
-Conflicts: com.myrepospace.iLEX.rat-eng, com.myrepospace.iLEXiNFO.ilexrestore, vn.gsm.ilexrestore
-
+Depends: firmware (>= 4.2.1), openssl
+Maintainer: ModMyi
+Size: 5431
+Section: System
+Description: A USB app to add mass storage feature to your iPhone / iPod Touch / iPad like usb flash drive key.
+Author: roqy
+Name: roqyUSB

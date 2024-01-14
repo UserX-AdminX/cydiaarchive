@@ -1513,3 +1513,18 @@ Section: !GSMVN-Tools
 Description: Restore iDevice Back To Stock. Revive, Speed Up, Clean Up Your iDevice. Remove All Cydia Apps & Tweaks & Dependencies At Once! Cydia Repair! Backup & Restore All Cydia Apps & Tweaks & Dependencies (DEB).
 Author: iLEX 
 Name: iLEX R.A.T.
+
+Package: com.roqy.roqyusb
+Version: 1.0.1-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 4.2.1), openssl
+Maintainer: ModMyi
+Filename: ./debs/com.roqy.roqyusb_1.0.1-1_iphoneos-arm_fabius.deb
+Size: 5431
+MD5sum: 5373491864c7028b860b5c894021fb9b
+SHA1: 74028ae850e6acaa175901a7552021cb900f2398
+SHA256: ddf078eac5995067ed184a34101ae190ec915ccb49432d41d37e3068f7200a2e
+Section: System
+Description: A USB app to add mass storage feature to your iPhone / iPod Touch / iPad like usb flash drive key.
+Author: roqy
+Name: roqyUSB
