@@ -1,15 +1,19 @@
-Package: org.chronic-dev.animate
-Depends: preferenceloader
-Name: animate
-Version: 1.0.1-1
-Installed-Size: 188
+Name: Animate iOS 8
+Package: com.zaxdo.animate8
+Provides: org.chronic-dev.animate
+Conflicts: org.chronic-dev.animate
+Priority: optional
+Depends: firmware (>= 8.0), preferenceloader
+Version: 2.0.1-1
 Architecture: iphoneos-arm
-Description: Boot Logo Animations for 4.2.1 untether
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animateData
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animateData
-Maintainer: Bigboss <bigboss@thebigboss.org>
-Author: Chronic-Dev Inc. <jaywalker@chronic-dev.com>
-Section: System
+Description: Boot Logo Animations for 8.0 and higher
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animate8Dp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animate8Dp
 Sponsor: thebigboss.org <http://thebigboss.org>
-dev: chronic-dev
-
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: zaxdo <zaxdo@yahoo.com>
+dev: zaxdo
+Section: System
+Installed-Size: 227
+Tag: ios8support::1, purpose::extension, compatible::ios8
+Icon: file:///Library/PreferenceBundles/BootLogo.bundle/BootLogo@2x.png

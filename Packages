@@ -1678,3 +1678,18 @@ Section: System
 Description: Boot Logo Animations for 4.2.1 untether
 Author: Chronic-Dev Inc. <jaywalker@chronic-dev.com>
 Name: animate
+
+Package: com.zaxdo.animate8
+Version: 2.0.1-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 8.0), preferenceloader
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/animate8_2.0.1-1.deb
+Size: 32600
+MD5sum: c56b6dd3ccdf52944f6586f2b92b709b
+SHA1: 99fe41213c446fbe3b3bc6ab609920e14352c458
+SHA256: 39f3070dd160f59a4b00eef6ebe681e350e5a90017e73a271083a5a7ec230a29
+Section: System
+Description: Boot Logo Animations for 8.0 and higher
+Author: zaxdo <zaxdo@yahoo.com>
+Name: Animate iOS 8
