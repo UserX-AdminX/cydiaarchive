@@ -1,13 +1,13 @@
-Package: com.jamied360.switch.ssh
-Name: SSH Switch
-Version: 1.2
+Package: com.fortysixandtwo.alkaline
+Name: Alkaline
+Version: 1.3
 Architecture: iphoneos-arm
-Author: JamieD360 <jamied360@hotmail.co.uk>
-Depends: firmware (>= 5.1.1), com.a3tweaks.flipswitch
-Depiction: http://modmyi.com/info/sshswitch.d.php
+Author: magn2o <magn2o@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Depiction: http://modmyi.com/info/alkaline.d.php
 Priority: extra
-Section: Addons (NotificationCenter)
-Description: An SSH switch for use with Flipswitch
-Homepage: http://modmyi.com/info/sshswitch.php
+Section: Tweaks
+Description: Themeable status bar battery replacement for iOS 7.
+Homepage: http://modmyi.com/info/alkaline.php
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
