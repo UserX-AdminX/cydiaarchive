@@ -1,12 +1,13 @@
-Package: com.geosn0w.iSecureOS
-Name: iSecureOS
-Depends: firmware (>= 11.0)
-Version: 1.24
+Package: com.rileytestut.altdaemon
+Name: AltDaemon
+Depends: firmware (>= 12.2)
 Architecture: iphoneos-arm
-Description: An iOS Security Application for Jailbroken units.
-Maintainer: GeoSn0w (@FCE365)
-Author: GeoSn0w (@FCE365)
-Section: Utilities
-Icon: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.png
-Depiction: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.html
-SileoDepiction: https://isecureos.idevicecentral.com/repo/sileo/isecureos.json
+Description: AltDaemon allows AltStore to install and refresh apps without a computer.
+Maintainer: Riley Testut <support@altstore.io>
+Author: Riley Testut <support@altstore.io>
+Section: System
+Version: 1.0.1
+Icon: https://cdn.chariz.cloud/icon/altdaemon/icon@3x.png
+Depiction: https://chariz.com/get/altdaemon
+Tag: compatible_min::ios12.2
+Installed-Size: 2560
