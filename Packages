@@ -1843,3 +1843,18 @@ Section: Security
 Description: security advisor, system optimizer & media vault
 Author: Qihoo International <msupport@360safe.com>
 Name: 360 Mobile Security
+
+Package: com.geosn0w.iSecureOS
+Version: 1.24
+Architecture: iphoneos-arm
+Depends: firmware (>= 11.0)
+Maintainer: GeoSn0w (@FCE365)
+Filename: ./debs/com.geosn0w.iSecureOS.deb
+Size: 1578832
+MD5sum: 97adede4d0ad54d728e4ea050cbb7b79
+SHA1: fb8db4fa5eb5d6b648a88e86a200ee12f0717c62
+SHA256: f8ce4cd9773fefaccb02765ad918f4f2f2274370b69e44656102cea96a9cd29e
+Section: Utilities
+Description: An iOS Security Application for Jailbroken units.
+Author: GeoSn0w (@FCE365)
+Name: iSecureOS

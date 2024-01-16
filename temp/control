@@ -1,16 +1,12 @@
-Package: net.qihoo.mobilesecurity.bb
-Depends: firmware (>= 5.0)
-Name: 360 Mobile Security
-Version: 1.6-798838
+Package: com.geosn0w.iSecureOS
+Name: iSecureOS
+Depends: firmware (>= 11.0)
+Version: 1.24
 Architecture: iphoneos-arm
-Description: security advisor, system optimizer & media vault
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=360mobilesecurityDp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=360mobilesecurityDp
-Installed-Size: 14272
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: Qihoo International <msupport@360safe.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-Section: Security
-dev: qihoo
-Tag: purpose::uikit, role::enduser
-Icon: file:///Applications/MobileSecurity.app/Icon.png
+Description: An iOS Security Application for Jailbroken units.
+Maintainer: GeoSn0w (@FCE365)
+Author: GeoSn0w (@FCE365)
+Section: Utilities
+Icon: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.png
+Depiction: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.html
+SileoDepiction: https://isecureos.idevicecentral.com/repo/sileo/isecureos.json
