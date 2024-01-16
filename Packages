@@ -1693,3 +1693,18 @@ Section: System
 Description: Boot Logo Animations for 8.0 and higher
 Author: zaxdo <zaxdo@yahoo.com>
 Name: Animate iOS 8
+
+Package: org.coolstar.animatefixforios7
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 7.0)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: /animatefixforios7_1.0.deb
+Size: 844
+MD5sum: 5636bc7d82072de752c7517f169c4f0d
+SHA1: 5e5ab9c0f30185772bc73ccc6e62ac03d4d806c5
+SHA256: 0be7625634e5af5930a3d324eda747373049fad7c1c2f9eea895750bf8fe8f7b
+Section: System
+Description: animated bootlogo support on iOS 7.x evasi0n
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Animate fix for iOS 7.x.x

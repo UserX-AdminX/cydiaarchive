@@ -1,19 +1,15 @@
-Name: Animate iOS 8
-Package: com.zaxdo.animate8
-Provides: org.chronic-dev.animate
-Conflicts: org.chronic-dev.animate
+Name: Animate fix for iOS 7.x.x
+Package: org.coolstar.animatefixforios7
 Priority: optional
-Depends: firmware (>= 8.0), preferenceloader
-Version: 2.0.1-1
+Depends: firmware (>= 7.0)
+Version: 1.0
 Architecture: iphoneos-arm
-Description: Boot Logo Animations for 8.0 and higher
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animate8Dp
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animate8Dp
+Description: animated bootlogo support on iOS 7.x evasi0n
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animatefixforios7Dp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animatefixforios7Dp
 Sponsor: thebigboss.org <http://thebigboss.org>
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: zaxdo <zaxdo@yahoo.com>
-dev: zaxdo
+Author: CoolStar <coolstarorganization@gmail.com>
+dev: coolstar
 Section: System
-Installed-Size: 227
-Tag: ios8support::1, purpose::extension, compatible::ios8
-Icon: file:///Library/PreferenceBundles/BootLogo.bundle/BootLogo@2x.png
+Installed-Size: 6
