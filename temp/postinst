@@ -1,0 +1,6 @@
+#!/bin/bash
+
+uicache
+su -  mobile -c 'uicache'
+#/usr/bin/killall -9 SpringBoard
+exit 0

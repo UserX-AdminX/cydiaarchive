@@ -1828,3 +1828,18 @@ Section: Tweaks
 Description: IconControl Pro is especially made for the Haz3 themes from Haze-development.
 Author: iHaz3 & iBitGirl <ihaz3@twitpanic.com>
 Name: IconControl Pro
+
+Package: net.qihoo.mobilesecurity.bb
+Version: 1.6-798838
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/360mobilesecurity_1.6-798838.deb
+Size: 8698606
+MD5sum: 28612e7a618a8b4c794b31bfd6a7129f
+SHA1: 6b95c1da59fa47a938271a5e03b5e62fc7d0e227
+SHA256: c670057135cf893af82d7ca512a4bc3adb5fc4c4e899e38c07fa1c4cf15c8b48
+Section: Security
+Description: security advisor, system optimizer & media vault
+Author: Qihoo International <msupport@360safe.com>
+Name: 360 Mobile Security
