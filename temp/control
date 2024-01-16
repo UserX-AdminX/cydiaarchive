@@ -1,16 +1,13 @@
-Author: Riley Testut
-Maintainer: ichitaso
-Package: com.ichitaso.altstore
-Name: AltStore
-Depends: firmware (>= 12.2), com.rileytestut.altdaemon
-Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
-Replaces: com.ichitaso.altstore
-Section: Utilities
-Version: 1.6.2
+Package: com.michael.appleilluminator
+Name: Apple Illuminator
+Depends: firmware (>= 11.0)
+Conflicts: com.michael.appleturboboost
 Architecture: iphoneos-arm
-Description: Jailbroken version of AltStore with on device signing feauture.
-Depiction: https://cydia.ichitaso.com/depiction/altstore.html
-Homepage: https://altstore.io/
-dev: Riley Testut
-Tag: purpose::extension, compatible_min::ios12.2
-Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png
+Maintainer: Halo_Michael <yc992147156@me.com>
+Author: Halo_Michael <yc992147156@me.com>
+Section: System
+Version: 0.7.0
+Description: Illuminate your Apple!
+ Illuminate your Apple!
+ Relieve Apple’s overheating Reduces brightness limit.
+ Support iOS11~14.
