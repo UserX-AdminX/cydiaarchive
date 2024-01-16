@@ -1738,3 +1738,93 @@ Section: Tweaks
 Description: Themeable status bar battery replacement for iOS 7.
 Author: magn2o <magn2o@gmail.com>
 Name: Alkaline
+
+Package: com.modmyi.angrybirdsmb
+Version: 2.01
+Architecture: iphoneos-arm
+Depends: com.alexzielenski.zeppelin
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: ./debs/com.modmyi.angrybirdsmb_2.01_iphoneos-arm.deb
+Size: 1906376
+MD5sum: 283632335834896f80b261c0db5c3dd9
+SHA1: 0dbe70033d0a2d38f4f30bd9b2e72680deb230c3
+SHA256: 12ee7d02aa59eb1cb750399ff3bce6182435cad9a1f3c36431c458bc792ace70
+Section: Addons (Zeppelin)
+Description: Some different angry birds in different themes. 
+Author: Blenkiiko <matt.blenkinsopp@gmail.com>
+Name: Angry Birds - MB
+
+Package: actionmenu-pluspack
+Version: 1.3.3
+Architecture: iphoneos-arm
+Depends: actionmenu (>= 1.3.3), mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 8.0)
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: ./debs/actionmenu-pluspack_1.3.3_iphoneos-arm.deb
+Size: 216192
+MD5sum: c8a533543314f8b603060e7073941241
+SHA1: ce6986a9c0ae11e79da4f4bfd62ac5b620e2170d
+SHA256: 3cc1fc5e5edba13b5c848fc3510ba67272f88163d5204572af30c848e7b1f39a
+Section: System
+Description: Additional actions for Action Menu!
+Author: Ryan Petrich <rpetrich@gmail.com>
+Name: Action Menu Plus Pack
+
+Package: com.bigboss.aptbackup
+Version: 1.1-9
+Architecture: iphoneos-arm
+Depends: apt
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/com.bigboss.aptbackup_1.1-9_iphoneos-arm.deb
+Size: 23356
+MD5sum: ae6f368c8e58547c938a8d6c5e2bda97
+SHA1: 2d9a3232d5cfa313b767a24563e1e23daef575e9
+SHA256: 73603a8bee1ea8ac45a44dfd52635f60ff26f46aa2f40682fe0843c12559df57
+Section: Utilities
+Description: Backup/restore Cydia items to iTunes
+Author: Chris Featherstone <featherstone.chris@gmail.com>
+Name: AptBackup
+
+Package: org.thebigboss.animateall
+Version: 1.9.1-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/org.thebigboss.animateall_1.9.1-1_iphoneos-arm.deb
+Size: 66726
+MD5sum: 9f7a925768d6f8f4b3f64fa27d90fc8b
+SHA1: ad6aa1fd108eb7826661bd1285c392d926a973d6
+SHA256: 1b8a48797084158f65dd663344de524cb04e3e004773a95ff15bd8157225bb6a
+Section: Tweaks
+Description: animated bootlogos on home & lockscreen
+Author: MPow <manzopower@icloud.com>
+Name: AnimateAll
+
+Package: org.thebigboss.animateallhd
+Version: 1.9.1-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), org.chronic-dev.animate, gsc.ipad
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/org.thebigboss.animateallhd_1.9.1-1_iphoneos-arm.deb
+Size: 66712
+MD5sum: d7f409a6c73aecd9b36d6ddc743f7330
+SHA1: 45191775f2ee0e73dbca96752e156fac74858a31
+SHA256: 444f14c05cbd22e820ef0c12c3e43ec67b6c0a9eb2c9b6419acbbf4d85d86a2d
+Section: Tweaks
+Description: animated ipad bootlogos on home screen
+Author: MPow <manzopower@icloud.com>
+Name: AnimateAll HD
+
+Package: mobi.macciti.iconcontrolpro
+Version: 1.4
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader, com.ashman.clockhide, applist
+Maintainer: iC <apt@macciti.com>
+Filename: ./debs/mobi.macciti.iconcontrolpro_1.4_iphoneos-arm.deb
+Size: 65818
+MD5sum: 37bcf832818c3a51c9b48b00d5891834
+SHA1: 175a376636462436073eff50edd60072855b3598
+SHA256: c6610d5ed854843e0bad874cc74bf69609fa0d892b2315d5b3fb8a89eb26dd41
+Section: Tweaks
+Description: IconControl Pro is especially made for the Haz3 themes from Haze-development.
+Author: iHaz3 & iBitGirl <ihaz3@twitpanic.com>
+Name: IconControl Pro

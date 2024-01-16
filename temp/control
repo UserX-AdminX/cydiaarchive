@@ -1,13 +1,10 @@
-Package: com.fortysixandtwo.alkaline
-Name: Alkaline
-Version: 1.3
+Package: mobi.macciti.iconcontrolpro
+Name: IconControl Pro
+Version: 1.4
 Architecture: iphoneos-arm
-Author: magn2o <magn2o@gmail.com>
-Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
-Depiction: http://modmyi.com/info/alkaline.d.php
-Priority: extra
+Depends: mobilesubstrate, preferenceloader, com.ashman.clockhide, applist
+Description: IconControl Pro is especially made for the Haz3 themes from Haze-development.
+Maintainer: iC <apt@macciti.com>
+Author: iHaz3 & iBitGirl <ihaz3@twitpanic.com>
 Section: Tweaks
-Description: Themeable status bar battery replacement for iOS 7.
-Homepage: http://modmyi.com/info/alkaline.php
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Depiction: http://www.macciti.com/pages/iconcontrolpro/index.php
