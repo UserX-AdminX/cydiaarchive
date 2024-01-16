@@ -1699,7 +1699,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Depends: firmware (>= 7.0)
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Filename: /animatefixforios7_1.0.deb
+Filename: ./debs/animatefixforios7_1.0.deb
 Size: 844
 MD5sum: 5636bc7d82072de752c7517f169c4f0d
 SHA1: 5e5ab9c0f30185772bc73ccc6e62ac03d4d806c5
@@ -1708,3 +1708,18 @@ Section: System
 Description: animated bootlogo support on iOS 7.x evasi0n
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: Animate fix for iOS 7.x.x
+
+Package: com.jamied360.switch.ssh
+Version: 1.2
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.1.1), com.a3tweaks.flipswitch
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: ./debs/com.jamied360.switch.ssh_1.2_iphoneos-arm.deb
+Size: 19394
+MD5sum: 9943c5c0f30c65f7ca24d344a1a3f6da
+SHA1: a94501aec951b428a337adff17286a54a524e8f6
+SHA256: f37314a14f08c39cfc45ce440f1edd45c7d41c5f4570a3780212552bf7b17a58
+Section: Addons (NotificationCenter)
+Description: An SSH switch for use with Flipswitch
+Author: JamieD360 <jamied360@hotmail.co.uk>
+Name: SSH Switch

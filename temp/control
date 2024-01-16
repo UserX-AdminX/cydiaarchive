@@ -1,15 +1,13 @@
-Name: Animate fix for iOS 7.x.x
-Package: org.coolstar.animatefixforios7
-Priority: optional
-Depends: firmware (>= 7.0)
-Version: 1.0
+Package: com.jamied360.switch.ssh
+Name: SSH Switch
+Version: 1.2
 Architecture: iphoneos-arm
-Description: animated bootlogo support on iOS 7.x evasi0n
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animatefixforios7Dp
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=animatefixforios7Dp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: CoolStar <coolstarorganization@gmail.com>
-dev: coolstar
-Section: System
-Installed-Size: 6
+Author: JamieD360 <jamied360@hotmail.co.uk>
+Depends: firmware (>= 5.1.1), com.a3tweaks.flipswitch
+Depiction: http://modmyi.com/info/sshswitch.d.php
+Priority: extra
+Section: Addons (NotificationCenter)
+Description: An SSH switch for use with Flipswitch
+Homepage: http://modmyi.com/info/sshswitch.php
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
