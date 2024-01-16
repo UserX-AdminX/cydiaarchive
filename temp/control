@@ -1,13 +1,16 @@
-Package: com.rileytestut.altdaemon
-Name: AltDaemon
-Depends: firmware (>= 12.2)
+Author: Riley Testut
+Maintainer: ichitaso
+Package: com.ichitaso.altstore
+Name: AltStore
+Depends: firmware (>= 12.2), com.rileytestut.altdaemon
+Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
+Replaces: com.ichitaso.altstore
+Section: Utilities
+Version: 1.6.2
 Architecture: iphoneos-arm
-Description: AltDaemon allows AltStore to install and refresh apps without a computer.
-Maintainer: Riley Testut <support@altstore.io>
-Author: Riley Testut <support@altstore.io>
-Section: System
-Version: 1.0.1
-Icon: https://cdn.chariz.cloud/icon/altdaemon/icon@3x.png
-Depiction: https://chariz.com/get/altdaemon
-Tag: compatible_min::ios12.2
-Installed-Size: 2560
+Description: Jailbroken version of AltStore with on device signing feauture.
+Depiction: https://cydia.ichitaso.com/depiction/altstore.html
+Homepage: https://altstore.io/
+dev: Riley Testut
+Tag: purpose::extension, compatible_min::ios12.2
+Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png

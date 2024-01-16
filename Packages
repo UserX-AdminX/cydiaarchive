@@ -1888,3 +1888,18 @@ Section: System
 Description: AltDaemon allows AltStore to install and refresh apps without a computer.
 Author: Riley Testut <support@altstore.io>
 Name: AltDaemon
+
+Package: com.ichitaso.altstore
+Version: 1.6.2
+Architecture: iphoneos-arm
+Depends: firmware (>= 12.2), com.rileytestut.altdaemon
+Maintainer: ichitaso
+Filename: ./debs/com.ichitaso.altstore_1.6.2_iphoneos-arm.deb
+Size: 5326946
+MD5sum: f24ea9b6e5989646d56bd10aa91c27b5
+SHA1: 0210cf31efa57700cef983814e98a0df974d9ece
+SHA256: ebdf4d6508948423195a505a3cdf52d3e3a2df4d176fa013a42a13cfc0b97b4f
+Section: Utilities
+Description: Jailbroken version of AltStore with on device signing feauture.
+Author: Riley Testut
+Name: AltStore
