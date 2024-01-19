@@ -1948,3 +1948,33 @@ Section: System
 Description: Illuminate your Apple!
 Author: Halo_Michael <yc992147156@me.com>
 Name: Apple Illuminator
+
+Package: com.slugrail.ipainstaller
+Version: 3.23
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), com.autopear.installipa (>= 3.4)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/ipainstaller_3.23.deb
+Size: 1500932
+MD5sum: eea3b5aa93f3b0a14c990429b82880d8
+SHA1: 23c80b5e64f94d87d27223bfed04d642badbc48e
+SHA256: e4cffe84b581e7f8fdb1ae60b8b0ca21755e09c0b797c233a8b7e4d716139293
+Section: Utilities
+Description: Install IPA files directly from device
+Author: slugrail <support@hshersy.com>
+Name: IPA Installer
+
+Package: com.autopear.installipa
+Version: 3.4.1-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 4.0)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/ipainstallerconsole_3.4.1-1.deb
+Size: 57976
+MD5sum: 36bb05ce932363841022ba7d3b0407bc
+SHA1: 8dc38862e98ea3308b0b44e5a7c64f7eb968f585
+SHA256: 8ab3065a6bade4f36cb380f0f9c424bf5bfb6fbc1993c94a99ddb7a3c72b1e94
+Section: Utilities
+Description: Install IPA from the command line
+Author: Merlin <lonelystars@gmail.com>
+Name: IPA Installer Console

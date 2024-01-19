@@ -1,13 +1,15 @@
-Package: com.michael.appleilluminator
-Name: Apple Illuminator
-Depends: firmware (>= 11.0)
-Conflicts: com.michael.appleturboboost
+Package: com.autopear.installipa
+Depends: firmware (>= 4.0)
+Name: IPA Installer Console
+Version: 3.4.1-1
 Architecture: iphoneos-arm
-Maintainer: Halo_Michael <yc992147156@me.com>
-Author: Halo_Michael <yc992147156@me.com>
-Section: System
-Version: 0.7.0
-Description: Illuminate your Apple!
- Illuminate your Apple!
- Relieve Apple’s overheating Reduces brightness limit.
- Support iOS11~14.
+Description: Install IPA from the command line
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ipainstallerconsoleDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ipainstallerconsoleDp
+Installed-Size: 238
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Merlin <lonelystars@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Utilities
+dev: lonelystars
+Tag: purpose::console, role::enduser, compatible::ios7, compatible::ios8
