@@ -1,0 +1,3 @@
+#!/bin/bash
+touch /tmp/.firstbootcb
+printf "Please reboot for the untether to take effect.\n"

@@ -1,10 +1,11 @@
-Package: com.opa334.trollstorehelper
-Name: TrollStore Helper
-Description: Helper utility to install and manage TrollStore!
-Maintainer: opa334
-Author: opa334
-Section: Applications
+Package: com.coolbooter.cbuntether
+Name: CoolBooter Untetherer
+Depends: mobilesubstrate
+Version: 1.0-release
 Architecture: iphoneos-arm
-Depends: ldid
-Version: 2.0.7
-Installed-Size: 4280
+Description: "Untethers" an existing CoolBooter install
+ CoolBooter Untetherer is an extension for CoolBooter that allows the user to boot into their second OS automatically.
+ To disable the untether, hold volume down during boot.
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Author: CoolBooter <coolbooterios@gmail.com>
+Section: System

@@ -2023,3 +2023,48 @@ Section: Applications
 Description: Helper utility to install and manage TrollStore!
 Author: opa334
 Name: TrollStore Helper
+
+Package: com.coolbooter.coolbooter
+Version: 1.6-release
+Architecture: iphoneos-arm
+Depends: xpwn, zip, unzip, ldid, diskdev-cmds, firmware (>= 7.0)
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Filename: ./debs/com.coolbooter.coolbooter-1.6-release.deb
+Size: 33805256
+MD5sum: a9a390a10541ccaf617a901118554ec9
+SHA1: c713f8ac4e1ffd266f6d8bdd3c41f7bea8a22b3f
+SHA256: a1cc1907e4c0a62325ddf0654796dcaa3623ea57db0c9456125c9e0744caa1c3
+Section: System
+Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices.
+Author: CoolBooter <coolbooterios@gmail.com>
+Name: CoolBooter
+
+Package: com.coolbooter.coolbootercli
+Version: 1.1-beta2-release
+Architecture: iphoneos-arm
+Depends: xpwn, zip, unzip, ldid, diskdev-cmds, wget, firmware (>= 5.0)
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Filename: ./debs/com.coolbooter.coolbootercli-1.1-beta2-release.deb
+Size: 23627008
+MD5sum: 93f671a006d4f83ef76cde27b499d828
+SHA1: bacb638d66c159f26548aafeeb86a866398f6fa6
+SHA256: 40f03dd383d09290d12af650c7b78e7fe57b8c77f12b13d3c44e0a525f6f8c0a
+Section: System
+Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices.
+Author: CoolBooter <coolbooterios@gmail.com>
+Name: CoolBooter CLI
+
+Package: com.coolbooter.cbuntether
+Version: 1.0-release
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Filename: ./debs/com.coolbooter.cbuntether_1.0-release_iphoneos-arm.deb
+Size: 21320
+MD5sum: 41731a3a85e57af4e98653cce88dc419
+SHA1: 05e010563d17ab831e9047b68e2d1c1140667078
+SHA256: 2adb5e835a46bddfeccaa569906430f3fb1749cfa32f2fcb0a53b37cb418e9f9
+Section: System
+Description: "Untethers" an existing CoolBooter install
+Author: CoolBooter <coolbooterios@gmail.com>
+Name: CoolBooter Untetherer
