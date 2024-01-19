@@ -1,12 +1,10 @@
-Package: com.complicatedstuff.logome
-Name: LogoMe
-Version: 2.2-1
+Package: com.opa334.trollstorehelper
+Name: TrollStore Helper
+Description: Helper utility to install and manage TrollStore!
+Maintainer: opa334
+Author: opa334
+Section: Applications
 Architecture: iphoneos-arm
-Depends: curl (>= 7.17.1-4)
-Description: Change the boot logo on the iPhone without having to rejailbreak or restore.
-Homepage: http://www.complicatedstuff.com/
-Maintainer: planetbeing <planetbeing@gmail.com>
-Author: planetbeing <planetbeing@gmail.com>
-Section: System
-dev: planetbeing
-Depiction: http://moreinfo.thebigboss.org/moreinfo/LogoMeDp.php
+Depends: ldid
+Version: 2.0.7
+Installed-Size: 4280

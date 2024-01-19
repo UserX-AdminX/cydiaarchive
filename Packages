@@ -1993,3 +1993,33 @@ Section: System
 Description: Change the boot logo on the iPhone without having to rejailbreak or restore.
 Author: planetbeing <planetbeing@gmail.com>
 Name: LogoMe
+
+Package: com.opa334.trollstorehelper
+Version: 2.0.7
+Architecture: iphoneos-arm64
+Depends: ldid
+Maintainer: opa334
+Filename: ./debs/com.opa334.trollstorehelper_2.0.7_iphoneos-arm64.deb
+Size: 1877034
+MD5sum: 0df2db181c015f13a3504dbdd4d3d9cb
+SHA1: e3ddad90cf83f926249c00b3a21baf2c3ba9f106
+SHA256: 1fa991bd5354bab1c33b6b9231a295308d0d486b065126768c71ccd9d02aa21e
+Section: Applications
+Description: Helper utility to install and manage TrollStore!
+Author: opa334
+Name: TrollStore Helper
+
+Package: com.opa334.trollstorehelper
+Version: 2.0.7
+Architecture: iphoneos-arm
+Depends: ldid
+Maintainer: opa334
+Filename: ./debs/com.opa334.trollstorehelper_2.0.7_iphoneos-arm.deb
+Size: 1876400
+MD5sum: b3c843d252ae62a2a7cd1eaac5da1213
+SHA1: 4d439215ed3ecd4a9679e2b8a81e0f854b878653
+SHA256: b21eae19d3b5b38ca82a5486b16d0eaeec2158e5a80320d6e7ca142cb6b3287e
+Section: Applications
+Description: Helper utility to install and manage TrollStore!
+Author: opa334
+Name: TrollStore Helper
