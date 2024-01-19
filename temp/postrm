@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ $1 == "remove" ]; then
+	echo "Removing cached firmware files..."
+	rm -r /var/mobile/Library/LogoMe
+fi
+

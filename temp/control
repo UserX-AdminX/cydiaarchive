@@ -1,15 +1,12 @@
-Package: com.autopear.installipa
-Depends: firmware (>= 4.0)
-Name: IPA Installer Console
-Version: 3.4.1-1
+Package: com.complicatedstuff.logome
+Name: LogoMe
+Version: 2.2-1
 Architecture: iphoneos-arm
-Description: Install IPA from the command line
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ipainstallerconsoleDp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ipainstallerconsoleDp
-Installed-Size: 238
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: Merlin <lonelystars@gmail.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-Section: Utilities
-dev: lonelystars
-Tag: purpose::console, role::enduser, compatible::ios7, compatible::ios8
+Depends: curl (>= 7.17.1-4)
+Description: Change the boot logo on the iPhone without having to rejailbreak or restore.
+Homepage: http://www.complicatedstuff.com/
+Maintainer: planetbeing <planetbeing@gmail.com>
+Author: planetbeing <planetbeing@gmail.com>
+Section: System
+dev: planetbeing
+Depiction: http://moreinfo.thebigboss.org/moreinfo/LogoMeDp.php

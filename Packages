@@ -1978,3 +1978,18 @@ Section: Utilities
 Description: Install IPA from the command line
 Author: Merlin <lonelystars@gmail.com>
 Name: IPA Installer Console
+
+Package: com.complicatedstuff.logome
+Version: 2.2-1
+Architecture: iphoneos-arm
+Depends: curl (>= 7.17.1-4)
+Maintainer: planetbeing <planetbeing@gmail.com>
+Filename: ./debs/logome_2.2-1.deb
+Size: 330548
+MD5sum: 86d91b10d80c92c049c1a9cdc6025351
+SHA1: 259d0908730f28b249438d32c426e181f33194a6
+SHA256: 9652ab886ebba8f9fa7e05fc026e51514aa1a9cb70096683cd7b67df226517e9
+Section: System
+Description: Change the boot logo on the iPhone without having to rejailbreak or restore.
+Author: planetbeing <planetbeing@gmail.com>
+Name: LogoMe

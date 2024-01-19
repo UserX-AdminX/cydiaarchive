@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $1 == "configure" ]; then
+	echo "Caching firmware files..."
+	rm -r /var/mobile/Library/LogoMe
+	/Applications/LogoMe.app/_logome /Applications/LogoMe.app/PwnmetheusBundles -CacheFirmware
+fi
+
