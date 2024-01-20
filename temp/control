@@ -1,11 +1,12 @@
-Package: com.chronic-dev.greenpois0n.rocky-racoon
-Priority: optional
-Section: System
-Maintainer: Chronic Dev Team <info@chronic-dev.com>
+Package: com.hackyouriphone.icontool
+Name: Icon Tool
+Version: 1.9-7
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader (>= 2.2.2), com.ericasadun.utilities
+Conflicts: com.rpetrich.iconrenamer
 Architecture: iphoneos-arm
-Version: 1.0-1
-Depends: coreutils-bin, firmware (= 5.1.1), lzma, cy+model.iphone (= 2.1) | cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.iphone (= 4.1) | cy+model.ipod (= 3.1) | cy+model.ipod (= 4.1) | cy+model.ipad (= 1.1) | cy+model.ipad (= 2.1) | cy+model.ipad (= 2.2) | cy+model.ipad (= 2.3) | cy+model.ipad (= 2.4) | cy+model.ipad (= 3.1) | cy+model.ipad (= 3.2) | cy+model.ipad (= 3.3)
-Description: untethered jailbreak based on pod2g and planetbeing exploits
-Author: Chronic-Dev Team <info@chronic-dev.com>
-Name: Rocky Racoon 5.1.1 Untether
-Depiction: http://cydia.saurik.com/info/com.chronic-dev.greenpois0n.rocky-racoon/
+Author: ioshack <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=icontool
+Section: HYI - Tweaks
+Description: app tools menu from jiggle mode
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=icontool
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>

@@ -1,42 +1,32 @@
-#!/bin/sh
+#!/bin/bash
 
-CORONA_DIR=/var/audit/rocky-racoon
-TMPDIR=/tmp/rocky_racoon_install
+chown root:wheel /var/mobile/Library/IconTool/itr
+chmod a+x /var/mobile/Library/IconTool/itr
+chmod u+s /var/mobile/Library/IconTool/itr
 
-case "$1" in
-  configure)
-    if test -f /System/Library/CoreServices/OTACrashCopier; then
-      launchctl unload -w /System/Library/LaunchDaemons/com.apple.OTACrashCopier.plist 2>/dev/null
+chown root:wheel /var/mobile/Library/IconTool/itc
+chmod a+x /var/mobile/Library/IconTool/itc
+chmod u+s /var/mobile/Library/IconTool/itc
 
-      if ! grep iphonesubmissions.apple.com /etc/hosts > /dev/null; then
-        # add hosts entry
-        echo "127.0.0.1 iphonesubmissions.apple.com" >> /etc/hosts
-      fi
-    fi
-    OS=`sysctl -n kern.osversion`
-    PROD=`sysctl -n hw.machine`
-    tar -C $TMPDIR --lzma -xf $TMPDIR/payloads.tar.lzma ./$OS/$PROD
-    if test -d $TMPDIR/$OS/$PROD; then
-      echo "Installing required files..."
-      DESTFILE=$CORONA_DIR/racoon
-      $TMPDIR/bspatch /usr/sbin/racoon $DESTFILE $TMPDIR/racoon.bdiff
-      chmod 755 $DESTFILE
-      cp $TMPDIR/$OS/$PROD/* $CORONA_DIR/
-      RMFILES=`ls $TMPDIR/$OS/$PROD`
-      echo $RMFILES > $CORONA_DIR/installed.lst
-      rm -rf $TMPDIR
-      chown -R root:wheel $CORONA_DIR
-      chown root:wheel /etc/launchd.conf
-      echo "done."
-    else
-      echo "Sorry your device is not compatible!"
-    fi
-    exit 0
-  ;;
-  abort-upgrade|abort-remove|abort-configure)
-  ;;
-  *)
-    echo "postinst called with unknown argument '$1'" 1>&2
-    exit 1
-  ;;
-esac
+chown -R mobile:mobile /var/mobile/IconTool/
+chmod -R 0755 /var/mobile/IconTool/
+
+icosv=`sysctl -n kern.osversion`
+icosvp=`echo ${icosv:0:2}`
+
+if [ "$icosvp" == "12" ]; then
+  cp /var/mobile/Library/IconTool/IconTool8.dylib /Library/MobileSubstrate/DynamicLibraries/IconTool.dylib
+elif [ "$icosvp" == "13" ]; then
+  cp /var/mobile/Library/IconTool/IconTool9.dylib /Library/MobileSubstrate/DynamicLibraries/IconTool.dylib
+elif [ "$icosvp" == "14" ]; then
+  cp /var/mobile/Library/IconTool/IconTool9.dylib /Library/MobileSubstrate/DynamicLibraries/IconTool.dylib
+elif [ "$icosvp" == "15" ]; then
+  cp /var/mobile/Library/IconTool/IconTool11.dylib /Library/MobileSubstrate/DynamicLibraries/IconTool.dylib
+else
+  cp /var/mobile/Library/IconTool/IconTool.dylib /Library/MobileSubstrate/DynamicLibraries/IconTool.dylib
+fi
+
+chown 0:0 /Library/MobileSubstrate/DynamicLibraries/IconTool.dylib
+chmod a+x /Library/MobileSubstrate/DynamicLibraries/IconTool.dylib
+
+

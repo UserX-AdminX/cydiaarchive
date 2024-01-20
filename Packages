@@ -2083,3 +2083,18 @@ Section: System
 Description: untethered jailbreak based on pod2g and planetbeing exploits
 Author: Chronic-Dev Team <info@chronic-dev.com>
 Name: Rocky Racoon 5.1.1 Untether
+
+Package: com.hackyouriphone.icontool
+Version: 1.9-7
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader (>= 2.2.2), com.ericasadun.utilities
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Filename: ./debs/com.hackyouriphone.icontool_1.9-7.deb
+Size: 253642
+MD5sum: 1641264a5c64e1373b9bb6f2f7a1c274
+SHA1: 0ef20efeda38aae591f6479431d17dafed4c3bb2
+SHA256: 9c14e2fe1d4a274de06bde3637f8c51cfc6fb907069c2e9653d82ccba32a44f7
+Section: HYI - Tweaks
+Description: app tools menu from jiggle mode
+Author: ioshack <repo@hackyouriphone.org>
+Name: Icon Tool
