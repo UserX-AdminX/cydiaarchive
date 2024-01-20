@@ -1,17 +1,16 @@
-Package: SiriPort.Ru.iPad.russian
-Name: SiriPort iPad`s (Russian)
-Section: Siri
-Description: Full Russian Siri on iPad`s and Install Clock, Calculator, Compass, Voice Memos, Stocks and Weather apps on iPad. Best Original Siri For All iDevices on iOS 5
-Version: 5.2.1-2russian
-Icon: file:///var/siriport.ru/icon64.png
-Pre-Depends: firmware (>= 5.1), gsc.ipad
-Conflicts: com.chpwn.spire, siri.by.siriport.ru, original.siri.by.siriport.ru.511, SiriPort.Ru.iPad
-Depends: preferenceloader, mobilesubstrate
+Package: com.utmapp.UTM
+Version: 4.4.4
+Section: Productivity
 Architecture: iphoneos-arm
-Depiction: http://repo.siriport.ru/repo_files/pages/siriport_iPad_russ.html
-Homepage: http://siriport.ru
-Author: Dmitriy Garitskiy <http://siriport.ru/forum/user/1-gdimait/>
-Maintainer: gdimait <http://siriport.ru/forum/user/1-gdimait/>
-Sponsor: SiriPort.Ru <http://siriport.ru>
-Installed-Size: 10777
-
+Depends: firmware (>=14.0), firmware-sbin, net.angelxwind.appsyncunified
+Installed-Size: 587780
+Maintainer: osy <dev@getutm.app>
+Description: Virtual machines for iOS
+Homepage: https://getutm.app/
+Name: UTM
+Author: osy
+Depiction: https://cydia.getutm.app/depiction/web/com.utmapp.UTM.html
+Icon: https://cydia.getutm.app/assets/com.utmapp.UTM/icon.png
+Moderndepiction: https://cydia.getutm.app/depiction/native/com.utmapp.UTM.json
+Sileodepiction: https://cydia.getutm.app/depiction/native/com.utmapp.UTM.json
+Tags: compatible_min::ios14.0
