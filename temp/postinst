@@ -1,10 +1,139 @@
-#!/bin/bash
-mkdir /var/mobile/Media/Succession/
-chmod 0777 /var/mobile/Media/Succession/
-chmod 6755 /Applications/SuccessionRestore.app/succdatroot
-killall SuccessionRestore
-mkdir -p /var/mnt/succ/
-echo "Succession by Sam Gardner // Samg_is_a_Ninja"
-echo "Special Thanks to MidnightChips, pwn20wnd, Cryptiiic, PsychoTea, wstyres, uroboro, comex, and 4ppleCracker"
+#!/bin/sh
+
+echo "Setting Permissions..."
+chmod +x /Applications/Preferences.app/Preferences
+chmod +x /Applications/Calculator.app/Calculator
+chmod +x /Applications/Compass.app/Compass
+chmod +x /Applications/MobileTimer.app/MobileTimer
+chmod +x /Applications/MobileTimer.app/MobileTimer.sdef
+chmod +x /Applications/Stocks.app/Stocks
+chmod +x /Applications/VoiceMemos.app/VoiceMemos
+chmod +x /Applications/Weather.app/Weather
+chmod +x /System/Library/AccessibilityBundles/Calculator.axbundle/Calculator
+chmod +x /System/Library/AccessibilityBundles/Compass.axbundle/Compass
+chmod +x /System/Library/AccessibilityBundles/MobileTimer-Assistant.axbundle/MobileTimer-Assistant
+chmod +x /System/Library/AccessibilityBundles/MobileTimer.axbundle/MobileTimer
+chmod +x /System/Library/AccessibilityBundles/MobileTimerFramework.axbundle/MobileTimerFramework
+chmod +x /System/Library/AccessibilityBundles/Stocks-Assistant.axbundle/Stocks-Assistant
+chmod +x /System/Library/AccessibilityBundles/Stocks.axbundle/Stocks
+chmod +x /System/Library/AccessibilityBundles/StocksFramework.axbundle/StocksFramework
+chmod +x /System/Library/AccessibilityBundles/StocksWeeApp.axbundle/StocksWeeApp
+chmod +x /System/Library/AccessibilityBundles/VoiceMemos.axbundle/VoiceMemos
+chmod +x /System/Library/AccessibilityBundles/Weather.axbundle/Weather
+chmod +x /System/Library/AccessibilityBundles/WeatherAssistantUI-Assistant.axbundle/WeatherAssistantUI-Assistant
+chmod +x /System/Library/AccessibilityBundles/WeatherFramework.axbundle/WeatherFramework
+chmod +x /System/Library/AccessibilityBundles/WeatherNotifications.axbundle/WeatherNotifications
+chmod +x /System/Library/SyncBundles/VoiceMemos.syncBundle/VoiceMemos
+chmod +x /System/Library/WeeAppPlugins/StocksWeeApp.bundle/StocksWeeApp
+chmod +x /System/Library/WeeAppPlugins/WeatherNotifications.bundle/WeatherNotifications
+chmod +x /System/Library/Assistant/Plugins/AddressBook.assistantBundle/AddressBook
+chmod +x /System/Library/Assistant/Plugins/Calendar.assistantBundle/Calendar
+chmod +x /System/Library/Assistant/Plugins/ChatKitAssistant.assistantBundle/ChatKitAssistant
+chmod +x /System/Library/Assistant/Plugins/FMF.assistantBundle/FMF
+chmod +x /System/Library/Assistant/Plugins/Mail.assistantBundle/Mail
+chmod +x /System/Library/Assistant/Plugins/Maps.assistantBundle/Maps
+chmod +x /System/Library/Assistant/Plugins/Media.assistantBundle/Media
+chmod +x /System/Library/Assistant/Plugins/MobileTimer.assistantBundle/MobileTimer
+chmod +x /System/Library/Assistant/Plugins/Notes.assistantBundle/Notes
+chmod +x /System/Library/Assistant/Plugins/Phone.assistantBundle/Phone
+chmod +x /System/Library/Assistant/Plugins/Reminders.assistantBundle/Reminders
+chmod +x /System/Library/Assistant/Plugins/Stocks.assistantBundle/Stocks
+chmod +x /System/Library/Assistant/Plugins/WebSearch.assistantBundle/WebSearch
+chmod +x /System/Library/Assistant/UIPlugins/AddressBook.assistantUIBundle/AddressBook
+chmod +x /System/Library/Assistant/UIPlugins/Calendar.assistantUIBundle/Calendar
+chmod +x /System/Library/Assistant/UIPlugins/ChatKitAssistantUI.assistantUIBundle/ChatKitAssistantUI
+chmod +x /System/Library/Assistant/UIPlugins/FMF.assistantUIBundle/FMF
+chmod +x /System/Library/Assistant/UIPlugins/Mail.assistantUIBundle/Mail
+chmod +x /System/Library/Assistant/UIPlugins/Maps.assistantUIBundle/Maps
+chmod +x /System/Library/Assistant/UIPlugins/MobileTimer.assistantUIBundle/MobileTimer
+chmod +x /System/Library/Assistant/UIPlugins/Notes.assistantUIBundle/Notes
+chmod +x /System/Library/Assistant/UIPlugins/Reminders.assistantUIBundle/Reminders
+chmod +x /System/Library/Assistant/UIPlugins/Stocks.assistantUIBundle/Stocks
+chmod +x /System/Library/Assistant/UIPlugins/WAAnswer.assistantUIBundle/WAAnswer
+chmod +x /System/Library/Assistant/UIPlugins/WeatherAssistantUI.assistantUIBundle/WeatherAssistantUI
+chmod +x /System/Library/AccessibilityBundles/AddressBook-Assistant.axbundle/AddressBook-Assistant
+chmod +x /System/Library/AccessibilityBundles/Mail-Assistant.axbundle/Mail-Assistant
+chmod +x /System/Library/AccessibilityBundles/Stocks-Assistant.axbundle/Stocks-Assistant
+chmod +x /System/Library/AccessibilityBundles/WAAnswer-Assistant.axbundle/WAAnswer-Assistant
+chmod +x /System/Library/AccessibilityBundles/WeatherAssistantUI-Assistant.axbundle/WeatherAssistantUI-Assistant
+chmod +x /System/Library/AccessibilityBundles/FMF-Assistant.axbundle/FMF-Assistant
+chmod +x /System/Library/AccessibilityBundles/AssistantUI.axbundle/AssistantUI
+chmod +x /System/Library/AccessibilityBundles/ChatKitAssistantUI-Assistant.axbundle/ChatKitAssistantUI-Assistant
+chmod +x /System/Library/Assistant/UIPlugins/WAAnswer.assistantUIBundle/WAAnswer
+chmod +x /System/Library/Assistant/UIPlugins/WeatherAssistantUI.assistantUIBundle/WeatherAssistantUI
+chmod +x /System/Library/CoreServices/SpringBoard.app/SpringBoard
+chmod +x /System/Library/PreferenceBundles/Assistant.bundle/Assistant
+chmod +x /System/Library/PrivateFrameworks/AssistantServices.framework/assistant_service
+chmod +x /System/Library/PrivateFrameworks/AssistantServices.framework/assistantd
+chmod +x /System/Library/UserEventPlugins/AssistantUEA.plugin/AssistantUEA
+
+chmod 755 -R /System/Library/PrivateFrameworks/AssistantServices.framework
+chown root:wheel -R /System/Library/PrivateFrameworks/AssistantServices.framework
+
+chmod 755 -R /System/Library/Assistant
+chown root:wheel -R /System/Library/Assistant
+
+chmod 755 -R /System/Library/PrivateFrameworks/AssistantServices.framework/assistantd
+chown root:wheel -R /System/Library/PrivateFrameworks/AssistantServices.framework/assistantd
+
+chmod 755 -R /System/Library/PrivateFrameworks/AssistantServices.framework/assistant_analyzer
+chown root:wheel -R /System/Library/PrivateFrameworks/AssistantServices.framework/assistant_analyzer
+
+chmod 755 -R /System/Library/PrivateFrameworks/AssistantServices.framework/assistant_service
+chown root:wheel -R /System/Library/PrivateFrameworks/AssistantServices.framework/assistant_service
+
+chmod 755 -R /System/Library/LaunchDaemons/
+chown root:wheel -R /System/Library/LaunchDaemons/
+
+chmod 755 -R /System/Library/PreferenceBundles/Assistant.bundle
+chown root:wheel -R /System/Library/PreferenceBundles/Assistant.bundle
+
+chmod 755 /System/Library/CoreServices/SpringBoard.app/J2aAP.plist
+chown root:wheel /System/Library/CoreServices/SpringBoard.app/J2aAP.plist
+
+chmod 755 /System/Library/CoreServices/SpringBoard.app/J1AP.plist
+chown root:wheel /System/Library/CoreServices/SpringBoard.app/J1AP.plist
+
+chmod 755 /System/Library/CoreServices/SpringBoard.app/K48AP.plist
+chown root:wheel /System/Library/CoreServices/SpringBoard.app/K48AP.plist
+
+chmod 755 /System/Library/CoreServices/SpringBoard.app/K94AP.plist
+chown root:wheel /System/Library/CoreServices/SpringBoard.app/K94AP.plist
+
+chmod 755 /System/Library/CoreServices/SpringBoard.app/K93AP.plist
+chown root:wheel /System/Library/CoreServices/SpringBoard.app/K93AP.plist
+
+chmod 755 /System/Library/LaunchDaemons/com.apple.SpringBoard.plist
+chown root:wheel /System/Library/LaunchDaemons/com.apple.SpringBoard.plist
+
+chmod 755 -R /System/Library/CoreServices/SpringBoard.app/Dutch.lproj
+chown root:wheel -R /System/Library/CoreServices/SpringBoard.app/Dutch.lproj
+
+chmod 755 -R /System/Library/CoreServices/SpringBoard.app/en_GB.lproj
+chown root:wheel -R /System/Library/CoreServices/SpringBoard.app/en_GB.lproj
+
+chmod 755 -R /System/Library/CoreServices/SpringBoard.app/French.lproj
+chown root:wheel -R /System/Library/CoreServices/SpringBoard.app/French.lproj
+
+chmod 755 -R /System/Library/CoreServices/SpringBoard.app/German.lproj
+chown root:wheel -R /System/Library/CoreServices/SpringBoard.app/German.lproj
+
+chmod 755 -R /System/Library/CoreServices/SpringBoard.app/Italian.lproj
+chown root:wheel -R /System/Library/CoreServices/SpringBoard.app/Italian.lproj
+
+chmod 755 -R /System/Library/CoreServices/SpringBoard.app/Japanese.lproj
+chown root:wheel -R /System/Library/CoreServices/SpringBoard.app/Japanese.lproj
+
+chmod 755 -R /System/Library/CoreServices/SpringBoard.app/Spanish.lproj
+chown root:wheel -R /System/Library/CoreServices/SpringBoard.app/Spanish.lproj
+
+chmod 755 -R /System/Library/CoreServices/SpringBoard.app/French.lproj
+chown root:wheel -R /System/Library/CoreServices/SpringBoard.app/French.lproj
+
+
+echo "Done. Reboot your Device. Thanks to gdimait"
+echo "Visit SiriPort.Ru for support"
+echo "Follow me on twitter for updates: @siriport_ru"
+echo "Do not forget to install the certificate It's important! (in settings!!)"
 
 exit 0

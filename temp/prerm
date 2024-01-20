@@ -1,6 +1,0 @@
-#!/bin/bash
-if [ "$1" != "upgrade" ]; then
-    rm -rf /private/var/mobile/Media/Succession/
-    umount -f /var/mnt/succ/
-    rm -rf /var/mnt/succ/
-fi
