@@ -2113,3 +2113,18 @@ Section: HYI - Tweaks
 Description: Don't let incoming calls interrupt you!
 Author: E. Limneos & J. Tucker <repo@hackyouriphone.org>
 Name: CallBar
+
+Package: com.samgisaninja.successionrestore
+Version: 1.4.15
+Architecture: iphoneos-arm
+Depends: firmware-sbin, rsync
+Maintainer: Samg_is_a_Ninja
+Filename: ./debs/com.samgisaninja.successionrestore_1.4.15_iphoneos-arm.deb
+Size: 1176050
+MD5sum: 49897046f0f21b2a5b69a8f035aa9201
+SHA1: bc8377c3723535aa71af974d3e7b4cede404e879
+SHA256: b62349fb95e1773ecde52407034f33b3bb223c2c2aef2e97d148556f944cc36a
+Section: Utilities
+Description: Restore without updating via rootfilesystem DMG
+Author: Samg_is_a_Ninja
+Name: Succession
