@@ -2098,3 +2098,18 @@ Section: HYI - Tweaks
 Description: app tools menu from jiggle mode
 Author: ioshack <repo@hackyouriphone.org>
 Name: Icon Tool
+
+Package: com.hackyouriphone.callbar
+Version: 2.3-480
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 4.0), preferenceloader (>= 2.2.2)
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Filename: ./debs/com.hackyouriphone.callbar_2.3-480.deb
+Size: 3002790
+MD5sum: 4abadb10e6c364fee1e32ad4dc125d2e
+SHA1: 83f03da97c608c87b14ceb798250bda17447c454
+SHA256: 5398017f6191d14e79a4bb2db399c18301da6bb15bf24e53d401a2db002d63cf
+Section: HYI - Tweaks
+Description: Don't let incoming calls interrupt you!
+Author: E. Limneos & J. Tucker <repo@hackyouriphone.org>
+Name: CallBar

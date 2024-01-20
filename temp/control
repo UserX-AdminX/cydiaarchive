@@ -1,12 +1,12 @@
-Package: com.hackyouriphone.icontool
-Name: Icon Tool
-Version: 1.9-7
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader (>= 2.2.2), com.ericasadun.utilities
-Conflicts: com.rpetrich.iconrenamer
+Package: com.hackyouriphone.callbar
+Name: CallBar
+Version: 2.3-480
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 4.0), preferenceloader (>= 2.2.2)
+Suggests: de.j-gessner.ccloader
 Architecture: iphoneos-arm
-Author: ioshack <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=icontool
+Author: E. Limneos & J. Tucker <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=callbar
 Section: HYI - Tweaks
-Description: app tools menu from jiggle mode
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=icontool
-Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Description: Don't let incoming calls interrupt you!
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=callbar
+Maintainer: iLeoLion <repo@hackyouriphone.org>
